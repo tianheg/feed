@@ -1,4 +1,4 @@
-# cacheUrl: https://GITHUB_USERNAME.github.io/REPO_NAME/cache.json
+cacheUrl: https://tianheg.github.io/feed/cache.json
 sources:
   - href: https://css-tricks.com/feed/
   - href: https://www.smashingmagazine.com/feed/
@@ -18,3 +18,5 @@ sources:
   - href: https://github.com/hellodword/wechat-feeds/raw/feeds/MzAxNTY0NjEzNg==.xml # L先生说
   - href: https://github.com/hellodword/wechat-feeds/raw/feeds/MzA4NTQwNDcyMA==.xml # stormzhang
   - href: https://github.com/hellodword/wechat-feeds/raw/feeds/MzI0MjA1Mjg2Ng==.xml # caoz的梦呓
+
+cacheMaxDays: 30
