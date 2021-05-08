@@ -1,22 +1,26 @@
 cacheUrl: https://tianheg.github.io/feed/cache.json
 sources:
+  # front-end
   - href: https://css-tricks.com/feed/
+  # general technology
   - href: https://www.smashingmagazine.com/feed/
   - href: https://www.freecodecamp.org/news/rss/
+  - href: http://www.ruanyifeng.com/blog/atom.xml
+  - href: https://hnrss.org/best
+  # personal blog
   - href: https://coolshell.cn/feed
-  - href: https://pythonhunter.org/episodes/feed.xml
-  - href: https://aeon.co/feed.rss
   - href: https://guanqr.com/rss.xml
   - href: https://www.imwzk.com/feed.xml
+  # podcast
+  - href: https://pythonhunter.org/episodes/feed.xml
   - href: https://anyway.fm/rss.xml
-  - href: http://www.ruanyifeng.com/blog/atom.xml
-  - href: https://hnrss.org/bestcomments
-  - href: https://hnrss.org/best
-  - href: https://nextdraft.com/archives/feed/
-  - href: https://www.douban.com/feed/review/movie
-  - href: https://pansci.asia/feed
+  # thinking
+  - href: https://aeon.co/feed.rss # Aeon is a magazine of ideas and culture. We publish in-depth essays, incisive articles, and a mix of original and curated videos — free to all.
   - href: https://github.com/hellodword/wechat-feeds/raw/feeds/MzAxNTY0NjEzNg==.xml # L先生说
   - href: https://github.com/hellodword/wechat-feeds/raw/feeds/MzA4NTQwNDcyMA==.xml # stormzhang
   - href: https://github.com/hellodword/wechat-feeds/raw/feeds/MzI0MjA1Mjg2Ng==.xml # caoz的梦呓
+  - href: https://hnrss.org/bestcomments
+  # general
+  - href: https://nextdraft.com/archives/feed/ 
 
 cacheMaxDays: 30
