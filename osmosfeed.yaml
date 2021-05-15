@@ -1,4 +1,4 @@
-cacheUrl: https://tianheg.github.io/feed/cache.json
+cacheUrl: https://feed.yidajiabei.xyz/cache.json
 sources:
   # front-end
   - href: https://css-tricks.com/feed/
