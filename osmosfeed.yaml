@@ -1,7 +1,7 @@
 cacheUrl: https://feed.yidajiabei.xyz/cache.json
 sources:
   # front-end
-  - href: https://css-tricks.com/feed/
+  - href: https://css-tricks.com/archives/feed/
   - href: https://chrisruppel.com/blog.xml # https://github.com/rupl
   # general technology
   - href: https://www.smashingmagazine.com/feed/
