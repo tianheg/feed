@@ -1,7 +1,6 @@
 public
 node_modules
 package-lock.json
-yarn.lock
 
 # Local History
 .history
