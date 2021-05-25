@@ -38,7 +38,7 @@ jobs:
           python opml_generator.py
       - name: update readme
         run: |
-          npm install
+          yarn install
           node script.js
       - name: Generate feed.opml
         run: |
