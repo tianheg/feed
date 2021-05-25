@@ -1,6 +1,6 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
-const markdownTable = require("markdown-table");
+import fs from 'fs';
+import fetch from 'node-fetch';
+import {markdownTable} from 'markdown-table';
 
 const data = fs.readFileSync("./feeds.csv");
 const rows = data.toString().split("\n");
@@ -105,9 +105,7 @@ async function getResultAndUpdateREADME() {
     ...newTable,
   ]);
 
-  const readmeContent = `
-
-# My Info Source(through RSS)
+  const readmeContent = `# My Info Source(through RSS)
 
 Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 
