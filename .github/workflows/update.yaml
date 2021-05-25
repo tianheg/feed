@@ -30,26 +30,26 @@ jobs:
         run: |
           python formatter.py
       - name: update readme
-      run: |
-        npm install
-        node script.js
-    - name: Generate feed.opml
-      run: |
-        python opml_generator.py
-    - name: update readme
-      run: |
-        npm install
-        node script.js
-    - name: Generate feed.opml
-      run: |
-        python opml_generator.py
-    - name: Generate feed.opml
+        run: |
+          npm install
+          node script.js
+      - name: Generate feed.opml
         run: |
           python opml_generator.py
-    - name: Commit change & Push
+      - name: update readme
         run: |
-          git diff
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -am "bot: update README.md automatically"
-          git push
+          npm install
+          node script.js
+      - name: Generate feed.opml
+        run: |
+          python opml_generator.py
+      - name: Generate feed.opml
+        run: |
+          python opml_generator.py
+      - name: Commit change & Push
+        run: |
+            git diff
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -am "bot: update README.md automatically"
+            git push
