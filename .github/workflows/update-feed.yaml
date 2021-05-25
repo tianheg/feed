@@ -1,6 +1,7 @@
 name: Build RSS site
 
 on:
+  workflow_dispatch:
   push:
     paths: 
       - 'feeds.csv'
