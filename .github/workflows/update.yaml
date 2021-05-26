@@ -3,14 +3,14 @@ name: Update readme and feed.opml
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths: 
       - 'feeds.csv'
       - 'formatter.py'
       - 'opml_generator.py'
       - 'script.js'
       - '.github/workflows/update.yaml'
-  schedule:
-    - cron: "0 0 * * *"
 
 jobs:
   build:
