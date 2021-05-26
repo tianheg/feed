@@ -23,3 +23,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 |         | 一休儿的哲学博客          | https://yixiuer.me/                | 哲学; 思想                  |
 |         | Conge             | https://conge.github.io/           | 生活                      |
 |         | 阳志平的网志            | https://www.yangzhiping.com/       | 认知科学                    |
+|         | Artin's Blog      | https://lengthmin.me/              | Front-end               |
