@@ -21,3 +21,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 |         | Aeon              | https://aeon.co/                   | thinking                |
 |         | NextDraft         | https://nextdraft.com/archives/    | general                 |
 |         | 一休儿的哲学博客          | https://yixiuer.me/                | 哲学; 思想                  |
+|         | Conge             | https://conge.github.io/           | 生活                      |
