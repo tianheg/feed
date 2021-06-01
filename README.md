@@ -30,3 +30,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 |         | Martin Fowler      | https://martinfowler.com/               | 推荐                      |
 |         | Paul Graham Essays | http://www.paulgraham.com/articles.html | 推荐                      |
 |         | Steve Yegge        | https://steve-yegge.medium.com/         | 推荐                      |
+|         | Shu Ding           | https://shud.in/                        | 思考                      |
