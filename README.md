@@ -31,3 +31,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 |         | Paul Graham Essays | http://www.paulgraham.com/articles.html | 推荐                      |
 |         | Steve Yegge        | https://steve-yegge.medium.com/         | 推荐                      |
 |         | Shu Ding           | https://shud.in/                        | 思考                      |
+|         | Naval              | https://nav.al/                         | 思考; 认知                  |
