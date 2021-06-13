@@ -101,7 +101,7 @@ async function getResultAndUpdateREADME() {
 
   // update README
   const tableContentInMD = markdownTable([
-    ["RSS 订阅数", "简介", "链接", "标签"],
+    ["&nbsp;", "Title", "Link", "Tags"],
     ...newTable,
   ]);
 
