@@ -109,8 +109,6 @@ async function getResultAndUpdateREADME() {
 
 Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 
-## 订阅列表
-
 ${tableContentInMD}
 `;
 
