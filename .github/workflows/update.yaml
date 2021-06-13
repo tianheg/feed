@@ -11,8 +11,6 @@ on:
       - 'opml_generator.py'
       - 'script.js'
       - '.github/workflows/update.yaml'
-    paths-ignore:
-      - 'osmosfeed.yaml'
 
 jobs:
   build:
