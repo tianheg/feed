@@ -2,8 +2,6 @@
 
 Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 
-## 订阅列表
-
 | &nbsp; | Title              | Link                                    | Tags                    |
 | ------ | ------------------ | --------------------------------------- | ----------------------- |
 |        | CSS-Tricks         | https://css-tricks.com/archives/        | Front-end; CSS          |
