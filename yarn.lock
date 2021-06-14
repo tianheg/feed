@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@osmoscraft/osmosfeed@^1.2.2":
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/@osmoscraft/osmosfeed/-/osmosfeed-1.8.1.tgz#8392ad25650092a1fb6be1bc24edbcb9f51cb9a3"
-  integrity sha512-j7kiAcLNDyqr7vE6I0EnYxWzF0vvNFz3csbz7oUINN732gGM++yN7nXTmIG/1s+2bDKr+yE6oXBZM64lr+pouA==
+"@osmoscraft/osmosfeed@^1.10.2":
+  version "1.10.2"
+  resolved "https://registry.nlark.com/@osmoscraft/osmosfeed/download/@osmoscraft/osmosfeed-1.10.2.tgz#358a014f791351c53221fc8935617ca2e7ae5a6a"
+  integrity sha1-NYoBT3kTUcUyIfyJNWF8oueuWmo=
   dependencies:
     axios "^0.21.1"
     cheerio "^1.0.0-rc.9"
