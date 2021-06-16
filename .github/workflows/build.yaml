@@ -32,3 +32,5 @@ jobs:
           publish_dir: ./public
           cname: feed.yidajiabei.xyz
           force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: '41898282+github-actions[bot]@users.noreply.github.com'
