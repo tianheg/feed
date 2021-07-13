@@ -30,3 +30,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 |        | Steve Yegge        | https://steve-yegge.medium.com/         | 推荐                      |
 |        | Shu Ding           | https://shud.in/                        | 思考                      |
 |        | Naval              | https://nav.al/                         | 思考; 认知                  |
+|        | 木遥的窗子              | http://blog.farmostwood.net/            | 数学; 小说; 随笔              |
