@@ -31,3 +31,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 |        | Shu Ding           | https://shud.in/                        | 思考                      |
 |        | Naval              | https://nav.al/                         | 思考; 认知                  |
 |        | 木遥的窗子              | http://blog.farmostwood.net/            | 数学; 小说; 随笔              |
+|        | Limboy's HQ        | https://limboy.me/                      | 技术; 阅读; 随想              |
