@@ -5,9 +5,9 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@osmoscraft/osmosfeed@npm:^1.10.2":
-  version: 1.10.2
-  resolution: "@osmoscraft/osmosfeed@npm:1.10.2"
+"@osmoscraft/osmosfeed@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "@osmoscraft/osmosfeed@npm:1.11.0"
   dependencies:
     axios: ^0.21.1
     cheerio: ^1.0.0-rc.9
@@ -17,7 +17,7 @@ __metadata:
     rss-parser: ^3.12.0
   bin:
     osmosfeed: bin/main.js
-  checksum: b6396dba672afbfe9a5f82fd5fc11436c6790fcaf7768a9a6751ab6d6ca118e48e62ecd36904758527bdd8d5a0ccae21d5255e8c3bbfd1c16f5531f01ac5c31c
+  checksum: 7c66c0e83966aa0d37847b8fe4f1aff870eb7a53b769da47931e679d35e793d519e5e99f9cf460c677fb380395074f774a25a4726e0fdd1c0fd3985d589c71eb
   languageName: node
   linkType: hard
 
@@ -248,7 +248,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "osmosfeed-template@workspace:."
   dependencies:
-    "@osmoscraft/osmosfeed": ^1.10.2
+    "@osmoscraft/osmosfeed": ^1.11.0
     markdown-table: ^3.0.0
     node-fetch: ^2.6.1
   languageName: unknown
