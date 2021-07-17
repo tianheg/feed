@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/osmoscraft/osmosfeed-template#readme",
   "dependencies": {
-    "@osmoscraft/osmosfeed": "^1.10.2",
+    "@osmoscraft/osmosfeed": "^1.11.0",
     "markdown-table": "^3.0.0",
     "node-fetch": "^2.6.1"
   },
