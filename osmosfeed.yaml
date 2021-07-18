@@ -1,4 +1,4 @@
-cacheUrl: https://tianheg.github.io/cache.json
+cacheUrl: https://tianheg.github.io/feed/cache.json
 sources:
   - href: https://css-tricks.com/archives/feed/
   - href: https://aeon.co/feed.rss # Aeon is a magazine of ideas and culture. We publish in-depth essays, incisive articles, and a mix of original and curated videos — free to all.
