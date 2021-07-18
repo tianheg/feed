@@ -17,14 +17,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.4
+      - uses: actions/setup-node@v2
         with:
           node-version: "16"
       - name: Install dependencies
-        run: yarn
+        run: npm i
       - name: Build the feed
-        run: yarn run build
+        run: npm run build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
