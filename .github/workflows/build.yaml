@@ -20,10 +20,11 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
+          cache: "yarn"
       - name: Install dependencies
-        run: npm i
+        run: yarn
       - name: Build the feed
-        run: npm run build
+        run: yarn run build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
