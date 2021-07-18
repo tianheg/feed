@@ -5,7 +5,7 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@osmoscraft/osmosfeed@npm:^1.11.0":
+"@osmoscraft/osmosfeed@npm:^1.10.2":
   version: 1.11.0
   resolution: "@osmoscraft/osmosfeed@npm:1.11.0"
   dependencies:
@@ -18,13 +18,6 @@ __metadata:
   bin:
     osmosfeed: bin/main.js
   checksum: 7c66c0e83966aa0d37847b8fe4f1aff870eb7a53b769da47931e679d35e793d519e5e99f9cf460c677fb380395074f774a25a4726e0fdd1c0fd3985d589c71eb
-  languageName: node
-  linkType: hard
-
-"@types/repeat-string@npm:^1.0.0":
-  version: 1.6.0
-  resolution: "@types/repeat-string@npm:1.6.0"
-  checksum: 72eb3c25d52b0132500e7d23c88bf8bae02135dd159b9d9fa054ee1faec97845d8b7440bca7d54f3c43fad0afecbc9c0f61b8e1d9c798d2da09dae310a692497
   languageName: node
   linkType: hard
 
@@ -205,12 +198,9 @@ __metadata:
   linkType: hard
 
 "markdown-table@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "markdown-table@npm:3.0.0"
-  dependencies:
-    "@types/repeat-string": ^1.0.0
-    repeat-string: ^1.0.0
-  checksum: c07ee2ff1e3abf17de6c8585ea2ef9954e99cf6397165f354372868bd53047f454f970b9abad91789cce3cb172283dcbb750d2f5deb6b3398c6267348455de45
+  version: 3.0.1
+  resolution: "markdown-table@npm:3.0.1"
+  checksum: d24516820aec1e416aea40b02c0fdc547159e819d5c565e2beadfc9085831513fe5627efa420ef681e96b26291a41d92d087f0cd7d9feaa7e9be153e2857a9b8
   languageName: node
   linkType: hard
 
@@ -248,7 +238,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "osmosfeed-template@workspace:."
   dependencies:
-    "@osmoscraft/osmosfeed": ^1.11.0
+    "@osmoscraft/osmosfeed": ^1.10.2
     markdown-table: ^3.0.0
     node-fetch: ^2.6.1
   languageName: unknown
@@ -267,13 +257,6 @@ __metadata:
   version: 6.0.1
   resolution: "parse5@npm:6.0.1"
   checksum: e312014edd76a6dc2eac35248ad53477b2594a7b92b7a00f66169483bb87c3d1d36660daddeb720457418dfe0893eb3ad1043085047fc3699167afa6834cb4c4
-  languageName: node
-  linkType: hard
-
-"repeat-string@npm:^1.0.0":
-  version: 1.6.1
-  resolution: "repeat-string@npm:1.6.1"
-  checksum: 99c431ba7bef7a5d39819d562ebca89206368b45f73213677a3b562e25b5dd272d9e6a2ca8105001df14b6fc8cc71f0b10258c86e16cf8a256318fac1ddc8a77
   languageName: node
   linkType: hard
 
@@ -309,11 +292,11 @@ __metadata:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.13.9
-  resolution: "uglify-js@npm:3.13.9"
+  version: 3.13.10
+  resolution: "uglify-js@npm:3.13.10"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: 2fcb7f289e7ef3363b8e4e927c5896f942f0d3204b51845617f68bdd7272b58fd6b0c0f0f3d28c1a747e77a86d012dec6259355ea667e0412ccc388afce8b477
+  checksum: 2c8467faf68a0ba4da7a9539026dc996804f0e89f184ce0a6ceaa9a9c7e4e2ab78399caee8ebbebcd3df64a45b049585c4125e144f1c5992f9b61e81864d9535
   languageName: node
   linkType: hard
 
