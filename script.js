@@ -1,6 +1,6 @@
-import fs from 'fs';
-import fetch from 'node-fetch';
-import {markdownTable} from 'markdown-table';
+import fs from "fs";
+import fetch from "node-fetch";
+import { markdownTable } from "markdown-table";
 
 const data = fs.readFileSync("./feeds.csv");
 const rows = data.toString().split("\n");
@@ -83,25 +83,13 @@ async function getResultAndUpdateREADME() {
     });
   }
 
-  // Sort by RSS subscribers count first, then by alphanumeric
-  table.sort((a, b) => b[4] - a[4] || a[0] - b[0]);
-
   const newTable = table.map((row) => {
-    const subscribeCount =
-      row[4] >= 1000 ? row[4] : (row[4] + "").replace(/\d/g, "*");
-    return [
-      row[4] >= 0
-        ? `[![](https://badgen.net/badge/icon/${subscribeCount}?icon=rss&label)](${row[2]})`
-        : "",
-      row[0].replace(/\|/g, "&#124;"),
-      row[1],
-      row[3],
-    ];
+    return [row[0].replace(/\|/g, "&#124;"), row[1], row[3]];
   });
 
   // update README
   const tableContentInMD = markdownTable([
-    ["&nbsp;", "Title", "Link", "Tags"],
+    ["简介", "链接", "标签"],
     ...newTable,
   ]);
 
@@ -109,9 +97,7 @@ async function getResultAndUpdateREADME() {
 
 Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 
-${tableContentInMD}
-`;
-
+${tableContentInMD}`;
   fs.writeFileSync("./README.md", readmeContent, "utf8");
 }
 
