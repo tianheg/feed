@@ -6,6 +6,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | -------------------------------------------- | ----------------------------------------- | ----------------------- |
 | CSS-Tricks                                   | https://css-tricks.com/archives/          | Front-end; CSS          |
 | News and podcasts for developers             | https://changelog.com/                    | podcast; 技术             |
+| Arun Venkatesan                              | https://www.arun.is/                      | 设计; 摄影                  |
 | Chris Ruppel                                 | https://chrisruppel.com/                  | Web Developer; Traveler |
 | Smashing Magazine                            | https://www.smashingmagazine.com/         | general technology      |
 | ProductHunt                                  | https://www.producthunt.com/              | 科技产品                    |
@@ -42,3 +43,12 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 英文博客聚合                                       | https://bloggingfordevs.com/trends/       | 技术                      |
 | Build the next generation of web experiences | https://developers.google.com/web/        | Web                     |
 | 湾区日报                                         | https://wanqu.co/                         | 科技                      |
+| 禅                                            | https://zenhabits.net/                    | 思想                      |
+| 深度英文文章                                       | https://nautil.us/                        | 多彩                      |
+| 王垠                                           | https://www.yinwang.org/                  | 编程                      |
+| 王垠                                           | https://yinwang1.wordpress.com/           | 思想                      |
+| 胡涂说                                          | https://hutusi.com/                       | 技术                      |
+| 后端                                           | https://ryan4yin.space/                   | bd                      |
+| 数学                                           | https://matnoble.me/                      | 数学                      |
+| Randy                                        | https://lutaonan.com/                     | JS                      |
+| v2ex                                         | https://www.v2ex.com/                     | 技术; 创意                  |
