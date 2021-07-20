@@ -52,3 +52,10 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 数学                                           | https://matnoble.me/                      | 数学                      |
 | Randy                                        | https://lutaonan.com/                     | JS                      |
 | v2ex                                         | https://www.v2ex.com/                     | 技术; 创意                  |
+| GitHub Blog                                  | https://github.blog/                      | GitHub                  |
+| Cloudflare Blog                              | https://blog.cloudflare.com/              | Cloudflare              |
+| Telegram Blog                                | https://telegram.org/blog                 | Telegram                |
+| 城堡阅读                                         | https://chengbaoyuedu.cn/                 | 阅读                      |
+| 苔原带                                          | https://tundrazone.com/                   | 苔原通信                    |
+| 上海书评                                         | https://www.thepaper.cn/list_26878        | 书评                      |
+| 四季                                           | http://www.4sbooks.com/                   | 书评                      |
