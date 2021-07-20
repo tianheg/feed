@@ -1,17 +1,22 @@
 Introduction, Address, RSS feed, tags
 CSS-Tricks, https://css-tricks.com/archives/, https://css-tricks.com/archives/feed/, Front-end; CSS
+News and podcasts for developers, https://changelog.com/, , podcast; 技术
 Chris Ruppel, https://chrisruppel.com/, https://chrisruppel.com/blog.xml, Web Developer; Traveler
 Smashing Magazine, https://www.smashingmagazine.com/, https://www.smashingmagazine.com/feed/, general technology
+ProductHunt, https://www.producthunt.com/, , 科技产品
 fCC news, https://www.freecodecamp.org/news/, https://www.freecodecamp.org/news/rss/, general technology
 阮一峰的网络日志, http://www.ruanyifeng.com/blog/, http://www.ruanyifeng.com/blog/atom.xml, general technology
 Hacker News Best, https://news.ycombinator.com/best, https://hnrss.org/best, general technology
+HN Bestcomments, https://news.ycombinator.com/bestcomments, , 技术评论
 酷壳, https://coolshell.cn/, https://coolshell.cn/feed, 后端
 荷戟独彷徨, https://guanqr.com/, https://guanqr.com/rss.xml, 生活; 思想
 无辄的栈, https://www.imwzk.com/, https://www.imwzk.com/feed.xml, Go
 王建硕, http://home.wangjianshuo.com/cn/, http://home.wangjianshuo.com/cn/feed, 思想
 捕蛇者说, https://pythonhunter.org/episodes/, https://pythonhunter.org/episodes/feed.xml, podcast; Python
 Anyway.FM, https://anyway.fm/, https://anyway.fm/rss.xml, podcast; 设计
-一休儿的哲学博客, https://yixiuer.me/, https://yixiuer.me/atom.xml, 哲学; 思想; 技术
+一休儿的哲学博客, https://yixiuer.me/, https://yixiuer.me/atom.xml, 哲学; 思想
+reuixiy, https://io-oi.me/, , 技术; 生活
+谢益辉的中文日志, https://yihui.org/cn/, , 读书笔记;思想
 Aeon, https://aeon.co/, https://aeon.co/feed.rss, thinking
 NextDraft, https://nextdraft.com/archives/, https://nextdraft.com/archives/feed/, general
 Conge, https://conge.github.io/, https://conge.github.io/feed.xml, 生活
@@ -28,3 +33,7 @@ Naval, https://nav.al/, https://nav.al/podcast/feed, 思考; 认知
 木遥的窗子, http://blog.farmostwood.net/, http://blog.farmostwood.net/feed, 数学; 小说; 随笔
 Limboy's HQ, https://limboy.me/, https://limboy.me/index.xml, 技术; 阅读; 随想
 鸟哥的Linux私房菜, https://linux.vbird.org/, , Linux
+云风的blog, https://blog.codingnow.com/, https://blog.codingnow.com/index.xml, 技术；随笔；杂记
+英文博客聚合, https://bloggingfordevs.com/trends/, , 技术
+Build the next generation of web experiences, https://developers.google.com/web/, , Web
+湾区日报, https://wanqu.co/, , 科技
