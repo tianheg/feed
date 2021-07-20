@@ -4,7 +4,8 @@
   "description": "Use this template to create the UI and content of an RSS feed reader.",
   "main": "script.js",
   "scripts": {
-    "build": "osmosfeed"
+    "build": "osmosfeed",
+    "test": "node script.js"
   },
   "repository": {
     "type": "git",
