@@ -3,6 +3,7 @@ sources:
   - href: https://css-tricks.com/archives/feed/
   - href: https://aeon.co/feed.rss # Aeon is a magazine of ideas and culture. We publish in-depth essays, incisive articles, and a mix of original and curated videos — free to all.
   - href: https://nautil.us/rss/all # Nautilus is a different kind of science magazine. We deliver big-picture science by reporting on a single monthly topic from multiple perspectives.
+  - href: https://rsshub.app/github/trending/daily/javascript
 
 siteTitle: "一大加贝"
 cacheMaxDays: 30
