@@ -59,3 +59,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 苔原带                                          | https://tundrazone.com/                   | 苔原通信                    |
 | 上海书评                                         | https://www.thepaper.cn/list_26878        | 书评                      |
 | 四季                                           | http://www.4sbooks.com/                   | 书评                      |
+| 2ality – JavaScript and more                 | https://2ality.com                        | JS                      |
