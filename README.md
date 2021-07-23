@@ -68,3 +68,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Guillermo Rauch's blog                       | https://rauchg.com/                       | Vercel                  |
 | Anthony Fu                                   | https://antfu.me/                         | Open Source             |
 | Knowledge Continuum                          | https://www.raghuveer.net/                | 哲学                      |
+| 代码家                                          | https://daimajia.com/                     | 思考                      |
