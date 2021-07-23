@@ -63,3 +63,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 卡瓦邦噶！                                        | https://www.kawabangga.com/               | Python                  |
 |                                              | https://when-then-zen.christine.website/  | meditation              |
 | JerryZhang's Blog                            | http://www.zhangjiee.com/                 | 技术; 思考                  |
+| justjavac(迷渡)                                | https://justjavac.com/                    | JS                      |
