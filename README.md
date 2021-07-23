@@ -66,3 +66,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | justjavac(迷渡)                                | https://justjavac.com/                    | JS                      |
 | 范明非                                          | https://fanmingfei.com/                   | CSS                     |
 | Guillermo Rauch's blog                       | https://rauchg.com/                       | Vercel                  |
+| Anthony Fu                                   | https://antfu.me/                         | Open Source             |
