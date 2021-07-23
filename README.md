@@ -62,3 +62,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 2ality – JavaScript and more                 | https://2ality.com                        | JS                      |
 | 卡瓦邦噶！                                        | https://www.kawabangga.com/               | Python                  |
 |                                              | https://when-then-zen.christine.website/  | meditation              |
+| JerryZhang's Blog                            | http://www.zhangjiee.com/                 | 技术; 思考                  |
