@@ -70,3 +70,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Knowledge Continuum                          | https://www.raghuveer.net/                | 哲学                      |
 | 代码家                                          | https://daimajia.com/                     | 思考                      |
 | 依云's Blog                                    | https://blog.lilydjwg.me/                 | Arch Linux              |
+| Zack                                         | https://blog.zackzhou.com/                | 思考                      |
