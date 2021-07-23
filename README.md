@@ -69,3 +69,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Anthony Fu                                   | https://antfu.me/                         | Open Source             |
 | Knowledge Continuum                          | https://www.raghuveer.net/                | 哲学                      |
 | 代码家                                          | https://daimajia.com/                     | 思考                      |
+| 依云's Blog                                    | https://blog.lilydjwg.me/                 | Arch Linux              |
