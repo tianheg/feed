@@ -34,7 +34,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Martin Fowler                                | https://martinfowler.com/                 | 推荐                      |
 | Paul Graham Essays                           | http://www.paulgraham.com/articles.html   | 推荐                      |
 | Steve Yegge                                  | https://steve-yegge.medium.com/           | 推荐                      |
-| Shu Ding                                     | https://shud.in/                          | 思考                      |
+| Shu Ding                                     | https://shud.in/                          | 思考; 艺术                  |
 | Naval                                        | https://nav.al/                           | 思考; 认知                  |
 | 木遥的窗子                                        | http://blog.farmostwood.net/              | 数学; 小说; 随笔              |
 | Limboy's HQ                                  | https://limboy.me/                        | 技术; 阅读; 随想              |
