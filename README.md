@@ -65,3 +65,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | JerryZhang's Blog                            | http://www.zhangjiee.com/                 | 技术; 思考                  |
 | justjavac(迷渡)                                | https://justjavac.com/                    | JS                      |
 | 范明非                                          | https://fanmingfei.com/                   | CSS                     |
+| Guillermo Rauch's blog                       | https://rauchg.com/                       | Vercel                  |
