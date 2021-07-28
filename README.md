@@ -72,3 +72,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 依云's Blog                                    | https://blog.lilydjwg.me/                 | Arch Linux              |
 | Zack                                         | https://blog.zackzhou.com/                | 思考                      |
 | 面向信仰编程                                       | https://draveness.me/                     | 系统设计; 思考                |
+| 霍炬的网站                                        | https://jhuo.ca/                          | 互联网历史                   |
