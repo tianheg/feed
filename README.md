@@ -11,6 +11,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Smashing Magazine                            | https://www.smashingmagazine.com/         | general technology      |
 | ProductHunt                                  | https://www.producthunt.com/              | 科技产品                    |
 | fCC news                                     | https://www.freecodecamp.org/news/        | general technology      |
+| Hashnode                                     | https://hashnode.com/                     | 聚合技术文章                  |
 | 阮一峰的网络日志                                     | http://www.ruanyifeng.com/blog/           | general technology      |
 | Hacker News Best                             | https://news.ycombinator.com/best         | general technology      |
 | HN Bestcomments                              | https://news.ycombinator.com/bestcomments | 技术评论                    |
