@@ -76,3 +76,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 霍炬的网站                                        | https://jhuo.ca/                          | 互联网历史                   |
 | David Perell                                 | https://perell.com/                       | 深度文章                    |
 | Free Software Fundation                      | https://www.fsf.org/                      | Open Source             |
+| DistroWatch.com                              | https://distrowatch.com/                  | Distro                  |
