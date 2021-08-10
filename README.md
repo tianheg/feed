@@ -78,3 +78,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Free Software Fundation                      | https://www.fsf.org/                      | Open Source                     |
 | DistroWatch.com                              | https://distrowatch.com/                  | Distro                          |
 | Felix's Blog                                 | https://felixc.at/                        | Old-school Arch Linux Developer |
+| Scott H. Young                               | https://www.scotthyoung.com/blog/         | Learn                           |
