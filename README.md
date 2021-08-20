@@ -81,3 +81,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Felix's Blog                                 | https://felixc.at/                        | Old-school Arch Linux Developer |
 | Scott H. Young                               | https://www.scotthyoung.com/blog/         | Learn                           |
 | 张鑫旭                                          | https://www.zhangxinxu.com/wordpress/     | 前端                              |
+| @renyuneyun - Rui Zhao                       | https://me.ryey.icu/                      | Arch User                       |
