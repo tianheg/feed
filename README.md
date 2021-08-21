@@ -17,7 +17,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | HN Bestcomments                              | https://news.ycombinator.com/bestcomments | 技术评论                            |
 | 酷壳                                           | https://coolshell.cn/                     | 后端                              |
 | 荷戟独彷徨                                        | https://guanqr.com/                       | 生活; 思想                          |
-| 银色子弹                                         | https://silverrainz.me/                   | 向Ta学习                           |
+| 银色子弹                                         | https://silverrainz.me/                   | 向Ta学习; Sphinx笔记系统               |
 | 无辄的栈                                         | https://www.imwzk.com/                    | Go                              |
 | 王建硕                                          | http://home.wangjianshuo.com/cn/          | 思想                              |
 | 捕蛇者说                                         | https://pythonhunter.org/episodes/        | podcast; Python                 |
