@@ -21,6 +21,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 无辄的栈                                         | https://www.imwzk.com/                    | Go                              |
 | 王建硕                                          | http://home.wangjianshuo.com/cn/          | 思想                              |
 | 捕蛇者说                                         | https://pythonhunter.org/episodes/        | podcast; Python                 |
+| CoRecursive                                  | https://corecursive.com/                  | podcast; code                   |
 | Anyway.FM                                    | https://anyway.fm/                        | podcast; 设计                     |
 | 一休儿的哲学博客                                     | https://yixiuer.me/                       | 哲学; 思想                          |
 | reuixiy                                      | https://io-oi.me/                         | 技术; 生活                          |
