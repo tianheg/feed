@@ -1,26 +1,25 @@
 Introduction, Address, RSS feed, tags
 CSS-Tricks, https://css-tricks.com/archives/, https://css-tricks.com/archives/feed/, Front-end; CSS
-News and podcasts for developers, https://changelog.com/, , podcast; 技术
-Arun Venkatesan, https://www.arun.is/, , 设计; 摄影
+News and podcasts for developers, https://changelog.com/, https://changelog.fm/rss, podcast; 技术
+Arun Venkatesan, https://www.arun.is/, https://www.arun.is/rss.xml, 设计; 摄影
 Chris Ruppel, https://chrisruppel.com/, https://chrisruppel.com/blog.xml, Web Developer; Traveler
 Smashing Magazine, https://www.smashingmagazine.com/, https://www.smashingmagazine.com/feed/, general technology
-ProductHunt, https://www.producthunt.com/, , 科技产品
+ProductHunt, https://www.producthunt.com/, https://www.producthunt.com/feed, 科技产品
 fCC news, https://www.freecodecamp.org/news/, https://www.freecodecamp.org/news/rss/, general technology
-Hashnode, https://hashnode.com/, , 聚合技术文章
 阮一峰的网络日志, http://www.ruanyifeng.com/blog/, http://www.ruanyifeng.com/blog/atom.xml, general technology
 Hacker News Best, https://news.ycombinator.com/best, https://hnrss.org/best, general technology
 HN Bestcomments, https://news.ycombinator.com/bestcomments, , 技术评论
 酷壳, https://coolshell.cn/, https://coolshell.cn/feed, 后端
 荷戟独彷徨, https://guanqr.com/, https://guanqr.com/rss.xml, 生活; 思想
-银色子弹, https://silverrainz.me/, , 向Ta学习; Sphinx笔记系统
+银色子弹, https://silverrainz.me/, https://silverrainz.me//blog/atom.xml, 向Ta学习; Sphinx笔记系统
 无辄的栈, https://www.imwzk.com/, https://www.imwzk.com/feed.xml, Go
 王建硕, http://home.wangjianshuo.com/cn/, http://home.wangjianshuo.com/cn/feed, 思想
 捕蛇者说, https://pythonhunter.org/episodes/, https://pythonhunter.org/episodes/feed.xml, podcast; Python
 CoRecursive, https://corecursive.com/, https://corecursive.com/feed, podcast; code
 Anyway.FM, https://anyway.fm/, https://anyway.fm/rss.xml, podcast; 设计
 一休儿的哲学博客, https://yixiuer.me/, https://yixiuer.me/atom.xml, 哲学; 思想
-reuixiy, https://io-oi.me/, , 技术; 生活
-谢益辉的中文日志, https://yihui.org/cn/, , 读书笔记; 思想
+reuixiy, https://io-oi.me/, https://io-oi.me/atom.xml, 技术; 生活
+谢益辉的中文日志, https://yihui.org/cn/, https://yihui.org/cn/index.xml, 读书笔记; 思想
 Aeon, https://aeon.co/, https://aeon.co/feed.rss, thinking
 NextDraft, https://nextdraft.com/archives/, https://nextdraft.com/archives/feed/, general
 Conge, https://conge.github.io/, https://conge.github.io/feed.xml, 生活
@@ -36,45 +35,40 @@ Shu Ding, https://shud.in/, https://shud.in/feed.xml, 思考; 艺术
 Naval, https://nav.al/, https://nav.al/podcast/feed, 思考; 认知
 木遥的窗子, http://blog.farmostwood.net/, http://blog.farmostwood.net/feed, 数学; 小说; 随笔
 Limboy's HQ, https://limboy.me/, https://limboy.me/index.xml, 技术; 阅读; 随想
-鸟哥的Linux私房菜, https://linux.vbird.org/, , Linux
 云风的blog, https://blog.codingnow.com/, https://blog.codingnow.com/index.xml, 技术; 随笔; 杂记
-英文博客聚合, https://bloggingfordevs.com/trends/, , 技术
-Build the next generation of web experiences, https://developers.google.com/web/, , Web
-湾区日报, https://wanqu.co/, , 科技
-禅, https://zenhabits.net/, , 思想
-深度英文文章, https://nautil.us/, , 多彩
-王垠, https://www.yinwang.org/, , 编程
-王垠, https://yinwang1.wordpress.com/, , 思想
-胡涂说, https://hutusi.com/, , 技术
-后端, https://ryan4yin.space/, , bd
-数学, https://matnoble.me/, , 数学
-Randy, https://lutaonan.com/, , JS
-v2ex, https://www.v2ex.com/, , 技术; 创意
-GitHub Blog, https://github.blog/, , GitHub
-Cloudflare Blog, https://blog.cloudflare.com/, , Cloudflare
+湾区日报, https://wanqu.co/, https://wanqu.co/feed, 科技
+禅, https://zenhabits.net/, https://zenhabits.net/feed/, 思想
+深度英文文章, https://nautil.us/, https://nautil.us/rss/all, 多彩
+王垠, https://www.yinwang.org/, https://www.yinwang.org/atom.xml, 编程
+王垠, https://yinwang1.wordpress.com/, https://yinwang1.wordpress.com/feed/, 思想
+胡涂说, https://hutusi.com/, https://hutusi.com/feed.xml, 技术
+Ryan4Yin's Space, https://ryan4yin.space/, https://ryan4yin.space/posts/index.xml, 后端
+MatNoble, https://matnoble.me/, https://matnoble.me/atom.xml, 数学
+Randy, https://lutaonan.com/, https://lutaonan.com/rss.xml, 前端
+v2ex, https://www.v2ex.com/, https://www.v2ex.com/index.xml, 技术; 创意
+GitHub Blog, https://github.blog/, https://github.blog/feed/, GitHub
+Cloudflare Blog, https://blog.cloudflare.com/, https://blog.cloudflare.com/rss/, Cloudflare
 Telegram Blog, https://telegram.org/blog, , Telegram
-城堡阅读, https://chengbaoyuedu.cn/, , 阅读
-苔原带, https://tundrazone.com/, , 苔原通信
-上海书评, https://www.thepaper.cn/list_26878, , 书评
-四季, http://www.4sbooks.com/, , 书评
+城堡阅读, https://chengbaoyuedu.cn/, https://chengbaoyuedu.cn/feed/, 阅读
+苔原带, https://tundrazone.com/, https://tundrazone.com/feed/, 苔原通信
 2ality – JavaScript and more, https://2ality.com, https://feeds.feedburner.com/2ality, JS
 卡瓦邦噶！, https://www.kawabangga.com/, https://www.kawabangga.com/feed, Python
 When Then Zen, https://when-then-zen.christine.website/, , meditation
 JerryZhang's Blog, http://www.zhangjiee.com/, , 技术; 思考
-justjavac(迷渡), https://justjavac.com/, , JS
+justjavac(迷渡), https://justjavac.com/, https://justjavac.com/atom.xml, JS
 范明非, https://fanmingfei.com/, https://fanmingfei.com/rss.xml, CSS
 Guillermo Rauch's blog, https://rauchg.com/, , Vercel
 Anthony Fu, https://antfu.me/, https://antfu.me/feed.xml, Open Source
 Knowledge Continuum, https://www.raghuveer.net/, https://www.raghuveer.net/feed.xml, 哲学
 代码家, https://daimajia.com/, https://daimajia.com/feed, 思考
 依云's Blog, https://blog.lilydjwg.me/, https://blog.lilydjwg.me/feed, Arch Linux
-Zack, https://blog.zackzhou.com/, , 思考
-面向信仰编程, https://draveness.me/, , 系统设计; 思考
-霍炬的网站, https://jhuo.ca/, , 互联网历史
+Zack, https://blog.zackzhou.com/, https://blog.zackzhou.com/feed, 思考
+面向信仰编程, https://draveness.me/, https://draveness.me/feed.xml, 系统设计; 思考
+霍炬的网站, https://jhuo.ca/, https://jhuo.ca/index.xml, 互联网历史
 David Perell, https://perell.com/, https://perell.com/feed/, 深度文章
 Free Software Fundation, https://www.fsf.org/, https://static.fsf.org/fsforg/rss/blogs.xml, Open Source
 DistroWatch.com, https://distrowatch.com/, https://distrowatch.com//news/dw.xml, Distro
-Felix's Blog, https://felixc.at/, , Old-school Arch Linux Developer
+Felix's Blog, https://felixc.at/, https://felixc.at/feed/, Old-school Arch Linux Developer
 Scott H. Young, https://www.scotthyoung.com/blog/, https://www.scotthyoung.com/blog/feed/, Learn
 张鑫旭, https://www.zhangxinxu.com/wordpress/, https://www.zhangxinxu.com/wordpress/feed/, 前端
-@renyuneyun - Rui Zhao, https://me.ryey.icu/, , Arch User
+@renyuneyun - Rui Zhao, https://me.ryey.icu/, https://blog.ryey.icu/feeds/atom.xml, Arch User
