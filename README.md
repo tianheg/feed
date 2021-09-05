@@ -64,7 +64,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 四季                                           | http://www.4sbooks.com/                   | 书评                              |
 | 2ality – JavaScript and more                 | https://2ality.com                        | JS                              |
 | 卡瓦邦噶！                                        | https://www.kawabangga.com/               | Python                          |
-|                                              | https://when-then-zen.christine.website/  | meditation                      |
+| When Then Zen                                | https://when-then-zen.christine.website/  | meditation                      |
 | JerryZhang's Blog                            | http://www.zhangjiee.com/                 | 技术; 思考                          |
 | justjavac(迷渡)                                | https://justjavac.com/                    | JS                              |
 | 范明非                                          | https://fanmingfei.com/                   | CSS                             |
