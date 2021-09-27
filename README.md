@@ -78,3 +78,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 张鑫旭                              | https://www.zhangxinxu.com/wordpress/     | 前端                              |
 | @renyuneyun - Rui Zhao           | https://me.ryey.icu/                      | Arch User                       |
 | Martin Fowler                    | https://martinfowler.com/                 | Refactoring                     |
+| Eric S. Raymond                  | http://www.catb.org/esr/                  | long-time hacker                |
