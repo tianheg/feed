@@ -1,6 +1,6 @@
 Introduction, Address, RSS feed, tags
 CSS-Tricks, https://css-tricks.com/archives/, https://css-tricks.com/archives/feed/, Front-end; CSS
-News and podcasts for developers, https://changelog.com/, https://changelog.fm/rss, podcast; 技术
+Changelog, https://changelog.com/, https://changelog.fm/rss, podcast; 技术
 Arun Venkatesan, https://www.arun.is/, https://www.arun.is/rss.xml, 设计; 摄影
 Chris Ruppel, https://chrisruppel.com/, https://chrisruppel.com/blog.xml, Web Developer; Traveler
 Smashing Magazine, https://www.smashingmagazine.com/, https://www.smashingmagazine.com/feed/, general technology
@@ -30,7 +30,6 @@ Joel on Software, https://www.joelonsoftware.com/, https://www.joelonsoftware.co
 Clean Coder Blog, http://blog.cleancoder.com/, http://blog.cleancoder.com/atom.xml, 推荐
 Martin Fowler, https://martinfowler.com/, https://martinfowler.com/feed.atom, 推荐
 Paul Graham Essays, http://www.paulgraham.com/articles.html, http://www.aaronsw.com/2002/feeds/pgessays.rss, 推荐
-Steve Yegge, https://steve-yegge.medium.com/, https://medium.com/feed/@steve-yegge, 推荐
 Shu Ding, https://shud.in/, https://shud.in/feed.xml, 思考; 艺术
 Naval, https://nav.al/, https://nav.al/podcast/feed, 思考; 认知
 木遥的窗子, http://blog.farmostwood.net/, http://blog.farmostwood.net/feed, 数学; 小说; 随笔
@@ -46,11 +45,11 @@ Ryan4Yin's Space, https://ryan4yin.space/, https://ryan4yin.space/posts/index.xm
 MatNoble, https://matnoble.me/, https://matnoble.me/atom.xml, 数学
 Randy, https://lutaonan.com/, https://lutaonan.com/rss.xml, 前端
 v2ex, https://www.v2ex.com/, https://www.v2ex.com/index.xml, 技术; 创意
-GitHub Blog, https://github.blog/, https://github.blog/feed/, GitHub
+GitHub Blog, https://github.blog/, , GitHub
 Cloudflare Blog, https://blog.cloudflare.com/, https://blog.cloudflare.com/rss/, Cloudflare
 Telegram Blog, https://telegram.org/blog, , Telegram
 城堡阅读, https://chengbaoyuedu.cn/, https://chengbaoyuedu.cn/feed/, 阅读
-苔原带, https://tundrazone.com/, https://tundrazone.com/feed/, 苔原通信
+苔原带, https://tundrazone.com/, , 苔原通信
 2ality – JavaScript and more, https://2ality.com, https://feeds.feedburner.com/2ality, JS
 卡瓦邦噶！, https://www.kawabangga.com/, https://www.kawabangga.com/feed, Python
 When Then Zen, https://when-then-zen.christine.website/, , meditation
@@ -64,11 +63,11 @@ Knowledge Continuum, https://www.raghuveer.net/, https://www.raghuveer.net/feed.
 依云's Blog, https://blog.lilydjwg.me/, https://blog.lilydjwg.me/feed, Arch Linux
 Zack, https://blog.zackzhou.com/, https://blog.zackzhou.com/feed, 思考
 面向信仰编程, https://draveness.me/, https://draveness.me/feed.xml, 系统设计; 思考
-霍炬的网站, https://jhuo.ca/, https://jhuo.ca/index.xml, 互联网历史
+霍炬的网站, https://jhuo.ca/, , 互联网历史
 David Perell, https://perell.com/, https://perell.com/feed/, 深度文章
 Free Software Fundation, https://www.fsf.org/, https://static.fsf.org/fsforg/rss/blogs.xml, Open Source
 DistroWatch.com, https://distrowatch.com/, https://distrowatch.com//news/dw.xml, Distro
-Felix's Blog, https://felixc.at/, https://felixc.at/feed/, Old-school Arch Linux Developer
+Felix's Blog, https://felixc.at/, , Old-school Arch Linux Developer
 Scott H. Young, https://www.scotthyoung.com/blog/, https://www.scotthyoung.com/blog/feed/, Learn
 张鑫旭, https://www.zhangxinxu.com/wordpress/, https://www.zhangxinxu.com/wordpress/feed/, 前端
 @renyuneyun - Rui Zhao, https://me.ryey.icu/, https://blog.ryey.icu/feeds/atom.xml, Arch User
