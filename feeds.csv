@@ -1,27 +1,23 @@
 Introduction, Address, RSS feed, tags
-CSS-Tricks, https://css-tricks.com/archives/, https://css-tricks.com/archives/feed/, Front-end; CSS
-Changelog, https://changelog.com/, https://changelog.fm/rss, podcast; 技术
-Arun Venkatesan, https://www.arun.is/, https://www.arun.is/rss.xml, 设计; 摄影
-Chris Ruppel, https://chrisruppel.com/, https://chrisruppel.com/blog.xml, Web Developer; Traveler
-Smashing Magazine, https://www.smashingmagazine.com/, https://www.smashingmagazine.com/feed/, general technology
-ProductHunt, https://www.producthunt.com/, https://www.producthunt.com/feed, 科技产品
-fCC news, https://www.freecodecamp.org/news/, https://www.freecodecamp.org/news/rss/, general technology
-Hacker News Best, https://news.ycombinator.com/best, https://hnrss.org/best, general technology
-HN Bestcomments, https://news.ycombinator.com/bestcomments, , 技术评论
-荷戟独彷徨, https://guanqr.com/, https://guanqr.com/rss.xml, 生活; 思想
+CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/archives/feed/, CSS;JS
+Smashing Magazine, https://www.smashingmagazine.com/, https://www.smashingmagazine.com/feed/, CSS;JS;Vue;andsoon
+ProductHunt, https://www.producthunt.com/, https://www.producthunt.com/feed, bestnewproducts
+fCC news, https://www.freecodecamp.org/news/, https://www.freecodecamp.org/news/rss/, CSS;JS;Vue;andsoon
+Hacker News Best, https://news.ycombinator.com/best, https://hnrss.org/best, 技术
+荷戟独彷徨, https://guanqr.com/, https://guanqr.com/rss.xml, 生活; 思想；技术
 银色子弹, https://silverrainz.me/, https://silverrainz.me//blog/atom.xml, 向Ta学习; Sphinx笔记系统
 王建硕, http://home.wangjianshuo.com/cn/, http://home.wangjianshuo.com/cn/feed, 思想
-捕蛇者说, https://pythonhunter.org/episodes/, https://pythonhunter.org/episodes/feed.xml, podcast; Python
-CoRecursive, https://corecursive.com/, https://corecursive.com/feed, podcast; code
-Anyway.FM, https://anyway.fm/, https://anyway.fm/rss.xml, podcast; 设计
+捕蛇者说, https://pythonhunter.org/episodes/, https://pythonhunter.org/episodes/feed.xml, 播客; Python
+CoRecursive, https://corecursive.com/, https://corecursive.com/feed, 播客; 技术
+Anyway.FM, https://anyway.fm/, https://anyway.fm/rss.xml, 播客; 设计
 一休儿的哲学博客, https://yixiuer.me/, https://yixiuer.me/atom.xml, 哲学; 思想
 reuixiy, https://io-oi.me/, https://io-oi.me/atom.xml, 技术; 生活
 谢益辉的中文日志, https://yihui.org/cn/, https://yihui.org/cn/index.xml, 读书笔记; 思想
-Aeon, https://aeon.co/, https://aeon.co/feed.rss, thinking
-NextDraft, https://nextdraft.com/archives/, https://nextdraft.com/archives/feed/, general
+Aeon, https://aeon.co/, https://aeon.co/feed.rss, 思想
+NextDraft, https://nextdraft.com/, https://nextdraft.com/feed/, 新闻
 Conge, https://conge.github.io/, https://conge.github.io/feed.xml, 生活
 阳志平的网志, https://www.yangzhiping.com/, https://www.yangzhiping.com/feed.xml, 认知科学
-Artin's Blog, https://lengthmin.me/, https://lengthmin.me/rss.xml, Front-end
+Artin's Blog, https://lengthmin.me/, https://lengthmin.me/rss.xml, Python / React / Nodejs（我大概也会沿着这种技术路径）
 Coding Horror, https://blog.codinghorror.com/, https://blog.codinghorror.com/rss/, 推荐
 Joel on Software, https://www.joelonsoftware.com/, https://www.joelonsoftware.com/feed/, 推荐
 Clean Coder Blog, http://blog.cleancoder.com/, http://blog.cleancoder.com/atom.xml, 推荐
