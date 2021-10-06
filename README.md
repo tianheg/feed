@@ -75,20 +75,9 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | RidiQulous                         | https://ridiqulous.com                   | 图像处理; 乐高; 此人博客的红色很舒适                           |
 | 代码家                                | https://daimajia.com                     | 编程; 投资                                         |
 | 开源实验室                              | https://kymjs.com                        | 编程                                             |
-| 技术小黑屋                              | https://droidyue.com                     | 编程                                             |
-| vzard's blog                       | https://vzardlloo.github.io              | 编程                                             |
-| 后端技术杂谈                             | https://rowkey.cn                        | 编程                                             |
 | zhonger 前端开发者，喜爱运维管理               | https://blog.lui8.cn                     | 编程                                             |
 | 依云's Blog                          | https://blog.lilydjwg.me                 | 编程                                             |
-| INTJer                             | https://arminli.com                      | 编程                                             |
-| 思圆笔记                               | https://hintsnet.com/                    | 编程                                             |
-| 吕大卫的官方网站                           | https://lvdawei.com                      | 编程                                             |
-| 前端工程师 Toweave                      | https://toweave.github.io                | 编程                                             |
-| 老周快救我                              | https://zxx.im                           | 编程                                             |
-| diss带码                             | https://dumplingbao.github.io            | 编程                                             |
 | 王登科-DK博客                           | https://greatdk.com                      | 编程; 创业（面包多）                                    |
-| chai2010 的博客                       | https://chai2010.cn                      | 编程                                             |
-| 笨方法学写作                             | https://www.cnfeat.com                   | 编程                                             |
 | 云原生                                | https://jimmysong.io                     | 编程                                             |
 | Hawstein's Blog                    | https://hawstein.com/                    | 编程                                             |
 | Skywind Inside                     | https://www.skywind.me/blog/             | 编程                                             |
@@ -97,9 +86,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Cat in Chinese                     | https://chinese.catchen.me               | 编程                                             |
 | Randy's Blog                       | https://lutaonan.com                     | 编程                                             |
 | iTimothy                           | https://xiaozhou.net                     | 编程                                             |
-| idea's blog                        | http://www.ideawu.net/blog               | 编程                                             |
 | 透明思考                               | http://gigix.thoughtworkers.org          | 编程                                             |
-| xiaix's Blog                       | https://xiaix.me                         | 编程                                             |
 | 搞笑談軟工                              | https://teddy-chen-tw.blogspot.com/      | 编程                                             |
 | The Will Will Web                  | https://blog.miniasp.com                 | 编程                                             |
 | 程序师                                | https://www.techug.com                   | 编程                                             |
@@ -107,7 +94,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 小胡子哥的个人网站                          | https://www.barretlee.com                | 编程                                             |
 | 晚晴幽草轩                              | https://www.jeffjade.com                 | 编程                                             |
 | 林小沐                                | https://immmmm.com                       | 编程                                             |
-| HelloDog                           | https://wsgzao.github.io                 | 编程                                             |
+| 张洪Heo                              | https://blog.zhheo.com/                  | 产品; 设计; 开发                                     |
 | the5fire的技术博客                      | https://www.the5fire.com/                | 编程; Python; 算法; 随笔; 读书                         |
 | 余海峯 David 物理喵 phycat               | https://hfdavidyu.com                    | 物理                                             |
 | 水星投资理财                             | https://mercurychong.blogspot.com/       | 投资                                             |
