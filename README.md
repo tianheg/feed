@@ -29,39 +29,36 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Martin Fowler                      | https://martinfowler.com/                | 《重构》作者                                         |
 | Paul Graham                        | http://www.paulgraham.com/               | 《黑客与画家》作者                                      |
 | Shu Ding                           | https://shud.in/                         | 思考; 艺术                                         |
-| Naval                              | https://nav.al/                          | 思考; 认知                                         |
-| 湾区日报                               | https://wanqu.co/                        | 科技                                             |
-| 禅                                  | https://zenhabits.net/                   | 思想                                             |
-| 深度英文文章                             | https://nautil.us/                       | 多彩                                             |
-| 王垠                                 | https://www.yinwang.org/                 | 编程                                             |
+| Naval                              | https://nav.al/                          | 思考; 认知; 财富                                     |
+| 湾区日报                               | https://wanqu.co/                        | 创业; 技术                                         |
+| 禅                                  | https://zenhabits.net/                   | 思想; 生活方式                                       |
+| Nautilus                           | https://nautil.us/                       | 科技; 生物; 文化                                     |
+| 王垠                                 | https://www.yinwang.org/                 | 编程; 阴谋论                                        |
 | 王垠                                 | https://yinwang1.wordpress.com/          | 思想                                             |
 | MatNoble                           | https://matnoble.me/                     | 数学                                             |
-| v2ex                               | https://www.v2ex.com/                    | 技术; 创意                                         |
+| v2ex                               | https://www.v2ex.com/                    | 技术论坛                                           |
 | GitHub Blog                        | https://github.blog/                     | GitHub                                         |
 | Cloudflare Blog                    | https://blog.cloudflare.com/             | Cloudflare                                     |
 | Telegram Blog                      | https://telegram.org/blog                | Telegram                                       |
-| 城堡阅读                               | https://chengbaoyuedu.cn/                | 阅读                                             |
-| 苔原带                                | https://tundrazone.com/                  | 苔原通信                                           |
-| 2ality – JavaScript and more       | https://2ality.com                       | JS                                             |
+| 城堡阅读                               | https://chengbaoyuedu.cn/                | 阅读; 思考; 随笔; 分享                                 |
+| 苔原带                                | https://tundrazone.com/                  | 思考; 阅读                                         |
+| Dr. Axel Rauschmayer               | https://2ality.com                       | JS                                             |
 | 卡瓦邦噶！                              | https://www.kawabangga.com/              | Python                                         |
 | When Then Zen                      | https://when-then-zen.christine.website/ | meditation                                     |
 | JerryZhang's Blog                  | http://www.zhangjiee.com/                | 技术; 思考                                         |
 | justjavac(迷渡)                      | https://justjavac.com/                   | JS                                             |
 | 范明非                                | https://fanmingfei.com/                  | CSS                                            |
-| Guillermo Rauch's blog             | https://rauchg.com/                      | Vercel                                         |
-| Anthony Fu                         | https://antfu.me/                        | Open Source                                    |
+| Guillermo Rauch's blog             | https://rauchg.com/                      | Vercel CEO                                     |
+| Anthony Fu                         | https://antfu.me/                        | Open Sourcer                                   |
 | Knowledge Continuum                | https://www.raghuveer.net/               | 哲学                                             |
-| Zack                               | https://blog.zackzhou.com/               | 思考                                             |
 | 面向信仰编程                             | https://draveness.me/                    | 系统设计; 思考                                       |
 | 霍炬的网站                              | https://jhuo.ca/                         | 互联网历史                                          |
-| David Perell                       | https://perell.com/                      | 深度文章                                           |
-| Free Software Fundation            | https://www.fsf.org/                     | Open Source                                    |
-| DistroWatch.com                    | https://distrowatch.com/                 | Distro                                         |
+| David Perell                       | https://perell.com/                      | 写作                                             |
+| Free Software Fundation            | https://www.fsf.org/                     | Open Source Organization                       |
+| DistroWatch.com                    | https://distrowatch.com/                 | Linux发行版新闻                                     |
 | Felix's Blog                       | https://felixc.at/                       | Old-school Arch Linux Developer                |
-| Scott H. Young                     | https://www.scotthyoung.com/blog/        | Learn                                          |
-| 张鑫旭                                | https://www.zhangxinxu.com/wordpress/    | 前端                                             |
+| Scott H. Young                     | https://www.scotthyoung.com/             | 学习如何学习                                         |
 | @renyuneyun - Rui Zhao             | https://me.ryey.icu/                     | Arch User                                      |
-| Martin Fowler                      | https://martinfowler.com/                | Refactoring                                    |
 | Eric S. Raymond                    | http://www.catb.org/esr/                 | long-time hacker                               |
 | 透明创业实验                             | https://blog.t9t.io                      | 创业; 编程; 开源                                     |
 | 阮一峰的网络日志                           | https://www.ruanyifeng.com/blog/         | 创业; 编程; 前端                                     |
