@@ -67,17 +67,12 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Alili丶前端大爆炸                        | https://alili.tech                       | 编程; 前端                                         |
 | 蚊子前端博客                             | https://www.xiabingbao.com               | 编程; 前端                                         |
 | DIYGod - 写代码是热爱，写到世界充满爱!           | https://diygod.me                        | 编程; 开源                                         |
-| MacTalk-池建强的随想录                    | http://macshuo.com                       | 编程; iOS                                        |
-| ShrekShao                          | https://shrekshao.github.io/             | 编程                                             |
 | 云风的 BLOG                           | https://blog.codingnow.com               | 编程                                             |
 | 全栈应用开发:精益实践                        | https://www.phodal.com                   | 编程                                             |
 | 追梦人物的博客                            | https://www.zmrenwu.com                  | 编程                                             |
-| Python 工匠                          | https://www.zlovezl.cn                   | 编程                                             |
 | 但行好事，莫问前程                          | https://windard.com                      | 编程                                             |
-| Ric's Blog                         | https://www.lichong.work                 | 编程; 架构; 设计; 算法                                 |
 | 罗磊的独立博客                            | https://luolei.org                       | 编程; 旅行                                         |
-| 阁子                                 | https://dfine.tech                       | 编程; 算法; 生活                                     |
-| RidiQulous                         | https://ridiqulous.com                   | 图像处理; 乐高                                       |
+| RidiQulous                         | https://ridiqulous.com                   | 图像处理; 乐高; 此人博客的红色很舒适                           |
 | 代码家                                | https://daimajia.com                     | 编程; 投资                                         |
 | 开源实验室                              | https://kymjs.com                        | 编程                                             |
 | 技术小黑屋                              | https://droidyue.com                     | 编程                                             |
@@ -90,9 +85,8 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 吕大卫的官方网站                           | https://lvdawei.com                      | 编程                                             |
 | 前端工程师 Toweave                      | https://toweave.github.io                | 编程                                             |
 | 老周快救我                              | https://zxx.im                           | 编程                                             |
-| MouT.me                            | https://mout.me                          | 编程                                             |
 | diss带码                             | https://dumplingbao.github.io            | 编程                                             |
-| 王登科-DK博客                           | https://greatdk.com                      | 编程; 创业                                         |
+| 王登科-DK博客                           | https://greatdk.com                      | 编程; 创业（面包多）                                    |
 | chai2010 的博客                       | https://chai2010.cn                      | 编程                                             |
 | 笨方法学写作                             | https://www.cnfeat.com                   | 编程                                             |
 | 云原生                                | https://jimmysong.io                     | 编程                                             |
