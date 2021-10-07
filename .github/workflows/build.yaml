@@ -6,6 +6,7 @@ on:
     branches:
       - main
     paths-ignore:
+      - 'guide.md'
       - 'feeds.csv'
       - 'formatter.py'
       - 'opml_generator.py'
