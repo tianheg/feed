@@ -108,20 +108,15 @@ EGOIST 庶民样本, https://egoist.moe/, https://egoist.moe/atom.xml, 编程; �
 王垠的博客, https://www.yinwang.org/, https://rsshub.app/blogs/wangyin, 编程
 扯氮集, http://weiwuhui.com/, http://weiwuhui.com/feed, 创业; 人生
 Aiur · Zellux 的博客, https://blog.yxwang.me/, https://blog.yxwang.me/index.xml, 编程; 智能家居
-硕鼠的博客站, http://lukefan.com/, http://lukefan.com/?feed=rss2, 编程
-黑·白, http://blog.xiayf.cn/, http://blog.xiayf.cn/feeds/rss.xml, 编程
+硕鼠的博客站, http://lukefan.com/, http://lukefan.com/?feed=rss2, 编程（思考得够深）
 小猿大圣, https://hufangyun.com/, https://hufangyun.com/atom.xml, 编程
-囧克斯 勾三股四, https://jiongks.name, https://jiongks.name/atom.xml, 编程; 开源; 前端
-冰糖橙子, http://www.btorange.com/, http://www.btorange.com/feed, 前端; 编程
 冯唐博客, http://www.fengtang.com/blog/, http://www.fengtang.com/blog/?feed=rss2, 文学
-Lucifr, https://lucifr.com/, https://lucifr.com/rss/, 产品
 张戈博客, https://zhang.ge, https://zhang.ge/feed, 编程; 运维
 ChrAlpha 的幻想乡（博客）, https://blog.ichr.me, https://blog.ichr.me/atom.xml, 笔记本; 技术向; 编程; 思考
 褪墨・时间管理, https://www.mifengtd.cn/, https://www.mifengtd.cn/feed.xml, 时间管理
-冰山一角, http://cnberg.com, , 编程; 旅行; 摄影
 我爱自然语言处理, https://www.52nlp.cn/, http://www.52nlp.cn/feed, 编程; 机器学习
 唐巧的博客, https://blog.devtang.com/, http://blog.devtang.com/atom.xml, 编程; 创业; iOS
-OneV's Den, https://onevcat.com/#blog, https://onevcat.com/feed.xml, 编程; iOS
+OneV's Den, https://onevcat.com/, https://onevcat.com/feed.xml, 编程; iOS
 Garan no dou, https://blog.ibireme.com/, https://blog.ibireme.com/feed/, 编程; 开源; iOS
 可能吧, https://kenengba.com/, http://feeds.kenengba.com/kenengbarss, 创业
 鸟窝, https://colobu.com/, https://colobu.com/atom.xml, 编程
@@ -130,9 +125,6 @@ libfeihu Blog, https://feihu.me/blog/, http://feihu.me/blog/feed.atom, 编程
 Nic Lin's Blog, https://blog.niclin.tw/, https://blog.niclin.tw/index.xml, 编程
 Halfrost's Field, https://halfrost.com/, http://halfrost.com/rss/, 编程
 limboy's HQ, https://limboy.me, http://feeds.feedburner.com/lzyy, 编程; 设计
-sunnyxx的技术博客, https://blog.sunnyxx.com/, http://blog.sunnyxx.com/atom.xml, 编程; iOS
-阿毛的蛋疼地, https://xiangwangfeng.com/, https://xiangwangfeng.com/atom.xml, 编程; 开源
-Kevin Blog, https://zhowkev.in/, https://zhowkev.in/rss/, 编程; 创业
 bang's blog, https://blog.cnbang.net/, http://blog.cnbang.net/feed/, 编程; 开源
 I'm TualatriX, https://imtx.me, http://feeds.feedburner.com/tualatrix, 编程; 开源
 Wujunze's Blog, https://wujunze.com, https://wujunze.com/index.xml, 编程; 架构; 旅行
@@ -142,14 +134,11 @@ Wiken, https://www.hehuapei.com, https://www.hehuapei.com/feed, 编程; 随笔; 
 炸裂志, https://zh.fyi/, https://zh.fyi/rss.xml, 单车; 旅行; 播客; 摄影
 kok的笔记本, https://wocai.de, https://wocai.de/index.xml/, 编程; 摄影
 搞搞震, https://www.wujingquan.com, https://www.wujingquan.com/atom.xml, 编程; 开源
-Qt进阶之路-涛哥的博客, https://jaredtao.github.io/, https://jaredtao.github.io/atom.xml, 编程; Qt
-Fred Wu's Blog, https://fredwu.me/, https://fredwu.me/rss.xml, 编程; 开源; 摄影; 设计; 领导; 澳洲
 ISLAND, https://youngxhui.top, https://youngxhui.top/index.xml, 编程; 生活; 随笔
 贺叶霜的树, https://blog.heysh.xyz/, https://blog.heysh.xyz/feed.xml, 开源; 生活
 Frytea's Blog, https://blog.frytea.com, https://blog.frytea.com/feed, 编程; 思考; 高效
 Mohuishou's Blog, https://lailin.xyz, https://lailin.xyz/atom.xml, 编程; Go
 算法花园, https://xiang578.com, https://xiang578.com/atom.xml, 编程; 算法; 随笔
-1A23 Studio, https://1a23.com/, https://1a23.com/feed/, 编程; 设计; 音乐; 开源
 Jiajun的编程随想, https://jiajunhuang.com/, https://jiajunhuang.com/rss, 编程; 开源; 随想
 忘归, http://jalan.space/, http://jalan.space/atom.xml, 编程; 后端; 生活
 贼拉正经的技术博客, https://www.stackoverflow.wiki/, https://stackoverflow.wiki/blog/rss.xml, 编程; 后端; Java
@@ -158,7 +147,6 @@ Lenix Blog, https://blog.p2hp.com/, https://blog.p2hp.com/feed, 编程; 后端; 
 OnionTalk, https://hateonion.me, https://hateonion.me/index.xml, 编程; 前端; 随笔
 Nicksxs's Blog, https://nicksxs.me, https://nicksxs.me/atom.xml, 编程; 后端; Java; PHP
 Allen's Blog, https://www.capallen.top, https://www.capallen.top/atom.xml, 编程; 数据科学
-谢益辉, https://yihui.name/cn/, http://yihui.name/cn/feed/, 编程; 统计学; 开源
 木遥的窗子, http://blog.farmostwood.net/, http://blog.farmostwood.net/feed, 数学; 小说; 随笔
 卢昌海的个人主页, https://www.changhai.org/, http://www.changhai.org/feed.xml, 物理; 科普
 UsubeniFantasy, https://ssshooter.com, https://ssshooter.com/rss.xml, 前端; 随想; 游戏; 摄影
