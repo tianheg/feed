@@ -33,7 +33,6 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 湾区日报                               | https://wanqu.co/                        | 创业; 技术                                         |
 | 禅                                  | https://zenhabits.net/                   | 思想; 生活方式                                       |
 | Nautilus                           | https://nautil.us/                       | 科技; 生物; 文化                                     |
-| 王垠                                 | https://www.yinwang.org/                 | 编程; 阴谋论                                        |
 | 王垠                                 | https://yinwang1.wordpress.com/          | 思想                                             |
 | MatNoble                           | https://matnoble.me/                     | 数学                                             |
 | v2ex                               | https://www.v2ex.com/                    | 技术论坛                                           |
@@ -104,7 +103,6 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 余果的博客                              | https://yuguo.us                         | 编程; 产品                                         |
 | O3noBLOG                           | https://blog.othree.net                  | 编程                                             |
 | Vivaxy's blog                      | https://vivaxyblog.github.io             | 编程                                             |
-| Debug客栈                            | https://www.debuginn.cn                  | 编程; PHP                                        |
 | isaced                             | https://www.isaced.com/                  | 编程                                             |
 | Jason                              | https://atjason.com                      | 编程                                             |
 | forecho 的独立博客                      | https://blog.forecho.com                 | 编程; 美股投资; 读书; 随想                               |
@@ -115,7 +113,6 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 王垠的博客                              | https://www.yinwang.org/                 | 编程                                             |
 | 扯氮集                                | http://weiwuhui.com/                     | 创业; 人生                                         |
 | Aiur · Zellux 的博客                  | https://blog.yxwang.me/                  | 编程; 智能家居                                       |
-| 战隼的学习探索                            | http://www.read.org.cn/                  | 方法论                                            |
 | 硕鼠的博客站                             | http://lukefan.com/                      | 编程                                             |
 | 黑·白                                | http://blog.xiayf.cn/                    | 编程                                             |
 | 小猿大圣                               | https://hufangyun.com/                   | 编程                                             |
