@@ -113,20 +113,15 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 王垠的博客                              | https://www.yinwang.org/                 | 编程                                             |
 | 扯氮集                                | http://weiwuhui.com/                     | 创业; 人生                                         |
 | Aiur · Zellux 的博客                  | https://blog.yxwang.me/                  | 编程; 智能家居                                       |
-| 硕鼠的博客站                             | http://lukefan.com/                      | 编程                                             |
-| 黑·白                                | http://blog.xiayf.cn/                    | 编程                                             |
+| 硕鼠的博客站                             | http://lukefan.com/                      | 编程（思考得够深）                                      |
 | 小猿大圣                               | https://hufangyun.com/                   | 编程                                             |
-| 囧克斯 勾三股四                           | https://jiongks.name                     | 编程; 开源; 前端                                     |
-| 冰糖橙子                               | http://www.btorange.com/                 | 前端; 编程                                         |
 | 冯唐博客                               | http://www.fengtang.com/blog/            | 文学                                             |
-| Lucifr                             | https://lucifr.com/                      | 产品                                             |
 | 张戈博客                               | https://zhang.ge                         | 编程; 运维                                         |
 | ChrAlpha 的幻想乡（博客）                  | https://blog.ichr.me                     | 笔记本; 技术向; 编程; 思考                               |
 | 褪墨・时间管理                            | https://www.mifengtd.cn/                 | 时间管理                                           |
-| 冰山一角                               | http://cnberg.com                        | 编程; 旅行; 摄影                                     |
 | 我爱自然语言处理                           | https://www.52nlp.cn/                    | 编程; 机器学习                                       |
 | 唐巧的博客                              | https://blog.devtang.com/                | 编程; 创业; iOS                                    |
-| OneV's Den                         | https://onevcat.com/#blog                | 编程; iOS                                        |
+| OneV's Den                         | https://onevcat.com/                     | 编程; iOS                                        |
 | Garan no dou                       | https://blog.ibireme.com/                | 编程; 开源; iOS                                    |
 | 可能吧                                | https://kenengba.com/                    | 创业                                             |
 | 鸟窝                                 | https://colobu.com/                      | 编程                                             |
@@ -135,9 +130,6 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | Nic Lin's Blog                     | https://blog.niclin.tw/                  | 编程                                             |
 | Halfrost's Field                   | https://halfrost.com/                    | 编程                                             |
 | limboy's HQ                        | https://limboy.me                        | 编程; 设计                                         |
-| sunnyxx的技术博客                       | https://blog.sunnyxx.com/                | 编程; iOS                                        |
-| 阿毛的蛋疼地                             | https://xiangwangfeng.com/               | 编程; 开源                                         |
-| Kevin Blog                         | https://zhowkev.in/                      | 编程; 创业                                         |
 | bang's blog                        | https://blog.cnbang.net/                 | 编程; 开源                                         |
 | I'm TualatriX                      | https://imtx.me                          | 编程; 开源                                         |
 | Wujunze's Blog                     | https://wujunze.com                      | 编程; 架构; 旅行                                     |
@@ -147,14 +139,11 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | 炸裂志                                | https://zh.fyi/                          | 单车; 旅行; 播客; 摄影                                 |
 | kok的笔记本                            | https://wocai.de                         | 编程; 摄影                                         |
 | 搞搞震                                | https://www.wujingquan.com               | 编程; 开源                                         |
-| Qt进阶之路-涛哥的博客                       | https://jaredtao.github.io/              | 编程; Qt                                         |
-| Fred Wu's Blog                     | https://fredwu.me/                       | 编程; 开源; 摄影; 设计; 领导; 澳洲                         |
 | ISLAND                             | https://youngxhui.top                    | 编程; 生活; 随笔                                     |
 | 贺叶霜的树                              | https://blog.heysh.xyz/                  | 开源; 生活                                         |
 | Frytea's Blog                      | https://blog.frytea.com                  | 编程; 思考; 高效                                     |
 | Mohuishou's Blog                   | https://lailin.xyz                       | 编程; Go                                         |
 | 算法花园                               | https://xiang578.com                     | 编程; 算法; 随笔                                     |
-| 1A23 Studio                        | https://1a23.com/                        | 编程; 设计; 音乐; 开源                                 |
 | Jiajun的编程随想                        | https://jiajunhuang.com/                 | 编程; 开源; 随想                                     |
 | 忘归                                 | http://jalan.space/                      | 编程; 后端; 生活                                     |
 | 贼拉正经的技术博客                          | https://www.stackoverflow.wiki/          | 编程; 后端; Java                                   |
@@ -163,7 +152,6 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 | OnionTalk                          | https://hateonion.me                     | 编程; 前端; 随笔                                     |
 | Nicksxs's Blog                     | https://nicksxs.me                       | 编程; 后端; Java; PHP                              |
 | Allen's Blog                       | https://www.capallen.top                 | 编程; 数据科学                                       |
-| 谢益辉                                | https://yihui.name/cn/                   | 编程; 统计学; 开源                                    |
 | 木遥的窗子                              | http://blog.farmostwood.net/             | 数学; 小说; 随笔                                     |
 | 卢昌海的个人主页                           | https://www.changhai.org/                | 物理; 科普                                         |
 | UsubeniFantasy                     | https://ssshooter.com                    | 前端; 随想; 游戏; 摄影                                 |
