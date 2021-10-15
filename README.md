@@ -4,6 +4,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 
 | 简介                                 | 链接                                       | 标签                                             |
 | ---------------------------------- | ---------------------------------------- | ---------------------------------------------- |
+| Rick Steves’ Travel Blog           | https://blog.ricksteves.com/             | Travel; 旅行                                     |
 | CSS-Tricks                         | https://css-tricks.com/                  | CSS; JS                                        |
 | Smashing Magazine                  | https://www.smashingmagazine.com/        | CSS; JS; Vue; andsoon                          |
 | ProductHunt                        | https://www.producthunt.com/             | bestnewproducts                                |
