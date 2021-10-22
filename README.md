@@ -4,6 +4,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 
 | 简介                                 | 链接                                          | 标签                                             |
 | ---------------------------------- | ------------------------------------------- | ---------------------------------------------- |
+| 纯洁的微笑                              | http://www.ityouknow.com/                   | Java; SpringBoot                               |
 | An Amateur Programmer's Blogs      | https://dirtysalt.github.io/html/blogs.html | Orgmode                                        |
 | 陈斌（Emacs）                          | https://blog.binchen.org/                   | Emacs                                          |
 | 100 Rabbits                        | https://100r.co/site/home.html              | Travel; 旅行                                     |
