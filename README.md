@@ -4,6 +4,7 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate it.
 
 | 简介                                 | 链接                                          | 标签                                             |
 | ---------------------------------- | ------------------------------------------- | ---------------------------------------------- |
+| Hector Martin                      | https://marcan.st/                          | 逆向; 极客                                         |
 | Living an awesome life             | https://sachachua.com/blog/                 | Emacs                                          |
 | 纯洁的微笑                              | http://www.ityouknow.com/                   | Java; SpringBoot                               |
 | An Amateur Programmer's Blogs      | https://dirtysalt.github.io/html/blogs.html | Orgmode                                        |
