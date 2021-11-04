@@ -1,13 +1,18 @@
-name: Build
+name: Build GitHub Pages
 
 on:
   workflow_dispatch:
+  schedule:
+    # Adjust refresh schedule here. By default, it runs once per day.
+    # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
+    # Recommended tool: https://crontab.guru/
+    - cron: "0 22 * * *"
   push:
     branches:
       - main
     paths-ignore:
       - 'osmosfeed.yaml'
-      - '.github/workflows/build.yaml'
+      - '.github/workflows/gh-pages.yaml'
 
 jobs:
   build:
