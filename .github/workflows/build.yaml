@@ -6,17 +6,8 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'guide.md'
-      - 'feeds.csv'
-      - 'formatter.py'
-      - 'opml_generator.py'
-      - 'script.js'
-      - '.github/workflows/update.yaml'
-#   schedule:
-#     # Adjust refresh schedule here. By default, it runs once per day.
-#     # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
-#     # Recommended tool: https://crontab.guru/
-#     - cron: "0 0 * * *"
+      - 'osmosfeed.yaml'
+      - '.github/workflows/build.yaml'
 
 jobs:
   build:
@@ -30,7 +21,7 @@ jobs:
           cache: "yarn"
       - name: Install dependencies
         run: yarn
-      - name: Build the feed
+      - name: Build feeds
         run: yarn run build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
