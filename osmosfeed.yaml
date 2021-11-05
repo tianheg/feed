@@ -9,7 +9,7 @@ sources:
   - href: https://io-oi.me/atom.xml
   - href: https://yihui.org/cn/index.xml
   - href: https://www.yangzhiping.com/feed.xml
-  - href: http://www.aaronsw.com/2002/feeds/pgessays.rss
+  - href: https://tianheg-rsshub.vercel.app/blogs/paulgraham
   - href: https://tundrazone.com/feed/
 
 siteTitle: "一大加贝"
