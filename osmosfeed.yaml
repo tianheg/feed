@@ -10,7 +10,7 @@ sources:
   - href: https://yihui.org/cn/index.xml
   - href: https://www.yangzhiping.com/feed.xml
   - href: https://tianheg-rsshub.vercel.app/blogs/paulgraham
-  - href: https://tundrazone.com/feed/
+  # - href: https://tundrazone.com/feed/ error
 
 siteTitle: "一大加贝"
 cacheMaxDays: 7
