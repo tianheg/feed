@@ -696,6 +696,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 | lowinli's blog                     | https://lowin.li/                           | NLP; AI; 开源; 生活; 分享                            |
 | 同和故事匯                              | https://hocassian.cn/                       | 編程; 隨筆; Galgame; 雜談                            |
 | 木澤的研發腦                             | https://woodloch.blog/                      | 編程; 開源; 隨筆                                     |
-| 周良博客                               | https://imzl.com/                           | 产品; 运营; 商业; 编程; WordPress; 随笔                  |
 | DGideas' Blog                      | https://dgideas.net/                        | 编程; 技术; 生活                                     |
-| 喵二の小博客                             | https://www.miaoer.xyz/                     | 技术; 生活; 学习                                     |
