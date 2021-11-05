@@ -686,14 +686,9 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 | Rainshaw's Blog                    | https://blog.ruixiaolu.com/                 | 编程; 随想; 安全                                     |
 | Aemon's Blog                       | https://aemoncao.github.io/                 | 编程; 折腾; 生活                                     |
 | 思为说                                | https://siwei.io                            | 图数据库; 编程; 云计算; 大数据                             |
-| Marwin's Blog                      | https://marwin.cn/                          | 编程; 数码                                         |
-| 火喵日记本                              | https://cat.dorcandy.cn/                    | 生活; 日常; 编程; 笔记                                 |
-| 御坂研究所                              | https://www.nosuchfield.com/                | 编程                                             |
 | Acmic                              | https://acmic.top/                          | 读书; 生活; 编程; 笔记; 分享                             |
 | 焦点的动力炉                             | https://dianjiaogit.github.io/              | 生活; 杂文; 分享; 读书                                 |
 | 张浩在路上                              | https://imzhanghao.com/                     | 机器学习; 计算广告; 推荐系统; 技术变现                         |
 | 凌赟's blog                          | https://www.zhukang.tech/                   | 生活; 读书; 思考; 国学; 编程; 分享                         |
-| lowinli's blog                     | https://lowin.li/                           | NLP; AI; 开源; 生活; 分享                            |
-| 同和故事匯                              | https://hocassian.cn/                       | 編程; 隨筆; Galgame; 雜談                            |
 | 木澤的研發腦                             | https://woodloch.blog/                      | 編程; 開源; 隨筆                                     |
 | DGideas' Blog                      | https://dgideas.net/                        | 编程; 技术; 生活                                     |
