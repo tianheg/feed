@@ -4,7 +4,6 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 
 | 简介                                 | 链接                                          | 标签                                     |
 | ---------------------------------- | ------------------------------------------- | -------------------------------------- |
-| I Love                             | --                                          | --                                     |
 | 荷戟独彷徨                              | https://guanqr.com/                         | 生活; 思想; 技术                             |
 | fCC news                           | https://www.freecodecamp.org/news/          | CSS; JS; Vue; andsoon                  |
 | Hacker News Best                   | https://news.ycombinator.com/best           | 技术                                     |
@@ -16,7 +15,6 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 | 阳志平的网志                             | https://www.yangzhiping.com/                | 认知科学                                   |
 | Paul Graham                        | http://www.paulgraham.com/                  | 《黑客与画家》作者                              |
 | 苔原带                                | https://tundrazone.com/                     | 思考; 阅读                                 |
-| Just for eye-open                  | --                                          | --                                     |
 | Hector Martin                      | https://marcan.st/                          | 逆向; 极客                                 |
 | Living an awesome life             | https://sachachua.com/blog/                 | Emacs                                  |
 | 纯洁的微笑                              | http://www.ityouknow.com/                   | Java; SpringBoot                       |
@@ -119,3 +117,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 | Jack Liu博客                         | https://www.jack-liu.com                    | 编程                                     |
 | GeekPlux                           | https://geekplux.com                        | 编程                                     |
 | 王子亭的博客                             | https://jysperm.me                          | 编程                                     |
+| Personal Excellence                | https://personalexcellence.co/              | Self improvement                       |
