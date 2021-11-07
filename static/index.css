@@ -150,6 +150,12 @@ body {
   color: var(--accordion-title-hover-marker-color);
 }
 
+.article-summary-link {
+  color: var(--article-summary-color);
+  font-size: var(--font-size-s);
+  text-decoration: none;
+}
+
 .article-summary-link:hover {
   color: var(--article-summary-hover-color);
   --accordion-content-rail-color: var(--accordion-content-hover-rail-color);
@@ -158,8 +164,11 @@ body {
 .article-summary-box-inner {
   padding-left: 8px;
   border-left: 1px solid var(--accordion-content-rail-color);
+}
+
+.article-reading-time {
   color: var(--article-summary-color);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-s);
   font-weight: 600;
 }
 
