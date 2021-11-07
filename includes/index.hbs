@@ -24,13 +24,16 @@
         <section>
           <h3 class="source-name"><a class="source-name__link" href="{{siteUrl}}">{{title}}</a></h3>
           <section class="articles-per-source">
+
             {{#each articles}}
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">{{title}}</summary>
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">({{readingTimeInMin}} min)</span>
-                    <span class="summary-description">{{description}}</span>
+                    <span class="summary-description">{{description}}</span>&nbsp;&nbsp;
+                    <span class="button">
+                      <a href={{link}} target="_blank" rel="noopener noreferrer">Read · {{readingTimeInMin}} min</a>
+                    <span/>
                   </div>
               </details>
             </article>
