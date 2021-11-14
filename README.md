@@ -120,3 +120,4 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 | 王子亭的博客                             | https://jysperm.me                          | 编程                                             |
 | Personal Excellence                | https://personalexcellence.co/              | Self improvement                               |
 | Eric A. Meyer                      | https://meyerweb.com/                       | CSS                                            |
+| 有赞技术团队                             | https://tech.youzan.com/                    | 有赞                                             |
