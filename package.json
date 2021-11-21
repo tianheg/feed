@@ -4,9 +4,11 @@
   "description": "Use this template to create the UI and content of an RSS feed reader.",
   "main": "script.js",
   "scripts": {
+    "build": "osmosfeed",
     "test": "node script.js"
   },
   "dependencies": {
+    "@osmoscraft/osmosfeed": "^1.10.2",
     "markdown-table": "^3.0.0"
   },
   "packageManager": "yarn@3.1.0",
