@@ -1,7 +1,5 @@
 # My Info Source(through RSS)
 
-Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page](https://tianheg.github.io/feed/).
-
 | 简介                                 | 链接                                          | 标签                                             |
 | ---------------------------------- | ------------------------------------------- | ---------------------------------------------- |
 | 荷戟独彷徨                              | https://guanqr.com/                         | 生活; 思想; 技术                                     |
@@ -43,13 +41,11 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 | 湾区日报                               | https://wanqu.co/                           | 创业; 技术                                         |
 | 禅                                  | https://zenhabits.net/                      | 思想; 生活方式                                       |
 | Nautilus                           | https://nautil.us/                          | 科技; 生物; 文化                                     |
-| 王垠                                 | https://yinwang1.wordpress.com/             | 思想                                             |
 | MatNoble                           | https://matnoble.me/                        | 数学                                             |
 | v2ex                               | https://www.v2ex.com/                       | 技术论坛                                           |
 | GitHub Blog                        | https://github.blog/                        | GitHub                                         |
 | Cloudflare Blog                    | https://blog.cloudflare.com/                | Cloudflare                                     |
 | Telegram Blog                      | https://telegram.org/blog                   | Telegram                                       |
-| 城堡阅读                               | https://chengbaoyuedu.cn/                   | 阅读; 思考; 随笔; 分享                                 |
 | Dr. Axel Rauschmayer               | https://2ality.com                          | JS                                             |
 | 卡瓦邦噶！                              | https://www.kawabangga.com/                 | Python                                         |
 | When Then Zen                      | https://when-then-zen.christine.website/    | meditation                                     |
@@ -72,7 +68,6 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 | 阮一峰的网络日志                           | https://www.ruanyifeng.com/blog/            | 创业; 编程; 前端                                     |
 | 酷 壳 – CoolShell                    | https://coolshell.cn                        | 编程                                             |
 | 张鑫旭-鑫空间-鑫生活                        | https://www.zhangxinxu.com/                 | 编程; 前端                                         |
-| Alili丶前端大爆炸                        | https://alili.tech                          | 编程; 前端                                         |
 | 蚊子前端博客                             | https://www.xiabingbao.com                  | 编程; 前端                                         |
 | DIYGod - 写代码是热爱，写到世界充满爱!           | https://diygod.me                           | 编程; 开源                                         |
 | 云风的 BLOG                           | https://blog.codingnow.com                  | 编程                                             |
@@ -82,40 +77,28 @@ Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page
 | 罗磊的独立博客                            | https://luolei.org                          | 编程; 旅行                                         |
 | RidiQulous                         | https://ridiqulous.com                      | 图像处理; 乐高; 此人博客的红色很舒适                           |
 | 代码家                                | https://daimajia.com                        | 编程; 投资                                         |
-| 开源实验室                              | https://kymjs.com                           | 编程                                             |
 | zhonger 前端开发者，喜爱运维管理               | https://blog.lui8.cn                        | 编程                                             |
 | 依云's Blog                          | https://blog.lilydjwg.me                    | 编程                                             |
 | 王登科-DK博客                           | https://greatdk.com                         | 编程; 创业（面包多）                                    |
-| 云原生                                | https://jimmysong.io                        | 编程                                             |
 | Hawstein's Blog                    | https://hawstein.com/                       | 编程                                             |
 | Skywind Inside                     | https://www.skywind.me/blog/                | 编程                                             |
 | 某岛                                 | http://www.shuizilong.com/house             | 编程                                             |
-| 陈沙克日志                              | http://www.chenshake.com                    | 编程                                             |
 | Cat in Chinese                     | https://chinese.catchen.me                  | 编程                                             |
 | Randy's Blog                       | https://lutaonan.com                        | 编程                                             |
 | iTimothy                           | https://xiaozhou.net                        | 编程                                             |
-| 透明思考                               | http://gigix.thoughtworkers.org             | 编程                                             |
-| 搞笑談軟工                              | https://teddy-chen-tw.blogspot.com/         | 编程                                             |
 | The Will Will Web                  | https://blog.miniasp.com                    | 编程                                             |
-| 程序师                                | https://www.techug.com                      | 编程                                             |
 | 解道jdon.com                         | https://www.jdon.com                        | 编程                                             |
 | 小胡子哥的个人网站                          | https://www.barretlee.com                   | 编程                                             |
-| 晚晴幽草轩                              | https://www.jeffjade.com                    | 编程                                             |
 | 林小沐                                | https://immmmm.com                          | 编程                                             |
 | 张洪Heo                              | https://blog.zhheo.com/                     | 产品; 设计; 开发                                     |
 | the5fire的技术博客                      | https://www.the5fire.com/                   | 编程; Python; 算法; 随笔; 读书                         |
 | 余海峯 David 物理喵 phycat               | https://hfdavidyu.com                       | 物理                                             |
-| 水星投资理财                             | https://mercurychong.blogspot.com/          | 投资                                             |
-| Mr. PM 下午先生                        | https://mrpm.cc/                            | 编程                                             |
 | 人人都是产品经理——iamsujie                 | http://iamsujie.com                         | 编程; 产品                                         |
 | 轉個彎日誌                              | https://blog.turn.tw/                       | 编程                                             |
 | 余果的博客                              | https://yuguo.us                            | 编程; 产品                                         |
-| O3noBLOG                           | https://blog.othree.net                     | 编程                                             |
+| O3noBLOG                           | https://blog.othree.net                     | 编程; 那篇讲猫咪的故事打动了我                               |
 | Vivaxy's blog                      | https://vivaxyblog.github.io                | 编程                                             |
 | isaced                             | https://www.isaced.com/                     | 编程                                             |
-| Jason                              | https://atjason.com                         | 编程                                             |
-| forecho 的独立博客                      | https://blog.forecho.com                    | 编程; 美股投资; 读书; 随想                               |
-| Jack Liu博客                         | https://www.jack-liu.com                    | 编程                                             |
 | GeekPlux                           | https://geekplux.com                        | 编程                                             |
 | 王子亭的博客                             | https://jysperm.me                          | 编程                                             |
 | Personal Excellence                | https://personalexcellence.co/              | Self improvement                               |

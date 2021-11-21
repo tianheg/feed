@@ -38,13 +38,11 @@ Naval, https://nav.al/, https://nav.al/podcast/feed, 思考; 认知; 财富
 湾区日报, https://wanqu.co/, https://wanqu.co/feed, 创业; 技术
 禅, https://zenhabits.net/, https://zenhabits.net/feed/, 思想; 生活方式
 Nautilus, https://nautil.us/, https://nautil.us/rss/all, 科技; 生物; 文化
-王垠, https://yinwang1.wordpress.com/, https://yinwang1.wordpress.com/feed/, 思想
 MatNoble, https://matnoble.me/, https://matnoble.me/atom.xml, 数学
 v2ex, https://www.v2ex.com/, https://www.v2ex.com/index.xml, 技术论坛
 GitHub Blog, https://github.blog/, https://github.blog/feed/, GitHub
 Cloudflare Blog, https://blog.cloudflare.com/, https://blog.cloudflare.com/rss/, Cloudflare
 Telegram Blog, https://telegram.org/blog, , Telegram
-城堡阅读, https://chengbaoyuedu.cn/, https://chengbaoyuedu.cn/feed/, 阅读; 思考; 随笔; 分享
 Dr. Axel Rauschmayer, https://2ality.com, https://feeds.feedburner.com/2ality, JS
 卡瓦邦噶！, https://www.kawabangga.com/, https://www.kawabangga.com/feed, Python
 When Then Zen, https://when-then-zen.christine.website/, , meditation
@@ -67,7 +65,6 @@ Eric S. Raymond, http://www.catb.org/esr/, , long-time hacker
 阮一峰的网络日志, https://www.ruanyifeng.com/blog/, http://feeds.feedburner.com/ruanyifeng, 创业; 编程; 前端
 酷 壳 – CoolShell, https://coolshell.cn, http://coolshell.cn/feed, 编程
 张鑫旭-鑫空间-鑫生活, https://www.zhangxinxu.com/, https://www.zhangxinxu.com/wordpress/feed/, 编程; 前端
-Alili丶前端大爆炸, https://alili.tech, https://alili.tech/index.xml, 编程; 前端
 蚊子前端博客, https://www.xiabingbao.com, https://www.xiabingbao.com/atom.xml, 编程; 前端
 DIYGod - 写代码是热爱，写到世界充满爱!, https://diygod.me, https://diygod.me/atom.xml, 编程; 开源
 云风的 BLOG, https://blog.codingnow.com, http://blog.codingnow.com/atom.xml, 编程
@@ -77,40 +74,28 @@ DIYGod - 写代码是热爱，写到世界充满爱!, https://diygod.me, https:/
 罗磊的独立博客, https://luolei.org, http://luolei.org/feed/, 编程; 旅行
 RidiQulous, https://ridiqulous.com, https://ridiqulous.com/feed, 图像处理; 乐高; 此人博客的红色很舒适
 代码家, https://daimajia.com, https://daimajia.com/feed, 编程; 投资
-开源实验室, https://kymjs.com, https://www.kymjs.com/feed.xml, 编程
 zhonger 前端开发者，喜爱运维管理, https://blog.lui8.cn, https://blog.lui8.cn/feed.xml, 编程
 依云's Blog, https://blog.lilydjwg.me, https://blog.lilydjwg.me/posts.rss, 编程
 王登科-DK博客, https://greatdk.com, https://greatdk.com/feed, 编程; 创业（面包多）
-云原生, https://jimmysong.io, https://jimmysong.io/index.xml, 编程
 Hawstein's Blog, https://hawstein.com/, http://hawstein.com/feed.xml, 编程
 Skywind Inside, https://www.skywind.me/blog/, http://www.skywind.me/blog/feed, 编程
 某岛, http://www.shuizilong.com/house, http://www.shuizilong.com/house/feed/, 编程
-陈沙克日志, http://www.chenshake.com, http://www.chenshake.com/feed/, 编程
 Cat in Chinese, https://chinese.catchen.me, http://chinese.catchen.me/feeds/posts/default, 编程
 Randy's Blog, https://lutaonan.com, https://lutaonan.com/rss.xml, 编程
 iTimothy, https://xiaozhou.net, https://xiaozhou.net/atom.xml, 编程
-透明思考, http://gigix.thoughtworkers.org, http://gigix.thoughtworkers.org/atom.xml, 编程
-搞笑談軟工, https://teddy-chen-tw.blogspot.com/, http://teddy-chen-tw.blogspot.com/feeds/posts/default, 编程
 The Will Will Web, https://blog.miniasp.com, https://feeds.feedburner.com/TheWillWillWeb, 编程
-程序师, https://www.techug.com, http://www.techug.com/feed, 编程
 解道jdon.com, https://www.jdon.com, https://www.jdon.com/jivejdon/rss, 编程
 小胡子哥的个人网站, https://www.barretlee.com, http://www.barretlee.com/rss2.xml, 编程
-晚晴幽草轩, https://www.jeffjade.com, https://www.jeffjade.com/atom.xml, 编程
 林小沐, https://immmmm.com, http://feed.immmmm.com/, 编程
 张洪Heo, https://blog.zhheo.com/, https://blog.zhheo.com/rss.xml, 产品; 设计; 开发
 the5fire的技术博客, https://www.the5fire.com/, http://www.the5fire.com/rss, 编程; Python; 算法; 随笔; 读书
 余海峯 David 物理喵 phycat, https://hfdavidyu.com, https://hfdavidyu.com/feed/, 物理
-水星投资理财, https://mercurychong.blogspot.com/, http://mercurychong.blogspot.com/feeds/posts/default, 投资
-Mr. PM 下午先生, https://mrpm.cc/, http://feeds.feedburner.com/pmmustknow, 编程
 人人都是产品经理——iamsujie, http://iamsujie.com, http://iamsujie.com/feed/, 编程; 产品
 轉個彎日誌, https://blog.turn.tw/, http://blog.turn.tw/?feed=rss2, 编程
 余果的博客, https://yuguo.us, http://feeds.feedburner.com/yuguo, 编程; 产品
-O3noBLOG, https://blog.othree.net, https://feeds.feedburner.com/othree, 编程
+O3noBLOG, https://blog.othree.net, https://feeds.feedburner.com/othree, 编程; 那篇讲猫咪的故事打动了我
 Vivaxy's blog, https://vivaxyblog.github.io, https://vivaxyblog.github.io/atom.xml, 编程
 isaced, https://www.isaced.com/, http://www.isaced.com/index.xml, 编程
-Jason, https://atjason.com, https://atjason.com/atom.xml, 编程
-forecho 的独立博客, https://blog.forecho.com, https://blog.forecho.com/atom.xml, 编程; 美股投资; 读书; 随想
-Jack Liu博客, https://www.jack-liu.com, https://www.jack-liu.com/rss.php, 编程
 GeekPlux, https://geekplux.com, https://geekplux.com/atom.xml, 编程
 王子亭的博客, https://jysperm.me, https://jysperm.me/atom.xml, 编程
 Personal Excellence, https://personalexcellence.co/, https://personalexcellence.co/self-improvement/feed/, Self improvement

@@ -32,7 +32,7 @@ jobs:
       - name: update readme
         run: |
           yarn install
-          node script.js
+          node script.mjs
       - name: Generate feed.opml
         run: |
           python opml_generator.py
