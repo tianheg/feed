@@ -1,5 +1,5 @@
 * My Info Source(through RSS)
-Use [[https://github.com/osmoscraft/osmosfeed][osmos::feed]] to generate [[https://tianheg.github.io/feed/][web page]].
+Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page](https://tianheg.github.io/feed/).
 | 简介                                 | 链接                                          | 标签                                             |
 | ---------------------------------- | ------------------------------------------- | ---------------------------------------------- |
 | 荷戟独彷徨                              | https://guanqr.com/                         | 生活; 思想; 技术                                     |
