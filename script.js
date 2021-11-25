@@ -21,9 +21,9 @@ async function getResultAndUpdateREADME() {
   ]);
 
   const readmeContent = `* My Info Source(through RSS)
-Use [[https://github.com/osmoscraft/osmosfeed][osmos::feed]] to generate [[https://tianheg.github.io/feed/][web page]].
+Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page](https://tianheg.github.io/feed/).
 ${tableContentInMD}`;
-  fs.writeFileSync("./README.org", readmeContent, "utf8");
+  fs.writeFileSync("./README.md", readmeContent, "utf8");
 }
 
 getResultAndUpdateREADME();
