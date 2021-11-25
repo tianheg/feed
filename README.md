@@ -1,4 +1,4 @@
-* My Info Source(through RSS)
+# My Info Source(through RSS)
 Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page](https://tianheg.github.io/feed/).
 | 简介                                 | 链接                                          | 标签                                             |
 | ---------------------------------- | ------------------------------------------- | ---------------------------------------------- |
