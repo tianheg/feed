@@ -35,7 +35,7 @@ jobs:
       - name: Use Pandoc convert md to org
         uses: docker://pandoc/core:2.9
         with:
-          args: "-f markdown -t org -o feed.org README.md"
+          args: > -f markdown -t org -o feed.org README.md
       - name: Generate feed.opml
         run: |
           python opml_generator.py

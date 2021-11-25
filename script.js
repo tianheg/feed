@@ -20,7 +20,7 @@ async function getResultAndUpdateREADME() {
     ...newTable,
   ]);
 
-  const readmeContent = `* My Info Source(through RSS)
+  const readmeContent = `# My Info Source(through RSS)
 Use [osmos::feed](https://github.com/osmoscraft/osmosfeed) to generate [web page](https://tianheg.github.io/feed/).
 ${tableContentInMD}`;
   fs.writeFileSync("./README.md", readmeContent, "utf8");
