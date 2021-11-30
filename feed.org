@@ -1,5 +1,6 @@
 | 简介                                     | 链接                                          | 标签                                                    |
 |------------------------------------------+-----------------------------------------------+---------------------------------------------------------|
+| 水八口的冥想盆                           | https://blog.shuiba.co/                       | 生活                                                    |
 | Stack Overflow Blog                      | https://stackoverflow.blog/                   | 技术                                                    |
 | DailyArt Magazine                        | https://www.dailyartmagazine.com/             | 艺术                                                    |
 | 荷戟独彷徨                               | https://guanqr.com/                           | 生活; 思想; 技术                                        |
