@@ -1,16 +1,15 @@
 {
-  "name": "osmosfeed-template",
-  "version": "1.0.0",
-  "description": "Use this template to create the UI and content of an RSS feed reader.",
-  "main": "script.js",
+  "name": "feed",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
   "scripts": {
-    "build": "osmosfeed",
-    "test": "node script.js"
+    "build": "osmosfeed"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@osmoscraft/osmosfeed": "^1.10.2",
-    "markdown-table": "^3.0.0"
-  },
-  "packageManager": "yarn@3.1.0",
-  "type": "module"
+    "@osmoscraft/osmosfeed": "^1.0.0"
+  }
 }

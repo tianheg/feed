@@ -1,0 +1,25 @@
+name: Build GitHub Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Adjust refresh schedule here. By default, it runs once per day.
+    # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
+    # Recommended tool: https://crontab.guru/
+    - cron: "0 22 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - 'osmosfeed.yaml'
+      - '.github/workflows/feed-page.yaml'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: joelwmale/webhook-action@master
+        with:
+          # set this to Netlify build webhook URL
+          # https://docs.netlify.com/configure-builds/build-hooks/
+          url: ${{ secrets.NETLIFY_BUILD_WEBHOOK_URL }}
