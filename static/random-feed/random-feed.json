@@ -1,5 +1,9 @@
 [
   {
+    "name": "What is a Polyfill?",
+    "link": "https://remysharp.com/2010/10/08/what-is-a-polyfill"
+  },
+  {
     "name": "Cloudflare Analytics Docs",
     "link": "https://developers.cloudflare.com/analytics/"
   },
