@@ -1,16 +1,12 @@
 cacheUrl: https://tianheg.github.io/feed/cache.json
 sources:
-  - href: https://guanqr.com/rss.xml
+  - href: https://css-tricks.com/feed/
   - href: https://www.freecodecamp.org/news/rss/
-  - href: https://hnrss.org/best
-  - href: https://anyway.fm/rss.xml
-  - href: http://home.wangjianshuo.com/cn/feed
-  - href: https://yixiuer.me/atom.xml
-  - href: https://io-oi.me/atom.xml
-  - href: https://yihui.org/cn/index.xml
-  - href: https://www.yangzhiping.com/feed.xml
-  - href: https://tianheg-rsshub.vercel.app/blogs/paulgraham
-  # - href: https://tundrazone.com/feed/ error
-
+  - href: https://www.smashingmagazine.com/feed/
+  - href: https://jvns.ca/atom.xml
+  - href: https://feeds.feedburner.com/2ality # https://2ality.com/
+  - href: https://www.zhangxinxu.com/wordpress/feed/
+  - href: https://meyerweb.com/eric/thoughts/rss2/full
+  
 siteTitle: "一大加贝"
 cacheMaxDays: 21
