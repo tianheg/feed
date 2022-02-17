@@ -9,6 +9,6 @@ sources:
   - href: https://meyerweb.com/eric/thoughts/rss2/full
   #- href: https://feeds.feedburner.com/GoogleChromeReleases # Google Chrome Releases
   
-siteTitle: "一大加贝"
+siteTitle: "前端订阅"
 timezone: Asia/Shanghai
 cacheMaxDays: 7
