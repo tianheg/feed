@@ -7,6 +7,7 @@ sources:
   - href: https://feeds.feedburner.com/2ality # https://2ality.com/
   - href: https://www.zhangxinxu.com/wordpress/feed/
   - href: https://meyerweb.com/eric/thoughts/rss2/full
+  - href: https://uxplanet.org/feed
   #- href: https://feeds.feedburner.com/GoogleChromeReleases # Google Chrome Releases
   
 siteTitle: "前端订阅"
