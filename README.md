@@ -1,3 +1,3 @@
 # feed
 
-[a list](https://shimo.im/sheets/m5kv921OeafNbeqX/MODOC/)
+[a list](https://shimo.im/docs/NJkbEy4rB1SV45qR/)
