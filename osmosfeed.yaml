@@ -13,4 +13,4 @@ sources:
   
 siteTitle: "前端订阅"
 timezone: Asia/Shanghai
-cacheMaxDays: 7
+cacheMaxDays: 30
