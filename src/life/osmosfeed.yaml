@@ -1,0 +1,18 @@
+cacheUrl: https://tianheg.github.io/feed/life/cache.json
+sources:
+  - href: https://www.yidajiabei.xyz/index.xml
+  - href: https://anyway.fm/rss.xml
+  - href: http://home.wangjianshuo.com/cn/feed
+  - href: https://www.yangzhiping.com/feed.xml
+  - href: https://www.dailyartmagazine.com/feed/
+  - href: https://tundrazone.com/feed/
+
+siteTitle: "观察生活"
+timezone: Asia/Shanghai
+cacheMaxDays: 365
+
+### Sources
+# https://minemine.cc/
+# https://blogsurf.io/
+# https://www.lipk.org/
+# https://danwang.co/

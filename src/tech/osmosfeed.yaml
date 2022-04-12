@@ -1,0 +1,17 @@
+cacheUrl: https://tianheg.github.io/feed/tech/cache.json
+sources:
+  - href: https://www.smashingmagazine.com/feed/
+  - href: https://jvns.ca/atom.xml
+  - href: https://www.zhangxinxu.com/wordpress/feed/
+  - href: https://feeds.feedburner.com/GoogleChromeReleases
+  - href: https://randomascii.wordpress.com/feed/
+  - href: https://stackoverflow.blog/feed/
+  - href: https://manateelazycat.github.io/feed.xml
+  - href: https://emacstalk.github.io/podcast/index.xml
+  
+siteTitle: "技术拓展"
+timezone: Asia/Shanghai
+cacheMaxDays: 14
+
+### Sources
+# https://kdy1.dev/ Creator of SWC(Rust-based platform for the Web )

@@ -1,0 +1,19 @@
+{
+  "name": "feed",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "concurrently \"pnpm:build:*\"",
+    "build:life": "pnpm run build --prefix src/life",
+    "build:tech": "pnpm run build --prefix src/tech",
+    "copy": "node copy.mjs"
+  },
+  "workspaces": [
+    "./src/*"
+  ],
+  "devDependencies": {
+    "@osmoscraft/osmosfeed": "^1.4.0",
+    "concurrently": "^7.1.0",
+    "fs-extra": "^10.0.1"
+  }
+}
