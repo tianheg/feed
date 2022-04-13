@@ -8,13 +8,43 @@ sources:
   - href: https://tundrazone.com/feed/
   - href: https://100r.co/links/rss.xml
   - href: https://blog.ricksteves.com/feed/
+  - href: https://silverrainz.me/blog/atom.xml
+  - href: https://pythonhunter.org/feed/audio.xml
+  - href: https://yixiuer.me/atom.xml
+  - href: https://yihui.org/cn/index.xml
+  - href: https://io-oi.me/rss.xml
+  - href: https://geekplux.com/feed.xml
+  - href: https://lutaonan.com/rss.xml
+  - href: https://www.barretlee.com/rss2.xml
+  - href: https://zapier.com/engine/rss/8560261/robfitz
+  - href: https://aeon.co/feed.rss
+  - href: https://conge.github.io/feed.xml
+  - href: https://bytem.io/rss.xml
+  - href: https://shud.in/feed.xml
+  - href: https://zenhabits.net/feed/
+  - href: https://matnoble.me/atom.xml
+  - href: https://perell.com/feed/
+  - href: https://www.scotthyoung.com/blog/feed/
+  - href: https://diygod.me/atom.xml
+  - href: https://hawstein.com/feed.xml
+  - href: https://immmmm.com/atom.xml
+  - href: https://yuguo.us/feed.xml
+  - href: https://blog.turn.tw/?feed=rss2
+  - href: https://jysperm.me/atom.xml
+  - href: https://www.zackwu.com/feed.xml
+  - href: https://xiaozhou.net/atom.xml
+  - href: https://www.xianmin.org/index.xml
+  - href: https://elizen.me/index.xml
+  - href: http://www.aaronsw.com/2002/feeds/pgessays.rss
 
 siteTitle: "观察生活"
 timezone: Asia/Shanghai
 cacheMaxDays: 365
 
 ### Sources
+# https://blog.shuiba.co/
 # https://minemine.cc/
 # https://blogsurf.io/
 # https://www.lipk.org/
 # https://danwang.co/
+# https://nav.al/

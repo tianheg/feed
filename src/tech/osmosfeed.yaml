@@ -14,7 +14,70 @@ sources:
   - href: https://hnrss.org/best
   - href: https://hnrss.org/active
   - href: https://sachachua.com/blog/feed
-  
+  - href: https://corecursive.com/feed
+  - href: https://reactjs.org/feed.xml
+  - href: https://blog.vuejs.org/feed.rss
+  - href: https://www.v2ex.com/index.xml
+  - href: https://soulteary.com/feed/
+  - href: https://www.producthunt.com/feed
+  - href: https://stackoverflow.com/feeds/tag/javascript
+  - href: https://github.blog/feed/
+  - href: https://oremacs.com/atom.xml
+  - href: https://feeds.feedburner.com/ruanyifeng
+  - href: https://sspai.com/feed
+  - href: https://www.solidot.org/index.rss
+  - href: https://blog.codinghorror.com/rss
+  - href: https://www.joelonsoftware.com/feed/
+  - href: http://blog.cleancoder.com/atom.xml
+  - href: https://martinfowler.com/feed.atom
+  - href: https://wanqu.co/feed/
+  - href: https://felixc.at/feed/
+  - href: https://nautil.us/feed/
+  - href: https://blog.cloudflare.com/rss/
+  - href: https://www.kawabangga.com/feed
+  - href: https://antfu.me/feed.xml
+  - href: https://draveness.me/feed.xml
+  - href: https://jhuo.ca/index.xml
+  - href: https://static.fsf.org/fsforg/rss/blogs.xml
+  - href: https://static.fsf.org/fsforg/rss/news.xml
+  - href: https://www.gnu.org/rss/whatsnew.rss
+  - href: https://www.gnu.org/rss/quagga.rss
+  - href: https://distrowatch.com/news/dw.xml
+  - href: https://www.xiabingbao.com/atom.xml
+  - href: https://blog.codingnow.com/index.xml
+  - href: https://luolei.org/feed/
+  - href: https://windard.com/feed.xml
+  - href: https://ridiqulous.com/feed/
+  - href: https://daimajia.com/feed
+  - href: https://blog.lilydjwg.me/posts.rss
+  - href: https://lisz.me/feed.xml
+  - href: https://www.skywind.me/blog/feed
+  - href: https://coolshell.cn/feed
+  - href: https://blog.google/products/chrome/rss/
+  - href: https://feeds.feedburner.com/TheWillWillWeb
+  - href: https://chinese.catchen.me/feeds/posts/default
+  - href: https://www.jdon.com/rss
+  - href: https://hacks.mozilla.org/feed/
+  - href: https://leancloudblog.com/rss.xml
+  - href: https://blog.zhheo.com/rss.xml
+  - href: https://hfdavidyu.com/feed/
+  - href: https://vivaxyblog.github.io/atom.xml
+  - href: https://www.isaced.com/index.xml
+  - href: https://wattenberger.com/rss
+  - href: https://webaim.org/blog/feed
+  - href: https://daverupert.com/atom.xml
+  - href: https://mathiasbynens.be/notes.atom
+  - href: https://remoteok.com/remote-jobs.rss
+  - href: https://devtoolstips.org/feed.xml
+  - href: https://alistapart.com/main/feed/
+  - href: https://ourworldindata.org/atom.xml
+  - href: https://lynnandtonic.com/feed.xml
+  - href: https://www.fosskers.ca/en/rss
+  - href: https://web.dev/feed.xml
+  - href: https://aws.amazon.com/blogs/architecture/feed/
+  - href: http://www.auiou.com/feed/
+  - href: https://blog.binchen.org/rss.xml
+
 siteTitle: "技术拓展"
 timezone: Asia/Shanghai
 cacheMaxDays: 14
@@ -22,3 +85,23 @@ cacheMaxDays: 14
 ### Sources
 # https://kdy1.dev/ Creator of SWC(Rust-based platform for the Web )
 # https://hnrss.github.io/ Hacker News RSS
+# https://github.com/vuejs/core/blob/main/CHANGELOG.md Vuejs CHANGELOG
+# https://github.com/reuixiy/hugo-theme-meme/commits reuixiy/hugo-theme-meme
+# https://www.freecodecamp.org/news/ fCC news
+# https://justjavac.com/
+# https://fanmingfei.com/
+# https://www.gingerdoc.com/gingerdoc_all_notes
+# https://www.the5fire.com/
+# https://www.zmrenwu.com/
+# http://emacslife.com/
+# https://wesbos.com/blog
+# https://www.sashatran.com/
+# https://hellogithub.com/
+# https://github.com/aquadzn/learn-x-by-doing-y
+# https://gs.statcounter.com/
+# https://github.com/impressivewebs/frontend-feeds
+# https://github.com/timqian/chinese-independent-blogs
+# https://www.foreverblog.cn/blogs.html
+# https://rauchg.com/
+# https://treecat.cn/#/
+# https://tech.youzan.com/
