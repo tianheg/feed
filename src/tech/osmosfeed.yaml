@@ -8,6 +8,12 @@ sources:
   - href: https://stackoverflow.blog/feed/
   - href: https://manateelazycat.github.io/feed.xml
   - href: https://emacstalk.github.io/podcast/index.xml
+  - href: https://code.visualstudio.com/feed.xml
+  - href: https://emacs-china.org/posts.rss
+  - href: https://hnrss.org/bestcomments
+  - href: https://hnrss.org/best
+  - href: https://hnrss.org/active
+  - href: https://sachachua.com/blog/feed
   
 siteTitle: "技术拓展"
 timezone: Asia/Shanghai
@@ -15,3 +21,4 @@ cacheMaxDays: 14
 
 ### Sources
 # https://kdy1.dev/ Creator of SWC(Rust-based platform for the Web )
+# https://hnrss.github.io/ Hacker News RSS

@@ -6,6 +6,8 @@ sources:
   - href: https://www.yangzhiping.com/feed.xml
   - href: https://www.dailyartmagazine.com/feed/
   - href: https://tundrazone.com/feed/
+  - href: https://100r.co/links/rss.xml
+  - href: https://blog.ricksteves.com/feed/
 
 siteTitle: "观察生活"
 timezone: Asia/Shanghai
