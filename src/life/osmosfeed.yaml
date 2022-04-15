@@ -1,5 +1,7 @@
 cacheUrl: https://tianheg.github.io/feed/life/cache.json
 sources:
+  - href: http://blog.farmostwood.net/feed
+  - href: http://mindhacks.cn/feed/
   - href: https://xkcd.com/atom.xml
   - href: https://www.yidajiabei.xyz/index.xml
   - href: https://anyway.fm/rss.xml
