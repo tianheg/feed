@@ -1,8 +1,8 @@
 :root {
   /**
-     * Solarized Light
-     * Ethan Schoonover (modified by aramisgithub)
-     */
+   * Solarized Light
+   * Ethan Schoonover (modified by aramisgithub)
+   */
   --base00: #fdf6e3;
   --base01: #eee8d5;
   --base02: #93a1a1;
@@ -23,8 +23,8 @@
   /**
    * Typograph
    */
-  --font-family-default: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --font-family-default: system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   --font-size-scaler: 62.5%; /* 1rem = 10px */
   --font-size-m: 1.6rem;
   --font-size-s: 1.4rem;
@@ -59,6 +59,34 @@
 
 html {
   font-size: var(--font-size-scaler);
+}
+
+html.dark {
+  /**
+       * Solarized Dark
+       * Ethan Schoonover (modified by aramisgithub)
+       */
+  --base00: #002b36;
+  --base01: #073642;
+  --base02: #586e75;
+  --base03: #657b83;
+  --base04: #839496;
+  --base05: #93a1a1;
+  --base06: #eee8d5;
+  --base07: #fdf6e3;
+  --base08: #dc322f;
+  --base09: #cb4b16;
+  --base0A: #b58900;
+  --base0B: #859900;
+  --base0C: #2aa198;
+  --base0D: #268bd2;
+  --base0E: #6c71c4;
+  --base0F: #d33682;
+
+  /**
+   * Components
+   */
+  --source-name-color: var(--base0C);
 }
 
 body {
@@ -177,6 +205,28 @@ article .summary-description {
 .button a:hover {
   border-color: var(--article-summary-hover-color);
   color: var(--body-color);
+}
+
+.toggle {
+  color: black;
+  background: transparent;
+  background-color: white;
+  border: 1px solid #0099cc;
+  border-radius: 10px;
+  padding: 1px 3px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 200px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.toggle:hover {
+  color: white;
+  background-color: #008cba;
 }
 
 footer {
