@@ -4,8 +4,6 @@ sources:
   - href: https://www.science.org/rss/news_current.xml
   - href: https://www.smashingmagazine.com/feed/
   - href: https://jvns.ca/atom.xml
-  - href: https://www.zhangxinxu.com/wordpress/feed/
-  - href: https://feeds.feedburner.com/GoogleChromeReleases
   - href: https://randomascii.wordpress.com/feed/
   - href: https://stackoverflow.blog/feed/
   - href: https://manateelazycat.github.io/feed.xml
@@ -14,19 +12,17 @@ sources:
   - href: https://emacs-china.org/posts.rss
   - href: https://hnrss.org/bestcomments
   - href: https://hnrss.org/best
-  - href: https://hnrss.org/active
   - href: https://sachachua.com/blog/feed
   - href: https://corecursive.com/feed
   - href: https://reactjs.org/feed.xml
   - href: https://blog.vuejs.org/feed.rss
-  - href: https://www.v2ex.com/index.xml
+  - href: https://www.v2ex.com/feed/tab/creative.xml
   - href: https://soulteary.com/feed/
   - href: https://www.producthunt.com/feed
   - href: https://stackoverflow.com/feeds/tag/javascript
   - href: https://github.blog/feed/
   - href: https://oremacs.com/atom.xml
   - href: https://feeds.feedburner.com/ruanyifeng
-  - href: https://sspai.com/feed
   - href: https://www.solidot.org/index.rss
   - href: https://blog.codinghorror.com/rss
   - href: https://www.joelonsoftware.com/feed/
@@ -76,16 +72,16 @@ sources:
   - href: https://lynnandtonic.com/feed.xml
   - href: https://www.fosskers.ca/en/rss
   - href: https://web.dev/feed.xml
-  - href: https://aws.amazon.com/blogs/architecture/feed/
   - href: http://www.auiou.com/feed/
   - href: https://blog.binchen.org/rss.xml
   - href: https://blog.tecosaur.com/tmio/rss.xml # Org mode
 
 siteTitle: "技术拓展"
 timezone: Asia/Shanghai
-cacheMaxDays: 14
+cacheMaxDays: 7
 
 ### Sources
+# https://www.zhangxinxu.com/wordpress/
 # https://www.computer.org/csdl/journal/tg
 # https://kdy1.dev/ Creator of SWC(Rust-based platform for the Web )
 # https://hnrss.github.io/ Hacker News RSS
