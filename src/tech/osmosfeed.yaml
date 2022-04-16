@@ -81,6 +81,7 @@ timezone: Asia/Shanghai
 cacheMaxDays: 7
 
 ### Sources
+# https://dirtysalt.github.io/html/blogs.html
 # https://www.zhangxinxu.com/wordpress/
 # https://www.computer.org/csdl/journal/tg
 # https://kdy1.dev/ Creator of SWC(Rust-based platform for the Web )
