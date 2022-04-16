@@ -1,5 +1,8 @@
 cacheUrl: https://tianheg.github.io/feed/life/cache.json
 sources:
+  - href: http://blog.farmostwood.net/feed
+  - href: http://mindhacks.cn/feed/
+  - href: https://xkcd.com/atom.xml
   - href: https://www.yidajiabei.xyz/index.xml
   - href: https://anyway.fm/rss.xml
   - href: http://home.wangjianshuo.com/cn/feed
@@ -35,13 +38,15 @@ sources:
   - href: https://xiaozhou.net/atom.xml
   - href: https://www.xianmin.org/index.xml
   - href: https://elizen.me/index.xml
-  - href: http://www.aaronsw.com/2002/feeds/pgessays.rss
+  - href: https://rsshub.app/blogs/paulgraham
 
 siteTitle: "观察生活"
 timezone: Asia/Shanghai
 cacheMaxDays: 365
 
 ### Sources
+# https://www.economist.com/
+# https://allpoetry.com/
 # https://blog.shuiba.co/
 # https://minemine.cc/
 # https://blogsurf.io/
