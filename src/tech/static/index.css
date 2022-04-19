@@ -103,6 +103,10 @@ body {
   outline: none;
 }
 
+header {
+  font-size: 2rem;
+}
+
 .card {
   border-radius: var(--card-radius);
   box-shadow: var(--card-shadow);
