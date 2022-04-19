@@ -1,5 +1,6 @@
 cacheUrl: https://tianheg.github.io/feed/tech/cache.json
 sources:
+  - href: https://unixsheikh.com/feed.rss
   - href: https://www.emacswiki.org/emacs?action=rss
   - href: https://www.science.org/rss/news_current.xml
   - href: https://www.smashingmagazine.com/feed/
