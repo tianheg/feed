@@ -96,7 +96,6 @@ body {
   margin: 0;
   gap: 24px;
   padding: 16px;
-  display: grid;
   overflow-wrap: break-word;
 }
 
