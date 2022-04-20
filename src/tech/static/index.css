@@ -97,6 +97,7 @@ body {
   gap: 24px;
   padding: 16px;
   display: grid;
+  overflow-wrap: break-word;
 }
 
 :not(:focus-visible) {
