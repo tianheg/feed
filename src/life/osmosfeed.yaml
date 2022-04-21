@@ -1,5 +1,6 @@
 cacheUrl: https://tianheg.github.io/feed/life/cache.json
 sources:
+  - href: http://feeds.feedburner.com/xys # 新语丝 http://www.xys.org/
   - href: http://blog.farmostwood.net/feed
   - href: http://mindhacks.cn/feed/
   - href: https://xkcd.com/atom.xml
