@@ -9,7 +9,7 @@ async function buildStyles() {
   dest_folders.map((elem) => {
     return gulp
       .src(`./static/*.scss`)
-      .pipe(sass.sync().on('error', sass.logError))
+      .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
       .pipe(gulp.dest(elem))
   })
 }
