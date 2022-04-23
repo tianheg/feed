@@ -3,63 +3,68 @@
 
 <head>
   <title>{{siteTitle}}</title>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <link rel="alternate" type="application/rss+xml" title="{{siteTitle}}" href="{{feedHref}}" />
   <link href="reset.css" rel="stylesheet" />
-  <link href="index.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet"/>
   <!-- %before-head-end.html% -->
 </head>
 
 <body>
-  <button class="toggle">Dark mode</button>
   <header>
-    <dl>
-      <dt><b>Site title</b></dt><dd>{{siteTitle}}</dd>
-      <dt><b>Built on</b></dt><dd><time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time></dd>
-      <dt><b>Cli version</b></dt><dd>{{cliVersion}}</dd>
-      <dt><b>Documentation URL</b></dt><dd>{{projectUrl}}</dd>
-    </dl>
+    <button class="toggle"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ph" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="currentColor" d="M222.4 150.9a6.1 6.1 0 0 0-5.7-4.3h-.1l-1.7.3A86 86 0 0 1 109.1 41.1a6.8 6.8 0 0 0 .2-1.4a5.8 5.8 0 0 0-3.7-5.9a6.1 6.1 0 0 0-4-.2a98 98 0 1 0 120.8 120.7a6.5 6.5 0 0 0 0-3.4ZM128 214A86 86 0 0 1 95.2 48.5a98.1 98.1 0 0 0 112.3 112.3A86.1 86.1 0 0 1 128 214Z"></path></svg></button>
     <p><a class="source-name__link" href="../life/">观察生活</a></p>
     <p>常读清单：</p>
     <ul>
       <li><a class="source-name__link" href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
       <li><a class="source-name__link" href="https://2ality.com/" target="_blank">2ality – JavaScript and more</a></li>
-      <li><a class="source-name__link" href="https://meyerweb.com/eric/thoughts/" target="_blank">Thoughts From Eric Archive</a></li>
+      <li><a class="source-name__link" href="https://meyerweb.com/eric/thoughts/" target="_blank">Thoughts
+          From Eric
+          Archive</a></li>
     </ul>
     <p>常读文章：</p>
     <ul>
-      <li><a class="source-name__link" href="https://manateelazycat.github.io/life/2016/03/03/my-life-before-28-years.html" target="_blank">我人生的前28年 | 前 Deepin CTO 王勇</a></li>
-      <li><a class="source-name__link" href="https://manateelazycat.github.io/about.html" target="_blank">王勇的个人介绍</a></li>
-      <li><a class="source-name__link" href="https://geekplux.com/posts/how-i-learned-programming" target="_blank">我是如何学会编程的 | Geekplux</a></li>
-      <li><a class="source-name__link" href="https://lutaonan.com/blog/my-coding-road/" target="_blank">我的编程经历 | Randy's Blog</a></li>
-      <li><a class="source-name__link" href="http://norvig.com/21-days.html" target="_blank">Teach Yourself Programming in Ten Years | Peter Norvig</a></li>
+      <li><a class="source-name__link"
+          href="https://manateelazycat.github.io/life/2016/03/03/my-life-before-28-years.html" target="_blank">我人生的前28年
+          | 前 Deepin CTO 王勇</a></li>
+      <li><a class="source-name__link" href="https://manateelazycat.github.io/about.html" target="_blank">王勇的个人介绍</a>
+      </li>
+      <li><a class="source-name__link" href="https://geekplux.com/posts/how-i-learned-programming"
+          target="_blank">我是如何学会编程的 | Geekplux</a></li>
+      <li><a class="source-name__link" href="https://lutaonan.com/blog/my-coding-road/" target="_blank">我的编程经历
+          | Randy's
+          Blog</a></li>
+      <li><a class="source-name__link" href="http://norvig.com/21-days.html" target="_blank">Teach Yourself Programming
+          in Ten Years | Peter Norvig</a></li>
     </ul>
   </header>
 
   <!-- %after-body-begin.html% -->
-  {{#each dates}}
+  {{#each sources}}
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="{{isoPublishDate}}">{{isoPublishDate}}</time></h2>
+    <h2 class="daily-heading"><a class="source-name__link" href="{{siteUrl}}">{{title}}</a></h2>
     <ul class="sources card">
-      {{#each sources}}
+      {{#each dates}}
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="{{siteUrl}}">{{title}}</a></h3>
+
+          <h3 class="source-name"><time datatime="{{isoPublishDate}}">{{isoPublishDate}}</time></h3>
           <section class="articles-per-source">
 
             {{#each articles}}
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">{{title}}</summary>
-                  <div class="article-summary-box-inner">
-                    <span class="summary-description">{{description}}</span>&nbsp;&nbsp;
-                    <span class="button">
-                      <a href={{link}} target="_blank" rel="noopener noreferrer">Read · {{readingTimeInMin}} min</a>
-                    <span/>
-                  </div>
+                <div class="article-summary-box-inner">
+                  <span class="summary-description">{{description}}</span>&nbsp;&nbsp;
+                  <span class="button">
+                    <a href={{link}} target="_blank" rel="noopener
+                        noreferrer">Read · {{readingTimeInMin}} min</a>
+                    <span />
+                </div>
               </details>
             </article>
             {{/each}}
@@ -70,15 +75,13 @@
   </section>
   {{/each}}
 
-  <script src="index.js"></script>
+  <script src="script.js"></script>
   <!-- %before-body-end.html% -->
 
-  <!-- Convert url in plaintext to clickable link -->
-  <script src="https://cdn.jsdelivr.net/npm/linkifyjs@3.0.3/dist/linkify.min.js"
-    integrity="sha256-T3qrSmmpAv0yc3Zg9ia+TdnfEjEpHShKHJMI5sYYABA=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/linkify-element@3.0.3/dist/linkify-element.min.js"
-    integrity="sha256-ChFxFBSMG0ophsSSWkTT9qS/iN7Rn2/kGYO8qsObbZs=" crossorigin="anonymous"></script>
-  <script>document.querySelectorAll("article .summary-description").forEach($ => linkifyElement($, { attributes: { target: '_blank', rel: 'noopener noreferrer', class: 'article-summary-link'} }))</script>
+  <!-- Convert url in plaintext to clickable link | made for Hacker News -->
+  <script src="https://cdn.jsdelivr.net/npm/linkifyjs@3.0.5/dist/linkify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/linkify-element@3.0.4/dist/linkify-element.min.js"></script>
+  <script>document.querySelectorAll("article .summary-description").forEach($ => linkifyElement($, { attributes: { target: '_blank', rel: 'noopener noreferrer', class: 'article-summary-link' } }))</script>
 </body>
 
 </html>
