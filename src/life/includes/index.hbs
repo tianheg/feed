@@ -38,26 +38,28 @@
   </header>
 
   <!-- %after-body-begin.html% -->
-  {{#each dates}}
+  {{#each sources}}
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="{{isoPublishDate}}">{{isoPublishDate}}</time></h2>
+    <h2 class="daily-heading"><a class="source-name__link" href="{{siteUrl}}" target="_blank">{{title}}</a></h2>
     <ul class="sources card">
-      {{#each sources}}
+      {{#each dates}}
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="{{siteUrl}}">{{title}}</a></h3>
+
+          <h3 class="source-name"><time datatime="{{isoPublishDate}}">{{isoPublishDate}}</time></h3>
           <section class="articles-per-source">
 
             {{#each articles}}
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">{{title}}</summary>
-                  <div class="article-summary-box-inner">
-                    <span class="summary-description">{{description}}</span>&nbsp;&nbsp;
-                    <span class="button">
-                      <a href={{link}} target="_blank" rel="noopener noreferrer">Read · {{readingTimeInMin}} min</a>
-                    <span/>
-                  </div>
+                <div class="article-summary-box-inner">
+                  <span class="summary-description">{{description}}</span>&nbsp;&nbsp;
+                  <span class="button">
+                    <a href={{link}} target="_blank" rel="noopener
+                        noreferrer">Read · {{readingTimeInMin}} min</a>
+                    <span />
+                </div>
               </details>
             </article>
             {{/each}}
