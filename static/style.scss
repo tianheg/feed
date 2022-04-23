@@ -113,9 +113,7 @@ header {
   }
   .list {
     display: flex;
-    flex-wrap: wrap;
-    // width: 500px;
-    height: 300px;
+    width: 100%;
     border: 1px solid black;
     a {
       flex: 1;
@@ -124,6 +122,23 @@ header {
       place-items: center;
       color: var(--base07);
       text-decoration: none;
+      span {
+        border-top: 1px solid black;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    .list {
+      display: grid;
+      grid-template-columns: auto;
     }
   }
 }
