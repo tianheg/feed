@@ -1,5 +1,6 @@
 cacheUrl: https://tianheg.github.io/feed/tech/cache.json
 sources:
+  - href: https://crt.sh/atom?q=tianheg.xyz # 查看HTTPS证书
   - href: https://www.kernel.org/feeds/kdist.xml
   - href: https://unixsheikh.com/feed.rss
   - href: https://www.emacswiki.org/emacs?action=rss
