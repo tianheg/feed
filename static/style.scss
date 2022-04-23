@@ -99,13 +99,41 @@ body {
 }
 
 header {
-  font-size: 2rem;
+  menu a {
+    color: var(--base07);
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+  }
+  p {
+    font-size: 17px;
+    margin: 10px 0;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    // width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    a {
+      flex: 1;
+      margin: 5px;
+      display: grid;
+      place-items: center;
+      color: var(--base07);
+      text-decoration: none;
+    }
+  }
 }
+
 .card {
   border-radius: var(--card-radius);
   box-shadow: var(--card-shadow);
   background: var(--card-bg);
 }
+
 .sources {
   padding: 12px 16px;
   list-style: none;
@@ -113,6 +141,7 @@ header {
   display: grid;
   gap: 16px;
 }
+
 .daily-heading {
   font-size: var(--font-size-s);
   font-weight: 600;
@@ -120,15 +149,18 @@ header {
   padding-left: 16px;
   color: $color_2;
 }
+
 .source {
   display: grid;
   gap: 4px;
 }
+
 .source-name {
   font-size: var(--font-size-s);
   font-weight: 400;
   margin: 0;
 }
+
 .source-name__link {
   color: $color_3;
   text-decoration: none;
@@ -137,10 +169,12 @@ header {
     text-decoration: underline;
   }
 }
+
 .article-expander {
   padding: 2px 4px;
   border-radius: 4px;
 }
+
 .article-expander__title {
   color: $color_5;
   font-size: var(--font-size-m);
@@ -156,6 +190,7 @@ header {
     color: $color_7;
   }
 }
+
 .article-summary-link {
   color: $color_9;
   font-size: var(--font-size-s);
@@ -165,14 +200,17 @@ header {
     --accordion-content-rail-color: var(--accordion-content-hover-rail-color);
   }
 }
+
 .article-summary-box-outer {
   display: block;
   padding: 4px 8px 8px 4px;
 }
+
 .article-summary-box-inner {
   padding-left: 8px;
   border-left: 1px solid var(--accordion-content-rail-color);
 }
+
 article {
   .summary-description {
     font-size: var(--font-size-l);
@@ -206,20 +244,4 @@ article {
   border-radius: 50%;
   border: none;
   cursor: pointer;
-}
-
-footer {
-  color: $color_13;
-  font-size: var(--font-size-s);
-  display: flex;
-  padding: 0 16px;
-  justify-content: space-between;
-}
-.footer-link {
-  color: $color_14;
-  text-decoration: none;
-  &:hover {
-    color: $color_15;
-    text-decoration: underline;
-  }
 }
