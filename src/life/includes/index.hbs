@@ -14,25 +14,27 @@
 </head>
 
 <body>
-  <button class="toggle">Dark mode</button>
+  <button class="toggle"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true" role="img" class="iconify iconify--ph" width="32" height="32"
+        preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+        <path fill="currentColor"
+          d="M222.4 150.9a6.1 6.1 0 0 0-5.7-4.3h-.1l-1.7.3A86 86 0 0 1 109.1 41.1a6.8 6.8 0 0 0 .2-1.4a5.8 5.8 0 0 0-3.7-5.9a6.1 6.1 0 0 0-4-.2a98 98 0 1 0 120.8 120.7a6.5 6.5 0 0 0 0-3.4ZM128 214A86 86 0 0 1 95.2 48.5a98.1 98.1 0 0 0 112.3 112.3A86.1 86.1 0 0 1 128 214Z">
+        </path>
+      </svg></button>
   <header>
-    <dl>
-      <dt><b>Site title</b></dt><dd>{{siteTitle}}</dd>
-      <dt><b>Built on</b></dt><dd><time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time></dd>
-      <dt><b>Cli version</b></dt><dd>{{cliVersion}}</dd>
-      <dt><b>Documentation URL</b></dt><dd>{{projectUrl}}</dd>
-    </dl>
-    <p><a class="source-name__link" href="../tech/">技术拓展</a></p>
+    <menu>
+      <a href="../tech/">技术拓展</a>
+    </menu>
     <p>常读清单：</p>
-    <ul>
-      <li><a class="source-name__link" href="https://100r.co/site/home.html" target="_blank">100 Rabbits</a></li>
-      <li><a class="source-name__link" href="https://perell.com/" target="_blank">David Perell</a></li>
-    </ul>
+    <div class="list">
+      <a href="https://100r.co/site/home.html" target="_blank"><img src="./img/100r.webp" alt="100 Rabbits"><span>100 Rabbits</span></a>
+      <a href="https://perell.com/" target="_blank"><img src="./img/perell.webp" alt="David Perell"><span>David Perell</span></a>
+    </div>
     <p>常读文章：</p>
-    <ul>
-      <li><a class="source-name__link" href="https://perell.com/essay/against-3x-speed/" target="_blank">Against 3X Speed - David Perell</a></li>
-      <li><a class="source-name__link" href="https://80000hours.org/articles/future-generations/" target="_blank">Longtermism: the moral significance of future generations</a></li>
-    </ul>
+    <div class="list">
+      <a href="https://perell.com/essay/against-3x-speed/" target="_blank"><img src="./img/against-3x-speed.webp" alt="Against 3X Speed - David Perell"><span>Against 3X Speed - David Perell</span></a>
+      <a href="https://80000hours.org/articles/future-generations/" target="_blank"><img src="./img/future-generations.webp" alt="Longtermism: the moral significance of future generations"><span>Longtermism: the moral significance of future generations</span></a>
+    </div>
   </header>
 
   <!-- %after-body-begin.html% -->
