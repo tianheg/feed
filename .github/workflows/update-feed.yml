@@ -14,18 +14,24 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v3
+      
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.1.1
         with:
           node-version: "16"
+          
       - name: Install dependencies
         run: npm install -g pnpm && pnpm i
+        
       - name: Build the feed
         run: pnpm run build
+        
       - name: Copy output
         run: pnpm run copy
+        
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
