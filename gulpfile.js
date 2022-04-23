@@ -15,7 +15,7 @@ async function buildStyles() {
 }
 
 function watch() {
-  return gulp.watch('./**/*.scss', buildStyles)
+  return gulp.watch('./static/*.scss', buildStyles)
 }
 
 exports.css = buildStyles
