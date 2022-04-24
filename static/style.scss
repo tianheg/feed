@@ -1,7 +1,5 @@
 $color_1: var(--body-color);
-$color_2: var(--daily-heading-color);
-$color_3: var(--source-name-color);
-$color_4: var(--source-name-hover-color);
+$color_2: var(--site-heading-color);
 $color_5: var(--article-title-color);
 $color_6: var(--article-title-hover-color);
 $color_7: var(--accordion-title-marker-color);
@@ -44,21 +42,21 @@ $border-color_1: var(--article-summary-hover-color);
   --font-size-l: 1.2rem;
   --body-color: var(--base07);
   --body-bg: var(--base01);
-  --daily-heading-color: var(--base04);
-  --source-name-color: var(--base0D);
-  --source-name-hover-color: var(--base0D);
+  --site-heading-color: var(--base04);
+  --source-name-color: var(--base0d);
+  --source-name-hover-color: var(--base0d);
   --article-title-color: var(--base05);
   --article-title-hover-color: var(--base0E);
   --article-summary-color: var(--base04);
-  --article-summary-hover-color: var(--base0D);
+  --article-summary-hover-color: var(--base0d);
   --accordion-content-rail-color: var(--base01);
-  --accordion-content-hover-rail-color: var(--base0D);
+  --accordion-content-hover-rail-color: var(--base0d);
   --accordion-title-marker-color: var(--base01);
   --accordion-title-hover-marker-color: var(--base0E);
   --card-bg: var(--base00);
   --card-shadow: none;
   --card-radius: 0;
-  --footer-link-hover-color: var(--base0D);
+  --footer-link-hover-color: var(--base0d);
 }
 
 :root.dark {
@@ -78,7 +76,7 @@ $border-color_1: var(--article-summary-hover-color);
   --base0d: #268bd2;
   --base0e: #6c71c4;
   --base0f: #d33682;
-  --source-name-color: var(--base0C);
+  --source-name-color: var(--base0c);
 }
 
 html {
@@ -99,7 +97,7 @@ body {
 }
 
 header {
-  menu a {
+  menu > a {
     color: var(--base07);
     font-size: 20px;
     text-decoration: none;
@@ -157,7 +155,11 @@ header {
   gap: 16px;
 }
 
-.daily-heading {
+.site-content {
+  margin: 10px 0;
+}
+
+.site-heading {
   font-size: var(--font-size-s);
   font-weight: 600;
   margin: 0 0 8px 0;
@@ -177,10 +179,10 @@ header {
 }
 
 .source-name__link {
-  color: $color_3;
+  color: var(--source-name-color);
   text-decoration: none;
   &:hover {
-    color: $color_4;
+    color: var(--source-name-hover-color);
     text-decoration: underline;
   }
 }
