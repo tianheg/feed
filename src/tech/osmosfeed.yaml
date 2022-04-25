@@ -1,5 +1,10 @@
 cacheUrl: https://f.tianheg.xyz/tech/cache.json
 sources:
+  - href: https://opensource.com/feed
+  - href: https://www.linuxfoundation.org/feed/
+  - href: https://www.linux.com/feed/
+  - href: https://lwn.net/headlines/newrss
+  - href: https://www.linux.org/articles/index.rss
   - href: https://hnrss.org/best
   - href: https://projecteuler.net/rss2_euler.xml
   - href: https://crt.sh/atom?q=yidajiabei.xyz
@@ -82,6 +87,7 @@ timezone: Asia/Shanghai
 cacheMaxDays: 7
 
 ### Sources
+# https://tldp.org/
 # https://dirtysalt.github.io/html/blogs.html
 # https://www.zhangxinxu.com/wordpress/
 # https://www.computer.org/csdl/journal/tg
