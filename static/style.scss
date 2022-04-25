@@ -244,21 +244,13 @@ article {
   .summary-description {
     font-size: var(--font-size-l);
   }
-}
-
-.button {
   a {
-    font-size: var(--font-size-l);
     text-decoration: none;
-    border: 1px solid var(--article-summary-color);
     color: $color_9;
     display: inline-block;
-    margin-top: 8px;
-    padding: 2px 8px;
+    padding: .6em .8em;
     border-radius: 4px;
-    justify-self: start;
     &:hover {
-      border-color: $border-color_1;
       color: $color_1;
     }
   }
