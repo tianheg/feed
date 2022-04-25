@@ -1,5 +1,6 @@
 cacheUrl: https://f.tianheg.xyz/life/cache.json
 sources:
+  - href: https://rexwang.cc/feed.xml
   - href: http://www.loyhome.com/feed/
   - href: https://www.liechi.org/cn/index.xml
   - href: https://yufree.cn/cn/index.xml
