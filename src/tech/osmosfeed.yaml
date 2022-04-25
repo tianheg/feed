@@ -44,8 +44,6 @@ sources:
   - href: https://www.gnu.org/rss/whatsnew.rss
   - href: https://www.gnu.org/rss/quagga.rss
   - href: https://distrowatch.com/news/dw.xml
-  - href: https://www.xiabingbao.com/atom.xml
-  - href: https://blog.codingnow.com/index.xml
   - href: https://luolei.org/feed/
   - href: https://windard.com/feed.xml
   - href: https://ridiqulous.com/feed/
@@ -111,3 +109,5 @@ cacheMaxDays: 7
 # https://tech.youzan.com/
 # https://stackoverflow.com/questions/tagged/javascript
 # https://emacs-china.org/
+# https://www.xiabingbao.com/
+# https://blog.codingnow.com/
