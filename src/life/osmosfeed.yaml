@@ -1,5 +1,6 @@
 cacheUrl: https://f.tianheg.xyz/life/cache.json
 sources:
+  - href: https://yufree.cn/cn/index.xml
   - href: https://61.life/feed.xml
   - href: https://yuanfan.vercel.app/index.xml
   - href: https://byvoid.com/zht/feed.xml
