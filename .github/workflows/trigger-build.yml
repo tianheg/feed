@@ -8,7 +8,12 @@ on:
     # Recommended tool: https://crontab.guru/
     - cron: "0 22 * * *"
 
+concurrency: 
+  group: ${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
 jobs:
-  build:
+  trigger:
     runs-on: ubuntu-latest
-    run: curl -X POST ${{ secrets.VERCEL_HOOK }}
+    steps:
+      - run: curl -X POST ${{ secrets.VERCEL_HOOK }}
