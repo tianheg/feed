@@ -49,7 +49,7 @@ sources:
 
 siteTitle: "观察生活"
 timezone: Asia/Shanghai
-cacheMaxDays: 365
+cacheMaxDays: 180
 
 ### Sources
 # https://www.economist.com/
