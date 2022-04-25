@@ -1,4 +1,4 @@
-cacheUrl: https://tianheg.github.io/feed/life/cache.json
+cacheUrl: https://f.tianheg.xyz/life/cache.json
 sources:
   - href: https://61.life/feed.xml
   - href: https://yuanfan.vercel.app/index.xml
