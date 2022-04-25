@@ -27,30 +27,19 @@
     </menu>
     <p>常读清单：</p>
     <div class="list">
-      <a href="https://css-tricks.com/" target="_blank"><img src="./img/css-tricks.webp" alt="CSS Tricks"><span>CSS
-          Tricks</span></a>
-      <a href="https://2ality.com/" target="_blank"><img src="./img/2ality.webp"
-          alt="2ality – JavaScript and more"><span>2ality – JavaScript and more</span></a>
-      <a href="https://meyerweb.com/eric/thoughts/" target="_blank"><img src="./img/meyerweb.webp"
-          alt="Thoughts From Eric Archive"><span>Thoughts From Eric Archive</span></a>
-      <a href="https://csdiy.wiki/" target="_blank"><img src="./img/csdiy.wiki.webp" alt="CS 自学指南"><span>CS
-          自学指南</span></a>
+      <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer"><img src="./img/css-tricks.webp" alt="CSS Tricks"><span>CSS Tricks</span></a>
+      <a href="https://2ality.com/" target="_blank" rel="noopener noreferrer"><img src="./img/2ality.webp" alt="2ality – JavaScript and more"><span>2ality – JavaScript and more</span></a>
+      <a href="https://meyerweb.com/eric/thoughts/" target="_blank" rel="noopener noreferrer"><img src="./img/meyerweb.webp" alt="Thoughts From Eric Archive"><span>Thoughts From Eric Archive</span></a>
+      <a href="https://csdiy.wiki/" target="_blank" rel="noopener noreferrer"><img src="./img/csdiy.wiki.webp" alt="CS 自学指南"><span>CS 自学指南</span></a>
     </div>
 
     <p>常读文章：</p>
     <div class="list">
-      <a href="https://manateelazycat.github.io/life/2016/03/03/my-life-before-28-years.html" target="_blank"><img
-          src="./img/my-life-before-28-years.webp" alt="我人生的前28年 | 前 Deepin CTO 王勇"><span>我人生的前28年 | 前 Deepin CTO
-          王勇</span></a>
-      <a href="https://manateelazycat.github.io/about.html" target="_blank"><img src="./img/about-wangyong.webp"
-          alt="王勇的个人介绍"><span>王勇的个人介绍</span></a>
-      <a href="https://geekplux.com/posts/how-i-learned-programming" target="_blank"><img src="./img/geekplux.webp"
-          alt="我是如何学会编程的 | Geekplux"><span>我是如何学会编程的 | Geekplux</span></a>
-      <a href="https://lutaonan.com/blog/my-coding-road/" target="_blank"><img src="./img/lutaonan.webp"
-          alt="我的编程经历 | Randy's Blog"><span>我的编程经历 | Randy's Blog</span></a>
-      <a href="http://norvig.com/21-days.html" target="_blank"><img src="./img/teach-yourself-ten.webp"
-          alt="Teach Yourself Programming in Ten Years | Peter Norvig"><span>Teach Yourself Programming in Ten
-          Years</span></a>
+      <a href="https://manateelazycat.github.io/life/2016/03/03/my-life-before-28-years.html" target="_blank" rel="noopener noreferrer"><img src="./img/my-life-before-28-years.webp" alt="我人生的前28年 | 前 Deepin CTO 王勇"><span>我人生的前28年 | 前 Deepin CTO 王勇</span></a>
+      <a href="https://manateelazycat.github.io/about.html" target="_blank" rel="noopener noreferrer"><img src="./img/about-wangyong.webp" alt="王勇的个人介绍"><span>王勇的个人介绍</span></a>
+      <a href="https://geekplux.com/posts/how-i-learned-programming" target="_blank" rel="noopener noreferrer"><img src="./img/geekplux.webp" alt="我是如何学会编程的 | Geekplux"><span>我是如何学会编程的 | Geekplux</span></a>
+      <a href="https://lutaonan.com/blog/my-coding-road/" target="_blank" rel="noopener noreferrer"><img src="./img/lutaonan.webp" alt="我的编程经历 | Randy's Blog"><span>我的编程经历 | Randy's Blog</span></a>
+      <a href="http://norvig.com/21-days.html" target="_blank" rel="noopener noreferrer"><img src="./img/teach-yourself-ten.webp" alt="Teach Yourself Programming in Ten Years | Peter Norvig"><span>Teach Yourself Programming in Ten Years</span></a>
     </div>
   </header>
 
@@ -60,8 +49,7 @@
     <details class="site-expander">
       <summary>
         <div class="flex-container">
-          <h2 class="site-heading">{{title}}</h2><a class="site-heading-url" href="{{siteUrl}}"
-            target="_blank">(&hairsp;siteUrl&hairsp;)</a>
+          <h2 class="site-heading">{{title}}</h2><a class="site-heading-url" href="{{siteUrl}}" target="_blank" rel="noopener noreferrer">(&hairsp;siteUrl&hairsp;)</a>
         </div>
       </summary>
 
@@ -78,11 +66,10 @@
                 <details class="article-expander">
                   <summary class="article-expander__title">{{title}}</summary>
                   <div class="article-summary-box-inner">
-                    <span class="summary-description">{{description}}</span>&nbsp;&nbsp;
-                    <span class="button">
-                      <a href={{link}} target="_blank" rel="noopener
-                        noreferrer">&hairsp;{{readingTimeInMin}} min&hairsp;</a>
-                      <span />
+                    <a href={{link}} target="_blank" rel="noopener noreferrer">
+                      <span class="summary-description">{{description}}</span>&nbsp;&nbsp;
+                      <span class="button">&hairsp;{{readingTimeInMin}} min&hairsp;</span>
+                    </a>
                   </div>
                 </details>
               </article>
