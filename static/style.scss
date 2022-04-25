@@ -159,12 +159,24 @@ header {
   margin: 10px 0;
 }
 
-.site-heading {
-  font-size: var(--font-size-s);
-  font-weight: 600;
-  margin: 0 0 8px 0;
-  padding-left: 16px;
-  color: $color_2;
+.site-expander {
+  .flex-container {
+    display: flex;
+    margin: -1.7em 0 0 .9em;
+    .site-heading {
+      font-size: var(--font-size-s);
+      color: var(--site-heading-color);
+    }
+    .site-heading-url {
+      margin: .3em 0 0 1em;
+      color: var(--site-heading-color);
+      text-decoration: none;
+      &:hover {
+        color: var(--source-name-hover-color);
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .source {
