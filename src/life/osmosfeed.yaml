@@ -55,7 +55,7 @@ siteTitle: "观察生活"
 timezone: Asia/Shanghai
 cacheMaxDays: 180
 
-### Sources
+### Sources(without feed / feed won't work)
 # https://www.economist.com/
 # https://allpoetry.com/
 # https://blog.shuiba.co/
@@ -65,3 +65,6 @@ cacheMaxDays: 180
 # https://danwang.co/
 # https://nav.al/
 # https://blog.fueis.com/
+### Email
+# https://geekplux.zhubai.love/ (paid)
+# https://via.zhubai.love/ (paid)
