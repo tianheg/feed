@@ -1,5 +1,9 @@
 cacheUrl: https://f.tianheg.xyz/life/cache.json
 sources:
+  # podcast
+  - href: https://www.stovol.club/rss
+  - href: https://anyway.fm/rss.xml
+  # blog
   - href: http://iyoubo.com:800/feed/
   - href: https://rexwang.cc/feed.xml
   - href: http://www.loyhome.com/feed/
@@ -15,7 +19,6 @@ sources:
   - href: http://mindhacks.cn/feed/
   - href: https://xkcd.com/atom.xml
   - href: https://www.yidajiabei.xyz/index.xml
-  - href: https://anyway.fm/rss.xml
   - href: http://home.wangjianshuo.com/cn/feed
   - href: https://www.yangzhiping.com/feed.xml
   - href: https://www.dailyartmagazine.com/feed/
