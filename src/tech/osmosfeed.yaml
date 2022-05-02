@@ -1,5 +1,6 @@
 cacheUrl: https://f.tianheg.xyz/tech/cache.json
 sources:
+  - href: http://www.stallman.org/rss/rss.xml
   - href: https://git.savannah.gnu.org/cgit/emacs/org-mode.git/atom/?h=main
   - href: https://plausible.io/blog/feed.xml
   - href: https://feed.ctrl.blog/latest.atom
