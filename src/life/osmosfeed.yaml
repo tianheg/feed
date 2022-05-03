@@ -6,6 +6,7 @@ sources:
   - href: https://anchor.fm/s/47795d0/podcast/rss # 海马星球
   - href: http://steveshuo.com/rss
   # blog
+  - href: https://vocus.cc/rss/user/60178f8efd8978000150ecae/article.xml
   - href: http://poemsays.blogspot.com/feeds/posts/default?alt=rss
   - href: http://iyoubo.com:800/feed/
   - href: https://rexwang.cc/feed.xml
@@ -63,6 +64,7 @@ timezone: Asia/Shanghai
 cacheMaxDays: 180
 
 ### Sources(without feed / feed won't work)
+# https://vocus.cc/honeypie/home
 # https://www.economist.com/
 # https://allpoetry.com/
 # https://blog.shuiba.co/
