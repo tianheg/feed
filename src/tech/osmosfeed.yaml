@@ -22,7 +22,6 @@ sources:
   - href: https://www.smashingmagazine.com/feed/
   - href: https://jvns.ca/atom.xml
   - href: https://randomascii.wordpress.com/feed/
-  - href: https://stackoverflow.blog/feed/
   - href: https://manateelazycat.github.io/feed.xml
   - href: https://emacstalk.github.io/podcast/index.xml
   - href: https://code.visualstudio.com/feed.xml
@@ -32,8 +31,6 @@ sources:
   - href: https://reactjs.org/feed.xml
   - href: https://blog.vuejs.org/feed.rss
   - href: https://www.v2ex.com/feed/tab/creative.xml
-  - href: https://soulteary.com/feed/
-  - href: https://www.producthunt.com/feed
   - href: https://github.blog/feed/
   - href: https://oremacs.com/atom.xml
   - href: https://feeds.feedburner.com/ruanyifeng
@@ -64,12 +61,8 @@ sources:
   - href: https://www.skywind.me/blog/feed
   - href: https://coolshell.cn/feed
   - href: https://blog.google/products/chrome/rss/
-  - href: https://feeds.feedburner.com/TheWillWillWeb
   - href: https://chinese.catchen.me/feeds/posts/default
-  - href: https://www.jdon.com/rss
   - href: https://hacks.mozilla.org/feed/
-  - href: https://leancloudblog.com/rss.xml
-  - href: https://blog.zhheo.com/rss.xml
   - href: https://hfdavidyu.com/feed/
   - href: https://vivaxyblog.github.io/atom.xml
   - href: https://www.isaced.com/index.xml
@@ -84,7 +77,6 @@ sources:
   - href: https://lynnandtonic.com/feed.xml
   - href: https://www.fosskers.ca/en/rss
   - href: https://web.dev/feed.xml
-  - href: http://www.auiou.com/feed/
   - href: https://blog.binchen.org/rss.xml
   - href: https://blog.tecosaur.com/tmio/rss.xml # Org mode
 
@@ -93,6 +85,7 @@ timezone: Asia/Shanghai
 cacheMaxDays: 7
 
 ### Sources
+# https://www.producthunt.com/
 # https://www.mailgun.com/blog/
 # https://tldp.org/
 # https://dirtysalt.github.io/html/blogs.html
@@ -121,6 +114,7 @@ cacheMaxDays: 7
 # https://treecat.cn/#/
 # https://tech.youzan.com/
 # https://stackoverflow.com/questions/tagged/javascript
+# https://stackoverflow.blog/
 # https://emacs-china.org/
 # https://www.xiabingbao.com/
 # https://blog.codingnow.com/
