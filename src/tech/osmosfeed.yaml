@@ -1,5 +1,6 @@
 cacheUrl: https://f.tianheg.xyz/tech/cache.json
 sources:
+  - href: https://lug.ustc.edu.cn/feed.xml
   - href: https://blog.mozilla.org/en/feed/
   - href: https://imququ.com/rss.html
   - href: http://www.stallman.org/rss/rss.xml
