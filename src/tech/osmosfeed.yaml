@@ -1,5 +1,6 @@
 cacheUrl: https://f.tianheg.xyz/tech/cache.json
 sources:
+  - href: https://spidermonkey.dev/feed.xml
   - href: https://rsshub-tianheg.vercel.app/github/issue/Geekhyt/weekly
   - href: https://www.swyx.io/api/rss.xml
   - href: https://lug.ustc.edu.cn/feed.xml
@@ -87,6 +88,7 @@ timezone: Asia/Shanghai
 cacheMaxDays: 7
 
 ### Sources
+# https://brendaneich.com/ JS 作者
 # https://crt.sh/ 查看 HTTPS 证书。CNAME 记录
 # https://www.producthunt.com/
 # https://www.mailgun.com/blog/
