@@ -1,6 +1,7 @@
 cacheUrl: https://f.tianheg.xyz/tech/cache.json
 sources:
   - href: https://spidermonkey.dev/feed.xml
+  - href: https://about.gitlab.com/atom.xml
   - href: https://archlinux.org/feeds/releases/
   - href: https://rsshub-tianheg.vercel.app/github/issue/Geekhyt/weekly
   - href: https://www.swyx.io/api/rss.xml
