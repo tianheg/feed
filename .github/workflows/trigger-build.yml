@@ -6,7 +6,7 @@ on:
     # Adjust refresh schedule here. By default, it runs once per day.
     # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
     # Recommended tool: https://crontab.guru/
-    - cron: "0 20 * * *"
+    - cron: "24 20 * * *"
 
 concurrency: 
   group: ${{ github.head_ref || github.run_id }}
