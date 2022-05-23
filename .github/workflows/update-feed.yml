@@ -2,14 +2,14 @@ name: Build GitHub Pages
 
 on:
   push:
-      branches:
-        - main
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     # Adjust refresh schedule here. By default, it runs once per day.
     # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
     # Recommended tool: https://crontab.guru/
-    - cron: "0 22 * * *"
+    - cron: '0 22 * * *'
 
 jobs:
   build:
@@ -18,7 +18,7 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Cache pnpm modules
         uses: actions/cache@v3
         with:
@@ -26,7 +26,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-
-        
+
       - uses: pnpm/action-setup@v2.2.1
         with:
           version: latest
@@ -35,15 +35,15 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.2.0
         with:
-          node-version: "16"
+          node-version: '16'
           cache: 'pnpm'
-        
+
       - name: Build the feed
         run: pnpm run build
-        
+
       - name: Copy output
         run: pnpm run copy
-        
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
