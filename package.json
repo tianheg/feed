@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "concurrently \"pnpm:build:*\"",
-    "build:life": "pnpm run build --prefix src/life",
-    "build:tech": "pnpm run build --prefix src/tech",
+    "build:life": "pnpm --prefix src/life build",
+    "build:tech": "pnpm --prefix src/tech build",
     "style": "gulp css",
     "watch": "gulp watch",
     "copy": "node copy.mjs"
