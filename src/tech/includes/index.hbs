@@ -82,6 +82,15 @@
   </section>
   {{/each}}
 
+  <footer>
+      {{#if githubRunUrl}}
+      <a class="footer-link" href="{{githubRunUrl}}">
+        <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
+      </a>
+      {{else}}
+      <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
+      {{/if}}
+  </footer>
   <script src="script.js"></script>
   <!-- %before-body-end.html% -->
 </body>
