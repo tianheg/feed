@@ -7,7 +7,6 @@ sources:
   # V2EX 问与答
   - href: https://rsshub-tianheg.vercel.app/v2ex/tab/ideas
   # V2EX 奇思妙想
-  - href: https://www.v2ex.com/feed/tab/creative.xml
   - href: https://nodejs.org/en/feed/releases.xml
   - href: https://about.gitlab.com/atom.xml
   - href: https://archlinux.org/feeds/releases/
