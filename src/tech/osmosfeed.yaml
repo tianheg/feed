@@ -1,6 +1,13 @@
 cacheUrl: https://f.tianheg.xyz/tech/cache.json
 sources:
   - href: https://spidermonkey.dev/feed.xml
+  - href: https://www.v2ex.com/feed/member/livid.xml
+  #  Livid 在V2EX创建的主题
+  - href: https://rsshub-tianheg.vercel.app/v2ex/tab/qna
+  # V2EX 问与答
+  - href: https://rsshub-tianheg.vercel.app/v2ex/tab/ideas
+  # V2EX 奇思妙想
+  - href: https://www.v2ex.com/feed/tab/creative.xml
   - href: https://nodejs.org/en/feed/releases.xml
   - href: https://about.gitlab.com/atom.xml
   - href: https://archlinux.org/feeds/releases/
@@ -36,7 +43,6 @@ sources:
   - href: https://corecursive.com/feed
   - href: https://reactjs.org/feed.xml
   - href: https://blog.vuejs.org/feed.rss
-  - href: https://www.v2ex.com/feed/tab/creative.xml
   - href: https://github.blog/feed/
   - href: https://oremacs.com/atom.xml
   - href: https://feeds.feedburner.com/ruanyifeng
