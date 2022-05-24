@@ -2,7 +2,6 @@ cacheUrl: https://f.tianheg.xyz/life/cache.json
 sources:
   # podcast
   - href: https://www.stovol.club/rss
-  - href: https://anyway.fm/rss.xml
   - href: https://anchor.fm/s/47795d0/podcast/rss # 海马星球
   - href: http://steveshuo.com/rss
   - href: https://open.firstory.me/rss/user/ckocit4tv7bon0899vfs0b3id
@@ -12,26 +11,23 @@ sources:
   - href: https://justinyan.me/feed
   - href: https://feedpress.me/thetechnium
   - href: https://hongtaoh.com/cn/blog/index.xml
-  - href: https://macshuo.com/?feed=rss2
   - href: https://vocus.cc/rss/user/60178f8efd8978000150ecae/article.xml
-  - href: http://poemsays.blogspot.com/feeds/posts/default?alt=rss
   - href: http://iyoubo.com:800/feed/
-  - href: https://rexwang.cc/feed.xml
   - href: http://www.loyhome.com/feed/
   - href: https://www.liechi.org/cn/index.xml
   - href: https://yufree.cn/cn/index.xml
-  - href: https://61.life/feed.xml
   - href: https://yuanfan.vercel.app/index.xml
-  - href: https://byvoid.com/zht/feed.xml
   - href: https://cyrusyip.org/post/index.xml
+  ## 叶寻，有感于他的“鼓励”页面
   - href: https://blog.strava.com/feed/
-  - href: http://feeds.feedburner.com/xys # 新语丝 http://www.xys.org/
+  ## 听听别人的运动故事
+  - href: http://feeds.feedburner.com/xys
+  ## 新语丝 http://www.xys.org/
   - href: http://blog.farmostwood.net/feed
-  - href: http://mindhacks.cn/feed/
+  ## 木遥，文章有灵性，能启迪
   - href: https://xkcd.com/atom.xml
   - href: https://www.yidajiabei.xyz/index.xml
   - href: http://home.wangjianshuo.com/cn/feed
-  - href: https://www.yangzhiping.com/feed.xml
   - href: https://www.dailyartmagazine.com/feed/
   - href: https://tundrazone.com/feed/
   - href: https://100r.co/links/rss.xml
@@ -71,6 +67,9 @@ timezone: Asia/Shanghai
 cacheMaxDays: 180
 
 ### Sources(without feed / feed won't work)
+# http://www.xys.org/ 新语丝（镜像：https://newxys6.com/）
+# https://www.yangzhiping.com/ 阳志平
+# http://mindhacks.cn/ 刘未鹏
 # https://vocus.cc/honeypie/home
 # https://www.economist.com/
 # https://allpoetry.com/
