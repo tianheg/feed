@@ -8,9 +8,11 @@ toggle.addEventListener('click', () => {
   const root = document.querySelector(':root')
   root.classList.toggle('dark')
   if (root.classList.contains('dark')) {
-    toggle.setHTML(sun)
+    toggle.innerHTML = sun
+    // experimental feature: toggle.setHTML(sun)
   } else {
-    toggle.setHTML(moon)
+    toggle.innerHTML = moon
+    // experimental feature: toggle.setHTML(moon)
   }
 })
 
@@ -42,10 +44,12 @@ toggle_details.addEventListener('click', () => {
   details.forEach((detail) => {
     if (detail.hasAttribute('open')) {
       detail.removeAttribute('open')
-      toggle_details.setHTML(expand)
+      toggle_details.innerHTML = expand
+      // experimental feature: toggle_details.setHTML(expand)
     } else {
       detail.setAttribute('open', '')
-      toggle_details.setHTML(collapse)
+      toggle_details.innerHTML = collapse
+      // experimental feature: toggle_details.setHTML(collapse)
     }
   })
 })
