@@ -1,4 +1,4 @@
-cacheUrl: https://f.tianheg.xyz/tech/cache.json
+cacheUrl: https://feed.tianheg.xyz/tech/cache.json
 sources:
   - href: https://spidermonkey.dev/feed.xml
   - href: https://www.v2ex.com/feed/member/livid.xml

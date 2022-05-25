@@ -1,4 +1,4 @@
-cacheUrl: https://f.tianheg.xyz/life/cache.json
+cacheUrl: https://feed.tianheg.xyz/life/cache.json
 sources:
   # podcast
   - href: https://www.stovol.club/rss
