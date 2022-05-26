@@ -1,6 +1,8 @@
 cacheUrl: https://feed.tianheg.xyz/tech/cache.json
 sources:
   - href: https://spidermonkey.dev/feed.xml
+  - href: https://www.joshwcomeau.com/rss.xml
+  # 这个人写的教程容易理解
   - href: https://www.v2ex.com/feed/member/livid.xml
   #  Livid 在V2EX创建的主题
   - href: https://rsshub-tianheg.vercel.app/v2ex/tab/qna
