@@ -1,5 +1,6 @@
 {
   "redirects": [
-    { "source": "/(.*)", "destination": "/index.html" }
+      { "source": "/life", "destination": "/life/" },
+      { "source": "/tech", "destination": "/tech/" }
   ]
 }
