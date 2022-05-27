@@ -8,7 +8,6 @@ sources:
   - href: https://rss.art19.com/tim-ferriss-show
   - href: https://feeds.megaphone.fm/HS2300184645
   # blog
-  - href: https://hayami.typlog.io/archive/
   - href: https://justinyan.me/feed
   - href: https://feedpress.me/thetechnium
   - href: https://hongtaoh.com/cn/blog/index.xml
@@ -68,6 +67,7 @@ timezone: Asia/Shanghai
 cacheMaxDays: 180
 
 ### Sources(without feed / feed won't work)
+# https://hayami.typlog.io/archive/
 # http://www.xys.org/ 新语丝（镜像：https://newxys6.com/）
 # https://www.yangzhiping.com/ 阳志平
 # http://mindhacks.cn/ 刘未鹏
