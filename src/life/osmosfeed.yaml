@@ -8,6 +8,8 @@ sources:
   - href: https://rss.art19.com/tim-ferriss-show
   - href: https://feeds.megaphone.fm/HS2300184645
   # blog
+  - href: https://blog.duanfei.org/feed/atom.xml
+  ## 被这个人读的书吸引 https://github.com/shaonianche
   - href: https://justinyan.me/feed
   - href: https://feedpress.me/thetechnium
   - href: https://hongtaoh.com/cn/blog/index.xml
