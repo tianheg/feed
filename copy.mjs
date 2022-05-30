@@ -15,5 +15,6 @@ async function copy() {
 
 fs.copy('./index.html', './dist/index.html')
 fs.copy('./favicon.ico', './dist/favicon.ico')
+fs.copy('./vercel.json', './dist/vercel.json')
 
 copy()
