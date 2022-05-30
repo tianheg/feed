@@ -2,6 +2,8 @@ cacheUrl: https://feed.tianheg.xyz/tech/cache.json
 sources:
   - href: https://spidermonkey.dev/feed.xml
   # Firefox 使用的 JavaScript 引擎
+  - href: https://www.w3.org/blog/news/feed/atom
+  # W3C 博客
   - href: https://www.joshwcomeau.com/rss.xml
   # 这个人写的教程容易理解
   - href: https://www.v2ex.com/feed/member/livid.xml
