@@ -69,6 +69,7 @@ timezone: Asia/Shanghai
 cacheMaxDays: 180
 
 ### Sources(without feed / feed won't work)
+# https://huozhi.im/post
 # https://hayami.typlog.io/archive/
 # http://www.xys.org/ 新语丝（镜像：https://newxys6.com/）
 # https://www.yangzhiping.com/ 阳志平
