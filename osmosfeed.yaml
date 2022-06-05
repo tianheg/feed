@@ -1,5 +1,6 @@
 cacheUrl: https://feed.tianheg.xyz/tech/cache.json
 sources:
+  ### TECH
   - href: https://spidermonkey.dev/feed.xml
   # Firefox 使用的 JavaScript 引擎
   - href: https://www.w3.org/blog/news/feed/atom
@@ -92,8 +93,72 @@ sources:
   - href: https://web.dev/feed.xml
   - href: https://blog.binchen.org/rss.xml
   - href: https://blog.tecosaur.com/tmio/rss.xml # Org mode
+  ### LIFE
+  # podcast
+  - href: https://www.stovol.club/rss
+  - href: https://anchor.fm/s/47795d0/podcast/rss # 海马星球
+  - href: http://steveshuo.com/rss
+  - href: https://open.firstory.me/rss/user/ckocit4tv7bon0899vfs0b3id
+  - href: https://rss.art19.com/tim-ferriss-show
+  - href: https://feeds.megaphone.fm/HS2300184645
+  # blog
+  - href: https://blog.duanfei.org/feed/atom.xml
+  ## 被这个人读的书吸引 https://github.com/shaonianche
+  - href: https://justinyan.me/feed
+  - href: https://feedpress.me/thetechnium
+  - href: https://hongtaoh.com/cn/blog/index.xml
+  - href: https://vocus.cc/rss/user/60178f8efd8978000150ecae/article.xml
+  - href: http://iyoubo.com:800/feed/
+  - href: http://www.loyhome.com/feed/
+  - href: https://www.liechi.org/cn/index.xml
+  - href: https://yufree.cn/cn/index.xml
+  - href: https://yuanfan.vercel.app/index.xml
+  - href: https://cyrusyip.org/post/index.xml
+  ## 叶寻，有感于他的“鼓励”页面
+  - href: https://blog.strava.com/feed/
+  ## 听听别人的运动故事
+  - href: http://feeds.feedburner.com/xys
+  ## 新语丝 http://www.xys.org/
+  - href: http://blog.farmostwood.net/feed
+  ## 木遥，文章有灵性，能启迪
+  - href: https://xkcd.com/atom.xml
+  - href: https://www.yidajiabei.xyz/index.xml
+  - href: http://home.wangjianshuo.com/cn/feed
+  - href: https://www.dailyartmagazine.com/feed/
+  - href: https://tundrazone.com/feed/
+  - href: https://100r.co/links/rss.xml
+  - href: https://blog.ricksteves.com/feed/
+  - href: https://silverrainz.me/blog/atom.xml
+  - href: https://pythonhunter.org/feed/audio.xml
+  - href: https://yixiuer.me/atom.xml
+  - href: https://yihui.org/cn/index.xml
+  - href: https://io-oi.me/rss.xml
+  - href: https://geekplux.com/feed.xml
+  - href: https://lutaonan.com/rss.xml
+  - href: https://www.barretlee.com/rss2.xml
+  - href: https://zapier.com/engine/rss/8560261/robfitz
+  - href: https://aeon.co/feed.rss
+  - href: https://conge.github.io/feed.xml
+  - href: https://bytem.io/rss.xml
+  - href: https://shud.in/feed.xml
+  - href: https://zenhabits.net/feed/
+  - href: https://matnoble.me/atom.xml
+  - href: https://perell.com/feed/
+  - href: https://www.scotthyoung.com/blog/feed/
+  - href: https://diygod.me/atom.xml
+  - href: https://hawstein.com/feed.xml
+  - href: https://immmmm.com/atom.xml
+  - href: https://yuguo.us/feed.xml
+  - href: https://blog.turn.tw/?feed=rss2
+  - href: https://jysperm.me/atom.xml
+  - href: https://www.zackwu.com/feed.xml
+  - href: https://xiaozhou.net/atom.xml
+  - href: https://www.xianmin.org/index.xml
+  - href: https://elizen.me/index.xml
+  - href: https://rsshub.app/blogs/paulgraham
+  - href: https://80000hours.org/feed/
 
-siteTitle: "技术拓展"
+siteTitle: "阅读与思考"
 timezone: Asia/Shanghai
 cacheMaxDays: 7
 
@@ -136,3 +201,21 @@ cacheMaxDays: 7
 # https://emacs-china.org/
 # https://www.xiabingbao.com/
 # https://blog.codingnow.com/
+# https://huozhi.im/post
+# https://hayami.typlog.io/archive/
+# http://www.xys.org/ 新语丝（镜像：https://newxys6.com/）
+# https://www.yangzhiping.com/ 阳志平
+# http://mindhacks.cn/ 刘未鹏
+# https://vocus.cc/honeypie/home
+# https://www.economist.com/
+# https://allpoetry.com/
+# https://blog.shuiba.co/
+# https://minemine.cc/
+# https://blogsurf.io/
+# https://www.lipk.org/
+# https://danwang.co/
+# https://nav.al/
+# https://blog.fueis.com/
+### Email
+# https://geekplux.zhubai.love/ (paid)
+# https://via.zhubai.love/ (paid)

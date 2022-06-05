@@ -3,7 +3,7 @@
 const gulp = require('gulp')
 const sass = require('gulp-sass')(require('sass'))
 
-let dest_folders = ['./src/tech/static', './src/life/static']
+let dest_folders = ['./static']
 
 async function buildStyles() {
   dest_folders.map((elem) => {
