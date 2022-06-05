@@ -1,4 +1,4 @@
-cacheUrl: https://feed.tianheg.xyz/tech/cache.json
+cacheUrl: https://feed.tianheg.xyz/cache.json
 sources:
   ### TECH
   - href: https://spidermonkey.dev/feed.xml
