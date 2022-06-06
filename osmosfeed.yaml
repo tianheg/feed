@@ -3,16 +3,12 @@ sources:
   ### TECH
   - href: https://spidermonkey.dev/feed.xml
   # Firefox 使用的 JavaScript 引擎
+  - href: https://caniuse.com/feed
+  # 最新 Web 特性支持情况
   - href: https://www.w3.org/blog/news/feed/atom
   # W3C 博客
   - href: https://www.joshwcomeau.com/rss.xml
   # 这个人写的教程容易理解
-  - href: https://www.v2ex.com/feed/member/livid.xml
-  #  Livid 在V2EX创建的主题
-  - href: https://rsshub-tianheg.vercel.app/v2ex/tab/qna
-  # V2EX 问与答
-  - href: https://rsshub-tianheg.vercel.app/v2ex/tab/ideas
-  # V2EX 奇思妙想
   - href: https://nodejs.org/en/feed/releases.xml
   - href: https://about.gitlab.com/atom.xml
   - href: https://archlinux.org/feeds/releases/
