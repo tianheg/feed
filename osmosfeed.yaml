@@ -1,6 +1,8 @@
 cacheUrl: https://feed.tianheg.xyz/cache.json
 sources:
   ### TECH
+  - href: https://blog.stackblitz.com/feed/feed.xml
+  # 强大的在线 IDE
   - href: https://spidermonkey.dev/feed.xml
   # Firefox 使用的 JavaScript 引擎
   - href: https://caniuse.com/feed
