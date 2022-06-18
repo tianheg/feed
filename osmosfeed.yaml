@@ -25,7 +25,6 @@ sources:
   - href: https://feed.ctrl.blog/latest.atom
   - href: https://planet.emacslife.com/atom.xml
   - href: https://opensource.com/feed
-  - href: https://www.linuxfoundation.org/feed/
   - href: https://www.linux.com/feed/
   - href: https://lwn.net/headlines/newrss
   - href: https://www.linux.org/articles/index.rss
