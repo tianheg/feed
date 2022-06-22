@@ -110,7 +110,9 @@ sources:
   - href: https://www.liechi.org/cn/index.xml
   - href: https://yufree.cn/cn/index.xml
   - href: https://yuanfan.vercel.app/index.xml
-  - href: https://cyrusyip.org/post/index.xml
+  - href: https://www.bmpi.dev/index.xml
+  ## 马大伟，很久以前借鉴过他的 Hugo 博客内容架构
+  - href: https://cyrusyip.org/zh-cn/index.xml
   ## 叶寻，有感于他的“鼓励”页面
   - href: https://blog.strava.com/feed/
   ## 听听别人的运动故事
