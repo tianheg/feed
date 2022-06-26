@@ -1,94 +1,90 @@
 cacheUrl: https://feed.tianheg.xyz/cache.json
 sources:
   ### TECH
-  - href: https://blog.stackblitz.com/feed/feed.xml
+  # - href: https://blog.stackblitz.com/feed/feed.xml
   # 强大的在线 IDE
-  - href: https://spidermonkey.dev/feed.xml
+  # - href: https://spidermonkey.dev/feed.xml
   # Firefox 使用的 JavaScript 引擎
-  - href: https://caniuse.com/feed
+  # - href: https://caniuse.com/feed
   # 最新 Web 特性支持情况
-  - href: https://www.w3.org/blog/news/feed/atom
+  -#  href: https://www.w3.org/blog/news/feed/atom
   # W3C 博客
   - href: https://www.joshwcomeau.com/rss.xml
   # 这个人写的教程容易理解
-  - href: https://nodejs.org/en/feed/releases.xml
-  - href: https://about.gitlab.com/atom.xml
-  - href: https://archlinux.org/feeds/releases/
-  - href: https://rsshub-tianheg.vercel.app/github/issue/Geekhyt/weekly
+  # - href: https://nodejs.org/en/feed/releases.xml
+  # - href: https://about.gitlab.com/atom.xml
+  # - href: https://archlinux.org/feeds/releases/
+  # - href: https://rsshub-tianheg.vercel.app/github/issue/Geekhyt/weekly
   - href: https://www.swyx.io/api/rss.xml
-  - href: https://lug.ustc.edu.cn/feed.xml
-  - href: https://blog.mozilla.org/en/feed/
-  - href: https://blog.mozilla.org/addons/feed/
-  - href: https://imququ.com/rss.html
-  - href: https://git.savannah.gnu.org/cgit/emacs/org-mode.git/atom/?h=main
-  - href: https://plausible.io/blog/feed.xml
-  - href: https://feed.ctrl.blog/latest.atom
-  - href: https://planet.emacslife.com/atom.xml
-  - href: https://opensource.com/feed
-  - href: https://www.linux.com/feed/
-  - href: https://lwn.net/headlines/newrss
-  - href: https://www.linux.org/articles/index.rss
+  # - href: https://lug.ustc.edu.cn/feed.xml
+  # - href: https://blog.mozilla.org/en/feed/
+  # - href: https://blog.mozilla.org/addons/feed/
+  # - href: https://imququ.com/rss.html
+  # - href: https://git.savannah.gnu.org/cgit/emacs/org-mode.git/atom/?h=main
+  # - href: https://feed.ctrl.blog/latest.atom
+  # - href: https://planet.emacslife.com/atom.xml
+  # - href: https://opensource.com/feed
+  # - href: https://www.linux.com/feed/
+  # - href: https://lwn.net/headlines/newrss
+  # - href: https://www.linux.org/articles/index.rss
   - href: https://hnrss.org/best
-  - href: https://projecteuler.net/rss2_euler.xml
-  - href: https://www.kernel.org/feeds/kdist.xml
+  - href: https://hnrss.org/bestcomments
+  # - href: https://projecteuler.net/rss2_euler.xml
+  # - href: https://www.kernel.org/feeds/kdist.xml
   - href: https://unixsheikh.com/feed.rss
-  - href: https://www.emacswiki.org/emacs?action=rss
+  # - href: https://www.emacswiki.org/emacs?action=rss
   - href: https://www.science.org/rss/news_current.xml
   - href: https://www.smashingmagazine.com/feed/
   - href: https://jvns.ca/atom.xml
-  - href: https://randomascii.wordpress.com/feed/
   - href: https://manateelazycat.github.io/feed.xml
   ## podcast
   - href: https://emacstalk.github.io/podcast/index.xml
-  # 关于 Emacs
-  - href: https://hnrss.org/bestcomments
   - href: https://sachachua.com/blog/feed
-  - href: https://github.blog/feed/
   - href: https://oremacs.com/atom.xml
+  # 关于 Emacs
+  
+  #- href: https://github.blog/feed/
   - href: https://feeds.feedburner.com/ruanyifeng
-  - href: https://blog.codinghorror.com/rss
-  - href: https://www.joelonsoftware.com/feed/
-  - href: http://blog.cleancoder.com/atom.xml
-  - href: https://martinfowler.com/feed.atom
-  - href: https://wanqu.co/feed/
-  - href: https://felixc.at/feed/
-  - href: https://nautil.us/feed/
+  #- href: https://blog.codinghorror.com/rss
+  #- href: https://www.joelonsoftware.com/feed/
+  #- href: http://blog.cleancoder.com/atom.xml
+  #- href: https://martinfowler.com/feed.atom
+  #- href: https://felixc.at/feed/
+  #- href: https://nautil.us/feed/
   - href: https://blog.cloudflare.com/rss/
-  - href: https://www.kawabangga.com/feed
+  #- href: https://www.kawabangga.com/feed
   - href: https://antfu.me/feed.xml
   - href: https://draveness.me/feed.xml
-  - href: https://jhuo.ca/index.xml
-  - href: https://static.fsf.org/fsforg/rss/blogs.xml
-  - href: https://static.fsf.org/fsforg/rss/news.xml
-  - href: https://www.gnu.org/rss/whatsnew.rss
-  - href: https://www.gnu.org/rss/quagga.rss
-  - href: https://distrowatch.com/news/dw.xml
-  - href: https://luolei.org/feed/
-  - href: https://windard.com/feed.xml
-  - href: https://ridiqulous.com/feed/
-  - href: https://daimajia.com/feed
-  - href: https://blog.lilydjwg.me/posts.rss
-  - href: https://lisz.me/feed.xml
-  - href: https://www.skywind.me/blog/feed
-  - href: https://coolshell.cn/feed
-  - href: https://blog.google/products/chrome/rss/
-  - href: https://chinese.catchen.me/feeds/posts/default
-  - href: https://hacks.mozilla.org/feed/
-  - href: https://hfdavidyu.com/feed/
-  - href: https://vivaxyblog.github.io/atom.xml
-  - href: https://www.isaced.com/index.xml
-  - href: https://wattenberger.com/rss
-  - href: https://webaim.org/blog/feed
-  - href: https://daverupert.com/atom.xml
-  - href: https://mathiasbynens.be/notes.atom
-  - href: https://remoteok.com/remote-jobs.rss
-  - href: https://devtoolstips.org/feed.xml
-  - href: https://alistapart.com/main/feed/
-  - href: https://ourworldindata.org/atom.xml
-  - href: https://lynnandtonic.com/feed.xml
-  - href: https://www.fosskers.ca/en/rss
+  #- href: https://jhuo.ca/index.xml
+  #- href: https://static.fsf.org/fsforg/rss/blogs.xml
+  #- href: https://static.fsf.org/fsforg/rss/news.xml
+  #- href: https://www.gnu.org/rss/whatsnew.rss
+  #- href: https://www.gnu.org/rss/quagga.rss
+  #- href: https://distrowatch.com/news/dw.xml
+  #- href: https://luolei.org/feed/
+  #- href: https://ridiqulous.com/feed/
+  #- href: https://blog.lilydjwg.me/posts.rss
+#   - href: https://lisz.me/feed.xml
+#   - href: https://www.skywind.me/blog/feed
+#   - href: https://coolshell.cn/feed
+#   - href: https://blog.google/products/chrome/rss/
+#   - href: https://chinese.catchen.me/feeds/posts/default
+#   - href: https://hacks.mozilla.org/feed/
+#   - href: https://hfdavidyu.com/feed/
+#   - href: https://vivaxyblog.github.io/atom.xml
+#   - href: https://www.isaced.com/index.xml
+#   - href: https://wattenberger.com/rss
+#   - href: https://webaim.org/blog/feed
+#   - href: https://daverupert.com/atom.xml
+#   - href: https://mathiasbynens.be/notes.atom
+#   - href: https://remoteok.com/remote-jobs.rss
+#   - href: https://devtoolstips.org/feed.xml
+#   - href: https://alistapart.com/main/feed/
+#   - href: https://ourworldindata.org/atom.xml
+#   - href: https://lynnandtonic.com/feed.xml
+#   - href: https://www.fosskers.ca/en/rss
   - href: https://web.dev/feed.xml
-  - href: https://blog.binchen.org/rss.xml
+#   - href: https://blog.binchen.org/rss.xml
   - href: https://blog.tecosaur.com/tmio/rss.xml # Org mode
   ### LIFE
   # podcast
@@ -101,10 +97,10 @@ sources:
   # blog
   - href: https://blog.duanfei.org/feed/atom.xml
   ## 被这个人读的书吸引 https://github.com/shaonianche
-  - href: https://justinyan.me/feed
-  - href: https://feedpress.me/thetechnium
+#   - href: https://justinyan.me/feed
+#   - href: https://feedpress.me/thetechnium
   - href: https://hongtaoh.com/cn/blog/index.xml
-  - href: https://vocus.cc/rss/user/60178f8efd8978000150ecae/article.xml
+#   - href: https://vocus.cc/rss/user/60178f8efd8978000150ecae/article.xml
   - href: http://iyoubo.com:800/feed/
   - href: http://www.loyhome.com/feed/
   - href: https://www.liechi.org/cn/index.xml
@@ -114,48 +110,47 @@ sources:
   ## 马大伟，很久以前借鉴过他的 Hugo 博客内容架构
   - href: https://cyrusyip.org/zh-cn/index.xml
   ## 叶寻，有感于他的“鼓励”页面
-  - href: https://blog.strava.com/feed/
+#   - href: https://blog.strava.com/feed/
   ## 听听别人的运动故事
-  - href: http://feeds.feedburner.com/xys
+#   - href: http://feeds.feedburner.com/xys
   ## 新语丝 http://www.xys.org/
   - href: http://blog.farmostwood.net/feed
   ## 木遥，文章有灵性，能启迪
-  - href: https://xkcd.com/atom.xml
-  - href: https://www.yidajiabei.xyz/index.xml
-  - href: http://home.wangjianshuo.com/cn/feed
+#   - href: https://xkcd.com/atom.xml
+#   - href: https://www.yidajiabei.xyz/index.xml
+#   - href: http://home.wangjianshuo.com/cn/feed
   - href: https://www.dailyartmagazine.com/feed/
   - href: https://tundrazone.com/feed/
-  - href: https://100r.co/links/rss.xml
-  - href: https://blog.ricksteves.com/feed/
-  - href: https://silverrainz.me/blog/atom.xml
-  - href: https://pythonhunter.org/feed/audio.xml
-  - href: https://yixiuer.me/atom.xml
-  - href: https://yihui.org/cn/index.xml
+#   - href: https://100r.co/links/rss.xml
+#   - href: https://blog.ricksteves.com/feed/
+#   - href: https://silverrainz.me/blog/atom.xml
+#   - href: https://pythonhunter.org/feed/audio.xml
+#   - href: https://yixiuer.me/atom.xml
+#   - href: https://yihui.org/cn/index.xml
   - href: https://io-oi.me/rss.xml
   - href: https://geekplux.com/feed.xml
   - href: https://lutaonan.com/rss.xml
-  - href: https://www.barretlee.com/rss2.xml
-  - href: https://zapier.com/engine/rss/8560261/robfitz
-  - href: https://aeon.co/feed.rss
-  - href: https://conge.github.io/feed.xml
-  - href: https://bytem.io/rss.xml
-  - href: https://shud.in/feed.xml
-  - href: https://zenhabits.net/feed/
-  - href: https://matnoble.me/atom.xml
-  - href: https://perell.com/feed/
-  - href: https://www.scotthyoung.com/blog/feed/
-  - href: https://diygod.me/atom.xml
-  - href: https://hawstein.com/feed.xml
-  - href: https://immmmm.com/atom.xml
-  - href: https://yuguo.us/feed.xml
-  - href: https://blog.turn.tw/?feed=rss2
-  - href: https://jysperm.me/atom.xml
-  - href: https://www.zackwu.com/feed.xml
-  - href: https://xiaozhou.net/atom.xml
-  - href: https://www.xianmin.org/index.xml
-  - href: https://elizen.me/index.xml
-  - href: https://rsshub.app/blogs/paulgraham
-  - href: https://80000hours.org/feed/
+#   - href: https://www.barretlee.com/rss2.xml
+#   - href: https://aeon.co/feed.rss
+#   - href: https://conge.github.io/feed.xml
+#   - href: https://bytem.io/rss.xml
+#   - href: https://shud.in/feed.xml
+#   - href: https://zenhabits.net/feed/
+#   - href: https://matnoble.me/atom.xml
+#   - href: https://perell.com/feed/
+#   - href: https://www.scotthyoung.com/blog/feed/
+#   - href: https://diygod.me/atom.xml
+#   - href: https://hawstein.com/feed.xml
+#   - href: https://immmmm.com/atom.xml
+#   - href: https://yuguo.us/feed.xml
+#   - href: https://blog.turn.tw/?feed=rss2
+#   - href: https://jysperm.me/atom.xml
+#   - href: https://www.zackwu.com/feed.xml
+#   - href: https://xiaozhou.net/atom.xml
+#   - href: https://www.xianmin.org/index.xml
+#   - href: https://elizen.me/index.xml
+#   - href: https://rsshub.app/blogs/paulgraham
+#   - href: https://80000hours.org/feed/
 
 siteTitle: "阅读与思考"
 timezone: Asia/Shanghai
