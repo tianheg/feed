@@ -7,7 +7,7 @@ sources:
   # Firefox 使用的 JavaScript 引擎
   # - href: https://caniuse.com/feed
   # 最新 Web 特性支持情况
-  -#  href: https://www.w3.org/blog/news/feed/atom
+  - href: https://www.w3.org/blog/news/feed/atom
   # W3C 博客
   - href: https://www.joshwcomeau.com/rss.xml
   # 这个人写的教程容易理解
