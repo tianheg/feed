@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://feed.tianheg.xyz/index.html</id>
+    <title>阅读与思考</title>
+    <updated>2022-07-25T22:23:17.109Z</updated>
+    <generator>osmosfeed 1.15.1</generator>
+    <link rel="alternate" href="https://feed.tianheg.xyz/index.html"/>
+    <link rel="self" href="https://feed.tianheg.xyz/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[尚拙 -#26]]></title>
+        <id>https://geekplux.com/newsletters/26</id>
+        <link href="https://geekplux.com/newsletters/26"/>
+        <updated>2022-07-25T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[天下之至拙，能胜天下之至巧]]></summary>
+        <author>
+            <name>GeekPlux</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022-07-25 Emacs news]]></title>
+        <id>https://sachachua.com/blog/2022/07/2022-07-25-emacs-news/</id>
+        <link href="https://sachachua.com/blog/2022/07/2022-07-25-emacs-news/"/>
+        <updated>2022-07-25T20:11:32.000Z</updated>
+        <summary type="html"><![CDATA[EmacsConf 2022 Call for Participation (Reddit)
+Upcoming events:
+
+Emacs Berlin (virtual, in English) https://emacs-berlin.org/ Wed Jul 27 0930 Vancouver / 1130 Chicago / 1230 Toronto / 1630 GMT / 1830 Berlin / 2200 Kolkata – Thu Jul 28 0030 Singapore
+M-x Research (contact them for password): TBA https://m-x-research.github.io/ Tue Aug 2 0800 Vancouver / 1000 Chicago / 1100 Toronto / 1500 GMT / 1700 Berlin / 2030 Kolkata / 2300 Singapore
+Emacs Paris (virtual, in French) https://www.emacs-doctor.com/emacs-paris-user-group/ Tue Aug 2 0830 Vancouver / 1030 Chicago / 1130 Toronto / 1530 GMT / 1730 Berlin / 2100 Kolkata / 2330 Singapore
+EmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/287197567/ Wed Aug 3 1630 Vancouver / 1830 Chicago / 1930 Toronto / 2330 GMT – Thu Aug 4 0130 Berlin…]]></summary>
+        <author>
+            <name>Sacha Chua</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by gmiller123456 in "It’s time to leave the leap second in the past"]]></title>
+        <id>https://news.ycombinator.com/item?id=32229049</id>
+        <link href="https://news.ycombinator.com/item?id=32229049"/>
+        <updated>2022-07-25T18:43:28.000Z</updated>
+        <summary type="html"><![CDATA[This periodic adjustment mainly benefits scientists and astronomers as it allows them to observe celestial bodies using UTC for most purposes
+
+Astronomy algorithms usually work in Barycentric Dynamic Time, or Terrestrial Time, or UT1.  In reality the whole invention of UTC is so that people don't have to deal with those systems on a daily basis.
+The process most astronomy programs go through is to get the UTC from the user, convert the Gregorian date to a Julian day number to get rid of the Gregorian Calendar altogether.  Then look up the number of leap seconds, add those to the JD to get International Atomic Time, then add 32.184 seconds to get Terrestrial Time.  If Barycentric Dynamic Time is needed, you must first compute the velocity of the Earth relative to the solar system barycenter (which itself requires TDB), then compute the relativistic effects of that motion on Terrestrial Time.  If you need UT1, these can only be obtained by observation from the International Earth Rotation Service, and required daily updates, and interpolation of values in between observations.
+So, as you can see, leap seconds do nothing to make an astronomer's life easier.  In fact, we jump through a lot of hoops to make the average person's life easier.  It sounds like Meta wants to change the definition of time for everyone just to make their programming a little easier.  I find the very premise just out right ridiculous.
+It's true that your average person will not be affected by the Sun setting a few seconds earlier.  But eventually it will build up enough error that it eventually has to be addressed, and Meta is just trying to make their problem someone else's problem.]]></summary>
+        <author>
+            <name>gmiller123456</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[W3C calls for nominations in the election for the Board of Directors of W3C, Inc.]]></title>
+        <id>https://www.w3.org/blog/news/archives/9631</id>
+        <link href="https://www.w3.org/blog/news/archives/9631"/>
+        <updated>2022-07-25T17:02:49.000Z</updated>
+        <summary type="html"><![CDATA[W3C today called for nominations by W3C Members for people to stand for election in the Board of Directors of W3C, Incorporated. The election is scheduled to begin in a month. W3C Members will compose a majority of the voting seats of the Board of Directors, to bring a diverse multi-stakeholder perspective from the W3C [&#8230;]]]></summary>
+        <author>
+            <name>W3C News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&lt;article&gt; vs. &lt;section&gt;: How To Choose The Right One]]></title>
+        <id>https://smashingmagazine.com/2022/07/article-section-elements-accessibility/</id>
+        <link href="https://smashingmagazine.com/2022/07/article-section-elements-accessibility/"/>
+        <updated>2022-07-25T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, Olushuyi explores a mental model that helps you decide between the `` and `
+` elements when writing documents. You will explore how grouping content affects accessibility and how you can make it all count for users.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Olushuyi Olutimilehin)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two weeks in, the Webb Space Telescope is reshaping astronomy]]></title>
+        <id>https://news.ycombinator.com/item?id=32224725</id>
+        <link href="https://www.quantamagazine.org/two-weeks-in-the-webb-space-telescope-is-reshaping-astronomy-20220725/"/>
+        <updated>2022-07-25T14:24:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/two-weeks-in-the-webb-space-telescope-is-reshaping-astronomy-20220725/
+Comments URL: https://news.ycombinator.com/item?id=32224725
+Points: 532
+# Comments: 304]]></summary>
+        <author>
+            <name>theafh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用 DT 包子复现 reactable 包子的案例之 Women's World Cup]]></title>
+        <id>https://yuanfan.vercel.app/posts/dt-wwc/</id>
+        <link href="https://yuanfan.vercel.app/posts/dt-wwc/"/>
+        <updated>2022-07-25T13:50:37.000Z</updated>
+        <summary type="html"><![CDATA[一入表格深似海，从此节操是路人。啊呸，不是，最近银魂看多了阿鲁……]]></summary>
+        <author>
+            <name>earfanfan | 袁凡</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare deployment in Guam]]></title>
+        <id>62dad7a01eca9d000b40f85a</id>
+        <link href="https://blog.cloudflare.com/cloudflare-deployment-in-guam/"/>
+        <updated>2022-07-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare Deployment in Guam - Delivering a Better Internet for Faraway Pacific Ocean Archipelagos Residents]]></summary>
+        <author>
+            <name>David Antunes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[David Attenborough gets a namesake: the oldest known relative of living animals]]></title>
+        <id>https://www.science.org/content/article/david-attenborough-gets-namesake-oldest-known-relative-living-animals</id>
+        <link href="https://www.science.org/content/article/david-attenborough-gets-namesake-oldest-known-relative-living-animals"/>
+        <updated>2022-07-25T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[560-million-year-old fossil creature shares traits with both modern jellyfish and corals]]></summary>
+        <author>
+            <name>Tess Joosse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Working Group Note: MathML Media-type Declarations]]></title>
+        <id>https://www.w3.org/blog/news/archives/9629</id>
+        <link href="https://www.w3.org/blog/news/archives/9629"/>
+        <updated>2022-07-25T10:49:52.000Z</updated>
+        <summary type="html"><![CDATA[The Math Working Group has published MathML Media-type Declarations as a Group Note. Internet Media Types are used in email, HTTP and other places to indicate the format of documents. This Note contains media types for MathML. They were previously published as part of the MathML3 specification. The Note serves to give them a separate, [&#8230;]]]></summary>
+        <author>
+            <name>W3C News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finishing what you start makes teams more productive and predictable]]></title>
+        <id>https://news.ycombinator.com/item?id=32220514</id>
+        <link href="https://lucasfcosta.com/2022/07/19/finish-what-you-start.html"/>
+        <updated>2022-07-25T04:34:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lucasfcosta.com/2022/07/19/finish-what-you-start.html
+Comments URL: https://news.ycombinator.com/item?id=32220514
+Points: 363
+# Comments: 154]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: YouTube Channels for the Intellectually Curious]]></title>
+        <id>https://news.ycombinator.com/item?id=32220192</id>
+        <link href="https://news.ycombinator.com/item?id=32220192"/>
+        <updated>2022-07-25T03:19:43.000Z</updated>
+        <summary type="html"><![CDATA[As someone who is intellectually curious and has had great success finding articles on sites like Hacker News and blogs like kottke.org, I haven’t yet figured out where to find the most interesting content on YouTube. Let me know in the comments if you have found certain channels and creators to be particularly rewarding to follow, or if there are other ways you’ve found to consistently track down good content.
+Comments URL: https://news.ycombinator.com/item?id=32220192
+Points: 624
+# Comments: 268]]></summary>
+        <author>
+            <name>maxutility</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s Too Hot to Move – Paintings for the Heatwave]]></title>
+        <id>http://dailyartmagazine.ga/its-too-hot-to-move-paintings-for-the-heatwave/</id>
+        <link href="https://www.dailyartmagazine.com/its-too-hot-to-move-paintings-for-the-heatwave/"/>
+        <updated>2022-07-25T03:00:16.000Z</updated>
+        <summary type="html"><![CDATA[The post It’s Too Hot to Move – Paintings for the Heatwave appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Joanna Kaszubowska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Masterpiece Story: Portrait of Adele Bloch-Bauer by Gustav Klimt]]></title>
+        <id>https://www.dailyartmagazine.com/?p=186262</id>
+        <link href="https://www.dailyartmagazine.com/portrait-of-adele-bloch-bauer/"/>
+        <updated>2022-07-25T03:00:12.000Z</updated>
+        <summary type="html"><![CDATA[The post Masterpiece Story: Portrait of Adele Bloch-Bauer by Gustav Klimt appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Emily Snow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Bacchus Is God of Wine? Art History Story]]></title>
+        <id>http://dailyartmagazine.ga/season-for-bacchus-and-wine/</id>
+        <link href="https://www.dailyartmagazine.com/season-for-bacchus-and-wine/"/>
+        <updated>2022-07-25T03:00:11.000Z</updated>
+        <summary type="html"><![CDATA[The post Why Bacchus Is God of Wine? Art History Story appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Magda Michalska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Art Out of Anything: Christoph Niemann’s Illustrations]]></title>
+        <id>http://dailyartmagazine.ga/christoph-niemanns-illustration/</id>
+        <link href="https://www.dailyartmagazine.com/christoph-niemanns-illustration/"/>
+        <updated>2022-07-25T03:00:07.000Z</updated>
+        <summary type="html"><![CDATA[The post Making Art Out of Anything: Christoph Niemann’s Illustrations appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Wojtek Rozdzenski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Enneagram Types in Art – Of Amazing Painters, Paintings and Diagrams]]></title>
+        <id>http://dailyartmagazine.ga/enneagram-types-of-artists/</id>
+        <link href="https://www.dailyartmagazine.com/enneagram-types-of-artists/"/>
+        <updated>2022-07-25T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post The Enneagram Types in Art – Of Amazing Painters, Paintings and Diagrams appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Ledys Chemin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Article Is Only About Cheese in Painting]]></title>
+        <id>http://dailyartmagazine.ga/cheese-in-painting/</id>
+        <link href="https://www.dailyartmagazine.com/cheese-in-painting/"/>
+        <updated>2022-07-25T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post This Article Is Only About Cheese in Painting appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Magda Michalska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Roman Floor Mosaics: Stories in Stone and Glass]]></title>
+        <id>http://dailyartmagazine.ga/roman-floor-mosaics-stories/</id>
+        <link href="https://www.dailyartmagazine.com/roman-floor-mosaics-stories/"/>
+        <updated>2022-07-25T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Roman Floor Mosaics: Stories in Stone and Glass appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Anuradha Sroha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Is a Wunderkammer? Best Cabinets of Curiosities]]></title>
+        <id>http://dailyartmagazine.ga/cabinets-of-curiosities/</id>
+        <link href="https://www.dailyartmagazine.com/cabinets-of-curiosities/"/>
+        <updated>2022-07-25T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post What Is a Wunderkammer? Best Cabinets of Curiosities appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Caroline Galambosova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[读《格局》, 吴军著]]></title>
+        <id>https://hongtaoh.com/cn/2022/07/24/altitude/</id>
+        <link href="https://hongtaoh.com/cn/2022/07/24/altitude/"/>
+        <updated>2022-07-25T02:36:57.000Z</updated>
+        <summary type="html"><![CDATA[在土木坛子老师的博客上看到了吴军先生写的书。以下是我读《格局》的笔记。吴军先生很多感悟我都非常认同。有一点不认同的是他说 30 岁之后没有天赋就不要学计算机了。
+前言 成功的人做事并不快，但他们知道自己的位置，了解自己的能力，有方向，然后就是一步一个脚印地努力。
+位置、方向、方法、步伐、节奏。
+要把握好节奏，如果一直都很累，迟早会趴下。
+1. 人生的格局 不要太多在意自己的“才”。成大事，要看到时代发展的趋势，这样的”认识“比才能重要得多。
+做事的主动性十分重要。不要等领导发话，而是你自己要想办法解决问题。如果只有领导告诉你你才做，那么你和别人有什么区别？
+要学会分享利益。
+勿以小恶忘大善。不要因为一个小的缺陷就否定全局。
+2. 命运的力量 人要人命。尽人事，听天命，做事反而多了一份淡然。
+柳传志：不要和政府作对，善待下面的人。
+止损、认命
+3. 生活的节奏 忙碌容易让人迷失方向。要静下来思考。这看似浪费时间，实际上是在节省时间。
+想起出发目的最简单的方法，就是在做事之前抬头看看纯净的天空，沉静下来听听内心的声音。
+淡泊名利，清心寡欲其实很难。
+从大自然，从生活本身寻找无穷的乐趣。
+要懂得休息。
+休息的本质是从外界获取信息和能量。
+这一点我非常同意。休息并不意味着躺在沙发上一边吃薯片一边看电影，这是被动的休息，偶尔一两次还行，让你一个月这样肯定疯掉了。真正的休息是离开自己熟悉的环境，在新环境中获取不一样的灵感。比如，我上周和朋友一起去芝加哥听了一场交响乐，我之前从来没去过，而且学生票含税才 15 刀。在剧场，我到了新环境，那里的能量和我平常在的家里很不一样。这个经历就让我很放松，有一种充电的感觉。
+不要以为自己独一无二。你这辈子要做的事，即使你不做，别人也能做，甚至做得比你还好。这么说并不是打击你，而是让你看清事实。你要知，没有什么比生活重要。你要先有一个好的生活，然后才能做事业。不要以为自己的事业那么重要而丢下了生活。
+4. 职场的心法 面试的时候，如果没听懂面试官的问题，不要回答。直到自己彻底懂了再开始回答。如果不会，可以问一下是否可以给一个提示。如果面试官问你对公司有什么改进意见，首先要说公司做的已经很好了，然后说自己知道接下来要说的公司肯定已经想过了，但还是说一下。不要显摆自己。
+面试的时候要展现自己的价值。
+一个公司没办法同时兼顾顾客、员工、股东，必须做取舍。同样，作为一名员工，你无法同时让上司、下属和同事、公司三者满意。
+交流的目的不在于传递出去多少信息，而在于对方接收到多少信息。
+如何识别小人？你要看看他对你的态度和对别人是不是一样。如何不被小人算计
+不贪。 小人之交甜如蜜。警惕对你过分好的人。 5. 智者的见识 一个帮助过你的人，比一个你帮助过的人，更愿意帮助你。–本杰明 富兰克林
+真正对我们好的人会让我们终生受益。如果遇到要格外珍惜。
+人最重要的是生活着，快乐着
+真正的勇气是做别人做不了也不敢做的事情。
+6. 心智的成长 女生需要一个懂自己的男人。
+成功才是成功之母。
+要做有影响力的事情。但是一开始不要给自己压力，做简单的事情也没什么。
+7. 悲观与乐观 悲观主义盛行的原因：1.]]></summary>
+        <author>
+            <name>日志 on 郝鸿涛：Hongtao Hao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the BBC is rolling out HSTS for better security and performance.]]></title>
+        <id>https://web.dev/bbc-hsts/</id>
+        <link href="https://web.dev/bbc-hsts/"/>
+        <updated>2022-07-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HTTPS adoption has been steadily increasing in recent years. Per the HTTP Archive's 2021 Web Almanac, around 91% of all requests for both desktop and mobile were served over HTTPS. HTTPS isn't just here to stay, it's a necessary prerequisite to use features such as Service Worker and modern protocols such as HTTP/2 and HTTP/3.
+Recently Neil Craig—a lead technical Architect at the BBC—tweeted that HTTP Strict Transport Security (HSTS) is being slowly rolled out for bbc.com. Let's find out what that means for the BBC, and what it could mean for you.
+The problem #
+Web servers often listen for requests on both ports 80 and 443. Port 80 is for insecure HTTP requests, whereas 443 is for secure HTTPS. This can create a problem, because when you enter an address into your address bar without the h…]]></summary>
+        <author>
+            <name>web.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by peckrob in "Take more screenshots"]]></title>
+        <id>https://news.ycombinator.com/item?id=32218028</id>
+        <link href="https://news.ycombinator.com/item?id=32218028"/>
+        <updated>2022-07-24T21:40:03.000Z</updated>
+        <summary type="html"><![CDATA[A few years back I was going through some old floppy disks I found in a box and, on one of them, I found a screenshot I took of my desktop circa winter of 2000. In it was a window open with a MUD I was logged into at the time. Another window had Winamp open with a playlist of songs and another window had ICQ open. The only reason I took it was because there was an unofficial competition between our pub and another pub elsewhere on the MUD about which was more popular, and we had finally surpassed them.
+It's amazing how many emotions seeing that one image gave me. But the biggest was just this overwhelming sense of nostalgia. As I looked at that, I could remember what I was thinking, what I was feeling, everything that was happening in my super confusing teenage life at that time. Occasionally I will look at that image now, even 22 years later, I can still feel all those feeling again.
+Of course, my ex's character is in the screenshot too. So, a bit bittersweet as well. :/]]></summary>
+        <author>
+            <name>peckrob</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What to do when iCloud is stuck on uploading items]]></title>
+        <id>https://swyx.io/what-to-do-when-icloud-is-stuck-on-uploading-items</id>
+        <link href="https://swyx.io/what-to-do-when-icloud-is-stuck-on-uploading-items"/>
+        <updated>2022-07-24T18:52:42.000Z</updated>
+        <summary type="html"><![CDATA[I use iCloud as my syncing engine for my [Obsidian Second Brain](https://www.swyx.io/obsidian-brain), and twice now I've seen iCloud get corrupted into a really bad state. I also [back up everything to github](https://github.com/sw-yx/brain), so I dont really experience much data loss, but it is annoying to see iCloud be so unreliable at even the simple task of syncing mostly text files.]]></summary>
+        <author>
+            <name>swyx.io blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Standard Ebooks]]></title>
+        <id>https://news.ycombinator.com/item?id=32215324</id>
+        <link href="https://standardebooks.org/"/>
+        <updated>2022-07-24T16:59:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://standardebooks.org/
+Comments URL: https://news.ycombinator.com/item?id=32215324
+Points: 418
+# Comments: 69]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Take more screenshots]]></title>
+        <id>https://news.ycombinator.com/item?id=32215277</id>
+        <link href="https://alexwlchan.net/2022/07/screenshots/"/>
+        <updated>2022-07-24T16:55:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://alexwlchan.net/2022/07/screenshots/
+Comments URL: https://news.ycombinator.com/item?id=32215277
+Points: 613
+# Comments: 212]]></summary>
+        <author>
+            <name>pcr910303</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by wincy in "Arizona Mom Fights Abusive Prosecution by Department of Child Safety"]]></title>
+        <id>https://news.ycombinator.com/item?id=32214529</id>
+        <link href="https://news.ycombinator.com/item?id=32214529"/>
+        <updated>2022-07-24T15:43:18.000Z</updated>
+        <summary type="html"><![CDATA[We live in an upper middle class neighborhood and the only people who drive through are other people who live here. Our daughter is seven now but we’ve let her go to her friends house of her own volition since she was five.
+This wasn’t a problem until a woman with several foster children (I know this because she told me? I assume she was trying to virtue signal to me what a great person she was) moved into our neighborhood.
+One day she came to our house with our daughter in tow, telling us “it isn’t safe” and other nonsense. Most of the people on the blocks are parents and we have each other’s numbers! The next time our daughter was out, then came home, a short time later we got a knock on the door by a police officer. He was friendly and asked to see our daughter to make sure she was okay, but said he’d gotten a call and he had to report it to CPS. So the man from CPS came and inspected our house to make sure we weren’t abusing our child.
+Luckily nothing came from it but it was really annoying and I really hate that neighbor now. We bought our daughter an Apple Watch so she can call us and we can GPS track her so she’s not “being neglected”.
+It’s frustrating because I lived in a much less safe neighborhood than we do now and was allowed to range much further when I was her age. It just takes one busybody to ruin your life, though.]]></summary>
+        <author>
+            <name>wincy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Performance comparison: counting words in Python, C/C++, Awk, Rust, and more]]></title>
+        <id>https://news.ycombinator.com/item?id=32214419</id>
+        <link href="https://benhoyt.com/writings/count-words/"/>
+        <updated>2022-07-24T15:31:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://benhoyt.com/writings/count-words/
+Comments URL: https://news.ycombinator.com/item?id=32214419
+Points: 356
+# Comments: 196]]></summary>
+        <author>
+            <name>pcr910303</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hexaflexagons [video] (2012)]]></title>
+        <id>https://news.ycombinator.com/item?id=32213825</id>
+        <link href="https://www.youtube.com/watch?v=VIVIegSt81k&amp;list=PLaNzoFtkQ7rbt5ac9qdi76iNKuqZWQkB3"/>
+        <updated>2022-07-24T14:28:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=VIVIegSt81k&list=PLaNzoFtkQ7rbt5ac9qdi76iNKuqZWQkB3
+Comments URL: https://news.ycombinator.com/item?id=32213825
+Points: 381
+# Comments: 28]]></summary>
+        <author>
+            <name>mgdlbp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon sales of Deep Learning with Python are counterfeit]]></title>
+        <id>https://news.ycombinator.com/item?id=32210256</id>
+        <link href="https://twitter.com/fchollet/status/1550930876183166976"/>
+        <updated>2022-07-24T04:10:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/fchollet/status/1550930876183166976
+Comments URL: https://news.ycombinator.com/item?id=32210256
+Points: 602
+# Comments: 182]]></summary>
+        <author>
+            <name>jmillikin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Burning Ship” fractal]]></title>
+        <id>https://news.ycombinator.com/item?id=32210140</id>
+        <link href="http://www.paulbourke.net/fractals/burnship/"/>
+        <updated>2022-07-24T03:47:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://www.paulbourke.net/fractals/burnship/
+Comments URL: https://news.ycombinator.com/item?id=32210140
+Points: 360
+# Comments: 62]]></summary>
+        <author>
+            <name>daqnal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Awesome Pairs of Shoes from the Victoria & Albert Museum]]></title>
+        <id>http://dailyartmagazine.ga/shoes-from-victoria-albert-collection/</id>
+        <link href="https://www.dailyartmagazine.com/shoes-from-victoria-albert-collection/"/>
+        <updated>2022-07-24T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post 10 Awesome Pairs of Shoes from the Victoria & Albert Museum appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Joanna Kaszubowska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heels Were Never Just for Women: Men in Heels]]></title>
+        <id>http://dailyartmagazine.ga/men-in-heels/</id>
+        <link href="https://www.dailyartmagazine.com/men-in-heels/"/>
+        <updated>2022-07-24T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Heels Were Never Just for Women: Men in Heels appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Lauren Kraut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by carbadtraingood in "A chess robot in Moscow has broken the finger of its human opponent"]]></title>
+        <id>https://news.ycombinator.com/item?id=32209674</id>
+        <link href="https://news.ycombinator.com/item?id=32209674"/>
+        <updated>2022-07-24T02:23:44.000Z</updated>
+        <summary type="html"><![CDATA[The answer from the federation is unconscionable. They blamed the boy and then said they could not be held responsible. Fuck off, a kid made a reasonable kid movement. If the robot wasn't ready to be around children, it shouldn't have been deployed around children. And there should have been a big red button that immediately everything, within reach of every player.]]></summary>
+        <author>
+            <name>carbadtraingood</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by acidburnNSA in "More invested in nuclear fusion in last 12 months than past decade"]]></title>
+        <id>https://news.ycombinator.com/item?id=32208505</id>
+        <link href="https://news.ycombinator.com/item?id=32208505"/>
+        <updated>2022-07-23T23:11:39.000Z</updated>
+        <summary type="html"><![CDATA[But where are the fusion neutrons? (See Voodoo Fusion [1])
+[1] https://vixra.org/pdf/1812.0382v1.pdf
+I'm a professional fission guy. I started out in fusion and switched to advanced fission. These days I don't see why we don't just build lots more regular old LWR fission reactors.
+Imagining that somehow fusion is going to a) work, b) be cheap (fuel cost is only 5% of total nuclear fission cost so who cares), and c) not have the same stigma as fission is kind of weird in my mind.
+For example, there are leaks of tiny amounts of tritium at some fission plants and people lose their minds. Fusion reactors will have many orders of mag more tritium. Will people not lose their minds just the same? Tritium is notoriously hard to contain since it's so small. It can permeate through metal like a hot knife through butter.
+Also, lots of people worry about fission and nuclear weapons proliferation. So does fusion get around this? Not really. In fact it's worse. Did you know that the two materials you need to make thermonuclear weapons are tritium and plutonium? Tritium breeding is required by almost all practical fusion power plants (the other reactions are 100s to 1000s of times harder, I don't care what x random fusion CEO says, they're in it for the sweet billionaire side project money).
+Plutonium is made by irradiating natural uranium from the dirt with neutrons. Practical fusion reactors have lots of neutrons. Really high energy ones too.
+Anyway let's just do fission you guys. It's way easier. It has been working fine since the 1950s. It's zero carbon. Waste problem is solved (see Onkalo, and reprocessing). It net saves millions of lives by displacing air pollution. It runs 24/7 on a tiny land and material footprint. We have enough uranium and thorium to run the whole world for 4 billion (with a b) years using breeder reactors (demonstrated in 1952 in Idaho). Get the Koreans over here to build some ARP1400s or the Chinese to build some Hualong Ones until we figure out how to project manage again and then call it good.]]></summary>
+        <author>
+            <name>acidburnNSA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter data breach exposes contact details for 5.4M accounts; on sale for $30k]]></title>
+        <id>https://news.ycombinator.com/item?id=32208096</id>
+        <link href="https://9to5mac.com/2022/07/22/twitter-data-breach/"/>
+        <updated>2022-07-23T22:16:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://9to5mac.com/2022/07/22/twitter-data-breach/
+Comments URL: https://news.ycombinator.com/item?id=32208096
+Points: 306
+# Comments: 110]]></summary>
+        <author>
+            <name>arkadiyt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More invested in nuclear fusion in last 12 months than past decade]]></title>
+        <id>https://news.ycombinator.com/item?id=32207152</id>
+        <link href="https://www.growthbusiness.co.uk/more-invested-in-nuclear-fusion-in-last-12-months-than-past-decade-2560528/"/>
+        <updated>2022-07-23T20:11:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.growthbusiness.co.uk/more-invested-in-nuclear-fusion-in-last-12-months-than-past-decade-2560528/
+Comments URL: https://news.ycombinator.com/item?id=32207152
+Points: 648
+# Comments: 581]]></summary>
+        <author>
+            <name>bilsbie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The tar archive format, and why GNU tar extracts in quadratic time]]></title>
+        <id>https://news.ycombinator.com/item?id=32206579</id>
+        <link href="https://mort.coffee/home/tar/"/>
+        <updated>2022-07-23T19:11:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mort.coffee/home/tar/
+Comments URL: https://news.ycombinator.com/item?id=32206579
+Points: 296
+# Comments: 125]]></summary>
+        <author>
+            <name>mort96</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by pjbeam in "Leaked documents reveal Amazon’s process to review employees’ worth to Amazon"]]></title>
+        <id>https://news.ycombinator.com/item?id=32205686</id>
+        <link href="https://news.ycombinator.com/item?id=32205686"/>
+        <updated>2022-07-23T17:49:44.000Z</updated>
+        <summary type="html"><![CDATA[Edit: Had wrong % for LE.
+Former Amazon SDM here. The actual rating process didn't strike me as something all that controversial. I had to do extensive write ups for all of my reports--this was standard stuff: what went well ("superpowers"), what didn't ("growth areas"), and some actionable ideas for improvement.
+Then I had to pick numerical scores for "impact" and "potential" that were fed into a black box that resulted in an "overall value" score--this score is meant to be mysterious to the employees but it's the worst kept secret in Amazon at this point. OV ranged from LE (least effort/effective) at the low end, through HV 1,2,3 (high value) which is essentially "meets", and then TT ("top tier") at the high end.
+~10-15% of a director org is supposed to be LE, up to 20% TT, and the rest of people distributed through the HV levels. I proposed these ratings to the bigger org that were then agreed to or adjusted by HR and higher management in a formal manager meeting.
+The infamous URA quota of ~6% unregretted attrition (PIP) is meant to be met through managing out LE employees. The process starts with a PIP-lite called "Focus" and goes to the real PIP at the next stage, called "Pivot".
+Many people got out of Focus, very few get out of Pivot. The part of the process I had trouble with, which contributed to me leaving, is the curve fitting of ratings for people. I had to do things like trade a HV3 down to an HV2 in order to keep an unpopular but otherwise fine performing engineer from getting an LE.
+The stories people tell about hire to fire and unfair Pivot are overblown in my experience but not false. From what I've seen, the company will find pliant people and lean on them hard for more and more and more and then manage them out when then start to falter.
+Lot of nuance to this--I have no love for Amazon and I'm happy to have moved on. It is definitely a meat grinder. That said articles like this are pretty low effort on my view.]]></summary>
+        <author>
+            <name>pjbeam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by hardwaregeek in "Spain will introduce free train travel"]]></title>
+        <id>https://news.ycombinator.com/item?id=32204943</id>
+        <link href="https://news.ycombinator.com/item?id=32204943"/>
+        <updated>2022-07-23T16:40:42.000Z</updated>
+        <summary type="html"><![CDATA[Free or extremely cheap transportation is a fascinating development. I always found it odd that the rhetoric around transportation was that it should make money. We don't expect other parts of the government to turn a profit. Why transportation?
+If Amtrak went that direction and made its transportation close to free, I wonder if we'd see more people try it out. Maybe it'd gain some popularity and we could finally see a shift away from cars. Public transportation is a difficult process because until the money is spent and the line is there, people are not sold. Whereas with cars, even if a highway is not built, people still have a car by default. Therefore the government needs to float money, either in infrastructure or in subsidized fares. At least subsidized fares is a little less binary than infrastructure.]]></summary>
+        <author>
+            <name>hardwaregeek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Efficient dehumidifier makes air conditioning a breeze (2014)]]></title>
+        <id>https://news.ycombinator.com/item?id=32204600</id>
+        <link href="https://www.pnnl.gov/news-media/efficient-dehumidifier-makes-air-conditioning-breeze"/>
+        <updated>2022-07-23T16:07:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.pnnl.gov/news-media/efficient-dehumidifier-makes-air-conditioning-breeze
+Comments URL: https://news.ycombinator.com/item?id=32204600
+Points: 351
+# Comments: 194]]></summary>
+        <author>
+            <name>jonnycomputer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spain will introduce free train travel]]></title>
+        <id>https://news.ycombinator.com/item?id=32204256</id>
+        <link href="https://www.bloomberg.com/news/articles/2022-07-15/spain-will-introduce-free-train-travel-to-help-ease-the-cost-of-living"/>
+        <updated>2022-07-23T15:33:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/news/articles/2022-07-15/spain-will-introduce-free-train-travel-to-help-ease-the-cost-of-living
+Comments URL: https://news.ycombinator.com/item?id=32204256
+Points: 584
+# Comments: 547]]></summary>
+        <author>
+            <name>donohoe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by blocked_again in "Ask HN: What is the job market like, for niche languages (Nim, crystal)?"]]></title>
+        <id>https://news.ycombinator.com/item?id=32203099</id>
+        <link href="https://news.ycombinator.com/item?id=32203099"/>
+        <updated>2022-07-23T13:22:33.000Z</updated>
+        <summary type="html"><![CDATA[Best strategy for becoming a high paying/good software engineer would be to think of yourselves as problem solver and language as just one of the tool for problem solving.
+Thinking of yourselves as someone who is a writer of a certain programming language is self constarining and missing the point.]]></summary>
+        <author>
+            <name>blocked_again</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by OrangeMonkey in "A Clip from Stray Got Me Banned from Twitter"]]></title>
+        <id>https://news.ycombinator.com/item?id=32202858</id>
+        <link href="https://news.ycombinator.com/item?id=32202858"/>
+        <updated>2022-07-23T12:55:34.000Z</updated>
+        <summary type="html"><![CDATA[This is how big tech does damage to humans.
+Love it or hate it, the online world is our current public square.  A public square, in the united states, has typically been an area where people can shout out their concerns or whatever they want to anyone who can listen and the government cannot stop it.
+Currently, our public squares are owned by private megacorporations that not only ban people for reasons many people agree with, but also for insane things like this.  There is no appeal unless you convince enough others (using another public square) you are right and they also scream for you.
+Eventually, all of us that are 'ok' with this will end up being banned from one service or another for life, with no appeal, and thats that.  A perfectly pristine public square filled not with people, but consumers staring at advertising boards.
+I would love to know a way this can be solved as its painting a depressing picture.  I don't like how this makes me feel.]]></summary>
+        <author>
+            <name>OrangeMonkey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by quelsolaar in "Embed is in C23"]]></title>
+        <id>https://news.ycombinator.com/item?id=32202627</id>
+        <link href="https://news.ycombinator.com/item?id=32202627"/>
+        <updated>2022-07-23T12:16:13.000Z</updated>
+        <summary type="html"><![CDATA[I represent Sweden in the ISO WG14, and I voted for the inclusion of Embed in to C23. Its a good feature. But its not a necessary feature and I think JeanHeyd is wrong in his criticism of the pace of wg14 work. I have found everyone in wg14 to be very hardworking and serious about their work.
+Cs main strengthen is its portability and simplicity. Therefore we should be very conservative, and not add anything quickly. There are plenty of languages to choose form if you want a "modern" language with lots of conveniences. If you want a truly portable language there is really only C. And when I say truly, I mean for platforms without file systems, or operating systems or where bytes aren't 8 bits, that doesn't use ASCI or Unicode, where NULL isn't on address 0 and so on.
+We are the stewards of this, and the work we put in, while large, is tiny compared to the impact we have. Any change we makes, needs to be addressed by every compiler maintainer. There are millions of lines of code that depend on every part of the standard. A 1% performance loss is millions of tons of CO2 released, and billions in added hardware and energy costs.
+In this privileged position, we have to be very mindful of the concerns of our users, and take the time too look at every corner case in detail before adding any new features. If we add something, then people will depend on its behavior, no matter how bad, and we therefor will have great difficulty in fixing it in the future without breaking our users work, so we have to get it right the first time.]]></summary>
+        <author>
+            <name>quelsolaar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A clip from Stray got me banned from Twitter]]></title>
+        <id>https://news.ycombinator.com/item?id=32202481</id>
+        <link href="https://www.fanbyte.com/features/how-a-clip-from-stray-got-me-banned-from-twitter/"/>
+        <updated>2022-07-23T11:52:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fanbyte.com/features/how-a-clip-from-stray-got-me-banned-from-twitter/
+Comments URL: https://news.ycombinator.com/item?id=32202481
+Points: 431
+# Comments: 510]]></summary>
+        <author>
+            <name>theshrike79</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by thejosh in "Google Search Results Plagued with spam “.it” domains"]]></title>
+        <id>https://news.ycombinator.com/item?id=32202380</id>
+        <link href="https://news.ycombinator.com/item?id=32202380"/>
+        <updated>2022-07-23T11:35:08.000Z</updated>
+        <summary type="html"><![CDATA[There has been a huge influx this year with the amount of sites that simply scrape SO and then have the exact content on their site. It's a pain, and there is no official way to remove them.
+I thought that this was a massive nono from Googles side, has something changed?]]></summary>
+        <author>
+            <name>thejosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Declaring monkeypox an international emergency, WHO chief rejects expert panel’s advice]]></title>
+        <id>https://www.science.org/content/article/declaring-monkeypox-an-international-emergency-who-chief-rejects-expert-panels-advice</id>
+        <link href="https://www.science.org/content/article/declaring-monkeypox-an-international-emergency-who-chief-rejects-expert-panels-advice"/>
+        <updated>2022-07-23T10:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Narrow majority on Emergency Committee voted against ringing WHO’s loudest alarm bell]]></summary>
+        <author>
+            <name>Kai Kupferschmidt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Embed is in C23]]></title>
+        <id>https://news.ycombinator.com/item?id=32201951</id>
+        <link href="https://thephd.dev/finally-embed-in-c23"/>
+        <updated>2022-07-23T10:09:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thephd.dev/finally-embed-in-c23
+Comments URL: https://news.ycombinator.com/item?id=32201951
+Points: 464
+# Comments: 322]]></summary>
+        <author>
+            <name>aw1621107</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[William Blake’s Demonic Red Dragon]]></title>
+        <id>https://www.dailyartmagazine.com/?p=186361</id>
+        <link href="https://www.dailyartmagazine.com/william-blake-red-dragon/"/>
+        <updated>2022-07-23T03:00:39.000Z</updated>
+        <summary type="html"><![CDATA[William Blake was a great artist, poet and engraver of the Romantic Age.  But he died penniless, scorned by his contemporaries and the art establishment. Take a look at one of his most famous works: The Great Red Dragon and the Woman Clothed in Sun.
+The post William Blake’s Demonic Red Dragon appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Candy Bedworth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All You Need to Know About Mona Lisa]]></title>
+        <id>https://www.dailyartmagazine.com/?p=185430</id>
+        <link href="https://www.dailyartmagazine.com/mona-lisa/"/>
+        <updated>2022-07-23T03:00:31.000Z</updated>
+        <summary type="html"><![CDATA[The post All You Need to Know About Mona Lisa appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Anna Ingram</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Immerse Yourself in the Magical World of Maria Anto]]></title>
+        <id>http://dailyartmagazine.ga/fantastic-realism-paintings-by-maria-anto/</id>
+        <link href="https://www.dailyartmagazine.com/fantastic-realism-paintings-by-maria-anto/"/>
+        <updated>2022-07-23T03:00:12.000Z</updated>
+        <summary type="html"><![CDATA[The post Immerse Yourself in the Magical World of Maria Anto appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Pola Otterstein</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Mysterious Pinturas Negras Reveal Goya’s Darkest Secrets]]></title>
+        <id>http://dailyartmagazine.ga/pinturas-negras-goya/</id>
+        <link href="https://www.dailyartmagazine.com/pinturas-negras-goya/"/>
+        <updated>2022-07-23T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post The Mysterious Pinturas Negras Reveal Goya’s Darkest Secrets appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Magda Michalska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Masterpiece Story: The Ambassadors by Hans Holbein the Younger]]></title>
+        <id>http://dailyartmagazine.ga/hans-holbein-ambassadors/</id>
+        <link href="https://www.dailyartmagazine.com/hans-holbein-ambassadors/"/>
+        <updated>2022-07-23T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Masterpiece Story: The Ambassadors by Hans Holbein the Younger appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Joanna Kaszubowska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Philipp Otto Runge: The Seer of the Mysteries of God]]></title>
+        <id>http://dailyartmagazine.ga/philipp-otto-runge/</id>
+        <link href="https://www.dailyartmagazine.com/philipp-otto-runge/"/>
+        <updated>2022-07-23T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Philipp Otto Runge: The Seer of the Mysteries of God appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Magda Michalska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Mystery of Dürer’s Magic Square]]></title>
+        <id>http://dailyartmagazine.ga/mystery-durer-magic-square/</id>
+        <link href="https://www.dailyartmagazine.com/mystery-durer-magic-square/"/>
+        <updated>2022-07-23T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post The Mystery of Dürer’s Magic Square appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Zuzanna Stańska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by srvmshr in "Google Fires Blake Lemoine, Engineer Who Called Its AI Sentient"]]></title>
+        <id>https://news.ycombinator.com/item?id=32198385</id>
+        <link href="https://news.ycombinator.com/item?id=32198385"/>
+        <updated>2022-07-22T23:31:37.000Z</updated>
+        <summary type="html"><![CDATA[LLM are definitely not sentient. As someone with a PhD in this domain, I attribute the 'magic' to large scale statistical knowledge assimilation by the models - and reproduction to prompts which closely match the inputs' sentence embedding.
+GPT-3 is known to fail in many circumstances which would otherwise be commonplace logic. (I remember seeing how addition of two small numbers yielded results - but larger numbers gave garbled output; more likely that GPT3 had seen similar training data.)
+The belief of sentience isn't new. When ELIZA came out few decades ago, a lot of people were also astounded & thought this "probably was more than met the eyes".
+It's a fad. Once people understand that sentience also means self-awareness, empathy & extrapolation of logic to assess unseen task (to name a few), this myth will taper off.]]></summary>
+        <author>
+            <name>srvmshr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google fires engineer who called its AI sentient]]></title>
+        <id>https://news.ycombinator.com/item?id=32198214</id>
+        <link href="https://bigtechnology.substack.com/p/google-fires-blake-lemoine-engineer"/>
+        <updated>2022-07-22T23:09:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bigtechnology.substack.com/p/google-fires-blake-lemoine-engineer
+Comments URL: https://news.ycombinator.com/item?id=32198214
+Points: 375
+# Comments: 679]]></summary>
+        <author>
+            <name>minimaxir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two containers with same number detected in Chittagong port]]></title>
+        <id>https://news.ycombinator.com/item?id=32197212</id>
+        <link href="https://container-news.com/two-containers-with-same-number-detected-in-chittagong-port/"/>
+        <updated>2022-07-22T21:15:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://container-news.com/two-containers-with-same-number-detected-in-chittagong-port/
+Comments URL: https://news.ycombinator.com/item?id=32197212
+Points: 388
+# Comments: 257]]></summary>
+        <author>
+            <name>wolfgang42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We're going to need a lot of solar panels]]></title>
+        <id>https://news.ycombinator.com/item?id=32197012</id>
+        <link href="https://caseyhandmer.wordpress.com/2022/07/22/were-going-to-need-a-lot-of-solar-panels/"/>
+        <updated>2022-07-22T20:54:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://caseyhandmer.wordpress.com/2022/07/22/were-going-to-need-a-lot-of-solar-panels/
+Comments URL: https://news.ycombinator.com/item?id=32197012
+Points: 719
+# Comments: 710]]></summary>
+        <author>
+            <name>lionheart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by callahad in "Ever wonder why the cheap junk flooding Amazon has brand names like MOFFBUZW?"]]></title>
+        <id>https://news.ycombinator.com/item?id=32196499</id>
+        <link href="https://news.ycombinator.com/item?id=32196499"/>
+        <updated>2022-07-22T20:05:51.000Z</updated>
+        <summary type="html"><![CDATA[The New York Times did some decent reporting into the pseudo-brands which comes closer to answering the question in the title: having a registered trademark unlocks a lot of on-platform seller tools (predictive analytics, early review program, etc.), and the easiest path to a trademark is to have an utterly unique, nonsense name. Some Chinese municipalities were also offering cash incentives for citizens who obtained foreign intellectual property registrations, further exacerbating the problem.
+Full article at https://www.nytimes.com/2020/02/11/style/amazon-trademark-co...]]></summary>
+        <author>
+            <name>callahad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teens are rewriting what is possible in the world of competitive Tetris]]></title>
+        <id>https://news.ycombinator.com/item?id=32196129</id>
+        <link href="https://www.polygon.com/23269073/competitive-classic-tetris-ctwc-jonas-neubauer-andy-michael-artiaga"/>
+        <updated>2022-07-22T19:29:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.polygon.com/23269073/competitive-classic-tetris-ctwc-jonas-neubauer-andy-michael-artiaga
+Comments URL: https://news.ycombinator.com/item?id=32196129
+Points: 330
+# Comments: 109]]></summary>
+        <author>
+            <name>danso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cheap junk flooding Amazon has brand names like MOFFBUZW]]></title>
+        <id>https://news.ycombinator.com/item?id=32195987</id>
+        <link href="https://twitter.com/ColeSouth/status/1550230795230781440"/>
+        <updated>2022-07-22T19:14:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/ColeSouth/status/1550230795230781440
+Comments URL: https://news.ycombinator.com/item?id=32195987
+Points: 428
+# Comments: 240]]></summary>
+        <author>
+            <name>rafaelm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by bastardoperator in "Airbnb will up its penalty for hosts who cancel last-minute from $100 to $1k"]]></title>
+        <id>https://news.ycombinator.com/item?id=32193446</id>
+        <link href="https://news.ycombinator.com/item?id=32193446"/>
+        <updated>2022-07-22T15:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Sorry Airbnb, you've screwed too many people too many times. You've allowed, even enabled hosts to abuse travelers. I'm not rolling the dice anymore. The last straw for me was last year traveling to NYC for Christmas. The host refused to contact us back, never a peep from the host. Airbnb fought us tooth and nail in terms of refund. How am I going to put small children on a plane and hope everything is fine when we land? They didn't care. They were doing everything they could for the host. Finally after 3 days of arguing back and forth one of the off shore customer service representatives gave us a refund.
+I shouldn't have to spend 12 hours on the phone over the course of three days, having my vacation completely ruined, just to get what I deserve which was my money back.]]></summary>
+        <author>
+            <name>bastardoperator</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by anonymousab in "How to advertise to developers: deep dive into paid developer marketing"]]></title>
+        <id>https://news.ycombinator.com/item?id=32192075</id>
+        <link href="https://news.ycombinator.com/item?id=32192075"/>
+        <updated>2022-07-22T14:17:09.000Z</updated>
+        <summary type="html"><![CDATA[> Pushy pop-ups, "do it now", flashy colors, and all that stuff.
+Things that work like a charm in e-commerce or fashion will most likely not work on devs.
+Not just 'not work', but 'actively repel'. A popup chat bot or a survey form request (during or after using a website or software product) or anything not germane to the task that has a shadow or notification highlight has slowly but surely become a form of wart that elicits a deep, instinctual disgust from me. I'd even say an unhealthy and unreasonable level of disgust.
+It's enough to get me to instantly despise a product almost nomatter how well it does its original job.
+But 100 folks who actually click ads or interact with these distraction baubles (mistakenly or otherwise) are worth thousands of people like me, so I understand why it won't ever change for the better out of a company's own volition.
+---
+When it comes to advertising, say, developer tooling, I think a large part of the problem is that there's just not going to be a lot of relevant tools out there, for my job or hobbies, that I either don't already know about (and aren't using because I have already evaluated its prospects) or... I am already using it. Conversely, seeing ads for something I am already using has potential for negative effects (see above). Tasteful advertising is thus useful for the rare case of something I don't know about, but I don't think it's worth it when 999/1000 of these ads are detrimental and irrelevant.]]></summary>
+        <author>
+            <name>anonymousab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to advertise to developers: deep dive into paid developer marketing]]></title>
+        <id>https://news.ycombinator.com/item?id=32191615</id>
+        <link href="https://www.developermarkepear.com/blog/paid-advertising-developer-marketing"/>
+        <updated>2022-07-22T13:20:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.developermarkepear.com/blog/paid-advertising-developer-marketing
+Comments URL: https://news.ycombinator.com/item?id=32191615
+Points: 316
+# Comments: 172]]></summary>
+        <author>
+            <name>mooreds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dreaming up new proteins, AI churns out possible medicines and vaccines]]></title>
+        <id>https://www.science.org/content/article/dreaming-new-proteins-ai-churns-out-possible-medicines-and-vaccines</id>
+        <link href="https://www.science.org/content/article/dreaming-new-proteins-ai-churns-out-possible-medicines-and-vaccines"/>
+        <updated>2022-07-22T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Instead of predicting the shapes of naturally occurring molecules, software designs original ones]]></summary>
+        <author>
+            <name>Robert F. Service</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overcoming Imposter Syndrome By Developing Your Own Guiding Principles]]></title>
+        <id>https://smashingmagazine.com/2022/07/overcoming-imposter-syndrome-developing-guiding-principles/</id>
+        <link href="https://smashingmagazine.com/2022/07/overcoming-imposter-syndrome-developing-guiding-principles/"/>
+        <updated>2022-07-22T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, Luis Ouriach helps to develop your own guiding principles to become a better designer so that you can walk into the design critique meetings with more confidence and really deliver the best representation of your ideas.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Luis Ouriach)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Working Group Note: Accessibility of Remote Meetings]]></title>
+        <id>https://www.w3.org/blog/news/archives/9625</id>
+        <link href="https://www.w3.org/blog/news/archives/9625"/>
+        <updated>2022-07-22T08:36:29.000Z</updated>
+        <summary type="html"><![CDATA[The Accessible Platform Architectures Working Group has published Accessibility of Remote Meetings as a Group Note. It is a companion to the W3C resource: How to Make Your Presentations and Meetings Accessible to All. Remote meeting is an umbrella term used to describe real-time discussions or presentations held between two or more parties online. The [&#8230;]]]></summary>
+        <author>
+            <name>W3C News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UK intelligence recycles “think of the children” argument for borking encryption]]></title>
+        <id>https://news.ycombinator.com/item?id=32189507</id>
+        <link href="https://www.theregister.com/2022/07/22/british_encryption_scanning/"/>
+        <updated>2022-07-22T07:33:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2022/07/22/british_encryption_scanning/
+Comments URL: https://news.ycombinator.com/item?id=32189507
+Points: 339
+# Comments: 173]]></summary>
+        <author>
+            <name>samizdis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by skrebbel in "Ask HN: What are some cool but obscure data structures you know about?"]]></title>
+        <id>https://news.ycombinator.com/item?id=32189416</id>
+        <link href="https://news.ycombinator.com/item?id=32189416"/>
+        <updated>2022-07-22T07:13:18.000Z</updated>
+        <summary type="html"><![CDATA[Not a very deep CS-y one, but still one of my favourite data structures: Promise Maps.
+It only works in languages where promises/futures/tasks are a first-class citizen. Eg JavaScript.
+When caching the result of an expensive computation or a network call, don't actually cache the result, but cache the promise that awaits the result. Ie don't make a
+    Map
+
+    Map>
+
+- promises hold on to their result value indefinitely (until they're GC'ed)
+- you can await (or .then()) an existing promise as many times as you want
+- awaiting an already-resolved promise is a very low-overhead operation.
+In other words, the promise acts as a mutex around the computation, and the resulting code is understandable even by people unfamiliar with mutexes, locks and so on.]]></summary>
+        <author>
+            <name>skrebbel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A weird epic ramble about Etsy homepages from the middle 2000’s]]></title>
+        <id>https://news.ycombinator.com/item?id=32188805</id>
+        <link href="https://twitter.com/mcfunley/status/1550219636464967680"/>
+        <updated>2022-07-22T05:23:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/mcfunley/status/1550219636464967680
+Comments URL: https://news.ycombinator.com/item?id=32188805
+Points: 364
+# Comments: 171]]></summary>
+        <author>
+            <name>youcould</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by filoeleven in "Ask HN: What are some cool but obscure data structures you know about?"]]></title>
+        <id>https://news.ycombinator.com/item?id=32188783</id>
+        <link href="https://news.ycombinator.com/item?id=32188783"/>
+        <updated>2022-07-22T05:18:21.000Z</updated>
+        <summary type="html"><![CDATA[HAMT: Hash Array Mapped Trie.  This data structure makes efficient immutable data possible.  You can update a list of a million items, and keep a reference to the original list, by changing 3 or 4 references and some bytes.
+This should replace copy-on-write for scripting languages.  I really want to see it in a JS spec soon.  There are libraries that can do it, but they add translation penalties and extra steps.  I’d complain less if I could use Clojurescript professionally, because it and Clojure are built around them.
+https://en.m.wikipedia.org/wiki/Hash_array_mapped_trie]]></summary>
+        <author>
+            <name>filoeleven</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supercharged biotech rice yields 40% more grain]]></title>
+        <id>https://www.science.org/content/article/supercharged-biotech-rice-yields-40-more-grain</id>
+        <link href="https://www.science.org/content/article/supercharged-biotech-rice-yields-40-more-grain"/>
+        <updated>2022-07-22T04:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Genetic tweak may boost photosynthesis and fertilizer absorption in wheat, other crops, too]]></summary>
+        <author>
+            <name>Erik Stokstad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radio bursts from ‘zombie’ black holes excite astronomers]]></title>
+        <id>https://www.science.org/content/article/radio-bursts-zombie-black-holes-excite-astronomers</id>
+        <link href="https://www.science.org/content/article/radio-bursts-zombie-black-holes-excite-astronomers"/>
+        <updated>2022-07-22T04:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Delayed emissions from black holes that fed on stars months earlier could help explain the formation of powerful jets]]></summary>
+        <author>
+            <name>Zack Savitsky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jtolmar in "Ask HN: What are some cool but obscure data structures you know about?"]]></title>
+        <id>https://news.ycombinator.com/item?id=32188556</id>
+        <link href="https://news.ycombinator.com/item?id=32188556"/>
+        <updated>2022-07-22T04:32:44.000Z</updated>
+        <summary type="html"><![CDATA[The union-find data structure / algorithm is useful and a lot of fun.
+The goal is a data structure where you can perform operations like "a and b are in the same set", "b and c are in the same set" and then get answers to questions like "are a and c in the same set?" (yes, in this example.)
+The implementation starts out pretty obvious - a tree where every element either points at itself or some thing it was merged with. To check if two elements are in the same set, check if they have the same parent. Without analyzing it, it sounds like you'll average findRoot() performance of O(log(n)), worst-case O(n).
+There are a couple of simple optimizations you can do to this structure, the type of things that seem like they shouldn't end up affecting asymptotic runtime all that much. The first is that, whenever you find a root, you can re-parent all the nodes you visited on the way to that root, so they'll all be quicker to look up next time. The other is that you keep track of the size of sets, and always make the larger set be the parent of the smaller.
+And neither of those actually do anything impressive alone, but if you use both, the algorithm suddenly becomes incredibly fast, with the slowest-growing (non-constant) complexity I've ever heard of: O(the inverse of the Ackermann function(n)). Or, for any reasonable N, O(4 or less).]]></summary>
+        <author>
+            <name>jtolmar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Watch Edward Hopper in Rare Studio Footage]]></title>
+        <id>http://dailyartmagazine.ga/watch-edward-hopper-footage/</id>
+        <link href="https://www.dailyartmagazine.com/watch-edward-hopper-footage/"/>
+        <updated>2022-07-22T03:00:49.000Z</updated>
+        <summary type="html"><![CDATA[The post Watch Edward Hopper in Rare Studio Footage appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Zuzanna Stańska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Summer Interior and Edward Hopper’s Women – Learning the Ropes of Romance]]></title>
+        <id>http://dailyartmagazine.ga/edward-hoppers-women/</id>
+        <link href="https://www.dailyartmagazine.com/edward-hoppers-women/"/>
+        <updated>2022-07-22T03:00:16.000Z</updated>
+        <summary type="html"><![CDATA[The post Summer Interior and Edward Hopper’s Women – Learning the Ropes of Romance appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Tony Heathfield</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nighthawks as Memes – Edward Hopper’s Best Renditions]]></title>
+        <id>http://dailyartmagazine.ga/nighthawks-memes-renditions/</id>
+        <link href="https://www.dailyartmagazine.com/nighthawks-memes-renditions/"/>
+        <updated>2022-07-22T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Nighthawks as Memes – Edward Hopper’s Best Renditions appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Celia Leiva Otto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Theater and Cinema in Edward Hopper’s Paintings]]></title>
+        <id>http://dailyartmagazine.ga/theatres-edward-hoppers-paintings/</id>
+        <link href="https://www.dailyartmagazine.com/theatres-edward-hoppers-paintings/"/>
+        <updated>2022-07-22T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Theater and Cinema in Edward Hopper’s Paintings appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Zuzanna Stańska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[科技爱好者周刊（第 215 期）：互联网最喜欢的行为模式]]></title>
+        <id>http://www.ruanyifeng.com/blog/2022/07/weekly-issue-215.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2022/07/weekly-issue-215.html"/>
+        <updated>2022-07-22T00:19:26.000Z</updated>
+        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
+本杂志开源（GitHub: ruanyf/weekly），欢迎提交 issue，投稿或推荐科技内容。
+周刊讨论区的帖子《谁在招人？》，提供大量程序员就业信息，欢迎访问或发布工作/实习岗位。
+封面图
+
+6月30日，四川凉山的金阳河特大桥正式通车。这座桥长度不到800米，但是桥墩高达196米，是亚洲最高的桥墩。（via）
+本周话题：互联网最喜欢的行为模式
+巴菲特说，他考察候选人，就看三个"i"。
+
+integrity（正直）
+intelligence（智力）
+initiative（主动）
+"正直"（integrity）和"智力"（intelligence）比较容易想到，大多数人会忽视第三点"主动"（initiative）。可是，主动恰恰是互联网最喜欢的行为模式。
+
+现实世界往往有很多约束，你想做什么事，需要各种条件具备，才有办法去做。所以，很多时候不得不被动等待。
+但是，线上世界不是这样，限制条件比较少。只要技术可行，一般来说，就可以去做。如果你还在等待条件成熟，就会错失机会。 所以，想到就去做，在互联网上特别重要，这就叫主动。
+举例来说，找工作，大多数人想到的是下面两种方式。
+方式一：看到招聘广告，投递简历。
+方式二：认识某个内部人员，请他内推。
+这两种方式都有一个前提，就是你碰巧知道这家公司要招人了，然后再去应聘。
+但是互联网找工作，有另一种方式，完全可以主动出击。
+第一步：你看到了一个心仪的产品。
+第二步：你写下自己可以帮助改进这个产品的10个地方。
+第三步：你找到 CEO 的信箱或社交账号，把想法发给他，就说你可以帮到这个产品。
+这就是主动的行为方式。你不必等公司发布招聘岗位，如果想去那里工作，就找上门，展示自己的价值。在互联网上，没人禁止这么做，成本又这么低，那为什么不做呢？
+主动和被动，很多时候说到底，就是对待机会的心态不…]]></summary>
+        <author>
+            <name>阮一峰的网络日志</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jiggawatts in "Ask HN: What are some 'cool' but obscure data structures you know about?"]]></title>
+        <id>https://news.ycombinator.com/item?id=32186837</id>
+        <link href="https://news.ycombinator.com/item?id=32186837"/>
+        <updated>2022-07-22T00:02:18.000Z</updated>
+        <summary type="html"><![CDATA[Cache-Oblivious Data Structures: https://cs.au.dk/~gerth/MassiveData02/notes/demaine.pdf
+A vaguely related notion is that naive analysis of big-O complexity in typical CS texts ignores over the increasing latency/cost of data access as the data size grows. This can't be ignored, no matter how much we would like to hand-wave it away, because physics gets in the way.
+A way to think about it is that a CPU core is like a central point with "rings" of data arranged around it in a more-or-less a flat plane. The L1 cache is a tiny ring, then L2 is a bit further out physically and has a larger area, then L3 is even bigger and further away, etc... all the way out to permanent storage that's potentially across the building somewhere in a disk array.
+In essence, as data size 'n' grows, the random access time grows as sqrt(n), because that's the radius of the growing circle with area 'n'.
+Hence, a lot of algorithms that on paper have identical performance don't in reality, because one of the two may have an extra sqrt(n) factor in there.
+This is why streaming and array-based data structures and algorithms tend to be faster than random-access, even if the latter is theoretically more efficient. So for example merge join is faster than nested loop join, even though they have the same performance in theory.]]></summary>
+        <author>
+            <name>jiggawatts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自动化机器学习]]></title>
+        <id>https://yufree.cn/cn/2022/07/22/automl/</id>
+        <link href="https://yufree.cn/cn/2022/07/22/automl/"/>
+        <updated>2022-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[自动化机器学习（AutoML）大概在四五年前非常火，现在基本熄火进入平稳期与实用期了，是时候回顾下了。
+首先，自动化机器学习同样是用来做机器学习的，机器学习适合做的领域自动化机器学习都可以做。这里自动化主要是把调参、变量选择、模型选择、模型集成等传统需要机器学习专家来做的事流程化自动化执行，可以算是程序员自掘职业坟墓的又一成果。
+现在很多学科都在谈机器学习，有些是当辅助用，有些是当魔法用，还有些单纯用来要饭忽悠人的。但你去看看高校培养计划会发现虽然很多学科前沿展望里都在鼓吹，培养上基本放羊，全靠学生自学。这样的后果就是同样都是自称做机器学习的，有的是调包流，跑个泰坦尼克幸存者就说懂机器学习，满嘴随机森林支持向量机，走个MNIST敢自称会深度学习。另外一些是y=f(x)流，精于把自己学科问题抽象成一个可训练的模型，然后直接找机器学习专家合作，根本不管模型细节；另一些则是解释流，只对线性模型跟决策树感兴趣，别的都不关心。
+毫无意外，自动化机器学习最适合的是第二类人，当然他们最好对基础模型本身原理有感知。但真到预测性问题上就无所谓了，表现最好的一般是多个不同模型集成的。从原理上说，集成学习就是尝试组合不同原理或假设的模型来尽量多的攫取数据中跟预测目标相关的信息。从这个角度上看，单纯依赖某一种模型对于结构复杂问题的信息利用效率都很难高到哪去；而现在流行的深度学习基本就是对原始数据进行各种各样的线性或非线性变换组合，旨在通过各种基础模型的变换组合尽量多的捕集数据中的信息；而更进一步说，类似AlphaFold2这种变形金刚结构的深度学习框架则在编码器阶段融入了学科知识，例如蛋白共源性或氨基酸结合的亲和度，这样在解决具体学科问题上同时包含了通用机器学习模型对信息的穷举与专业生物化学知识来辅助训练，达到了很出色的表现。当然，这种专业知识跟机器学习深度融合的模型就不能指望自动化机器学习了，得…]]></summary>
+        <author>
+            <name>博客 on Miao Yu | 于淼</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical Deep Learning for Coders 2022]]></title>
+        <id>https://news.ycombinator.com/item?id=32186647</id>
+        <link href="https://www.fast.ai/2022/07/21/dl-coders-22/"/>
+        <updated>2022-07-21T23:41:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fast.ai/2022/07/21/dl-coders-22/
+Comments URL: https://news.ycombinator.com/item?id=32186647
+Points: 400
+# Comments: 73]]></summary>
+        <author>
+            <name>tmabraham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ctrager in "Hertz paid Accenture $32M for a website that never went live"]]></title>
+        <id>https://news.ycombinator.com/item?id=32186261</id>
+        <link href="https://news.ycombinator.com/item?id=32186261"/>
+        <updated>2022-07-21T22:56:08.000Z</updated>
+        <summary type="html"><![CDATA[LOL and true to my experience. In the 80's was a United Airlines employee on a project where Arthur Anderson (aka Accenture) was the consultant. The project included approximately 75 entry level AA programmers that were brought to the office on two big buses. My job was to write specs for them. The specs had to be 100% detailed, every "if", every "loop", except that I had to follow the AA methodology and write the entire program basically in flowchart form. Pencil and paper. The spec was a looseleaf notebook of diagrams. The spec would then be stored in a box, like, the kind you would use for moving, and the boxes put into a storage room. If I needed to change a spec, an AA employee would have to climb the piles of boxes to find my box, and then I would use actual scissors, actual glue, to make the change.
+It. Was. Insane.]]></summary>
+        <author>
+            <name>ctrager</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What are some cool but obscure data structures you know about?]]></title>
+        <id>https://news.ycombinator.com/item?id=32186203</id>
+        <link href="https://news.ycombinator.com/item?id=32186203"/>
+        <updated>2022-07-21T22:50:29.000Z</updated>
+        <summary type="html"><![CDATA[I'm very interested in what types of interesting data structures are out there HN. Totally your preference.
+I'll start: bloom filters. Lets you test if a value is definitely NOT in a list of pre-stored values (or POSSIBLY in a list - with adjustable probability that influences storage of the values.)
+Good use-case: routing. Say you have a list of 1 million IPs that are black listed. A trivial algorithm would be to compare every element of the set with a given IP. The time complexity grows with the number of elements. Not so with a bloom filter! A bloom filter is one of the few data structures whose time complexity does not grow with the number of elements due to the 'keys' not needing to be stored ('search' and 'insert' is based on the number of hash functions.)
+Bonus section: Golomb Coded Sets are similar to bloom filters but the storage space is much smaller. Worse performance though.
+Comments URL: https://news.ycombinator.com/item?id=32186203
+Points: 1738
+# Comments: 678]]></summary>
+        <author>
+            <name>Uptrenda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by rozenmd in "Hertz paid Accenture $32M for a website that never went live"]]></title>
+        <id>https://news.ycombinator.com/item?id=32185173</id>
+        <link href="https://news.ycombinator.com/item?id=32185173"/>
+        <updated>2022-07-21T21:14:42.000Z</updated>
+        <summary type="html"><![CDATA[24 year olds? Since when are they sending the senior consultants out on engagements like this!
+I lasted not even 6 months working in professional services, really woke me up to what "prestigious careers" really are.]]></summary>
+        <author>
+            <name>rozenmd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by pembrook in "Hertz paid Accenture $32M for a website that never went live"]]></title>
+        <id>https://news.ycombinator.com/item?id=32185108</id>
+        <link href="https://news.ycombinator.com/item?id=32185108"/>
+        <updated>2022-07-21T21:09:13.000Z</updated>
+        <summary type="html"><![CDATA[It’s impossible to overstate how funny the shenanigans get when you combine a technologically incompetent legacy big Co. with one of these big professional services firms.
+The IT consulting firm will tell you they have experience with literally everything. They’ll dig up a case study from one of their 400 offices somewhere, claiming to be experts on whatever the topic is. Meanwhile, in actuality, your project will be staffed with a team of 24 year old kids where this is their first assignment. And it doesn’t matter anyways, because the people who worked on the original case study are long gone and would never communicate with other offices even if still around.
+Meanwhile at the big company, you’ll have the opposite problem. A team of people with decades of experience, but who don’t really know anything about anything other than how to make their corporate machine not fire them. They’ll think they know what they want, and will confidently tell you…but in actuality, these people have zero understanding of technology or even how their business runs. And who can blame them, they’ve spent a 30 year career not doing or risking anything specifically, so its hard to learn how anything works with no feedback loop.
+It then becomes a delicate dance, can the consulting team learn how to do the thing they sold the client fast enough, before the client does their best to try to ruin the project out of sheer hubris and incompetence.
+This case is famous for being one where the dance went so bad it became a meme.]]></summary>
+        <author>
+            <name>pembrook</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by flaque in "Why We Ignore Thousands of Daily Car Crashes"]]></title>
+        <id>https://news.ycombinator.com/item?id=32184202</id>
+        <link href="https://news.ycombinator.com/item?id=32184202"/>
+        <updated>2022-07-21T20:01:13.000Z</updated>
+        <summary type="html"><![CDATA[There’s an audio version of the same point here: https://podcast.strongtowns.org/e/the-drip-drip-drip-of-traf...
+A ”best effort” summary of this article: if thousands of people die in once place, it’s one of the great tragedies in American history. However if thousands of people die in thousands different places, it is ignored and considered a fact of life.
+When a plane or train crashes, we stop everything and redesign the entire network to prevent this from happening again. But each individual death from car accidents is not enough to trigger the same response in cities, planners, and civil engineers.]]></summary>
+        <author>
+            <name>flaque</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hertz paid Accenture $32M for a website that never went live (2019)]]></title>
+        <id>https://news.ycombinator.com/item?id=32184183</id>
+        <link href="https://www.henricodolfing.com/2019/10/case-study-hertz-accenture-website.html"/>
+        <updated>2022-07-21T19:59:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.henricodolfing.com/2019/10/case-study-hertz-accenture-website.html
+Comments URL: https://news.ycombinator.com/item?id=32184183
+Points: 586
+# Comments: 383]]></summary>
+        <author>
+            <name>sogen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by dotdi in "Tell HN: You can't hire because you don't post salary ranges"]]></title>
+        <id>https://news.ycombinator.com/item?id=32183389</id>
+        <link href="https://news.ycombinator.com/item?id=32183389"/>
+        <updated>2022-07-21T19:00:22.000Z</updated>
+        <summary type="html"><![CDATA[More anecdotal evidence: a few years back I wanted to get out of the work situation I was in. I looked around, had some interviews, had some offers. None of the postings had salary ranges, as is common where I live.
+My eyes, however, were set on a specific small company because I liked their product. The process was long and involved multiple meetings, a take-home problem, and stretched over 2 or so months. I was upfront about what my salary expectations were (wasn't looking for a raise, just a lateral move). They said we discuss salary when you meet the founders, i.e. the last step before getting hired, but they also didn't tell me that my range was way off.
+Turns out I had played this 9 week game and turned down other offers just to be severely low-balled by them. Maybe they saw that I really wanted the position and thought they could get away with a low offer.
+Obviously, I rejected their offer on the spot. I also promised myself to never, _ever_, be fooled like that again. We talk money before I invest any significant amount of time or I walk.]]></summary>
+        <author>
+            <name>dotdi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Potential fabrication in research threatens the amyloid theory of Alzheimer’s]]></title>
+        <id>https://news.ycombinator.com/item?id=32183302</id>
+        <link href="https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease"/>
+        <updated>2022-07-21T18:54:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease
+Comments URL: https://news.ycombinator.com/item?id=32183302
+Points: 547
+# Comments: 212]]></summary>
+        <author>
+            <name>panabee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why we ignore thousands of daily car crashes]]></title>
+        <id>https://news.ycombinator.com/item?id=32183007</id>
+        <link href="https://www.strongtowns.org/journal/2022/7/5/heres-why-we-respond-in-force-to-one-amtrak-crash-while-ignoring-thousands-of-daily-car-crashes"/>
+        <updated>2022-07-21T18:31:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.strongtowns.org/journal/2022/7/5/heres-why-we-respond-in-force-to-one-amtrak-crash-while-ignoring-thousands-of-daily-car-crashes
+Comments URL: https://news.ycombinator.com/item?id=32183007
+Points: 401
+# Comments: 461]]></summary>
+        <author>
+            <name>oftenwrong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by corrral in "Tell HN: You can't hire because you don't post salary ranges"]]></title>
+        <id>https://news.ycombinator.com/item?id=32182951</id>
+        <link href="https://news.ycombinator.com/item?id=32182951"/>
+        <updated>2022-07-21T18:27:37.000Z</updated>
+        <summary type="html"><![CDATA[OK, but... some places think a "senior software developer" should make $70,000, and other think they should make $250,000 or more. And everything in between.
+I don't care how nice the a place it is to work, I'm not applying to the $70k place. If I can't quickly figure out where you fall on that spectrum, I'm not going to bother to contact you because job listings are not rare. If you somehow manage to present as exactly the perfect place to work, I might contact you—to ask what the salary range is, and if you won't say up-front, I'm out.
+It takes exactly one time sitting through interviews, having everyone be super excited about hiring you, then naming a totally normal rate when they ask what salary you're looking for, and watching everyone's faces turn green, to never, ever waste time doing that again. I've had mine already.]]></summary>
+        <author>
+            <name>corrral</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Masterpiece Story: Sea Watchers by Edward Hopper]]></title>
+        <id>http://dailyartmagazine.ga/sea-watchers-edward-hopper/</id>
+        <link href="https://www.dailyartmagazine.com/sea-watchers-edward-hopper/"/>
+        <updated>2022-07-21T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Masterpiece Story: Sea Watchers by Edward Hopper appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Abreeza Thomas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by BlargMcLarg in "Tell HN: You can't hire because you don't post salary ranges"]]></title>
+        <id>https://news.ycombinator.com/item?id=32182316</id>
+        <link href="https://news.ycombinator.com/item?id=32182316"/>
+        <updated>2022-07-21T17:36:44.000Z</updated>
+        <summary type="html"><![CDATA[>Of the top reasons people are happy at work, salary is way down on the list.
+You're conflating multiple things here. People aren't focusing on money because it's the most important part. They focus on money because it's one of the few things that's relatively easy to make tangible ahead of time. Similar goes for things like remote/hybrid, secondary benefits, etc.
+Many elements on that list, while important, are incredibly difficult to equate in practice without speaking with employees or reading up on the company. Take the following:
+>1 Appreciation for your work
+How in the world are you going to evaluate this pre-interview or even post hiring process? Both parties are showing their best selves. It's incredibly abstract and difficult to measure.
+>2 Good relationships with colleagues
+Again, difficult to measure. Establishing good relationships takes time. Additionally, most places (at least here) have people who are decent to get along with, they aren't filled with horror individuals. At least, I'd hope hiring processes would at least filter the most obvious nutcases out after all those hours spent.
+>3 Good work-life balance
+Here's one you can measure much more easily. Few core hours and a "do whatever whenever" mentality outside of core hours attracts individuals. Still I don't see most companies post it. It goes far beyond hybrid and remote work, and even that is already hard to pull out of them. Then at the end of the interview, you get a "yeah we have a flexible schedule. Our hours are from 7 to 7." Great.. I guess.]]></summary>
+        <author>
+            <name>BlargMcLarg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by dannyphantom in "Love the smell of old books? This bookseller would like you to leave"]]></title>
+        <id>https://news.ycombinator.com/item?id=32181659</id>
+        <link href="https://news.ycombinator.com/item?id=32181659"/>
+        <updated>2022-07-21T16:49:37.000Z</updated>
+        <summary type="html"><![CDATA[In my hometown, there is a long-standing bookstore that an elderly woman owns; she's been old since I was a child and she is old now. She rejoices when people come into her shop and her first instinct is to approach you and ask if you'd like a (free) coffee or tea, not of great quality, but it's a precursor to her second habit: she has a conversation with her guests and through that time she is carefully studying you. After a few minutes she will give you a smile and say "I've got the perfect book for you", she'll retreat into her shop and come back to you with a book in hand and only ask for a dollar or two in return.
+She was the town's "book lady" or "just the bookstore everyone goes to" so it's obviously been a disappointment when that wasn't the case everywhere as I've moved on and visited other stores; but it's impressions like that, as a child and growing up with that you are left with an idea on how booksellers are supposed to be like because it's what you grew up with as the normal thing; but alas the world is large and I'm sure this author has his reasons.
+Edit: wanted to add an example of how fantastic this woman was at figuring people out; I remember going in around maybe ~8-10 years old and she picked 'Edward's Eyes' [1] for me; it had a profound impact on me as a child as it was so similar to my own life, even sharing the same first name as the narrator of the book.
+https://www.goodreads.com/book/show/121419.Edward_s_Eyes]]></summary>
+        <author>
+            <name>dannyphantom</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tell HN: You can't hire because you don't post salary ranges]]></title>
+        <id>https://news.ycombinator.com/item?id=32181619</id>
+        <link href="https://news.ycombinator.com/item?id=32181619"/>
+        <updated>2022-07-21T16:46:57.000Z</updated>
+        <summary type="html"><![CDATA[At the start of this year, Colorado has changed to require every job posted to list a salary range. Other states are also beginning to follow suit.
+I am currently job hunting. I started looking locally, everything lists salary ranges, perfect. I can know which positions to skip and which ones might be a good match right away. No need to waste time with 7 rounds of interviewing only to find out the salary is 50% of what I currently make.
+Now I've begun widening my search to remote work, as the idea of commuting to an office in 2022 is completely insane to me.
+Most jobs on nation-wide job boards do not post a salary range. I will not even click on those job postings. It's simply not worth it.
+Further, after seeing so many positions listed _with_ salary ranges, when I see one without a salary range it makes me feel like you have something to hide and are trying to trick me.
+So the next time your team starts discussing why you can't seem to hire, maybe ask if you are publicly posting salary ranges on these positions?
+Comments URL: https://news.ycombinator.com/item?id=32181619
+Points: 780
+# Comments: 414]]></summary>
+        <author>
+            <name>Carrok</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by level in "I Regret my Website Redesign"]]></title>
+        <id>https://news.ycombinator.com/item?id=32180944</id>
+        <link href="https://news.ycombinator.com/item?id=32180944"/>
+        <updated>2022-07-21T15:58:36.000Z</updated>
+        <summary type="html"><![CDATA[I recently left a boutique agency of 5 years and I can definitely resonate with this one. Our agency aimed to catch big fish, and we did, but since they are hard to land we'd pick up small jobs in the meantime, just like the project that you're describing here. In my perspective, this isn't someone deliberately ripping you off. I imagine they intended to ship at the cost they quoted, but the team didn't adjust their working style to match your price point.
+All the variations of the logo and design mocks are clearly overkill for a $15k project. The design team had time to fill and wanted to provide lots of options for you to pick from, as they typically would on a larger project. Those variations are an expectation for $100k clients, and you got the $100k customer treatment, but unfortunately not at a discount.
+The reality is, small jobs like this are effectively make-work projects for an agency. They typically don't pay enough to be an effective use of time for the agency, but are a way to stay in the black between higher value projects. Small customers become "nuisance" customers as soon as a something better is landed. The team members being swapped out as they are needed elsewhere and newly joining team members then need to re-contextualize and regain momentum, all on your dime.
+Your takeaway is correct, don't be a small fish for an agency. If they're busy they won't take your work, and if do show interest, they are desperate for work.]]></summary>
+        <author>
+            <name>level</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by latortuga in "I Regret my Website Redesign"]]></title>
+        <id>https://news.ycombinator.com/item?id=32180934</id>
+        <link href="https://news.ycombinator.com/item?id=32180934"/>
+        <updated>2022-07-21T15:58:16.000Z</updated>
+        <summary type="html"><![CDATA[I was ready to fire the agency the moment the author mentioned they were going off script and building whatever they wanted. This was a huge, blinking red flag for me. Why would you keep paying someone when they're doing work you didn't ask for, doing work that doesn't align with your goals, and ignoring what you say?]]></summary>
+        <author>
+            <name>latortuga</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by paulmd in "Most Americans think NASA’s $10B space telescope is a good investment"]]></title>
+        <id>https://news.ycombinator.com/item?id=32180695</id>
+        <link href="https://news.ycombinator.com/item?id=32180695"/>
+        <updated>2022-07-21T15:39:37.000Z</updated>
+        <summary type="html"><![CDATA[It is - and that's $10b upfront cost for an asset that will operate for a decade.  $1b a year is a steal for that compared to the other shit the US wastes federal money on.
+I'd personally vote to 10x or 100x our hard-science funding in general, we spend an absolute pittance compared to military funding or corn subsidies or whatever other bullshit.]]></summary>
+        <author>
+            <name>paulmd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Former Coinbase Employee Charged in First Ever Crypto Insider Trading Scheme]]></title>
+        <id>https://news.ycombinator.com/item?id=32180555</id>
+        <link href="https://stacker.news/items/47796"/>
+        <updated>2022-07-21T15:29:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://stacker.news/items/47796
+Comments URL: https://news.ycombinator.com/item?id=32180555
+Points: 337
+# Comments: 239]]></summary>
+        <author>
+            <name>123six</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Former Coinbase PM charged in cryptocurrency insider trading tipping scheme]]></title>
+        <id>https://news.ycombinator.com/item?id=32180428</id>
+        <link href="https://www.justice.gov/usao-sdny/pr/three-charged-first-ever-cryptocurrency-insider-trading-tipping-scheme"/>
+        <updated>2022-07-21T15:19:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.justice.gov/usao-sdny/pr/three-charged-first-ever-cryptocurrency-insider-trading-tipping-scheme
+Comments URL: https://news.ycombinator.com/item?id=32180428
+Points: 395
+# Comments: 104]]></summary>
+        <author>
+            <name>tempsy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by deltarholamda in "I Regret my Website Redesign"]]></title>
+        <id>https://news.ycombinator.com/item?id=32180387</id>
+        <link href="https://news.ycombinator.com/item?id=32180387"/>
+        <updated>2022-07-21T15:16:02.000Z</updated>
+        <summary type="html"><![CDATA[You know how, during a big programming project, you have to keep the devs from going "this codebase has a lot of technical debt, let's rebuild the whole thing using Rust and Kubernetes and Deno and move the hosting to Azure and switch databases and use microservices and..."?
+Designers are exactly the same way. Just as technical fiddling is fun and interesting, making new designs from scratch is just as fun and interesting. And, just as fixing bugs is tedious and boring, tweaking designs is tedious and boring.
+I've been on both sides for a lot of years, and I have to keep a sharp eye on myself to keep from spinning my wheels on distractions.
+Even the Pope had to keep Michelangelo focused on the Sistine Chapel and not wander off to work on his tomb.]]></summary>
+        <author>
+            <name>deltarholamda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Celebrity Sculptors, Medieval Fraud and Nazi Looting – An Outrageous Story of the Golden Veit Stoss Altarpiece]]></title>
+        <id>http://dailyartmagazine.ga/veit-stoss-altarpiece/</id>
+        <link href="https://www.dailyartmagazine.com/veit-stoss-altarpiece/"/>
+        <updated>2022-07-21T15:00:56.000Z</updated>
+        <summary type="html"><![CDATA[The post Celebrity Sculptors, Medieval Fraud and Nazi Looting – An Outrageous Story of the Golden Veit Stoss Altarpiece appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Candy Bedworth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Stockholm to Paris: The Newly Discovered Art of Julia Beck]]></title>
+        <id>https://www.dailyartmagazine.com/?p=186251</id>
+        <link href="https://www.dailyartmagazine.com/julia-beck/"/>
+        <updated>2022-07-21T15:00:31.000Z</updated>
+        <summary type="html"><![CDATA[The post From Stockholm to Paris: The Newly Discovered Art of Julia Beck appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Natalia Tiberio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Most Americans think NASA’s $10B space telescope is a good investment]]></title>
+        <id>https://news.ycombinator.com/item?id=32180196</id>
+        <link href="https://www.theverge.com/2022/7/19/23270396/nasa-james-webb-space-telescope-online-poll-investment"/>
+        <updated>2022-07-21T15:00:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/2022/7/19/23270396/nasa-james-webb-space-telescope-online-poll-investment
+Comments URL: https://news.ycombinator.com/item?id=32180196
+Points: 337
+# Comments: 273]]></summary>
+        <author>
+            <name>hubraumhugo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Becoming Elizabeth: Tapestries in Starz’s New Period Drama]]></title>
+        <id>https://www.dailyartmagazine.com/?p=183494</id>
+        <link href="https://www.dailyartmagazine.com/becoming-elizabeth-tapestries/"/>
+        <updated>2022-07-21T15:00:08.000Z</updated>
+        <summary type="html"><![CDATA[The post Becoming Elizabeth: Tapestries in Starz’s New Period Drama appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Anna Ingram</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by KingOfCoders in "I Regret my $46k Website Redesign"]]></title>
+        <id>https://news.ycombinator.com/item?id=32180061</id>
+        <link href="https://news.ycombinator.com/item?id=32180061"/>
+        <updated>2022-07-21T14:49:31.000Z</updated>
+        <summary type="html"><![CDATA[I have seen many outsourcing projects with my coachees and with founders, I've managed my own and cancelled several when I was called in to fix them.
+The key to this kind of work is to understand:
+The agency is not your buddy, they have very different goals than you have. Too often do I seen people who have nice chats with the agency over a coffee. They are not your friends.
+You need to write the contract to align the incentives of the agency as much with yours as possible. For example: I see hourly billing, and bug fixing counting as billed hours. How has the agency an incentive to keep bugs low if it makes them more money? Agency has low retention, new people are slower, slower means more money for the agency. How has the agency an incentive to keep people on the project?
+[Edit] You might think this is obvious, but I have seen unaligned incentives in mostly every outsourcing project I've looked into and was asked to fix. Tip: Do not take the developers they give you/have on the project. Interview all of them and reject the bad ones. As a new customer, they will not give you the best but those available (currently not on project/rejected by other clients)]]></summary>
+        <author>
+            <name>KingOfCoders</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Regret my Website Redesign]]></title>
+        <id>https://news.ycombinator.com/item?id=32179563</id>
+        <link href="https://mtlynch.io/tinypilot-redesign/"/>
+        <updated>2022-07-21T14:06:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mtlynch.io/tinypilot-redesign/
+Comments URL: https://news.ycombinator.com/item?id=32179563
+Points: 1068
+# Comments: 471]]></summary>
+        <author>
+            <name>mtlynch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Looking Back At SmashingConf SF 2022]]></title>
+        <id>https://smashingmagazine.com/2022/07/smashingconf-sf-2022-review/</id>
+        <link href="https://smashingmagazine.com/2022/07/smashingconf-sf-2022-review/"/>
+        <updated>2022-07-21T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Now that some time has passed since the team returned from SmashingConf San Francisco, we’ve had time to think about the event and wrap up some of the things we all learned.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Jarijn Nijkamp)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jmyeet in "Congress' push to regulate Big Tech is fizzling out"]]></title>
+        <id>https://news.ycombinator.com/item?id=32178431</id>
+        <link href="https://news.ycombinator.com/item?id=32178431"/>
+        <updated>2022-07-21T12:17:45.000Z</updated>
+        <summary type="html"><![CDATA[Of course it is. Why? Because both parties operate at the behest of the capital-owning class. The only bills that pass are performative, extend police power domestically (eg [1]) or extend military power internationally (which typically means a massive giveaway to the military-industrial complex anyway).
+Nothing curtails corporate power. It's also why the focus of politics is on being divisive on social issues. This is to distract the voters and prevent class solidarity of the working class.
+[1]: https://edition.cnn.com/2022/06/14/politics/house-vote-supre...]]></summary>
+        <author>
+            <name>jmyeet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘Gold mine of unexplored biology’: Short protein sequences could dramatically expand human genome]]></title>
+        <id>https://www.science.org/content/article/gold-mine-unexplored-biology-short-protein-sequences-dramatically-expand-human-genome</id>
+        <link href="https://www.science.org/content/article/gold-mine-unexplored-biology-short-protein-sequences-dramatically-expand-human-genome"/>
+        <updated>2022-07-21T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[New consortium will vet whether 7000-plus RNAs make stable proteins with cellular functions]]></summary>
+        <author>
+            <name>Robert F. Service</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The most distinctive birds are the ones most at risk of extinction]]></title>
+        <id>https://www.science.org/content/article/most-distinctive-birds-are-ones-most-risk-extinction</id>
+        <link href="https://www.science.org/content/article/most-distinctive-birds-are-ones-most-risk-extinction"/>
+        <updated>2022-07-21T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Future biodiversity loss is more than just a numbers game, two studies predict]]></summary>
+        <author>
+            <name>Elizabeth Pennisi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Casio F91 smart watch reboot]]></title>
+        <id>https://news.ycombinator.com/item?id=32176603</id>
+        <link href="https://gitlab.com/_Pegor/kepler_fw"/>
+        <updated>2022-07-21T07:04:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gitlab.com/_Pegor/kepler_fw
+Comments URL: https://news.ycombinator.com/item?id=32176603
+Points: 459
+# Comments: 85]]></summary>
+        <author>
+            <name>rcarmo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are you clumsy—or just mean? Your dog may know the difference]]></title>
+        <id>https://www.science.org/content/article/are-you-clumsy-or-just-mean-your-dog-may-know-difference</id>
+        <link href="https://www.science.org/content/article/are-you-clumsy-or-just-mean-your-dog-may-know-difference"/>
+        <updated>2022-07-21T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Study provides more evidence that our canine pals can read our intentions]]></summary>
+        <author>
+            <name>David Grimm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Masterpiece Story: Breakfast of Birds by Gabriele Münter]]></title>
+        <id>http://dailyartmagazine.ga/gabriele-munter-breakfast-of-birds/</id>
+        <link href="https://www.dailyartmagazine.com/gabriele-munter-breakfast-of-birds/"/>
+        <updated>2022-07-21T03:00:38.000Z</updated>
+        <summary type="html"><![CDATA[The post Masterpiece Story: Breakfast of Birds by Gabriele Münter appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Heidi Werber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Max Ernst’s Collaged Memories]]></title>
+        <id>http://dailyartmagazine.ga/max-ernsts-collaged-memories/</id>
+        <link href="https://www.dailyartmagazine.com/max-ernsts-collaged-memories/"/>
+        <updated>2022-07-21T03:00:22.000Z</updated>
+        <summary type="html"><![CDATA[The post Max Ernst’s Collaged Memories appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Magda Michalska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Masterpiece Story: Self-Portrait at 28 by Albrecht Dürer]]></title>
+        <id>http://dailyartmagazine.ga/painting-week-albrecht-durer-self-portrait-28/</id>
+        <link href="https://www.dailyartmagazine.com/painting-week-albrecht-durer-self-portrait-28/"/>
+        <updated>2022-07-21T03:00:14.000Z</updated>
+        <summary type="html"><![CDATA[The post Masterpiece Story: Self-Portrait at 28 by Albrecht Dürer appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Zuzanna Stańska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Most Famous Works of Caspar David Friedrich]]></title>
+        <id>http://dailyartmagazine.ga/caspar-david-friedrich-works/</id>
+        <link href="https://www.dailyartmagazine.com/caspar-david-friedrich-works/"/>
+        <updated>2022-07-21T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post 10 Most Famous Works of Caspar David Friedrich appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Zuzanna Stańska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mastering Details: Heads and Hands in Käthe Kollwitz’s Art]]></title>
+        <id>http://dailyartmagazine.ga/heads-and-hands-in-kathe-kollwitzs-art/</id>
+        <link href="https://www.dailyartmagazine.com/heads-and-hands-in-kathe-kollwitzs-art/"/>
+        <updated>2022-07-21T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Mastering Details: Heads and Hands in Käthe Kollwitz’s Art appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Petra Dragasevic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What happens when you press a key in your terminal?]]></title>
+        <id>https://news.ycombinator.com/item?id=32175100</id>
+        <link href="https://jvns.ca/blog/2022/07/20/pseudoterminals/"/>
+        <updated>2022-07-21T02:29:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jvns.ca/blog/2022/07/20/pseudoterminals/
+Comments URL: https://news.ycombinator.com/item?id=32175100
+Points: 353
+# Comments: 95]]></summary>
+        <author>
+            <name>robenkleene</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Potential fabrication in research images threatens key theory of Alzheimer’s disease]]></title>
+        <id>https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease</id>
+        <link href="https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease"/>
+        <updated>2022-07-21T02:03:00.000Z</updated>
+        <summary type="html"><![CDATA[A neuroscience sleuth challenges data showing one toxic form of amyloid protein is a cause of brain condition]]></summary>
+        <author>
+            <name>Charles Piller</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[News at a glance: Declining childhood vaccinations, rising ‘superbug’ infections, and a disputed Brazilian fossil]]></title>
+        <id>https://www.science.org/content/article/news-glance-declining-childhood-vaccinations-superbug-infections-brazilian-fossil</id>
+        <link href="https://www.science.org/content/article/news-glance-declining-childhood-vaccinations-superbug-infections-brazilian-fossil"/>
+        <updated>2022-07-21T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest in science and policy]]></summary>
+        <author>
+            <name>Science News Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by joshstrange in "Tell HN: Salesforce has globally revoked Slack's holiday shutdown benefit"]]></title>
+        <id>https://news.ycombinator.com/item?id=32174734</id>
+        <link href="https://news.ycombinator.com/item?id=32174734"/>
+        <updated>2022-07-21T01:34:38.000Z</updated>
+        <summary type="html"><![CDATA[> Today they have announced this policy has ended as a result of the economy as well as making the workplace more equitable
+It's too bad their hands were entirely tied on this and they had no other choice but to take it away from everyone. /s
+It always amazes me when my coworkers pretend things just "are how they are" within a company. Everything can be changed, everything is negotiable, nothing is set in stone. Obviously this gets harder as the company gets bigger but the defeatist attitude I often see is so depressing. I'm sure there were some people (Salesforce employees) who heralded this a good change instead of thinking for even 1 minute about how the better change would be that everyone got it. And don't tell me they couldn't afford it, that's just bullshit.]]></summary>
+        <author>
+            <name>joshstrange</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[U.K. outlines ‘Plan B’ research funding to skirt EU impasse]]></title>
+        <id>https://www.science.org/content/article/u-k-outlines-plan-b-research-funding-skirt-eu-impasse</id>
+        <link href="https://www.science.org/content/article/u-k-outlines-plan-b-research-funding-skirt-eu-impasse"/>
+        <updated>2022-07-21T01:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Domestic alternative to Horizon Europe program would focus on international collaboration]]></summary>
+        <author>
+            <name>Cathleen O’Grady</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[U.S. innovation bill clears major Senate hurdle with research provisions intact]]></title>
+        <id>https://www.science.org/content/article/u-s-innovation-bill-clears-major-senate-hurdle-research-provisions-intact</id>
+        <link href="https://www.science.org/content/article/u-s-innovation-bill-clears-major-senate-hurdle-research-provisions-intact"/>
+        <updated>2022-07-21T01:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Mandate to increase geographic diversity in grants fuels support for big hike in authorized spending]]></summary>
+        <author>
+            <name>Jeffrey Mervis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What happens when you press a key in your terminal?]]></title>
+        <id>https://jvns.ca/blog/2022/07/20/pseudoterminals/</id>
+        <link href="https://jvns.ca/blog/2022/07/20/pseudoterminals/"/>
+        <updated>2022-07-20T20:57:15.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been confused about what’s going on with terminals for a long time.
+But this past week I was using xterm.js to display an
+interactive terminal in a browser and I finally thought to ask a pretty basic
+question: when you press a key on your keyboard in a terminal (like Delete, or Escape, or a), which
+bytes get sent?
+As usual we’ll answer that question by doing some experiments and seeing what happens :)
+remote terminals are very old technology
+First, I want to say that displaying a terminal in the browser with xterm.js
+might seem like a New Thing, but it’s really not. In the 70s, computers were
+expensive. So many employees at an institution would share a single computer,
+and each person could have their own “terminal” to that computer.
+For example, here’s a photo of a VT100 terminal fro…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by beej71 in "Beej updated the classic Linux network programming guide"]]></title>
+        <id>https://news.ycombinator.com/item?id=32169602</id>
+        <link href="https://news.ycombinator.com/item?id=32169602"/>
+        <updated>2022-07-20T17:52:13.000Z</updated>
+        <summary type="html"><![CDATA[Hey all!
+I did update it for IPv6, but that was several years ago.
+So I'm not sure which update the OP is referring to.
+Appreciate the kind words, though!]]></summary>
+        <author>
+            <name>beej71</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by bemmu in "DALL·E Now Available in Beta"]]></title>
+        <id>https://news.ycombinator.com/item?id=32168903</id>
+        <link href="https://news.ycombinator.com/item?id=32168903"/>
+        <updated>2022-07-20T17:12:03.000Z</updated>
+        <summary type="html"><![CDATA[I was supposed to be making a video game, but got a bit sidetracked when DALL·E came out and made this website on the side: http://dailywrong.com/ (yes I should get SSL).
+It's like The Onion, but all the articles are made with GPT-3 and DALL·E. I start with an interesting DALL·E image, then describe it to GPT-3 and ask it for an Onion-like article on the topic. The results are surprisingly good.]]></summary>
+        <author>
+            <name>bemmu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DALL·E now available in beta]]></title>
+        <id>https://news.ycombinator.com/item?id=32168190</id>
+        <link href="https://openai.com/blog/dall-e-now-available-in-beta/"/>
+        <updated>2022-07-20T16:30:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://openai.com/blog/dall-e-now-available-in-beta/
+Comments URL: https://news.ycombinator.com/item?id=32168190
+Points: 521
+# Comments: 363]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by BrainVirus in "Log4j: The pain just keeps going"]]></title>
+        <id>https://news.ycombinator.com/item?id=32167385</id>
+        <link href="https://news.ycombinator.com/item?id=32167385"/>
+        <updated>2022-07-20T15:43:13.000Z</updated>
+        <summary type="html"><![CDATA[If you automatically update your dependencies all the time, you will constantly get new bugs, issues and sometimes even malware.
+If you don't update your dependencies all the time, you will be vulnerable to old bugs and issues.
+The current software engineering paradigm has no meaningful answer to this, no matter what "security experts" tell you. In a sane industry this realization would lead to a change of the paradigm, but people in our industry seem to be only doubling down.
+"Use a build tool to do dependency checks!"
+And then what?
+"Only update libraries if they have vulnerabilities."
+So, should this be a manual process where I have to dig through obscure warnings every time I build something?
+"No, you can automate it!"
+Congrats, you've just outsourced the decision making process about which versions of libraries to use to some 3d party. You've also made your build process reliant on yet another online service.
+"But it's not a hard dependency, you can still build if the 3d party service is off."
+So the exact software you compile will depend on whether or not you can connect to a 3d party service? Do you understand the actual implications of this?
+Etc. People with clever advice don't seem to think it through. We're fighting fragile complexity of too many tools ducktaped together by ducktaping more tools to the whole setup. Again and again and again.]]></summary>
+        <author>
+            <name>BrainVirus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by cortesoft in "When the money's just too damn good"]]></title>
+        <id>https://news.ycombinator.com/item?id=32167362</id>
+        <link href="https://news.ycombinator.com/item?id=32167362"/>
+        <updated>2022-07-20T15:41:41.000Z</updated>
+        <summary type="html"><![CDATA[> My ideal work life is to write about whatever I want, however I want, and be able to turn that into a comfortable living.
+I am always torn when I read something like this. On one hand, I want people to be able to pursue their passions. On the other hand, I know that it is impossible for the world to function if everyone got to only do what they want.
+This person wants to be able to earn a living doing whatever they want, but they also want to enjoy the benefits of other people doing things they don’t want to do. They want to be able to travel, but that requires other people to do a lot of labor they probably don’t want to do. The boarding agent, flight attendant, and pilots likely all don’t want to be doing what they are doing while he flies. The person who cleans the plane and loads the luggage aren’t doing what they want to be doing.
+This is going to apply for so much of what the author is going to expect from others to support his lifestyle of doing whatever he wants whenever he wants. He wants to write while other people grow his food, provide his infrastructure, the services he requires.
+In the end, I don’t think it is a healthy goal for people to expect to not have to do work that they don’t want to do. Sure, it might turn out that you can support yourself doing what you wanted to do anyway (although even then you will probably have to do a lot of stuff that isn’t what you want to do, too), but I don’t think you should expect it or define success in life as being able to do that.]]></summary>
+        <author>
+            <name>cortesoft</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by turbinerneiter in "EU Digital Markets Act, aimed at Google, Apple, Amazon, approved"]]></title>
+        <id>https://news.ycombinator.com/item?id=32166501</id>
+        <link href="https://news.ycombinator.com/item?id=32166501"/>
+        <updated>2022-07-20T14:47:31.000Z</updated>
+        <summary type="html"><![CDATA[That's fine, just stay on the default settings then.
+This however isn't a reason for the rest of the world to accept this. And since the power in the market is highly concentrated and all of it is moving more and more in this direction, regulation enforces these alternative options now.
+All this does is regulate the power the provider of a product has over their customer. This does not ruin the walled garden for the people who prefer to stay in it for peace of mind, but it adds a door for the people who want to leave. There is no negative side-effects for the people staying, only the platform providers will have to spend some money and lose some revenue.]]></summary>
+        <author>
+            <name>turbinerneiter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by brtkdotse in "EU Digital Markets Act, aimed at Google, Apple, Amazon, approved"]]></title>
+        <id>https://news.ycombinator.com/item?id=32166399</id>
+        <link href="https://news.ycombinator.com/item?id=32166399"/>
+        <updated>2022-07-20T14:40:25.000Z</updated>
+        <summary type="html"><![CDATA[It’s not a popular opinion around here, but the reason I like my iPhone is _because_ it’s a walled garden. It just works, reliably, without surprises, for years on end.]]></summary>
+        <author>
+            <name>brtkdotse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by panda-giddiness in "Magnus Carlsen to give up World Championship title"]]></title>
+        <id>https://news.ycombinator.com/item?id=32166257</id>
+        <link href="https://news.ycombinator.com/item?id=32166257"/>
+        <updated>2022-07-20T14:29:51.000Z</updated>
+        <summary type="html"><![CDATA[You skipped the best part of the story!
+> We [Chinook and the lead  programmer] played an exhibition match against Marion Tinsley in 1991. And the computer told me to make this one particular move. When I made it, Tinsley immediately said, "You're going to regret that."
+> Not being a checkers player, I thought, "what does he know, my computer is looking 20 moves ahead." But a few moves later, the computer said that Tinsley had the advantage and a few moves after that I resigned.
+More details on this epic match from Wikipedia:
+>  The lead programmer Jonathan Schaeffer looked back into the database and discovered that Tinsley picked the only strategy that could have defeated Chinook from that point and Tinsley was able to see the win 64 moves into the future.
+---
+https://www.pbs.org/newshour/amp/science/short-history-ai-sc...
+https://en.wikipedia.org/wiki/Marion_Tinsley]]></summary>
+        <author>
+            <name>panda-giddiness</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flipper Zero – Portable Multi-Tool Device for Geeks]]></title>
+        <id>https://news.ycombinator.com/item?id=32166058</id>
+        <link href="https://flipperzero.one/"/>
+        <updated>2022-07-20T14:13:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://flipperzero.one
+Comments URL: https://news.ycombinator.com/item?id=32166058
+Points: 527
+# Comments: 179]]></summary>
+        <author>
+            <name>clouddrover</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 R 中 DT 包为表格填充渐变颜色的笔记]]></title>
+        <id>https://yuanfan.vercel.app/posts/dt-fill-color/</id>
+        <link href="https://yuanfan.vercel.app/posts/dt-fill-color/"/>
+        <updated>2022-07-20T14:09:31.000Z</updated>
+        <summary type="html"><![CDATA[主要是从 DT 包子和 reactable 包子的官网翻了翻生成渐变颜色的案例，然后叨叨了一篇笔记。]]></summary>
+        <author>
+            <name>earfanfan | 袁凡</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by yoavm in "EU Digital Markets Act, aimed at Google, Apple, Amazon, approved"]]></title>
+        <id>https://news.ycombinator.com/item?id=32165597</id>
+        <link href="https://news.ycombinator.com/item?id=32165597"/>
+        <updated>2022-07-20T13:36:31.000Z</updated>
+        <summary type="html"><![CDATA[Interestingly enough, an iPhone that complies with these demands is actually the first iPhone I'd ever consider paying for. I wonder if this might actually increase adoption.]]></summary>
+        <author>
+            <name>yoavm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by moffkalast in "Magnus Carlsen to give up World Championship title"]]></title>
+        <id>https://news.ycombinator.com/item?id=32165384</id>
+        <link href="https://news.ycombinator.com/item?id=32165384"/>
+        <updated>2022-07-20T13:19:54.000Z</updated>
+        <summary type="html"><![CDATA[Chinook was obviously playing the long con. Knowing Tinsley's weakness was his humanity, so it continued to draw until his frail human body succumbed to the forces of nature, thus winning once and for all.]]></summary>
+        <author>
+            <name>moffkalast</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beej updated the classic Linux network programming guide]]></title>
+        <id>https://news.ycombinator.com/item?id=32165278</id>
+        <link href="https://beej.us/guide/"/>
+        <updated>2022-07-20T13:10:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://beej.us/guide/
+Comments URL: https://news.ycombinator.com/item?id=32165278
+Points: 392
+# Comments: 75]]></summary>
+        <author>
+            <name>matt321</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by 6f in "TeamViewer installs suspicious font only useful for web fingerprinting"]]></title>
+        <id>https://news.ycombinator.com/item?id=32165103</id>
+        <link href="https://news.ycombinator.com/item?id=32165103"/>
+        <updated>2022-07-20T12:57:28.000Z</updated>
+        <summary type="html"><![CDATA[The font is used by the teamviewer website. When inviting a partner to a teamviewer session, one can do so by sharing the invitation url.
+The invitation url looks like this (where XXXXXXXX is the session code).
+  https://get.teamviewer.com/v15/en/sXXXXXXXX
+
+  teamviewer8://instantsupport/?sid=XXXXXXXX
+
+Source:
+Font detection routine:
+  https://get.teamviewer.com/get/res/scripts/fontdetect.js
+
+  https://get.teamviewer.com/get/res/scripts/connect.js]]></summary>
+        <author>
+            <name>6f</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In a paradox, cleaner air is now adding to global warming]]></title>
+        <id>https://www.science.org/content/article/paradox-cleaner-air-now-adding-global-warming</id>
+        <link href="https://www.science.org/content/article/paradox-cleaner-air-now-adding-global-warming"/>
+        <updated>2022-07-20T12:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Satellites capture fall in pollution that helps cool the planet]]></summary>
+        <author>
+            <name>Paul Voosen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by SeanLuke in "World chess champion Magnus Carlsen abdicates title"]]></title>
+        <id>https://news.ycombinator.com/item?id=32164885</id>
+        <link href="https://news.ycombinator.com/item?id=32164885"/>
+        <updated>2022-07-20T12:38:30.000Z</updated>
+        <summary type="html"><![CDATA[It might be worth mentioning a famous abdication which caused a lot of consternation, albeit in another game.  I love this story but may have gotten some details wrong.
+Marion Tinsley was world checkers champion from 1955-1958, then took a break, then again from 1975-1991, when he resigned in protest (at age 64).  He was utterly dominant; indeed it is hard to think of a competitor in all of history more dominant over his sport or game than Tinsley.
+In 1990 Tinsley decided to play Chinook, the best checkers computer program in the world.  Chinook had placed second at the US Nationals so it had the right to enter the world championships, but the US and British checkers federations refused to allow it.
+So Tinsley resigned his title.  Tinsley then played Chinook in an unofficial match (which he won).
+This power play really stuck it to the federations: nobody wanted to be named the new world champion knowing Tinsley was fully capable of crushing them.  Eventually everyone came to an agreement to let Tinsley be the "champion emeritus".
+Tinsley played Chinook four years later, at age 68, still probably the best player in the world.  But in the middle of the match he complained of stomach pains and withdrew after only six games (of 20), all drawn.  Tinsley's pains were real: he later died of pancreatic cancer.]]></summary>
+        <author>
+            <name>SeanLuke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deadly pest reaches Oregon, sparking fears for ash trees]]></title>
+        <id>https://www.science.org/content/article/deadly-pest-reaches-oregon-sparking-fears-ash-trees</id>
+        <link href="https://www.science.org/content/article/deadly-pest-reaches-oregon-sparking-fears-ash-trees"/>
+        <updated>2022-07-20T11:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Emerald ash borer has already killed millions of trees]]></summary>
+        <author>
+            <name>Gabriel Popkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jefe_ in "Bluetooth remains an 'unusually painful' technology after two decades"]]></title>
+        <id>https://news.ycombinator.com/item?id=32164307</id>
+        <link href="https://news.ycombinator.com/item?id=32164307"/>
+        <updated>2022-07-20T11:44:07.000Z</updated>
+        <summary type="html"><![CDATA[Similar thing would happen in my Toyota, the song 'Afraid' by Yellowcard would play every time I turned on the car. Realized it was playing the first song in my library. In Apple Music there is a song called 'A a a a a Very Good Song (Silent Track)' by artist Samir Mezrahi, that contains 10 minutes of silence. I added that to my library and now that song plays when I turn on my car (although this autoplay only happens occasionally since some Toyota update). The album art simply says: 'have a wonderful day.'
+The song:
+https://music.apple.com/us/album/a-a-a-a-a-very-good-song-si...]]></summary>
+        <author>
+            <name>jefe_</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our ancestors became warm-blooded later than we thought]]></title>
+        <id>https://www.science.org/content/article/our-ancestors-became-warm-blooded-later-we-thought</id>
+        <link href="https://www.science.org/content/article/our-ancestors-became-warm-blooded-later-we-thought"/>
+        <updated>2022-07-20T11:25:00.000Z</updated>
+        <summary type="html"><![CDATA[New study on ear canal bones sheds light on mammal mystery]]></summary>
+        <author>
+            <name>Katherine Irving</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Magnus Carlsen to give up World Championship title]]></title>
+        <id>https://news.ycombinator.com/item?id=32163993</id>
+        <link href="https://chess24.com/en/read/news/magnus-carlsen-to-give-up-world-championship-title"/>
+        <updated>2022-07-20T11:03:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://chess24.com/en/read/news/magnus-carlsen-to-give-up-world-championship-title
+Comments URL: https://news.ycombinator.com/item?id=32163993
+Points: 705
+# Comments: 360]]></summary>
+        <author>
+            <name>CawCawCaw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TeamViewer installs suspicious font only useful for web fingerprinting]]></title>
+        <id>https://news.ycombinator.com/item?id=32163940</id>
+        <link href="https://www.ctrl.blog/entry/teamviewer-font-privacy.html"/>
+        <updated>2022-07-20T10:58:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ctrl.blog/entry/teamviewer-font-privacy.html
+Comments URL: https://news.ycombinator.com/item?id=32163940
+Points: 648
+# Comments: 208]]></summary>
+        <author>
+            <name>kevincox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EU Digital Markets Act, aimed at Google, Apple, Amazon, approved]]></title>
+        <id>https://news.ycombinator.com/item?id=32163704</id>
+        <link href="https://www.consilium.europa.eu/en/press/press-releases/2022/07/18/dma-council-gives-final-approval-to-new-rules-for-fair-competition-online/"/>
+        <updated>2022-07-20T10:26:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.consilium.europa.eu/en/press/press-releases/2022/07/18/dma-council-gives-final-approval-to-new-rules-for-fair-competition-online/
+Comments URL: https://news.ycombinator.com/item?id=32163704
+Points: 698
+# Comments: 847]]></summary>
+        <author>
+            <name>Gareth321</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by Gareth321 in "EU Digital Markets Act, Aimed at Google, Apple, Amazon, Approved"]]></title>
+        <id>https://news.ycombinator.com/item?id=32163705</id>
+        <link href="https://news.ycombinator.com/item?id=32163705"/>
+        <updated>2022-07-20T10:26:22.000Z</updated>
+        <summary type="html"><![CDATA[This is easily one of the most expansive Acts regarding computing devices passed in my lifetime. The summary is in the link. As an iPhone user, this will enable me to:
+* Install any software
+* Install any App Store and choose to make it default
+* Use third party payment providers and choose to make them default
+* Use any voice assistant and choose to make it default
+* User any browser and browser engine and choose to make it default
+* Use any messaging app and choose to make it default
+* Make core messaging functionality interoperable. They lay out concrete examples like file transfer
+* Use existing hardware and software features without competitive prejudice. E.g. NFC
+* Not preference their services. This includes CTAs in settings to encourage users to subscribe to Gatekeeper services, and ranking their own services above others in selection and advertising portals
+* Much, much, more.
+After the Act is signed by the Council and the European Parliament in September, Apple, Google, Amazon, and other "Gatekeepers" will have six months to comply. Fines are up to 10% of global revenue for the first offense, and 20% for repeat offenses.]]></summary>
+        <author>
+            <name>Gareth321</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by blackhaz in "Bluetooth remains an 'unusually painful' technology after two decades"]]></title>
+        <id>https://news.ycombinator.com/item?id=32163667</id>
+        <link href="https://news.ycombinator.com/item?id=32163667"/>
+        <updated>2022-07-20T10:20:14.000Z</updated>
+        <summary type="html"><![CDATA[My car (Lexus) and my iPhone X:
+The car detects iPhone presence, like, 50% of the time. If it does detect it, it shows me a couple of half-naked shaved guys hugging each other and begins playing "Songs of Innocence" the moment I turn the ignition on. I tried deleting this song from the iPhone, but it auto-magically restores itself somehow, as if it is in the telephone's firmware. The image of men hugging in shade is baked into my mind forever at this point.
+As I want to set my plans in silence, I press stop on the dashboard. I set my Google Maps navigation, turn the knob to increase the volume so I could hear instructions, and this triggers "Songs of Innocence" to continue playing and the second burst of outrage in my cardiovascular system. I press the stop the second time, and at this point can continue on my journey - but should I try to increase the volume again, I have to remember the hugging men are always there.
+Once (or twice), the phone just went berserk and couldn't stop playing them. I tried everything, but the Songs were playing, and the men were hugging while I was doing 70 mph on the motorway. I had to reboot the phone, but after the reboot, the car was unable to pair with it.
+I don't know if it's a Lexus problem, or an Apple problem, but what I know is that I really fucking hate U2.]]></summary>
+        <author>
+            <name>blackhaz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Powerful Image Optimization Tools]]></title>
+        <id>https://smashingmagazine.com/2022/07/powerful-image-optimization-tools/</id>
+        <link href="https://smashingmagazine.com/2022/07/powerful-image-optimization-tools/"/>
+        <updated>2022-07-20T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Optimizing the size of images can have a bigger impact on performance than all other areas combined. In this article, Louis Lazaris covers different tools available for reducing the size of images.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Louis Lazaris)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by Paul_S in "Why Bluetooth remains an 'unusually painful' technology after two decades"]]></title>
+        <id>https://news.ycombinator.com/item?id=32163063</id>
+        <link href="https://news.ycombinator.com/item?id=32163063"/>
+        <updated>2022-07-20T08:45:34.000Z</updated>
+        <summary type="html"><![CDATA[Let me pass on to you some ancient Chinese... er, German engineering wisdom:
+He who understands wireless communication uses cables.]]></summary>
+        <author>
+            <name>Paul_S</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bluetooth remains an 'unusually painful' technology after two decades]]></title>
+        <id>https://news.ycombinator.com/item?id=32162131</id>
+        <link href="https://www.cnn.com/2022/07/10/tech/bluetooth-technology-headache/index.html"/>
+        <updated>2022-07-20T06:18:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnn.com/2022/07/10/tech/bluetooth-technology-headache/index.html
+Comments URL: https://news.ycombinator.com/item?id=32162131
+Points: 566
+# Comments: 527]]></summary>
+        <author>
+            <name>cpeterso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reality doesn’t exist until you measure it, quantum parlor trick confirms]]></title>
+        <id>https://www.science.org/content/article/reality-doesn-t-exist-until-you-measure-it-quantum-parlor-trick-confirms</id>
+        <link href="https://www.science.org/content/article/reality-doesn-t-exist-until-you-measure-it-quantum-parlor-trick-confirms"/>
+        <updated>2022-07-20T05:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Two players leverage quantum rules to achieve a seemingly telepathic connection]]></summary>
+        <author>
+            <name>Adrian Cho</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Listen to wild stingrays sing for the first time]]></title>
+        <id>https://www.science.org/content/article/listen-wild-stingrays-sing-first-time</id>
+        <link href="https://www.science.org/content/article/listen-wild-stingrays-sing-first-time"/>
+        <updated>2022-07-20T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Video shows creatures clicking at nearby swimmers]]></summary>
+        <author>
+            <name>Zack Savitsky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A brief history of nobody wants to work anymore]]></title>
+        <id>https://news.ycombinator.com/item?id=32161426</id>
+        <link href="https://twitter.com/paulisci/status/1549527748950892544"/>
+        <updated>2022-07-20T04:29:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/paulisci/status/1549527748950892544
+Comments URL: https://news.ycombinator.com/item?id=32161426
+Points: 420
+# Comments: 573]]></summary>
+        <author>
+            <name>soheilpro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「亲爱的 Love, Actually」穿过委屈与害怕，我们成长为大人]]></title>
+        <id>9e9f6705-024f-4263-ad01-776ad7996ae3</id>
+        <link href="https://www.stovol.club/loveactually04"/>
+        <updated>2022-07-20T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[你现在听到的是随机波动最新推出的mini series「亲爱的Love, Actually」的第三期节目，主题是“穿过委屈与害怕，我们成长为大人”，我们与该系列的联合制作人Serena邀请到了同为新手妈妈的电影人潘萌，一起聊聊孩子之间的冲突和矛盾，在不同的社会文化语境下如何表现以及如何应对。
+让潘萌开始思考这一问题的，是她不到两岁的儿子在游乐场的一次遭遇。他被一个五六岁的大孩子推下转盘，一切发生得猝不及防，潘萌一边惊讶于所谓的“游乐场政治”比预想中发生得更早，一边无措于现实与书本之间巨大的差异——妈妈苦心习得的育儿知识，到了现实中居然全成了纸上谈兵。
+从小小的游乐场到幼儿园、学校，再到社会，成长就意味着不断地遭遇竞争、冲突，甚至伤害。父母既想尽可能为孩子遮风挡雨、披荆斩棘，又不希望妨碍他作为一个独立的个体去经历高山低谷，体验人生百味。挫折教育和爱与呵护是矛盾的吗，父母又该怎样去化解其中的焦虑与无力？
+这次对谈的主要参与者是潘萌和Serena，之琪和建国认真旁听并且在后半部分忍不住发言来着。如果你在后半段突然听到熟悉的声音，请不要感到诧异。
+「亲爱的Love, Actually」系列节目试图透过育儿过程中的种种困难、喜悦与收获，打开对于家庭与社会、历史与未来的思考。该系列的每期节目将以一封写给女儿的信作为开篇。亲爱的，这是我们当下的生活和思考，是我写给未来的你们的一封声音之信。
+【本期对谈嘉宾】
+潘萌，电影人，新手妈妈，目前生活工作在洛杉矶
+Serena，「亲爱的Love, Actually」联合制作人，前VC投资人，新浪微博@Serenana喵，即刻@Serena喵
+[07:21]孩子的“游乐场政治”比预想中更早到来
+[12:21]要不要教育别人的孩子
+[21:16]我们小时候遇到的冲突和委屈
+[26:55]在飞机上或厕所里遇到“熊孩子”该怎么办
+[31:15]“熊孩子”的问题要靠公共设施的完善和父亲的参与来解决
+[34:00]男孩女孩、中国小孩外国小孩的社交与冲突有什么不同
+[41:27]我们曾经都是“书斋里的小孩”
+[45:34]集体生活如何塑造了孩子的道德观念
+[51:41]该不该让孩子尽早接触到真实的世界
+[57:38]家长能保护孩子的时间比想象中更短
+【本期节目主题插画】
+黄雷蕾，新浪微博@黄雷蕾Linali
+【本期节目中使用的音乐】
+Love Actually Theme, by李哲
+ciao sweety no whistle, by dapun
+特别感谢马鲨鲨和推迪对本期节目音乐的支持
+ 【关于随机波动】
+感谢大家收听，你可以在微信和微博搜索随机波动StochasticVolatility，关注我们，也可以关注官网www.stovol.club ，还可以在苹果播客、spotify、pocketcast等泛用性客户端收听我们的节目。如果你喜欢我们的节目，别忘了在苹果播客给我们五星好评，也可以通过公众号推送中的二维码给我们打赏。
+【关于「亲爱的 Love, Actually」】
+随机波动全新mini系列节目「亲爱的Love, Actually」将以季播形式更新，每季四集，主题将涉及全职主妇，育儿嫂，孩子与宠物、与游戏、与阅读的关系，在人工智能与虚拟现实中长大的小孩等等。该系列目前开放招商。如果你所在的品牌对本系列有好奇、感兴趣，或是希望以各种形式参与进来，欢迎与我们联系，我们的邮箱是surplusvalue@163.com。]]></summary>
+        <author>
+            <name>随机波动</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moondance – Full Moon in Painting]]></title>
+        <id>http://dailyartmagazine.ga/full-moon-in-painting/</id>
+        <link href="https://www.dailyartmagazine.com/full-moon-in-painting/"/>
+        <updated>2022-07-20T03:00:14.000Z</updated>
+        <summary type="html"><![CDATA[The post Moondance – Full Moon in Painting appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Candy Bedworth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Galileo Galilei Changed the Moon Forever]]></title>
+        <id>http://dailyartmagazine.ga/?p=131997</id>
+        <link href="https://www.dailyartmagazine.com/galileo-galilei-moon/"/>
+        <updated>2022-07-20T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post How Galileo Galilei Changed the Moon Forever appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Marta Wiktoria Bryll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Autumn Moon in Japanese Woodblock Prints]]></title>
+        <id>http://dailyartmagazine.ga/autumn-moon-in-japanese-woodblock-prints/</id>
+        <link href="https://www.dailyartmagazine.com/autumn-moon-in-japanese-woodblock-prints/"/>
+        <updated>2022-07-20T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The post Autumn Moon in Japanese Woodblock Prints appeared first on DailyArt Magazine.]]></summary>
+        <author>
+            <name>Magda Michalska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“No convincing evidence” that depression is caused by low serotonin levels]]></title>
+        <id>https://news.ycombinator.com/item?id=32160703</id>
+        <link href="https://www.bmj.com/content/378/bmj.o1808"/>
+        <updated>2022-07-20T02:39:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bmj.com/content/378/bmj.o1808
+Comments URL: https://news.ycombinator.com/item?id=32160703
+Points: 436
+# Comments: 535]]></summary>
+        <author>
+            <name>mellosouls</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by sen in "Fran Blanche: This Is Not Legal"]]></title>
+        <id>https://news.ycombinator.com/item?id=32160451</id>
+        <link href="https://news.ycombinator.com/item?id=32160451"/>
+        <updated>2022-07-20T01:59:50.000Z</updated>
+        <summary type="html"><![CDATA[I have private access to some pretty cool motorsports/boat-racing/etc stuff that a majority of people don't get to see (prototype/development vehicle testing, etc). I thought it might be fun for me to make some videos of these and share them, with the full support of the owners/teams behind this stuff. They gave me extra access, let me film everything over 2 days (3 full days of work considering the remote location in another state etc), and I put my first video up on YouTube showing off a prototype vehicle that was going for a world record.
+The video went pretty viral... 8 digit views, got me 5 digit subscriber count, was posted on dozens and dozens of news sites and blogs and shared widely. I was excited, off to a great start with this whole YouTube thing.
+No music, no audio other than the engine sounds, absolutely zero reason anyone could possibly do a copyright strike... right?
+Nope, some church minister in some tiny country did a copyright strike saying they own the rights to the word "spirit" in my video title (it was part of the name of the vehicle itself)... so they got all the money I earned from that video + I got a strike on my channel and a scary warning from YouTube saying my entire Google account could get banned including my Gmail. I disputed it with a very clear explanation of the situation, and they quickly reply saying they sided with the complainant and they'll be ignoring all future disputes.
+Fuck YouTube/Google.
+Edit: I went back to find the emails from Google and realised the story is even crazier than I remember. YouTube never reviewed the dispute, they let the person making the claim review their own dispute!!
+> Hi [Name],
+> After reviewing your dispute, [Dodgy Fuck's Name] has decided that their copyright claim is still valid.
+> Copyrighted content: Spirit
+> Claimed by: [Dodgy Fuck's Name]]]></summary>
+        <author>
+            <name>sen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fran Blanche: This Is Not Legal]]></title>
+        <id>https://news.ycombinator.com/item?id=32159830</id>
+        <link href="https://www.youtube.com/watch?v=1qCM9L_FaFU"/>
+        <updated>2022-07-20T00:37:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=1qCM9L_FaFU
+Comments URL: https://news.ycombinator.com/item?id=32159830
+Points: 429
+# Comments: 242]]></summary>
+        <author>
+            <name>masswerk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google软件工程之文化篇]]></title>
+        <id>https://www.bmpi.dev/dev/software-engineering-at-google/culture/</id>
+        <link href="https://www.bmpi.dev/dev/software-engineering-at-google/culture/"/>
+        <updated>2022-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文是《Software Engineering at Google》的读书笔记，同时会穿插分享我对软件工程的理解。本文主要介绍软件工程中人的因素，也就是文化部分。]]></summary>
+        <author>
+            <name>构建我的被动收入</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by JohnBooty in "Soft deletion probably isn't worth it"]]></title>
+        <id>https://news.ycombinator.com/item?id=32157846</id>
+        <link href="https://news.ycombinator.com/item?id=32157846"/>
+        <updated>2022-07-19T20:55:18.000Z</updated>
+        <summary type="html"><![CDATA[I've been a software dev since the 90s and at this point, I've learned to basically do things like audit trails and soft deletion by default, unless there's some reason not to.
+Somebody always wants to undelete something, or examine it to see why it was deleted, or see who changed something, or blah blah blah. It helps the business, it helps you as developer by giving you debug information as well as helping you to cover your ass when you are blamed for some data loss bug that was really user error.
+Soft deletion has obvious drawbacks but is usually far less work than implementing equivalent functionality out-of-stream, with verbose logging or some such.
+Retrofitting your app and adding soft deletion and audit trails after the fact is usually an order of magnitude more work. Can always add it pre-launch and leave it turned off.
+If performance is a concern, this is usually something that can be mitigated. You can e.g. have a reaper job that runs daily and hard-deletes everything that was soft-deleted more than n days ago, or whatever.]]></summary>
+        <author>
+            <name>JohnBooty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build Your Own X]]></title>
+        <id>https://news.ycombinator.com/item?id=32157759</id>
+        <link href="https://github.com/codecrafters-io/build-your-own-x"/>
+        <updated>2022-07-19T20:49:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/codecrafters-io/build-your-own-x
+Comments URL: https://news.ycombinator.com/item?id=32157759
+Points: 476
+# Comments: 75]]></summary>
+        <author>
+            <name>pretext</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Soft deletion probably isn't worth it]]></title>
+        <id>https://news.ycombinator.com/item?id=32156009</id>
+        <link href="https://brandur.org/soft-deletion"/>
+        <updated>2022-07-19T18:35:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://brandur.org/soft-deletion
+Comments URL: https://news.ycombinator.com/item?id=32156009
+Points: 623
+# Comments: 459]]></summary>
+        <author>
+            <name>lfittl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Germany to Rethink Nuclear Shutdown as Energy Crisis Deepens]]></title>
+        <id>https://news.ycombinator.com/item?id=32152143</id>
+        <link href="https://climatechangedispatch.com/germany-to-rethink-nuclear-shutdown-as-energy-crisis-deepens/"/>
+        <updated>2022-07-19T14:36:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://climatechangedispatch.com/germany-to-rethink-nuclear-shutdown-as-energy-crisis-deepens/
+Comments URL: https://news.ycombinator.com/item?id=32152143
+Points: 377
+# Comments: 469]]></summary>
+        <author>
+            <name>notlukesky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by game-of-throws in "Glassdoor not so anonymous"]]></title>
+        <id>https://news.ycombinator.com/item?id=32151626</id>
+        <link href="https://news.ycombinator.com/item?id=32151626"/>
+        <updated>2022-07-19T14:06:00.000Z</updated>
+        <summary type="html"><![CDATA[They already do that.
+https://www.glassdoor.com/Reviews/ZURU-Reviews-E2286297.htm
+> Glassdoor Alert: Employer Legal Action
+> This employer has taken legal action against reviewers and/or Glassdoor for the reviews that have appeared on this profile. Please exercise your best judgment when evaluating this employer. Learn more about Glassdoor Alerts.]]></summary>
+        <author>
+            <name>game-of-throws</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by aaronax in "America’s favorite family outings are increasingly out of reach"]]></title>
+        <id>https://news.ycombinator.com/item?id=32151610</id>
+        <link href="https://news.ycombinator.com/item?id=32151610"/>
+        <updated>2022-07-19T14:05:03.000Z</updated>
+        <summary type="html"><![CDATA[I think everything is just generally "nicer". Stadium seats are cushier, parking lots are paved instead of gravel, sidewalks are a lot wider, more air-conditioned spaces, better food availability, etc.
+And people expect more exciting and high quality things now, because they have seen a lot (comparably). Someone growing up in the 1930s wasn't able to hop on the interstate and go 300 miles away for the weekend. Those growing up in the 80s were more apt to do that sort of thing, and as mobility has increased, attractions (nicer ones) have been built out over the decades. Now that person who traveled to all sorts of attractions continues to seek out new things -> bigger and better of course. More $$$.
+The basic, economical attractions are still there if you look. Just think smaller scale. Instead of national parks, go to state parks. Instead of Disney, go to the state fair. Instead of Broadway, find the local theater troupe. Instead of MLB/NFL, check out summer or arena leagues. Just because you read about an attraction that seems cool, is 1,500 miles away, and is the best of breed nationwide, doesn't mean you need to or even get to experience it.]]></summary>
+        <author>
+            <name>aaronax</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Carbon Language: An experimental successor to C++]]></title>
+        <id>https://news.ycombinator.com/item?id=32151609</id>
+        <link href="https://github.com/carbon-language/carbon-lang"/>
+        <updated>2022-07-19T14:05:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/carbon-language/carbon-lang
+Comments URL: https://news.ycombinator.com/item?id=32151609
+Points: 509
+# Comments: 451]]></summary>
+        <author>
+            <name>slimsag</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by tpoacher in "Glassdoor not so anonymous"]]></title>
+        <id>https://news.ycombinator.com/item?id=32151437</id>
+        <link href="https://news.ycombinator.com/item?id=32151437"/>
+        <updated>2022-07-19T13:52:39.000Z</updated>
+        <summary type="html"><![CDATA[This is actually an amazing opportunity for Glassdoor.
+Just put a "badge" next to companies known to sue employees who post reviews on Glassdoor.
+No reviews are even needed from that point on to signify a shitty company; for all anyone knows all negative reviews may have been taken down through legal action, but the badge stays, signifying that there was at least one review so damaging that they had to get lawyers involved (or that the company climate is of that toxic kind that sues its own disgruntled employees more generally).
+In the end suing will end up acting as the ultimate bad review for that company on the site.]]></summary>
+        <author>
+            <name>tpoacher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Apache Kafka to process 1 trillion inter-service messages]]></title>
+        <id>62d572db68b2a8000acebb0d</id>
+        <link href="https://blog.cloudflare.com/using-apache-kafka-to-process-1-trillion-messages/"/>
+        <updated>2022-07-19T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We learnt a lot about Kafka on the way to 1 trillion messages, and built some interesting internal tools to ease adoption that will be explored in this blog post]]></summary>
+        <author>
+            <name>Matt Boyle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Decentralized Identifiers (DIDs) v1.0 is a W3C Recommendation]]></title>
+        <id>https://www.w3.org/blog/news/archives/9618</id>
+        <link href="https://www.w3.org/blog/news/archives/9618"/>
+        <updated>2022-07-19T12:12:04.000Z</updated>
+        <summary type="html"><![CDATA[The Decentralized Identifier Working Group has published Decentralized Identifiers (DIDs) v1.0 as a W3C Recommendation. This document defines Decentralized identifiers (DIDs), a new type of identifier that enables verifiable, decentralized digital identity. A DID identifies any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) that the controller of the DID decides that [&#8230;]]]></summary>
+        <author>
+            <name>W3C News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jefftk in "To download from Google Drive, you must enable 3rd party cookies"]]></title>
+        <id>https://news.ycombinator.com/item?id=32149873</id>
+        <link href="https://news.ycombinator.com/item?id=32149873"/>
+        <updated>2022-07-19T11:01:52.000Z</updated>
+        <summary type="html"><![CDATA[This is wrong: try downloading something with Safari, which blocks third party cookies by default, and it works fine.
+Instead, the problem is that downloading from Google Drive is using User-Agent sniffing to determine whether third party cookies are expected to be enabled, and choosing between implementations.
+(Disclosure: I used to work at Google, but I don't know anything internal on this)]]></summary>
+        <author>
+            <name>jefftk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steve说292期 – 独白：人生意义长什么样？为什么那么难找？]]></title>
+        <id>72f7432a-707d-4504-9342-5d2f602c961e</id>
+        <link href="http://steveshuo.com/293"/>
+        <updated>2022-07-17T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[本期节目是我的单口，比较系统地讨论了一个大家内心深处时常思考的问题：人生的意义。讨论的话题包括：
+1:21 意义感的定义：驱动积极行为的长期情绪
+9:33 活得痛苦时，寻找意义感是为了止痛还是追问？
+22:33 人生意义无法抄作业，但是我知道它大概长什么样
+37:42 警惕对意义感的过度构建，只想不做会永远虚无
+49:30 长生不老的生活没有意义，意义的前提是约束和局限
+54:20 主动承担责任是很好的意义感来源
+63:20 人生如同音乐，持续演奏就是意义所在
+节目中提到的作品：
+《人生十二法则2》，乔丹·彼得森著
+Alan Watts演讲：https://www.youtube.com/watch?v=ivTYfOWXLmw
+詹姆斯·韦伯天文望远镜拍摄的船底座大星云照片：
+https://stsci-opo.org/STScI-01G7WCK1PJEM49E118GEG0Q729.png
+照片高清版来源：
+https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ?news=true​
+“Steve说”被评为2019苹果最佳播客，是心理咨询师和心理学科普作者史秀雄（Steve Shi）的个人播客节目。这是一个通过深度交流拓展意识边界，探索个人成长之道，加深对自我和世界理解的谈话类节目。他的公众号是@史秀雄Steve，也欢迎访问节目官网http://steveshuo.com 或者到https://afdian.net/@steveshuo 赞助本节目]]></summary>
+        <author>
+            <name>史秀雄Steve</name>
+        </author>
+    </entry>
+</feed>

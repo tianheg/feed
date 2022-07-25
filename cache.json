@@ -1,0 +1,2074 @@
+{
+  "sources": [
+    {
+      "title": "W3C News",
+      "feedUrl": "https://www.w3.org/blog/news/feed/atom",
+      "siteUrl": "https://www.w3.org/blog/news",
+      "articles": [
+        {
+          "id": "https://www.w3.org/blog/news/archives/9631",
+          "author": null,
+          "description": "W3C today called for nominations by W3C Members for people to stand for election in the Board of Directors of W3C, Incorporated. The election is scheduled to begin in a month. W3C Members will compose a majority of the voting seats of the Board of Directors, to bring a diverse multi-stakeholder perspective from the W3C [&#8230;]",
+          "link": "https://www.w3.org/blog/news/archives/9631",
+          "publishedOn": "2022-07-25T17:02:49.000Z",
+          "wordCount": null,
+          "title": "W3C calls for nominations in the election for the Board of Directors of W3C, Inc.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.w3.org/blog/news/archives/9629",
+          "author": null,
+          "description": "The Math Working Group has published MathML Media-type Declarations as a Group Note. Internet Media Types are used in email, HTTP and other places to indicate the format of documents. This Note contains media types for MathML. They were previously published as part of the MathML3 specification. The Note serves to give them a separate, [&#8230;]",
+          "link": "https://www.w3.org/blog/news/archives/9629",
+          "publishedOn": "2022-07-25T10:49:52.000Z",
+          "wordCount": null,
+          "title": "Working Group Note: MathML Media-type Declarations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.w3.org/blog/news/archives/9625",
+          "author": null,
+          "description": "The Accessible Platform Architectures Working Group has published Accessibility of Remote Meetings as a Group Note. It is a companion to the W3C resource: How to Make Your Presentations and Meetings Accessible to All. Remote meeting is an umbrella term used to describe real-time discussions or presentations held between two or more parties online. The [&#8230;]",
+          "link": "https://www.w3.org/blog/news/archives/9625",
+          "publishedOn": "2022-07-22T08:36:29.000Z",
+          "wordCount": 1213,
+          "title": "Working Group Note: Accessibility of Remote Meetings",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.w3.org/blog/news/archives/9618",
+          "author": null,
+          "description": "The Decentralized Identifier Working Group has published Decentralized Identifiers (DIDs) v1.0 as a W3C Recommendation. This document defines Decentralized identifiers (DIDs), a new type of identifier that enables verifiable, decentralized digital identity. A DID identifies any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) that the controller of the DID decides that [&#8230;]",
+          "link": "https://www.w3.org/blog/news/archives/9618",
+          "publishedOn": "2022-07-19T12:12:04.000Z",
+          "wordCount": 1248,
+          "title": "Decentralized Identifiers (DIDs) v1.0 is a W3C Recommendation",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Josh Comeau's blog",
+      "feedUrl": "https://www.joshwcomeau.com/rss.xml",
+      "siteUrl": "https://www.joshwcomeau.com/",
+      "articles": []
+    },
+    {
+      "title": "swyx.io blog",
+      "feedUrl": "https://www.swyx.io/api/rss.xml",
+      "siteUrl": "https://swyx.io",
+      "articles": [
+        {
+          "id": "https://swyx.io/what-to-do-when-icloud-is-stuck-on-uploading-items",
+          "author": null,
+          "description": "I use iCloud as my syncing engine for my [Obsidian Second Brain](https://www.swyx.io/obsidian-brain), and twice now I've seen iCloud get corrupted into a really bad state. I also [back up everything to github](https://github.com/sw-yx/brain), so I dont really experience much data loss, but it is annoying to see iCloud be so unreliable at even the simple task of syncing mostly text files.",
+          "link": "https://swyx.io/what-to-do-when-icloud-is-stuck-on-uploading-items",
+          "publishedOn": "2022-07-24T18:52:42.000Z",
+          "wordCount": null,
+          "title": "What to do when iCloud is stuck on uploading items",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Hacker News: Best",
+      "feedUrl": "https://hnrss.org/best",
+      "siteUrl": "https://news.ycombinator.com/best",
+      "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32224725",
+          "author": "theafh",
+          "description": "Article URL: https://www.quantamagazine.org/two-weeks-in-the-webb-space-telescope-is-reshaping-astronomy-20220725/\nComments URL: https://news.ycombinator.com/item?id=32224725\nPoints: 532\n# Comments: 304",
+          "link": "https://www.quantamagazine.org/two-weeks-in-the-webb-space-telescope-is-reshaping-astronomy-20220725/",
+          "publishedOn": "2022-07-25T14:24:53.000Z",
+          "wordCount": 6708,
+          "title": "Two weeks in, the Webb Space Telescope is reshaping astronomy",
+          "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2022/07/NGC7496_1200_Social.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32220514",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://lucasfcosta.com/2022/07/19/finish-what-you-start.html\nComments URL: https://news.ycombinator.com/item?id=32220514\nPoints: 363\n# Comments: 154",
+          "link": "https://lucasfcosta.com/2022/07/19/finish-what-you-start.html",
+          "publishedOn": "2022-07-25T04:34:20.000Z",
+          "wordCount": 3508,
+          "title": "Finishing what you start makes teams more productive and predictable",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32220192",
+          "author": "maxutility",
+          "description": "As someone who is intellectually curious and has had great success finding articles on sites like Hacker News and blogs like kottke.org, I haven’t yet figured out where to find the most interesting content on YouTube. Let me know in the comments if you have found certain channels and creators to be particularly rewarding to follow, or if there are other ways you’ve found to consistently track down good content.\nComments URL: https://news.ycombinator.com/item?id=32220192\nPoints: 624\n# Comments: 268",
+          "link": "https://news.ycombinator.com/item?id=32220192",
+          "publishedOn": "2022-07-25T03:19:43.000Z",
+          "wordCount": 15339,
+          "title": "Ask HN: YouTube Channels for the Intellectually Curious",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32215324",
+          "author": "tosh",
+          "description": "Article URL: https://standardebooks.org/\nComments URL: https://news.ycombinator.com/item?id=32215324\nPoints: 418\n# Comments: 69",
+          "link": "https://standardebooks.org/",
+          "publishedOn": "2022-07-24T16:59:30.000Z",
+          "wordCount": 714,
+          "title": "Standard Ebooks",
+          "imageUrl": "https://standardebooks.org/images/logo.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32215277",
+          "author": "pcr910303",
+          "description": "Article URL: https://alexwlchan.net/2022/07/screenshots/\nComments URL: https://news.ycombinator.com/item?id=32215277\nPoints: 613\n# Comments: 212",
+          "link": "https://alexwlchan.net/2022/07/screenshots/",
+          "publishedOn": "2022-07-24T16:55:16.000Z",
+          "wordCount": 574,
+          "title": "Take more screenshots",
+          "imageUrl": "https://alexwlchan.net/images/2022/screenshot_card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32214419",
+          "author": "pcr910303",
+          "description": "Article URL: https://benhoyt.com/writings/count-words/\nComments URL: https://news.ycombinator.com/item?id=32214419\nPoints: 356\n# Comments: 196",
+          "link": "https://benhoyt.com/writings/count-words/",
+          "publishedOn": "2022-07-24T15:31:23.000Z",
+          "wordCount": 8693,
+          "title": "Performance comparison: counting words in Python, C/C++, Awk, Rust, and more",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32213825",
+          "author": "mgdlbp",
+          "description": "Article URL: https://www.youtube.com/watch?v=VIVIegSt81k&list=PLaNzoFtkQ7rbt5ac9qdi76iNKuqZWQkB3\nComments URL: https://news.ycombinator.com/item?id=32213825\nPoints: 381\n# Comments: 28",
+          "link": "https://www.youtube.com/watch?v=VIVIegSt81k&list=PLaNzoFtkQ7rbt5ac9qdi76iNKuqZWQkB3",
+          "publishedOn": "2022-07-24T14:28:53.000Z",
+          "wordCount": null,
+          "title": "Hexaflexagons [video] (2012)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32210256",
+          "author": "jmillikin",
+          "description": "Article URL: https://twitter.com/fchollet/status/1550930876183166976\nComments URL: https://news.ycombinator.com/item?id=32210256\nPoints: 602\n# Comments: 182",
+          "link": "https://twitter.com/fchollet/status/1550930876183166976",
+          "publishedOn": "2022-07-24T04:10:04.000Z",
+          "wordCount": 383,
+          "title": "Amazon sales of Deep Learning with Python are counterfeit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32210140",
+          "author": "daqnal",
+          "description": "Article URL: http://www.paulbourke.net/fractals/burnship/\nComments URL: https://news.ycombinator.com/item?id=32210140\nPoints: 360\n# Comments: 62",
+          "link": "http://www.paulbourke.net/fractals/burnship/",
+          "publishedOn": "2022-07-24T03:47:55.000Z",
+          "wordCount": 239,
+          "title": "“Burning Ship” fractal",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32208096",
+          "author": "arkadiyt",
+          "description": "Article URL: https://9to5mac.com/2022/07/22/twitter-data-breach/\nComments URL: https://news.ycombinator.com/item?id=32208096\nPoints: 306\n# Comments: 110",
+          "link": "https://9to5mac.com/2022/07/22/twitter-data-breach/",
+          "publishedOn": "2022-07-23T22:16:12.000Z",
+          "wordCount": 4673,
+          "title": "Twitter data breach exposes contact details for 5.4M accounts; on sale for $30k",
+          "imageUrl": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/07/twitter-hacked.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32207152",
+          "author": "bilsbie",
+          "description": "Article URL: https://www.growthbusiness.co.uk/more-invested-in-nuclear-fusion-in-last-12-months-than-past-decade-2560528/\nComments URL: https://news.ycombinator.com/item?id=32207152\nPoints: 648\n# Comments: 581",
+          "link": "https://www.growthbusiness.co.uk/more-invested-in-nuclear-fusion-in-last-12-months-than-past-decade-2560528/",
+          "publishedOn": "2022-07-23T20:11:55.000Z",
+          "wordCount": 5818,
+          "title": "More invested in nuclear fusion in last 12 months than past decade",
+          "imageUrl": "https://s17026.pcdn.co/wp-content/uploads/sites/13/2022/07/nuclear-fusion--scaled.jpeg.optimal.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32206579",
+          "author": "mort96",
+          "description": "Article URL: https://mort.coffee/home/tar/\nComments URL: https://news.ycombinator.com/item?id=32206579\nPoints: 296\n# Comments: 125",
+          "link": "https://mort.coffee/home/tar/",
+          "publishedOn": "2022-07-23T19:11:49.000Z",
+          "wordCount": 2979,
+          "title": "The tar archive format, and why GNU tar extracts in quadratic time",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32204600",
+          "author": "jonnycomputer",
+          "description": "Article URL: https://www.pnnl.gov/news-media/efficient-dehumidifier-makes-air-conditioning-breeze\nComments URL: https://news.ycombinator.com/item?id=32204600\nPoints: 351\n# Comments: 194",
+          "link": "https://www.pnnl.gov/news-media/efficient-dehumidifier-makes-air-conditioning-breeze",
+          "publishedOn": "2022-07-23T16:07:36.000Z",
+          "wordCount": 1712,
+          "title": "Efficient dehumidifier makes air conditioning a breeze (2014)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32204256",
+          "author": "donohoe",
+          "description": "Article URL: https://www.bloomberg.com/news/articles/2022-07-15/spain-will-introduce-free-train-travel-to-help-ease-the-cost-of-living\nComments URL: https://news.ycombinator.com/item?id=32204256\nPoints: 584\n# Comments: 547",
+          "link": "https://www.bloomberg.com/news/articles/2022-07-15/spain-will-introduce-free-train-travel-to-help-ease-the-cost-of-living",
+          "publishedOn": "2022-07-23T15:33:16.000Z",
+          "wordCount": null,
+          "title": "Spain will introduce free train travel",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32202481",
+          "author": "theshrike79",
+          "description": "Article URL: https://www.fanbyte.com/features/how-a-clip-from-stray-got-me-banned-from-twitter/\nComments URL: https://news.ycombinator.com/item?id=32202481\nPoints: 431\n# Comments: 510",
+          "link": "https://www.fanbyte.com/features/how-a-clip-from-stray-got-me-banned-from-twitter/",
+          "publishedOn": "2022-07-23T11:52:17.000Z",
+          "wordCount": 2389,
+          "title": "A clip from Stray got me banned from Twitter",
+          "imageUrl": "https://cdn.fanbyte.com/wp-content/uploads/2022/07/20220712111842_1.jpg?x82977"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32201951",
+          "author": "aw1621107",
+          "description": "Article URL: https://thephd.dev/finally-embed-in-c23\nComments URL: https://news.ycombinator.com/item?id=32201951\nPoints: 464\n# Comments: 322",
+          "link": "https://thephd.dev/finally-embed-in-c23",
+          "publishedOn": "2022-07-23T10:09:44.000Z",
+          "wordCount": 4409,
+          "title": "Embed is in C23",
+          "imageUrl": "https://thephd.dev//assets/img/2022/07/exhausted.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32198214",
+          "author": "minimaxir",
+          "description": "Article URL: https://bigtechnology.substack.com/p/google-fires-blake-lemoine-engineer\nComments URL: https://news.ycombinator.com/item?id=32198214\nPoints: 375\n# Comments: 679",
+          "link": "https://bigtechnology.substack.com/p/google-fires-blake-lemoine-engineer",
+          "publishedOn": "2022-07-22T23:09:51.000Z",
+          "wordCount": 1997,
+          "title": "Google fires engineer who called its AI sentient",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99ca2793-1753-494e-bdc7-9b3d43dc0453_698x412.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32197212",
+          "author": "wolfgang42",
+          "description": "Article URL: https://container-news.com/two-containers-with-same-number-detected-in-chittagong-port/\nComments URL: https://news.ycombinator.com/item?id=32197212\nPoints: 388\n# Comments: 257",
+          "link": "https://container-news.com/two-containers-with-same-number-detected-in-chittagong-port/",
+          "publishedOn": "2022-07-22T21:15:20.000Z",
+          "wordCount": 11428,
+          "title": "Two containers with same number detected in Chittagong port",
+          "imageUrl": "https://container-news.com/wp-content/uploads/2021/08/containers-4-1024x731.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32197012",
+          "author": "lionheart",
+          "description": "Article URL: https://caseyhandmer.wordpress.com/2022/07/22/were-going-to-need-a-lot-of-solar-panels/\nComments URL: https://news.ycombinator.com/item?id=32197012\nPoints: 719\n# Comments: 710",
+          "link": "https://caseyhandmer.wordpress.com/2022/07/22/were-going-to-need-a-lot-of-solar-panels/",
+          "publishedOn": "2022-07-22T20:54:53.000Z",
+          "wordCount": 5963,
+          "title": "We're going to need a lot of solar panels",
+          "imageUrl": "https://caseyhandmer.files.wordpress.com/2022/07/screenshot-from-2022-07-22-10-57-56.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32196129",
+          "author": "danso",
+          "description": "Article URL: https://www.polygon.com/23269073/competitive-classic-tetris-ctwc-jonas-neubauer-andy-michael-artiaga\nComments URL: https://news.ycombinator.com/item?id=32196129\nPoints: 330\n# Comments: 109",
+          "link": "https://www.polygon.com/23269073/competitive-classic-tetris-ctwc-jonas-neubauer-andy-michael-artiaga",
+          "publishedOn": "2022-07-22T19:29:05.000Z",
+          "wordCount": 3507,
+          "title": "Teens are rewriting what is possible in the world of competitive Tetris",
+          "imageUrl": "https://cdn.vox-cdn.com/thumbor/bStCdVfCPl7c7i33--sXXWF_ZV0=/0x0:1024x536/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23885027/tetris_champs.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32195987",
+          "author": "rafaelm",
+          "description": "Article URL: https://twitter.com/ColeSouth/status/1550230795230781440\nComments URL: https://news.ycombinator.com/item?id=32195987\nPoints: 428\n# Comments: 240",
+          "link": "https://twitter.com/ColeSouth/status/1550230795230781440",
+          "publishedOn": "2022-07-22T19:14:06.000Z",
+          "wordCount": 383,
+          "title": "Cheap junk flooding Amazon has brand names like MOFFBUZW",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32191615",
+          "author": "mooreds",
+          "description": "Article URL: https://www.developermarkepear.com/blog/paid-advertising-developer-marketing\nComments URL: https://news.ycombinator.com/item?id=32191615\nPoints: 316\n# Comments: 172",
+          "link": "https://www.developermarkepear.com/blog/paid-advertising-developer-marketing",
+          "publishedOn": "2022-07-22T13:20:47.000Z",
+          "wordCount": 5744,
+          "title": "How to advertise to developers: deep dive into paid developer marketing",
+          "imageUrl": "https://uploads-ssl.webflow.com/6161939cdc6297e03f7803e0/620d6f60f171eb01c11c4a53_Thumbnail%20Paid%20ads%20in%20dev%20marketing.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32189507",
+          "author": "samizdis",
+          "description": "Article URL: https://www.theregister.com/2022/07/22/british_encryption_scanning/\nComments URL: https://news.ycombinator.com/item?id=32189507\nPoints: 339\n# Comments: 173",
+          "link": "https://www.theregister.com/2022/07/22/british_encryption_scanning/",
+          "publishedOn": "2022-07-22T07:33:51.000Z",
+          "wordCount": 1824,
+          "title": "UK intelligence recycles “think of the children” argument for borking encryption",
+          "imageUrl": "https://regmedia.co.uk/2022/07/22/british_shutterstock.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32188805",
+          "author": "youcould",
+          "description": "Article URL: https://twitter.com/mcfunley/status/1550219636464967680\nComments URL: https://news.ycombinator.com/item?id=32188805\nPoints: 364\n# Comments: 171",
+          "link": "https://twitter.com/mcfunley/status/1550219636464967680",
+          "publishedOn": "2022-07-22T05:23:05.000Z",
+          "wordCount": 383,
+          "title": "A weird epic ramble about Etsy homepages from the middle 2000’s",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32186647",
+          "author": "tmabraham",
+          "description": "Article URL: https://www.fast.ai/2022/07/21/dl-coders-22/\nComments URL: https://news.ycombinator.com/item?id=32186647\nPoints: 400\n# Comments: 73",
+          "link": "https://www.fast.ai/2022/07/21/dl-coders-22/",
+          "publishedOn": "2022-07-21T23:41:09.000Z",
+          "wordCount": 1811,
+          "title": "Practical Deep Learning for Coders 2022",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32186203",
+          "author": "Uptrenda",
+          "description": "I'm very interested in what types of interesting data structures are out there HN. Totally your preference.\nI'll start: bloom filters. Lets you test if a value is definitely NOT in a list of pre-stored values (or POSSIBLY in a list - with adjustable probability that influences storage of the values.)\nGood use-case: routing. Say you have a list of 1 million IPs that are black listed. A trivial algorithm would be to compare every element of the set with a given IP. The time complexity grows with the number of elements. Not so with a bloom filter! A bloom filter is one of the few data structures whose time complexity does not grow with the number of elements due to the 'keys' not needing to be stored ('search' and 'insert' is based on the number of hash functions.)\nBonus section: Golomb Coded Sets are similar to bloom filters but the storage space is much smaller. Worse performance though.\nComments URL: https://news.ycombinator.com/item?id=32186203\nPoints: 1738\n# Comments: 678",
+          "link": "https://news.ycombinator.com/item?id=32186203",
+          "publishedOn": "2022-07-21T22:50:29.000Z",
+          "wordCount": 18806,
+          "title": "Ask HN: What are some cool but obscure data structures you know about?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32184183",
+          "author": "sogen",
+          "description": "Article URL: https://www.henricodolfing.com/2019/10/case-study-hertz-accenture-website.html\nComments URL: https://news.ycombinator.com/item?id=32184183\nPoints: 586\n# Comments: 383",
+          "link": "https://www.henricodolfing.com/2019/10/case-study-hertz-accenture-website.html",
+          "publishedOn": "2022-07-21T19:59:58.000Z",
+          "wordCount": 16197,
+          "title": "Hertz paid Accenture $32M for a website that never went live (2019)",
+          "imageUrl": "https://1.bp.blogspot.com/-JGbq9WEscHc/XUcYW9hZBsI/AAAAAAABQTA/exMHPINOBsADaBviCPPWO_An9QiFoKj7wCPcBGAYYCw/w1200-h630-p-k-no-nu/project_failure_case_study.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32183302",
+          "author": "panabee",
+          "description": "Article URL: https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease\nComments URL: https://news.ycombinator.com/item?id=32183302\nPoints: 547\n# Comments: 212",
+          "link": "https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease",
+          "publishedOn": "2022-07-21T18:54:37.000Z",
+          "wordCount": 6779,
+          "title": "Potential fabrication in research threatens the amyloid theory of Alzheimer’s",
+          "imageUrl": "https://www.science.org/do/10.1126/science.ade0209/abs/_20220722_nf_lead_preview.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32183007",
+          "author": "oftenwrong",
+          "description": "Article URL: https://www.strongtowns.org/journal/2022/7/5/heres-why-we-respond-in-force-to-one-amtrak-crash-while-ignoring-thousands-of-daily-car-crashes\nComments URL: https://news.ycombinator.com/item?id=32183007\nPoints: 401\n# Comments: 461",
+          "link": "https://www.strongtowns.org/journal/2022/7/5/heres-why-we-respond-in-force-to-one-amtrak-crash-while-ignoring-thousands-of-daily-car-crashes",
+          "publishedOn": "2022-07-21T18:31:39.000Z",
+          "wordCount": 2776,
+          "title": "Why we ignore thousands of daily car crashes",
+          "imageUrl": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/62bf37225c72d11c3b8e7928/1657287515442/48142533_6203a93cf1_k.jpg?format=1500w"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32181619",
+          "author": "Carrok",
+          "description": "At the start of this year, Colorado has changed to require every job posted to list a salary range. Other states are also beginning to follow suit.\nI am currently job hunting. I started looking locally, everything lists salary ranges, perfect. I can know which positions to skip and which ones might be a good match right away. No need to waste time with 7 rounds of interviewing only to find out the salary is 50% of what I currently make.\nNow I've begun widening my search to remote work, as the idea of commuting to an office in 2022 is completely insane to me.\nMost jobs on nation-wide job boards do not post a salary range. I will not even click on those job postings. It's simply not worth it.\nFurther, after seeing so many positions listed _with_ salary ranges, when I see one without a salary range it makes me feel like you have something to hide and are trying to trick me.\nSo the next time your team starts discussing why you can't seem to hire, maybe ask if you are publicly posting salary ranges on these positions?\nComments URL: https://news.ycombinator.com/item?id=32181619\nPoints: 780\n# Comments: 414",
+          "link": "https://news.ycombinator.com/item?id=32181619",
+          "publishedOn": "2022-07-21T16:46:57.000Z",
+          "wordCount": null,
+          "title": "Tell HN: You can't hire because you don't post salary ranges",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32180555",
+          "author": "123six",
+          "description": "Article URL: https://stacker.news/items/47796\nComments URL: https://news.ycombinator.com/item?id=32180555\nPoints: 337\n# Comments: 239",
+          "link": "https://stacker.news/items/47796",
+          "publishedOn": "2022-07-21T15:29:10.000Z",
+          "wordCount": 1942,
+          "title": "Former Coinbase Employee Charged in First Ever Crypto Insider Trading Scheme",
+          "imageUrl": "https://stacker.news/api/capture/items/47796"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32180428",
+          "author": "tempsy",
+          "description": "Article URL: https://www.justice.gov/usao-sdny/pr/three-charged-first-ever-cryptocurrency-insider-trading-tipping-scheme\nComments URL: https://news.ycombinator.com/item?id=32180428\nPoints: 395\n# Comments: 104",
+          "link": "https://www.justice.gov/usao-sdny/pr/three-charged-first-ever-cryptocurrency-insider-trading-tipping-scheme",
+          "publishedOn": "2022-07-21T15:19:41.000Z",
+          "wordCount": 1992,
+          "title": "Former Coinbase PM charged in cryptocurrency insider trading tipping scheme",
+          "imageUrl": "https://www.justice.gov/sites/all/modules/features/doj_sharing/images/doj-seal-fb.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32180196",
+          "author": "hubraumhugo",
+          "description": "Article URL: https://www.theverge.com/2022/7/19/23270396/nasa-james-webb-space-telescope-online-poll-investment\nComments URL: https://news.ycombinator.com/item?id=32180196\nPoints: 337\n# Comments: 273",
+          "link": "https://www.theverge.com/2022/7/19/23270396/nasa-james-webb-space-telescope-online-poll-investment",
+          "publishedOn": "2022-07-21T15:00:13.000Z",
+          "wordCount": 1826,
+          "title": "Most Americans think NASA’s $10B space telescope is a good investment",
+          "imageUrl": "https://cdn.vox-cdn.com/thumbor/vRdl_zgVu5OsYu7LBZ3EdOT3N4Y=/0x23:800x442/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23887629/52211883534_ced11ba5f0_c.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32179563",
+          "author": "mtlynch",
+          "description": "Article URL: https://mtlynch.io/tinypilot-redesign/\nComments URL: https://news.ycombinator.com/item?id=32179563\nPoints: 1068\n# Comments: 471",
+          "link": "https://mtlynch.io/tinypilot-redesign/",
+          "publishedOn": "2022-07-21T14:06:31.000Z",
+          "wordCount": 4307,
+          "title": "I Regret my Website Redesign",
+          "imageUrl": "https://mtlynch.io/tinypilot-redesign/og-cover.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32176603",
+          "author": "rcarmo",
+          "description": "Article URL: https://gitlab.com/_Pegor/kepler_fw\nComments URL: https://news.ycombinator.com/item?id=32176603\nPoints: 459\n# Comments: 85",
+          "link": "https://gitlab.com/_Pegor/kepler_fw",
+          "publishedOn": "2022-07-21T07:04:13.000Z",
+          "wordCount": 1368,
+          "title": "Casio F91 smart watch reboot",
+          "imageUrl": "https://gitlab.com/uploads/-/system/project/avatar/24639799/F91_logo.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32175100",
+          "author": "robenkleene",
+          "description": "Article URL: https://jvns.ca/blog/2022/07/20/pseudoterminals/\nComments URL: https://news.ycombinator.com/item?id=32175100\nPoints: 353\n# Comments: 95",
+          "link": "https://jvns.ca/blog/2022/07/20/pseudoterminals/",
+          "publishedOn": "2022-07-21T02:29:34.000Z",
+          "wordCount": 2173,
+          "title": "What happens when you press a key in your terminal?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32168190",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://openai.com/blog/dall-e-now-available-in-beta/\nComments URL: https://news.ycombinator.com/item?id=32168190\nPoints: 521\n# Comments: 363",
+          "link": "https://openai.com/blog/dall-e-now-available-in-beta/",
+          "publishedOn": "2022-07-20T16:30:21.000Z",
+          "wordCount": 1065,
+          "title": "DALL·E now available in beta",
+          "imageUrl": "https://openai.com/content/images/2022/07/dall-e-now-available-in-beta-og-4.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32166058",
+          "author": "clouddrover",
+          "description": "Article URL: https://flipperzero.one\nComments URL: https://news.ycombinator.com/item?id=32166058\nPoints: 527\n# Comments: 179",
+          "link": "https://flipperzero.one/",
+          "publishedOn": "2022-07-20T14:13:17.000Z",
+          "wordCount": null,
+          "title": "Flipper Zero – Portable Multi-Tool Device for Geeks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32165278",
+          "author": "matt321",
+          "description": "Article URL: https://beej.us/guide/\nComments URL: https://news.ycombinator.com/item?id=32165278\nPoints: 392\n# Comments: 75",
+          "link": "https://beej.us/guide/",
+          "publishedOn": "2022-07-20T13:10:56.000Z",
+          "wordCount": 511,
+          "title": "Beej updated the classic Linux network programming guide",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32163993",
+          "author": "CawCawCaw",
+          "description": "Article URL: https://chess24.com/en/read/news/magnus-carlsen-to-give-up-world-championship-title\nComments URL: https://news.ycombinator.com/item?id=32163993\nPoints: 705\n# Comments: 360",
+          "link": "https://chess24.com/en/read/news/magnus-carlsen-to-give-up-world-championship-title",
+          "publishedOn": "2022-07-20T11:03:45.000Z",
+          "wordCount": null,
+          "title": "Magnus Carlsen to give up World Championship title",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32163940",
+          "author": "kevincox",
+          "description": "Article URL: https://www.ctrl.blog/entry/teamviewer-font-privacy.html\nComments URL: https://news.ycombinator.com/item?id=32163940\nPoints: 648\n# Comments: 208",
+          "link": "https://www.ctrl.blog/entry/teamviewer-font-privacy.html",
+          "publishedOn": "2022-07-20T10:58:34.000Z",
+          "wordCount": 948,
+          "title": "TeamViewer installs suspicious font only useful for web fingerprinting",
+          "imageUrl": "https://www.ctrl.blog/media/hero/teamviewer-font-screen.1280x720.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32163704",
+          "author": "Gareth321",
+          "description": "Article URL: https://www.consilium.europa.eu/en/press/press-releases/2022/07/18/dma-council-gives-final-approval-to-new-rules-for-fair-competition-online/\nComments URL: https://news.ycombinator.com/item?id=32163704\nPoints: 698\n# Comments: 847",
+          "link": "https://www.consilium.europa.eu/en/press/press-releases/2022/07/18/dma-council-gives-final-approval-to-new-rules-for-fair-competition-online/",
+          "publishedOn": "2022-07-20T10:26:22.000Z",
+          "wordCount": 1378,
+          "title": "EU Digital Markets Act, aimed at Google, Apple, Amazon, approved",
+          "imageUrl": "https://www.consilium.europa.eu/media/53171/dma-infographic-thumbnail-29_11_2021.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32162131",
+          "author": "cpeterso",
+          "description": "Article URL: https://www.cnn.com/2022/07/10/tech/bluetooth-technology-headache/index.html\nComments URL: https://news.ycombinator.com/item?id=32162131\nPoints: 566\n# Comments: 527",
+          "link": "https://www.cnn.com/2022/07/10/tech/bluetooth-technology-headache/index.html",
+          "publishedOn": "2022-07-20T06:18:56.000Z",
+          "wordCount": 35899,
+          "title": "Bluetooth remains an 'unusually painful' technology after two decades",
+          "imageUrl": "https://cdn.cnn.com/cnnnext/dam/assets/220708103100-bluetooth-connection-phone-file-restricted-super-tease.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32161426",
+          "author": "soheilpro",
+          "description": "Article URL: https://twitter.com/paulisci/status/1549527748950892544\nComments URL: https://news.ycombinator.com/item?id=32161426\nPoints: 420\n# Comments: 573",
+          "link": "https://twitter.com/paulisci/status/1549527748950892544",
+          "publishedOn": "2022-07-20T04:29:10.000Z",
+          "wordCount": 352,
+          "title": "A brief history of nobody wants to work anymore",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32160703",
+          "author": "mellosouls",
+          "description": "Article URL: https://www.bmj.com/content/378/bmj.o1808\nComments URL: https://news.ycombinator.com/item?id=32160703\nPoints: 436\n# Comments: 535",
+          "link": "https://www.bmj.com/content/378/bmj.o1808",
+          "publishedOn": "2022-07-20T02:39:11.000Z",
+          "wordCount": 1580,
+          "title": "“No convincing evidence” that depression is caused by low serotonin levels",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32159830",
+          "author": "masswerk",
+          "description": "Article URL: https://www.youtube.com/watch?v=1qCM9L_FaFU\nComments URL: https://news.ycombinator.com/item?id=32159830\nPoints: 429\n# Comments: 242",
+          "link": "https://www.youtube.com/watch?v=1qCM9L_FaFU",
+          "publishedOn": "2022-07-20T00:37:28.000Z",
+          "wordCount": null,
+          "title": "Fran Blanche: This Is Not Legal",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32157759",
+          "author": "pretext",
+          "description": "Article URL: https://github.com/codecrafters-io/build-your-own-x\nComments URL: https://news.ycombinator.com/item?id=32157759\nPoints: 476\n# Comments: 75",
+          "link": "https://github.com/codecrafters-io/build-your-own-x",
+          "publishedOn": "2022-07-19T20:49:29.000Z",
+          "wordCount": 3264,
+          "title": "Build Your Own X",
+          "imageUrl": "https://opengraph.githubassets.com/0edd401b1dcaff47987f6ba807aee2b46041779e91f9e93bd2e4c5613d1ada84/codecrafters-io/build-your-own-x"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32156009",
+          "author": "lfittl",
+          "description": "Article URL: https://brandur.org/soft-deletion\nComments URL: https://news.ycombinator.com/item?id=32156009\nPoints: 623\n# Comments: 459",
+          "link": "https://brandur.org/soft-deletion",
+          "publishedOn": "2022-07-19T18:35:39.000Z",
+          "wordCount": 1580,
+          "title": "Soft deletion probably isn't worth it",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32152143",
+          "author": "notlukesky",
+          "description": "Article URL: https://climatechangedispatch.com/germany-to-rethink-nuclear-shutdown-as-energy-crisis-deepens/\nComments URL: https://news.ycombinator.com/item?id=32152143\nPoints: 377\n# Comments: 469",
+          "link": "https://climatechangedispatch.com/germany-to-rethink-nuclear-shutdown-as-energy-crisis-deepens/",
+          "publishedOn": "2022-07-19T14:36:45.000Z",
+          "wordCount": null,
+          "title": "Germany to Rethink Nuclear Shutdown as Energy Crisis Deepens",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32151609",
+          "author": "slimsag",
+          "description": "Article URL: https://github.com/carbon-language/carbon-lang\nComments URL: https://news.ycombinator.com/item?id=32151609\nPoints: 509\n# Comments: 451",
+          "link": "https://github.com/carbon-language/carbon-lang",
+          "publishedOn": "2022-07-19T14:05:02.000Z",
+          "wordCount": 2189,
+          "title": "Carbon Language: An experimental successor to C++",
+          "imageUrl": "https://opengraph.githubassets.com/80f05db37ec7604238b5e30514e8064e995639612a362d98cae0f4b937b094b1/carbon-language/carbon-lang"
+        }
+      ]
+    },
+    {
+      "title": "Hacker News: Best Comments",
+      "feedUrl": "https://hnrss.org/bestcomments",
+      "siteUrl": "https://news.ycombinator.com/bestcomments",
+      "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32229049",
+          "author": "gmiller123456",
+          "description": "This periodic adjustment mainly benefits scientists and astronomers as it allows them to observe celestial bodies using UTC for most purposes\n\nAstronomy algorithms usually work in Barycentric Dynamic Time, or Terrestrial Time, or UT1.  In reality the whole invention of UTC is so that people don't have to deal with those systems on a daily basis.\nThe process most astronomy programs go through is to get the UTC from the user, convert the Gregorian date to a Julian day number to get rid of the Gregorian Calendar altogether.  Then look up the number of leap seconds, add those to the JD to get International Atomic Time, then add 32.184 seconds to get Terrestrial Time.  If Barycentric Dynamic Time is needed, you must first compute the velocity of the Earth relative to the solar system barycenter (which itself requires TDB), then compute the relativistic effects of that motion on Terrestrial Time.  If you need UT1, these can only be obtained by observation from the International Earth Rotation Service, and required daily updates, and interpolation of values in between observations.\nSo, as you can see, leap seconds do nothing to make an astronomer's life easier.  In fact, we jump through a lot of hoops to make the average person's life easier.  It sounds like Meta wants to change the definition of time for everyone just to make their programming a little easier.  I find the very premise just out right ridiculous.\nIt's true that your average person will not be affected by the Sun setting a few seconds earlier.  But eventually it will build up enough error that it eventually has to be addressed, and Meta is just trying to make their problem someone else's problem.",
+          "link": "https://news.ycombinator.com/item?id=32229049",
+          "publishedOn": "2022-07-25T18:43:28.000Z",
+          "wordCount": 2958,
+          "title": "New comment by gmiller123456 in \"It’s time to leave the leap second in the past\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32218028",
+          "author": "peckrob",
+          "description": "A few years back I was going through some old floppy disks I found in a box and, on one of them, I found a screenshot I took of my desktop circa winter of 2000. In it was a window open with a MUD I was logged into at the time. Another window had Winamp open with a playlist of songs and another window had ICQ open. The only reason I took it was because there was an unofficial competition between our pub and another pub elsewhere on the MUD about which was more popular, and we had finally surpassed them.\nIt's amazing how many emotions seeing that one image gave me. But the biggest was just this overwhelming sense of nostalgia. As I looked at that, I could remember what I was thinking, what I was feeling, everything that was happening in my super confusing teenage life at that time. Occasionally I will look at that image now, even 22 years later, I can still feel all those feeling again.\nOf course, my ex's character is in the screenshot too. So, a bit bittersweet as well. :/",
+          "link": "https://news.ycombinator.com/item?id=32218028",
+          "publishedOn": "2022-07-24T21:40:03.000Z",
+          "wordCount": 1143,
+          "title": "New comment by peckrob in \"Take more screenshots\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32214529",
+          "author": "wincy",
+          "description": "We live in an upper middle class neighborhood and the only people who drive through are other people who live here. Our daughter is seven now but we’ve let her go to her friends house of her own volition since she was five.\nThis wasn’t a problem until a woman with several foster children (I know this because she told me? I assume she was trying to virtue signal to me what a great person she was) moved into our neighborhood.\nOne day she came to our house with our daughter in tow, telling us “it isn’t safe” and other nonsense. Most of the people on the blocks are parents and we have each other’s numbers! The next time our daughter was out, then came home, a short time later we got a knock on the door by a police officer. He was friendly and asked to see our daughter to make sure she was okay, but said he’d gotten a call and he had to report it to CPS. So the man from CPS came and inspected our house to make sure we weren’t abusing our child.\nLuckily nothing came from it but it was really annoying and I really hate that neighbor now. We bought our daughter an Apple Watch so she can call us and we can GPS track her so she’s not “being neglected”.\nIt’s frustrating because I lived in a much less safe neighborhood than we do now and was allowed to range much further when I was her age. It just takes one busybody to ruin your life, though.",
+          "link": "https://news.ycombinator.com/item?id=32214529",
+          "publishedOn": "2022-07-24T15:43:18.000Z",
+          "wordCount": null,
+          "title": "New comment by wincy in \"Arizona Mom Fights Abusive Prosecution by Department of Child Safety\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32209674",
+          "author": "carbadtraingood",
+          "description": "The answer from the federation is unconscionable. They blamed the boy and then said they could not be held responsible. Fuck off, a kid made a reasonable kid movement. If the robot wasn't ready to be around children, it shouldn't have been deployed around children. And there should have been a big red button that immediately everything, within reach of every player.",
+          "link": "https://news.ycombinator.com/item?id=32209674",
+          "publishedOn": "2022-07-24T02:23:44.000Z",
+          "wordCount": null,
+          "title": "New comment by carbadtraingood in \"A chess robot in Moscow has broken the finger of its human opponent\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32208505",
+          "author": "acidburnNSA",
+          "description": "But where are the fusion neutrons? (See Voodoo Fusion [1])\n[1] https://vixra.org/pdf/1812.0382v1.pdf\nI'm a professional fission guy. I started out in fusion and switched to advanced fission. These days I don't see why we don't just build lots more regular old LWR fission reactors.\nImagining that somehow fusion is going to a) work, b) be cheap (fuel cost is only 5% of total nuclear fission cost so who cares), and c) not have the same stigma as fission is kind of weird in my mind.\nFor example, there are leaks of tiny amounts of tritium at some fission plants and people lose their minds. Fusion reactors will have many orders of mag more tritium. Will people not lose their minds just the same? Tritium is notoriously hard to contain since it's so small. It can permeate through metal like a hot knife through butter.\nAlso, lots of people worry about fission and nuclear weapons proliferation. So does fusion get around this? Not really. In fact it's worse. Did you know that the two materials you need to make thermonuclear weapons are tritium and plutonium? Tritium breeding is required by almost all practical fusion power plants (the other reactions are 100s to 1000s of times harder, I don't care what x random fusion CEO says, they're in it for the sweet billionaire side project money).\nPlutonium is made by irradiating natural uranium from the dirt with neutrons. Practical fusion reactors have lots of neutrons. Really high energy ones too.\nAnyway let's just do fission you guys. It's way easier. It has been working fine since the 1950s. It's zero carbon. Waste problem is solved (see Onkalo, and reprocessing). It net saves millions of lives by displacing air pollution. It runs 24/7 on a tiny land and material footprint. We have enough uranium and thorium to run the whole world for 4 billion (with a b) years using breeder reactors (demonstrated in 1952 in Idaho). Get the Koreans over here to build some ARP1400s or the Chinese to build some Hualong Ones until we figure out how to project manage again and then call it good.",
+          "link": "https://news.ycombinator.com/item?id=32208505",
+          "publishedOn": "2022-07-23T23:11:39.000Z",
+          "wordCount": 22216,
+          "title": "New comment by acidburnNSA in \"More invested in nuclear fusion in last 12 months than past decade\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32205686",
+          "author": "pjbeam",
+          "description": "Edit: Had wrong % for LE.\nFormer Amazon SDM here. The actual rating process didn't strike me as something all that controversial. I had to do extensive write ups for all of my reports--this was standard stuff: what went well (\"superpowers\"), what didn't (\"growth areas\"), and some actionable ideas for improvement.\nThen I had to pick numerical scores for \"impact\" and \"potential\" that were fed into a black box that resulted in an \"overall value\" score--this score is meant to be mysterious to the employees but it's the worst kept secret in Amazon at this point. OV ranged from LE (least effort/effective) at the low end, through HV 1,2,3 (high value) which is essentially \"meets\", and then TT (\"top tier\") at the high end.\n~10-15% of a director org is supposed to be LE, up to 20% TT, and the rest of people distributed through the HV levels. I proposed these ratings to the bigger org that were then agreed to or adjusted by HR and higher management in a formal manager meeting.\nThe infamous URA quota of ~6% unregretted attrition (PIP) is meant to be met through managing out LE employees. The process starts with a PIP-lite called \"Focus\" and goes to the real PIP at the next stage, called \"Pivot\".\nMany people got out of Focus, very few get out of Pivot. The part of the process I had trouble with, which contributed to me leaving, is the curve fitting of ratings for people. I had to do things like trade a HV3 down to an HV2 in order to keep an unpopular but otherwise fine performing engineer from getting an LE.\nThe stories people tell about hire to fire and unfair Pivot are overblown in my experience but not false. From what I've seen, the company will find pliant people and lean on them hard for more and more and more and then manage them out when then start to falter.\nLot of nuance to this--I have no love for Amazon and I'm happy to have moved on. It is definitely a meat grinder. That said articles like this are pretty low effort on my view.",
+          "link": "https://news.ycombinator.com/item?id=32205686",
+          "publishedOn": "2022-07-23T17:49:44.000Z",
+          "wordCount": 5373,
+          "title": "New comment by pjbeam in \"Leaked documents reveal Amazon’s process to review employees’ worth to Amazon\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32204943",
+          "author": "hardwaregeek",
+          "description": "Free or extremely cheap transportation is a fascinating development. I always found it odd that the rhetoric around transportation was that it should make money. We don't expect other parts of the government to turn a profit. Why transportation?\nIf Amtrak went that direction and made its transportation close to free, I wonder if we'd see more people try it out. Maybe it'd gain some popularity and we could finally see a shift away from cars. Public transportation is a difficult process because until the money is spent and the line is there, people are not sold. Whereas with cars, even if a highway is not built, people still have a car by default. Therefore the government needs to float money, either in infrastructure or in subsidized fares. At least subsidized fares is a little less binary than infrastructure.",
+          "link": "https://news.ycombinator.com/item?id=32204943",
+          "publishedOn": "2022-07-23T16:40:42.000Z",
+          "wordCount": null,
+          "title": "New comment by hardwaregeek in \"Spain will introduce free train travel\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32203099",
+          "author": "blocked_again",
+          "description": "Best strategy for becoming a high paying/good software engineer would be to think of yourselves as problem solver and language as just one of the tool for problem solving.\nThinking of yourselves as someone who is a writer of a certain programming language is self constarining and missing the point.",
+          "link": "https://news.ycombinator.com/item?id=32203099",
+          "publishedOn": "2022-07-23T13:22:33.000Z",
+          "wordCount": 8577,
+          "title": "New comment by blocked_again in \"Ask HN: What is the job market like, for niche languages (Nim, crystal)?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32202858",
+          "author": "OrangeMonkey",
+          "description": "This is how big tech does damage to humans.\nLove it or hate it, the online world is our current public square.  A public square, in the united states, has typically been an area where people can shout out their concerns or whatever they want to anyone who can listen and the government cannot stop it.\nCurrently, our public squares are owned by private megacorporations that not only ban people for reasons many people agree with, but also for insane things like this.  There is no appeal unless you convince enough others (using another public square) you are right and they also scream for you.\nEventually, all of us that are 'ok' with this will end up being banned from one service or another for life, with no appeal, and thats that.  A perfectly pristine public square filled not with people, but consumers staring at advertising boards.\nI would love to know a way this can be solved as its painting a depressing picture.  I don't like how this makes me feel.",
+          "link": "https://news.ycombinator.com/item?id=32202858",
+          "publishedOn": "2022-07-23T12:55:34.000Z",
+          "wordCount": null,
+          "title": "New comment by OrangeMonkey in \"A Clip from Stray Got Me Banned from Twitter\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32202627",
+          "author": "quelsolaar",
+          "description": "I represent Sweden in the ISO WG14, and I voted for the inclusion of Embed in to C23. Its a good feature. But its not a necessary feature and I think JeanHeyd is wrong in his criticism of the pace of wg14 work. I have found everyone in wg14 to be very hardworking and serious about their work.\nCs main strengthen is its portability and simplicity. Therefore we should be very conservative, and not add anything quickly. There are plenty of languages to choose form if you want a \"modern\" language with lots of conveniences. If you want a truly portable language there is really only C. And when I say truly, I mean for platforms without file systems, or operating systems or where bytes aren't 8 bits, that doesn't use ASCI or Unicode, where NULL isn't on address 0 and so on.\nWe are the stewards of this, and the work we put in, while large, is tiny compared to the impact we have. Any change we makes, needs to be addressed by every compiler maintainer. There are millions of lines of code that depend on every part of the standard. A 1% performance loss is millions of tons of CO2 released, and billions in added hardware and energy costs.\nIn this privileged position, we have to be very mindful of the concerns of our users, and take the time too look at every corner case in detail before adding any new features. If we add something, then people will depend on its behavior, no matter how bad, and we therefor will have great difficulty in fixing it in the future without breaking our users work, so we have to get it right the first time.",
+          "link": "https://news.ycombinator.com/item?id=32202627",
+          "publishedOn": "2022-07-23T12:16:13.000Z",
+          "wordCount": null,
+          "title": "New comment by quelsolaar in \"Embed is in C23\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32202380",
+          "author": "thejosh",
+          "description": "There has been a huge influx this year with the amount of sites that simply scrape SO and then have the exact content on their site. It's a pain, and there is no official way to remove them.\nI thought that this was a massive nono from Googles side, has something changed?",
+          "link": "https://news.ycombinator.com/item?id=32202380",
+          "publishedOn": "2022-07-23T11:35:08.000Z",
+          "wordCount": 3481,
+          "title": "New comment by thejosh in \"Google Search Results Plagued with spam “.it” domains\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32198385",
+          "author": "srvmshr",
+          "description": "LLM are definitely not sentient. As someone with a PhD in this domain, I attribute the 'magic' to large scale statistical knowledge assimilation by the models - and reproduction to prompts which closely match the inputs' sentence embedding.\nGPT-3 is known to fail in many circumstances which would otherwise be commonplace logic. (I remember seeing how addition of two small numbers yielded results - but larger numbers gave garbled output; more likely that GPT3 had seen similar training data.)\nThe belief of sentience isn't new. When ELIZA came out few decades ago, a lot of people were also astounded & thought this \"probably was more than met the eyes\".\nIt's a fad. Once people understand that sentience also means self-awareness, empathy & extrapolation of logic to assess unseen task (to name a few), this myth will taper off.",
+          "link": "https://news.ycombinator.com/item?id=32198385",
+          "publishedOn": "2022-07-22T23:31:37.000Z",
+          "wordCount": 20240,
+          "title": "New comment by srvmshr in \"Google Fires Blake Lemoine, Engineer Who Called Its AI Sentient\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32196499",
+          "author": "callahad",
+          "description": "The New York Times did some decent reporting into the pseudo-brands which comes closer to answering the question in the title: having a registered trademark unlocks a lot of on-platform seller tools (predictive analytics, early review program, etc.), and the easiest path to a trademark is to have an utterly unique, nonsense name. Some Chinese municipalities were also offering cash incentives for citizens who obtained foreign intellectual property registrations, further exacerbating the problem.\nFull article at https://www.nytimes.com/2020/02/11/style/amazon-trademark-co...",
+          "link": "https://news.ycombinator.com/item?id=32196499",
+          "publishedOn": "2022-07-22T20:05:51.000Z",
+          "wordCount": 6792,
+          "title": "New comment by callahad in \"Ever wonder why the cheap junk flooding Amazon has brand names like MOFFBUZW?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32193446",
+          "author": "bastardoperator",
+          "description": "Sorry Airbnb, you've screwed too many people too many times. You've allowed, even enabled hosts to abuse travelers. I'm not rolling the dice anymore. The last straw for me was last year traveling to NYC for Christmas. The host refused to contact us back, never a peep from the host. Airbnb fought us tooth and nail in terms of refund. How am I going to put small children on a plane and hope everything is fine when we land? They didn't care. They were doing everything they could for the host. Finally after 3 days of arguing back and forth one of the off shore customer service representatives gave us a refund.\nI shouldn't have to spend 12 hours on the phone over the course of three days, having my vacation completely ruined, just to get what I deserve which was my money back.",
+          "link": "https://news.ycombinator.com/item?id=32193446",
+          "publishedOn": "2022-07-22T15:59:00.000Z",
+          "wordCount": null,
+          "title": "New comment by bastardoperator in \"Airbnb will up its penalty for hosts who cancel last-minute from $100 to $1k\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32192075",
+          "author": "anonymousab",
+          "description": "> Pushy pop-ups, \"do it now\", flashy colors, and all that stuff.\nThings that work like a charm in e-commerce or fashion will most likely not work on devs.\nNot just 'not work', but 'actively repel'. A popup chat bot or a survey form request (during or after using a website or software product) or anything not germane to the task that has a shadow or notification highlight has slowly but surely become a form of wart that elicits a deep, instinctual disgust from me. I'd even say an unhealthy and unreasonable level of disgust.\nIt's enough to get me to instantly despise a product almost nomatter how well it does its original job.\nBut 100 folks who actually click ads or interact with these distraction baubles (mistakenly or otherwise) are worth thousands of people like me, so I understand why it won't ever change for the better out of a company's own volition.\n---\nWhen it comes to advertising, say, developer tooling, I think a large part of the problem is that there's just not going to be a lot of relevant tools out there, for my job or hobbies, that I either don't already know about (and aren't using because I have already evaluated its prospects) or... I am already using it. Conversely, seeing ads for something I am already using has potential for negative effects (see above). Tasteful advertising is thus useful for the rare case of something I don't know about, but I don't think it's worth it when 999/1000 of these ads are detrimental and irrelevant.",
+          "link": "https://news.ycombinator.com/item?id=32192075",
+          "publishedOn": "2022-07-22T14:17:09.000Z",
+          "wordCount": null,
+          "title": "New comment by anonymousab in \"How to advertise to developers: deep dive into paid developer marketing\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32189416",
+          "author": "skrebbel",
+          "description": "Not a very deep CS-y one, but still one of my favourite data structures: Promise Maps.\nIt only works in languages where promises/futures/tasks are a first-class citizen. Eg JavaScript.\nWhen caching the result of an expensive computation or a network call, don't actually cache the result, but cache the promise that awaits the result. Ie don't make a\n    Map\n\n    Map>\n\n- promises hold on to their result value indefinitely (until they're GC'ed)\n- you can await (or .then()) an existing promise as many times as you want\n- awaiting an already-resolved promise is a very low-overhead operation.\nIn other words, the promise acts as a mutex around the computation, and the resulting code is understandable even by people unfamiliar with mutexes, locks and so on.",
+          "link": "https://news.ycombinator.com/item?id=32189416",
+          "publishedOn": "2022-07-22T07:13:18.000Z",
+          "wordCount": 6387,
+          "title": "New comment by skrebbel in \"Ask HN: What are some cool but obscure data structures you know about?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32188783",
+          "author": "filoeleven",
+          "description": "HAMT: Hash Array Mapped Trie.  This data structure makes efficient immutable data possible.  You can update a list of a million items, and keep a reference to the original list, by changing 3 or 4 references and some bytes.\nThis should replace copy-on-write for scripting languages.  I really want to see it in a JS spec soon.  There are libraries that can do it, but they add translation penalties and extra steps.  I’d complain less if I could use Clojurescript professionally, because it and Clojure are built around them.\nhttps://en.m.wikipedia.org/wiki/Hash_array_mapped_trie",
+          "link": "https://news.ycombinator.com/item?id=32188783",
+          "publishedOn": "2022-07-22T05:18:21.000Z",
+          "wordCount": 1734,
+          "title": "New comment by filoeleven in \"Ask HN: What are some cool but obscure data structures you know about?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32188556",
+          "author": "jtolmar",
+          "description": "The union-find data structure / algorithm is useful and a lot of fun.\nThe goal is a data structure where you can perform operations like \"a and b are in the same set\", \"b and c are in the same set\" and then get answers to questions like \"are a and c in the same set?\" (yes, in this example.)\nThe implementation starts out pretty obvious - a tree where every element either points at itself or some thing it was merged with. To check if two elements are in the same set, check if they have the same parent. Without analyzing it, it sounds like you'll average findRoot() performance of O(log(n)), worst-case O(n).\nThere are a couple of simple optimizations you can do to this structure, the type of things that seem like they shouldn't end up affecting asymptotic runtime all that much. The first is that, whenever you find a root, you can re-parent all the nodes you visited on the way to that root, so they'll all be quicker to look up next time. The other is that you keep track of the size of sets, and always make the larger set be the parent of the smaller.\nAnd neither of those actually do anything impressive alone, but if you use both, the algorithm suddenly becomes incredibly fast, with the slowest-growing (non-constant) complexity I've ever heard of: O(the inverse of the Ackermann function(n)). Or, for any reasonable N, O(4 or less).",
+          "link": "https://news.ycombinator.com/item?id=32188556",
+          "publishedOn": "2022-07-22T04:32:44.000Z",
+          "wordCount": 3662,
+          "title": "New comment by jtolmar in \"Ask HN: What are some cool but obscure data structures you know about?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32186837",
+          "author": "jiggawatts",
+          "description": "Cache-Oblivious Data Structures: https://cs.au.dk/~gerth/MassiveData02/notes/demaine.pdf\nA vaguely related notion is that naive analysis of big-O complexity in typical CS texts ignores over the increasing latency/cost of data access as the data size grows. This can't be ignored, no matter how much we would like to hand-wave it away, because physics gets in the way.\nA way to think about it is that a CPU core is like a central point with \"rings\" of data arranged around it in a more-or-less a flat plane. The L1 cache is a tiny ring, then L2 is a bit further out physically and has a larger area, then L3 is even bigger and further away, etc... all the way out to permanent storage that's potentially across the building somewhere in a disk array.\nIn essence, as data size 'n' grows, the random access time grows as sqrt(n), because that's the radius of the growing circle with area 'n'.\nHence, a lot of algorithms that on paper have identical performance don't in reality, because one of the two may have an extra sqrt(n) factor in there.\nThis is why streaming and array-based data structures and algorithms tend to be faster than random-access, even if the latter is theoretically more efficient. So for example merge join is faster than nested loop join, even though they have the same performance in theory.",
+          "link": "https://news.ycombinator.com/item?id=32186837",
+          "publishedOn": "2022-07-22T00:02:18.000Z",
+          "wordCount": 3936,
+          "title": "New comment by jiggawatts in \"Ask HN: What are some 'cool' but obscure data structures you know about?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32186261",
+          "author": "ctrager",
+          "description": "LOL and true to my experience. In the 80's was a United Airlines employee on a project where Arthur Anderson (aka Accenture) was the consultant. The project included approximately 75 entry level AA programmers that were brought to the office on two big buses. My job was to write specs for them. The specs had to be 100% detailed, every \"if\", every \"loop\", except that I had to follow the AA methodology and write the entire program basically in flowchart form. Pencil and paper. The spec was a looseleaf notebook of diagrams. The spec would then be stored in a box, like, the kind you would use for moving, and the boxes put into a storage room. If I needed to change a spec, an AA employee would have to climb the piles of boxes to find my box, and then I would use actual scissors, actual glue, to make the change.\nIt. Was. Insane.",
+          "link": "https://news.ycombinator.com/item?id=32186261",
+          "publishedOn": "2022-07-21T22:56:08.000Z",
+          "wordCount": null,
+          "title": "New comment by ctrager in \"Hertz paid Accenture $32M for a website that never went live\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32185173",
+          "author": "rozenmd",
+          "description": "24 year olds? Since when are they sending the senior consultants out on engagements like this!\nI lasted not even 6 months working in professional services, really woke me up to what \"prestigious careers\" really are.",
+          "link": "https://news.ycombinator.com/item?id=32185173",
+          "publishedOn": "2022-07-21T21:14:42.000Z",
+          "wordCount": 4435,
+          "title": "New comment by rozenmd in \"Hertz paid Accenture $32M for a website that never went live\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32185108",
+          "author": "pembrook",
+          "description": "It’s impossible to overstate how funny the shenanigans get when you combine a technologically incompetent legacy big Co. with one of these big professional services firms.\nThe IT consulting firm will tell you they have experience with literally everything. They’ll dig up a case study from one of their 400 offices somewhere, claiming to be experts on whatever the topic is. Meanwhile, in actuality, your project will be staffed with a team of 24 year old kids where this is their first assignment. And it doesn’t matter anyways, because the people who worked on the original case study are long gone and would never communicate with other offices even if still around.\nMeanwhile at the big company, you’ll have the opposite problem. A team of people with decades of experience, but who don’t really know anything about anything other than how to make their corporate machine not fire them. They’ll think they know what they want, and will confidently tell you…but in actuality, these people have zero understanding of technology or even how their business runs. And who can blame them, they’ve spent a 30 year career not doing or risking anything specifically, so its hard to learn how anything works with no feedback loop.\nIt then becomes a delicate dance, can the consulting team learn how to do the thing they sold the client fast enough, before the client does their best to try to ruin the project out of sheer hubris and incompetence.\nThis case is famous for being one where the dance went so bad it became a meme.",
+          "link": "https://news.ycombinator.com/item?id=32185108",
+          "publishedOn": "2022-07-21T21:09:13.000Z",
+          "wordCount": null,
+          "title": "New comment by pembrook in \"Hertz paid Accenture $32M for a website that never went live\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32184202",
+          "author": "flaque",
+          "description": "There’s an audio version of the same point here: https://podcast.strongtowns.org/e/the-drip-drip-drip-of-traf...\nA ”best effort” summary of this article: if thousands of people die in once place, it’s one of the great tragedies in American history. However if thousands of people die in thousands different places, it is ignored and considered a fact of life.\nWhen a plane or train crashes, we stop everything and redesign the entire network to prevent this from happening again. But each individual death from car accidents is not enough to trigger the same response in cities, planners, and civil engineers.",
+          "link": "https://news.ycombinator.com/item?id=32184202",
+          "publishedOn": "2022-07-21T20:01:13.000Z",
+          "wordCount": 18768,
+          "title": "New comment by flaque in \"Why We Ignore Thousands of Daily Car Crashes\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32183389",
+          "author": "dotdi",
+          "description": "More anecdotal evidence: a few years back I wanted to get out of the work situation I was in. I looked around, had some interviews, had some offers. None of the postings had salary ranges, as is common where I live.\nMy eyes, however, were set on a specific small company because I liked their product. The process was long and involved multiple meetings, a take-home problem, and stretched over 2 or so months. I was upfront about what my salary expectations were (wasn't looking for a raise, just a lateral move). They said we discuss salary when you meet the founders, i.e. the last step before getting hired, but they also didn't tell me that my range was way off.\nTurns out I had played this 9 week game and turned down other offers just to be severely low-balled by them. Maybe they saw that I really wanted the position and thought they could get away with a low offer.\nObviously, I rejected their offer on the spot. I also promised myself to never, _ever_, be fooled like that again. We talk money before I invest any significant amount of time or I walk.",
+          "link": "https://news.ycombinator.com/item?id=32183389",
+          "publishedOn": "2022-07-21T19:00:22.000Z",
+          "wordCount": 3449,
+          "title": "New comment by dotdi in \"Tell HN: You can't hire because you don't post salary ranges\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32182951",
+          "author": "corrral",
+          "description": "OK, but... some places think a \"senior software developer\" should make $70,000, and other think they should make $250,000 or more. And everything in between.\nI don't care how nice the a place it is to work, I'm not applying to the $70k place. If I can't quickly figure out where you fall on that spectrum, I'm not going to bother to contact you because job listings are not rare. If you somehow manage to present as exactly the perfect place to work, I might contact you—to ask what the salary range is, and if you won't say up-front, I'm out.\nIt takes exactly one time sitting through interviews, having everyone be super excited about hiring you, then naming a totally normal rate when they ask what salary you're looking for, and watching everyone's faces turn green, to never, ever waste time doing that again. I've had mine already.",
+          "link": "https://news.ycombinator.com/item?id=32182951",
+          "publishedOn": "2022-07-21T18:27:37.000Z",
+          "wordCount": 1576,
+          "title": "New comment by corrral in \"Tell HN: You can't hire because you don't post salary ranges\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32182316",
+          "author": "BlargMcLarg",
+          "description": ">Of the top reasons people are happy at work, salary is way down on the list.\nYou're conflating multiple things here. People aren't focusing on money because it's the most important part. They focus on money because it's one of the few things that's relatively easy to make tangible ahead of time. Similar goes for things like remote/hybrid, secondary benefits, etc.\nMany elements on that list, while important, are incredibly difficult to equate in practice without speaking with employees or reading up on the company. Take the following:\n>1 Appreciation for your work\nHow in the world are you going to evaluate this pre-interview or even post hiring process? Both parties are showing their best selves. It's incredibly abstract and difficult to measure.\n>2 Good relationships with colleagues\nAgain, difficult to measure. Establishing good relationships takes time. Additionally, most places (at least here) have people who are decent to get along with, they aren't filled with horror individuals. At least, I'd hope hiring processes would at least filter the most obvious nutcases out after all those hours spent.\n>3 Good work-life balance\nHere's one you can measure much more easily. Few core hours and a \"do whatever whenever\" mentality outside of core hours attracts individuals. Still I don't see most companies post it. It goes far beyond hybrid and remote work, and even that is already hard to pull out of them. Then at the end of the interview, you get a \"yeah we have a flexible schedule. Our hours are from 7 to 7.\" Great.. I guess.",
+          "link": "https://news.ycombinator.com/item?id=32182316",
+          "publishedOn": "2022-07-21T17:36:44.000Z",
+          "wordCount": 1285,
+          "title": "New comment by BlargMcLarg in \"Tell HN: You can't hire because you don't post salary ranges\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32181659",
+          "author": "dannyphantom",
+          "description": "In my hometown, there is a long-standing bookstore that an elderly woman owns; she's been old since I was a child and she is old now. She rejoices when people come into her shop and her first instinct is to approach you and ask if you'd like a (free) coffee or tea, not of great quality, but it's a precursor to her second habit: she has a conversation with her guests and through that time she is carefully studying you. After a few minutes she will give you a smile and say \"I've got the perfect book for you\", she'll retreat into her shop and come back to you with a book in hand and only ask for a dollar or two in return.\nShe was the town's \"book lady\" or \"just the bookstore everyone goes to\" so it's obviously been a disappointment when that wasn't the case everywhere as I've moved on and visited other stores; but it's impressions like that, as a child and growing up with that you are left with an idea on how booksellers are supposed to be like because it's what you grew up with as the normal thing; but alas the world is large and I'm sure this author has his reasons.\nEdit: wanted to add an example of how fantastic this woman was at figuring people out; I remember going in around maybe ~8-10 years old and she picked 'Edward's Eyes' [1] for me; it had a profound impact on me as a child as it was so similar to my own life, even sharing the same first name as the narrator of the book.\nhttps://www.goodreads.com/book/show/121419.Edward_s_Eyes",
+          "link": "https://news.ycombinator.com/item?id=32181659",
+          "publishedOn": "2022-07-21T16:49:37.000Z",
+          "wordCount": null,
+          "title": "New comment by dannyphantom in \"Love the smell of old books? This bookseller would like you to leave\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32180944",
+          "author": "level",
+          "description": "I recently left a boutique agency of 5 years and I can definitely resonate with this one. Our agency aimed to catch big fish, and we did, but since they are hard to land we'd pick up small jobs in the meantime, just like the project that you're describing here. In my perspective, this isn't someone deliberately ripping you off. I imagine they intended to ship at the cost they quoted, but the team didn't adjust their working style to match your price point.\nAll the variations of the logo and design mocks are clearly overkill for a $15k project. The design team had time to fill and wanted to provide lots of options for you to pick from, as they typically would on a larger project. Those variations are an expectation for $100k clients, and you got the $100k customer treatment, but unfortunately not at a discount.\nThe reality is, small jobs like this are effectively make-work projects for an agency. They typically don't pay enough to be an effective use of time for the agency, but are a way to stay in the black between higher value projects. Small customers become \"nuisance\" customers as soon as a something better is landed. The team members being swapped out as they are needed elsewhere and newly joining team members then need to re-contextualize and regain momentum, all on your dime.\nYour takeaway is correct, don't be a small fish for an agency. If they're busy they won't take your work, and if do show interest, they are desperate for work.",
+          "link": "https://news.ycombinator.com/item?id=32180944",
+          "publishedOn": "2022-07-21T15:58:36.000Z",
+          "wordCount": 2701,
+          "title": "New comment by level in \"I Regret my Website Redesign\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32180934",
+          "author": "latortuga",
+          "description": "I was ready to fire the agency the moment the author mentioned they were going off script and building whatever they wanted. This was a huge, blinking red flag for me. Why would you keep paying someone when they're doing work you didn't ask for, doing work that doesn't align with your goals, and ignoring what you say?",
+          "link": "https://news.ycombinator.com/item?id=32180934",
+          "publishedOn": "2022-07-21T15:58:16.000Z",
+          "wordCount": 4458,
+          "title": "New comment by latortuga in \"I Regret my Website Redesign\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32180695",
+          "author": "paulmd",
+          "description": "It is - and that's $10b upfront cost for an asset that will operate for a decade.  $1b a year is a steal for that compared to the other shit the US wastes federal money on.\nI'd personally vote to 10x or 100x our hard-science funding in general, we spend an absolute pittance compared to military funding or corn subsidies or whatever other bullshit.",
+          "link": "https://news.ycombinator.com/item?id=32180695",
+          "publishedOn": "2022-07-21T15:39:37.000Z",
+          "wordCount": null,
+          "title": "New comment by paulmd in \"Most Americans think NASA’s $10B space telescope is a good investment\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32180387",
+          "author": "deltarholamda",
+          "description": "You know how, during a big programming project, you have to keep the devs from going \"this codebase has a lot of technical debt, let's rebuild the whole thing using Rust and Kubernetes and Deno and move the hosting to Azure and switch databases and use microservices and...\"?\nDesigners are exactly the same way. Just as technical fiddling is fun and interesting, making new designs from scratch is just as fun and interesting. And, just as fixing bugs is tedious and boring, tweaking designs is tedious and boring.\nI've been on both sides for a lot of years, and I have to keep a sharp eye on myself to keep from spinning my wheels on distractions.\nEven the Pope had to keep Michelangelo focused on the Sistine Chapel and not wander off to work on his tomb.",
+          "link": "https://news.ycombinator.com/item?id=32180387",
+          "publishedOn": "2022-07-21T15:16:02.000Z",
+          "wordCount": 2064,
+          "title": "New comment by deltarholamda in \"I Regret my Website Redesign\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32180061",
+          "author": "KingOfCoders",
+          "description": "I have seen many outsourcing projects with my coachees and with founders, I've managed my own and cancelled several when I was called in to fix them.\nThe key to this kind of work is to understand:\nThe agency is not your buddy, they have very different goals than you have. Too often do I seen people who have nice chats with the agency over a coffee. They are not your friends.\nYou need to write the contract to align the incentives of the agency as much with yours as possible. For example: I see hourly billing, and bug fixing counting as billed hours. How has the agency an incentive to keep bugs low if it makes them more money? Agency has low retention, new people are slower, slower means more money for the agency. How has the agency an incentive to keep people on the project?\n[Edit] You might think this is obvious, but I have seen unaligned incentives in mostly every outsourcing project I've looked into and was asked to fix. Tip: Do not take the developers they give you/have on the project. Interview all of them and reject the bad ones. As a new customer, they will not give you the best but those available (currently not on project/rejected by other clients)",
+          "link": "https://news.ycombinator.com/item?id=32180061",
+          "publishedOn": "2022-07-21T14:49:31.000Z",
+          "wordCount": 8377,
+          "title": "New comment by KingOfCoders in \"I Regret my $46k Website Redesign\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32178431",
+          "author": "jmyeet",
+          "description": "Of course it is. Why? Because both parties operate at the behest of the capital-owning class. The only bills that pass are performative, extend police power domestically (eg [1]) or extend military power internationally (which typically means a massive giveaway to the military-industrial complex anyway).\nNothing curtails corporate power. It's also why the focus of politics is on being divisive on social issues. This is to distract the voters and prevent class solidarity of the working class.\n[1]: https://edition.cnn.com/2022/06/14/politics/house-vote-supre...",
+          "link": "https://news.ycombinator.com/item?id=32178431",
+          "publishedOn": "2022-07-21T12:17:45.000Z",
+          "wordCount": 21705,
+          "title": "New comment by jmyeet in \"Congress' push to regulate Big Tech is fizzling out\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32174734",
+          "author": "joshstrange",
+          "description": "> Today they have announced this policy has ended as a result of the economy as well as making the workplace more equitable\nIt's too bad their hands were entirely tied on this and they had no other choice but to take it away from everyone. /s\nIt always amazes me when my coworkers pretend things just \"are how they are\" within a company. Everything can be changed, everything is negotiable, nothing is set in stone. Obviously this gets harder as the company gets bigger but the defeatist attitude I often see is so depressing. I'm sure there were some people (Salesforce employees) who heralded this a good change instead of thinking for even 1 minute about how the better change would be that everyone got it. And don't tell me they couldn't afford it, that's just bullshit.",
+          "link": "https://news.ycombinator.com/item?id=32174734",
+          "publishedOn": "2022-07-21T01:34:38.000Z",
+          "wordCount": 5559,
+          "title": "New comment by joshstrange in \"Tell HN: Salesforce has globally revoked Slack's holiday shutdown benefit\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32169602",
+          "author": "beej71",
+          "description": "Hey all!\nI did update it for IPv6, but that was several years ago.\nSo I'm not sure which update the OP is referring to.\nAppreciate the kind words, though!",
+          "link": "https://news.ycombinator.com/item?id=32169602",
+          "publishedOn": "2022-07-20T17:52:13.000Z",
+          "wordCount": 1312,
+          "title": "New comment by beej71 in \"Beej updated the classic Linux network programming guide\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32168903",
+          "author": "bemmu",
+          "description": "I was supposed to be making a video game, but got a bit sidetracked when DALL·E came out and made this website on the side: http://dailywrong.com/ (yes I should get SSL).\nIt's like The Onion, but all the articles are made with GPT-3 and DALL·E. I start with an interesting DALL·E image, then describe it to GPT-3 and ask it for an Onion-like article on the topic. The results are surprisingly good.",
+          "link": "https://news.ycombinator.com/item?id=32168903",
+          "publishedOn": "2022-07-20T17:12:03.000Z",
+          "wordCount": 1101,
+          "title": "New comment by bemmu in \"DALL·E Now Available in Beta\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32167385",
+          "author": "BrainVirus",
+          "description": "If you automatically update your dependencies all the time, you will constantly get new bugs, issues and sometimes even malware.\nIf you don't update your dependencies all the time, you will be vulnerable to old bugs and issues.\nThe current software engineering paradigm has no meaningful answer to this, no matter what \"security experts\" tell you. In a sane industry this realization would lead to a change of the paradigm, but people in our industry seem to be only doubling down.\n\"Use a build tool to do dependency checks!\"\nAnd then what?\n\"Only update libraries if they have vulnerabilities.\"\nSo, should this be a manual process where I have to dig through obscure warnings every time I build something?\n\"No, you can automate it!\"\nCongrats, you've just outsourced the decision making process about which versions of libraries to use to some 3d party. You've also made your build process reliant on yet another online service.\n\"But it's not a hard dependency, you can still build if the 3d party service is off.\"\nSo the exact software you compile will depend on whether or not you can connect to a 3d party service? Do you understand the actual implications of this?\nEtc. People with clever advice don't seem to think it through. We're fighting fragile complexity of too many tools ducktaped together by ducktaping more tools to the whole setup. Again and again and again.",
+          "link": "https://news.ycombinator.com/item?id=32167385",
+          "publishedOn": "2022-07-20T15:43:13.000Z",
+          "wordCount": 8888,
+          "title": "New comment by BrainVirus in \"Log4j: The pain just keeps going\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32167362",
+          "author": "cortesoft",
+          "description": "> My ideal work life is to write about whatever I want, however I want, and be able to turn that into a comfortable living.\nI am always torn when I read something like this. On one hand, I want people to be able to pursue their passions. On the other hand, I know that it is impossible for the world to function if everyone got to only do what they want.\nThis person wants to be able to earn a living doing whatever they want, but they also want to enjoy the benefits of other people doing things they don’t want to do. They want to be able to travel, but that requires other people to do a lot of labor they probably don’t want to do. The boarding agent, flight attendant, and pilots likely all don’t want to be doing what they are doing while he flies. The person who cleans the plane and loads the luggage aren’t doing what they want to be doing.\nThis is going to apply for so much of what the author is going to expect from others to support his lifestyle of doing whatever he wants whenever he wants. He wants to write while other people grow his food, provide his infrastructure, the services he requires.\nIn the end, I don’t think it is a healthy goal for people to expect to not have to do work that they don’t want to do. Sure, it might turn out that you can support yourself doing what you wanted to do anyway (although even then you will probably have to do a lot of stuff that isn’t what you want to do, too), but I don’t think you should expect it or define success in life as being able to do that.",
+          "link": "https://news.ycombinator.com/item?id=32167362",
+          "publishedOn": "2022-07-20T15:41:41.000Z",
+          "wordCount": 11081,
+          "title": "New comment by cortesoft in \"When the money's just too damn good\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32166501",
+          "author": "turbinerneiter",
+          "description": "That's fine, just stay on the default settings then.\nThis however isn't a reason for the rest of the world to accept this. And since the power in the market is highly concentrated and all of it is moving more and more in this direction, regulation enforces these alternative options now.\nAll this does is regulate the power the provider of a product has over their customer. This does not ruin the walled garden for the people who prefer to stay in it for peace of mind, but it adds a door for the people who want to leave. There is no negative side-effects for the people staying, only the platform providers will have to spend some money and lose some revenue.",
+          "link": "https://news.ycombinator.com/item?id=32166501",
+          "publishedOn": "2022-07-20T14:47:31.000Z",
+          "wordCount": null,
+          "title": "New comment by turbinerneiter in \"EU Digital Markets Act, aimed at Google, Apple, Amazon, approved\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32166399",
+          "author": "brtkdotse",
+          "description": "It’s not a popular opinion around here, but the reason I like my iPhone is _because_ it’s a walled garden. It just works, reliably, without surprises, for years on end.",
+          "link": "https://news.ycombinator.com/item?id=32166399",
+          "publishedOn": "2022-07-20T14:40:25.000Z",
+          "wordCount": 14959,
+          "title": "New comment by brtkdotse in \"EU Digital Markets Act, aimed at Google, Apple, Amazon, approved\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32166257",
+          "author": "panda-giddiness",
+          "description": "You skipped the best part of the story!\n> We [Chinook and the lead  programmer] played an exhibition match against Marion Tinsley in 1991. And the computer told me to make this one particular move. When I made it, Tinsley immediately said, \"You're going to regret that.\"\n> Not being a checkers player, I thought, \"what does he know, my computer is looking 20 moves ahead.\" But a few moves later, the computer said that Tinsley had the advantage and a few moves after that I resigned.\nMore details on this epic match from Wikipedia:\n>  The lead programmer Jonathan Schaeffer looked back into the database and discovered that Tinsley picked the only strategy that could have defeated Chinook from that point and Tinsley was able to see the win 64 moves into the future.\n---\nhttps://www.pbs.org/newshour/amp/science/short-history-ai-sc...\nhttps://en.wikipedia.org/wiki/Marion_Tinsley",
+          "link": "https://news.ycombinator.com/item?id=32166257",
+          "publishedOn": "2022-07-20T14:29:51.000Z",
+          "wordCount": 1748,
+          "title": "New comment by panda-giddiness in \"Magnus Carlsen to give up World Championship title\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32165597",
+          "author": "yoavm",
+          "description": "Interestingly enough, an iPhone that complies with these demands is actually the first iPhone I'd ever consider paying for. I wonder if this might actually increase adoption.",
+          "link": "https://news.ycombinator.com/item?id=32165597",
+          "publishedOn": "2022-07-20T13:36:31.000Z",
+          "wordCount": null,
+          "title": "New comment by yoavm in \"EU Digital Markets Act, aimed at Google, Apple, Amazon, approved\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32165384",
+          "author": "moffkalast",
+          "description": "Chinook was obviously playing the long con. Knowing Tinsley's weakness was his humanity, so it continued to draw until his frail human body succumbed to the forces of nature, thus winning once and for all.",
+          "link": "https://news.ycombinator.com/item?id=32165384",
+          "publishedOn": "2022-07-20T13:19:54.000Z",
+          "wordCount": null,
+          "title": "New comment by moffkalast in \"Magnus Carlsen to give up World Championship title\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32165103",
+          "author": "6f",
+          "description": "The font is used by the teamviewer website. When inviting a partner to a teamviewer session, one can do so by sharing the invitation url.\nThe invitation url looks like this (where XXXXXXXX is the session code).\n  https://get.teamviewer.com/v15/en/sXXXXXXXX\n\n  teamviewer8://instantsupport/?sid=XXXXXXXX\n\nSource:\nFont detection routine:\n  https://get.teamviewer.com/get/res/scripts/fontdetect.js\n\n  https://get.teamviewer.com/get/res/scripts/connect.js",
+          "link": "https://news.ycombinator.com/item?id=32165103",
+          "publishedOn": "2022-07-20T12:57:28.000Z",
+          "wordCount": 2871,
+          "title": "New comment by 6f in \"TeamViewer installs suspicious font only useful for web fingerprinting\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32164885",
+          "author": "SeanLuke",
+          "description": "It might be worth mentioning a famous abdication which caused a lot of consternation, albeit in another game.  I love this story but may have gotten some details wrong.\nMarion Tinsley was world checkers champion from 1955-1958, then took a break, then again from 1975-1991, when he resigned in protest (at age 64).  He was utterly dominant; indeed it is hard to think of a competitor in all of history more dominant over his sport or game than Tinsley.\nIn 1990 Tinsley decided to play Chinook, the best checkers computer program in the world.  Chinook had placed second at the US Nationals so it had the right to enter the world championships, but the US and British checkers federations refused to allow it.\nSo Tinsley resigned his title.  Tinsley then played Chinook in an unofficial match (which he won).\nThis power play really stuck it to the federations: nobody wanted to be named the new world champion knowing Tinsley was fully capable of crushing them.  Eventually everyone came to an agreement to let Tinsley be the \"champion emeritus\".\nTinsley played Chinook four years later, at age 68, still probably the best player in the world.  But in the middle of the match he complained of stomach pains and withdrew after only six games (of 20), all drawn.  Tinsley's pains were real: he later died of pancreatic cancer.",
+          "link": "https://news.ycombinator.com/item?id=32164885",
+          "publishedOn": "2022-07-20T12:38:30.000Z",
+          "wordCount": 4141,
+          "title": "New comment by SeanLuke in \"World chess champion Magnus Carlsen abdicates title\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32164307",
+          "author": "jefe_",
+          "description": "Similar thing would happen in my Toyota, the song 'Afraid' by Yellowcard would play every time I turned on the car. Realized it was playing the first song in my library. In Apple Music there is a song called 'A a a a a Very Good Song (Silent Track)' by artist Samir Mezrahi, that contains 10 minutes of silence. I added that to my library and now that song plays when I turn on my car (although this autoplay only happens occasionally since some Toyota update). The album art simply says: 'have a wonderful day.'\nThe song:\nhttps://music.apple.com/us/album/a-a-a-a-a-very-good-song-si...",
+          "link": "https://news.ycombinator.com/item?id=32164307",
+          "publishedOn": "2022-07-20T11:44:07.000Z",
+          "wordCount": null,
+          "title": "New comment by jefe_ in \"Bluetooth remains an 'unusually painful' technology after two decades\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32163705",
+          "author": "Gareth321",
+          "description": "This is easily one of the most expansive Acts regarding computing devices passed in my lifetime. The summary is in the link. As an iPhone user, this will enable me to:\n* Install any software\n* Install any App Store and choose to make it default\n* Use third party payment providers and choose to make them default\n* Use any voice assistant and choose to make it default\n* User any browser and browser engine and choose to make it default\n* Use any messaging app and choose to make it default\n* Make core messaging functionality interoperable. They lay out concrete examples like file transfer\n* Use existing hardware and software features without competitive prejudice. E.g. NFC\n* Not preference their services. This includes CTAs in settings to encourage users to subscribe to Gatekeeper services, and ranking their own services above others in selection and advertising portals\n* Much, much, more.\nAfter the Act is signed by the Council and the European Parliament in September, Apple, Google, Amazon, and other \"Gatekeepers\" will have six months to comply. Fines are up to 10% of global revenue for the first offense, and 20% for repeat offenses.",
+          "link": "https://news.ycombinator.com/item?id=32163705",
+          "publishedOn": "2022-07-20T10:26:22.000Z",
+          "wordCount": null,
+          "title": "New comment by Gareth321 in \"EU Digital Markets Act, Aimed at Google, Apple, Amazon, Approved\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32163667",
+          "author": "blackhaz",
+          "description": "My car (Lexus) and my iPhone X:\nThe car detects iPhone presence, like, 50% of the time. If it does detect it, it shows me a couple of half-naked shaved guys hugging each other and begins playing \"Songs of Innocence\" the moment I turn the ignition on. I tried deleting this song from the iPhone, but it auto-magically restores itself somehow, as if it is in the telephone's firmware. The image of men hugging in shade is baked into my mind forever at this point.\nAs I want to set my plans in silence, I press stop on the dashboard. I set my Google Maps navigation, turn the knob to increase the volume so I could hear instructions, and this triggers \"Songs of Innocence\" to continue playing and the second burst of outrage in my cardiovascular system. I press the stop the second time, and at this point can continue on my journey - but should I try to increase the volume again, I have to remember the hugging men are always there.\nOnce (or twice), the phone just went berserk and couldn't stop playing them. I tried everything, but the Songs were playing, and the men were hugging while I was doing 70 mph on the motorway. I had to reboot the phone, but after the reboot, the car was unable to pair with it.\nI don't know if it's a Lexus problem, or an Apple problem, but what I know is that I really fucking hate U2.",
+          "link": "https://news.ycombinator.com/item?id=32163667",
+          "publishedOn": "2022-07-20T10:20:14.000Z",
+          "wordCount": 15952,
+          "title": "New comment by blackhaz in \"Bluetooth remains an 'unusually painful' technology after two decades\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32163063",
+          "author": "Paul_S",
+          "description": "Let me pass on to you some ancient Chinese... er, German engineering wisdom:\nHe who understands wireless communication uses cables.",
+          "link": "https://news.ycombinator.com/item?id=32163063",
+          "publishedOn": "2022-07-20T08:45:34.000Z",
+          "wordCount": null,
+          "title": "New comment by Paul_S in \"Why Bluetooth remains an 'unusually painful' technology after two decades\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32160451",
+          "author": "sen",
+          "description": "I have private access to some pretty cool motorsports/boat-racing/etc stuff that a majority of people don't get to see (prototype/development vehicle testing, etc). I thought it might be fun for me to make some videos of these and share them, with the full support of the owners/teams behind this stuff. They gave me extra access, let me film everything over 2 days (3 full days of work considering the remote location in another state etc), and I put my first video up on YouTube showing off a prototype vehicle that was going for a world record.\nThe video went pretty viral... 8 digit views, got me 5 digit subscriber count, was posted on dozens and dozens of news sites and blogs and shared widely. I was excited, off to a great start with this whole YouTube thing.\nNo music, no audio other than the engine sounds, absolutely zero reason anyone could possibly do a copyright strike... right?\nNope, some church minister in some tiny country did a copyright strike saying they own the rights to the word \"spirit\" in my video title (it was part of the name of the vehicle itself)... so they got all the money I earned from that video + I got a strike on my channel and a scary warning from YouTube saying my entire Google account could get banned including my Gmail. I disputed it with a very clear explanation of the situation, and they quickly reply saying they sided with the complainant and they'll be ignoring all future disputes.\nFuck YouTube/Google.\nEdit: I went back to find the emails from Google and realised the story is even crazier than I remember. YouTube never reviewed the dispute, they let the person making the claim review their own dispute!!\n> Hi [Name],\n> After reviewing your dispute, [Dodgy Fuck's Name] has decided that their copyright claim is still valid.\n> Copyrighted content: Spirit\n> Claimed by: [Dodgy Fuck's Name]",
+          "link": "https://news.ycombinator.com/item?id=32160451",
+          "publishedOn": "2022-07-20T01:59:50.000Z",
+          "wordCount": 4435,
+          "title": "New comment by sen in \"Fran Blanche: This Is Not Legal\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32157846",
+          "author": "JohnBooty",
+          "description": "I've been a software dev since the 90s and at this point, I've learned to basically do things like audit trails and soft deletion by default, unless there's some reason not to.\nSomebody always wants to undelete something, or examine it to see why it was deleted, or see who changed something, or blah blah blah. It helps the business, it helps you as developer by giving you debug information as well as helping you to cover your ass when you are blamed for some data loss bug that was really user error.\nSoft deletion has obvious drawbacks but is usually far less work than implementing equivalent functionality out-of-stream, with verbose logging or some such.\nRetrofitting your app and adding soft deletion and audit trails after the fact is usually an order of magnitude more work. Can always add it pre-launch and leave it turned off.\nIf performance is a concern, this is usually something that can be mitigated. You can e.g. have a reaper job that runs daily and hard-deletes everything that was soft-deleted more than n days ago, or whatever.",
+          "link": "https://news.ycombinator.com/item?id=32157846",
+          "publishedOn": "2022-07-19T20:55:18.000Z",
+          "wordCount": 14237,
+          "title": "New comment by JohnBooty in \"Soft deletion probably isn't worth it\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32151626",
+          "author": "game-of-throws",
+          "description": "They already do that.\nhttps://www.glassdoor.com/Reviews/ZURU-Reviews-E2286297.htm\n> Glassdoor Alert: Employer Legal Action\n> This employer has taken legal action against reviewers and/or Glassdoor for the reviews that have appeared on this profile. Please exercise your best judgment when evaluating this employer. Learn more about Glassdoor Alerts.",
+          "link": "https://news.ycombinator.com/item?id=32151626",
+          "publishedOn": "2022-07-19T14:06:00.000Z",
+          "wordCount": 662,
+          "title": "New comment by game-of-throws in \"Glassdoor not so anonymous\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32151610",
+          "author": "aaronax",
+          "description": "I think everything is just generally \"nicer\". Stadium seats are cushier, parking lots are paved instead of gravel, sidewalks are a lot wider, more air-conditioned spaces, better food availability, etc.\nAnd people expect more exciting and high quality things now, because they have seen a lot (comparably). Someone growing up in the 1930s wasn't able to hop on the interstate and go 300 miles away for the weekend. Those growing up in the 80s were more apt to do that sort of thing, and as mobility has increased, attractions (nicer ones) have been built out over the decades. Now that person who traveled to all sorts of attractions continues to seek out new things -> bigger and better of course. More $$$.\nThe basic, economical attractions are still there if you look. Just think smaller scale. Instead of national parks, go to state parks. Instead of Disney, go to the state fair. Instead of Broadway, find the local theater troupe. Instead of MLB/NFL, check out summer or arena leagues. Just because you read about an attraction that seems cool, is 1,500 miles away, and is the best of breed nationwide, doesn't mean you need to or even get to experience it.",
+          "link": "https://news.ycombinator.com/item?id=32151610",
+          "publishedOn": "2022-07-19T14:05:03.000Z",
+          "wordCount": 14614,
+          "title": "New comment by aaronax in \"America’s favorite family outings are increasingly out of reach\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32151437",
+          "author": "tpoacher",
+          "description": "This is actually an amazing opportunity for Glassdoor.\nJust put a \"badge\" next to companies known to sue employees who post reviews on Glassdoor.\nNo reviews are even needed from that point on to signify a shitty company; for all anyone knows all negative reviews may have been taken down through legal action, but the badge stays, signifying that there was at least one review so damaging that they had to get lawyers involved (or that the company climate is of that toxic kind that sues its own disgruntled employees more generally).\nIn the end suing will end up acting as the ultimate bad review for that company on the site.",
+          "link": "https://news.ycombinator.com/item?id=32151437",
+          "publishedOn": "2022-07-19T13:52:39.000Z",
+          "wordCount": null,
+          "title": "New comment by tpoacher in \"Glassdoor not so anonymous\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32149873",
+          "author": "jefftk",
+          "description": "This is wrong: try downloading something with Safari, which blocks third party cookies by default, and it works fine.\nInstead, the problem is that downloading from Google Drive is using User-Agent sniffing to determine whether third party cookies are expected to be enabled, and choosing between implementations.\n(Disclosure: I used to work at Google, but I don't know anything internal on this)",
+          "link": "https://news.ycombinator.com/item?id=32149873",
+          "publishedOn": "2022-07-19T11:01:52.000Z",
+          "wordCount": null,
+          "title": "New comment by jefftk in \"To download from Google Drive, you must enable 3rd party cookies\"",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "unixsheikh.com",
+      "feedUrl": "https://unixsheikh.com/feed.rss",
+      "siteUrl": "https://unixsheikh.com",
+      "articles": []
+    },
+    {
+      "title": "Latest News from Science Magazine",
+      "feedUrl": "https://www.science.org/rss/news_current.xml",
+      "siteUrl": "https://www.science.org",
+      "articles": [
+        {
+          "id": "https://www.science.org/content/article/david-attenborough-gets-namesake-oldest-known-relative-living-animals",
+          "author": "Tess Joosse",
+          "description": "560-million-year-old fossil creature shares traits with both modern jellyfish and corals",
+          "link": "https://www.science.org/content/article/david-attenborough-gets-namesake-oldest-known-relative-living-animals",
+          "publishedOn": "2022-07-25T11:00:00.000Z",
+          "wordCount": 2325,
+          "title": "David Attenborough gets a namesake: the oldest known relative of living animals",
+          "imageUrl": "https://www.science.org/do/10.1126/science.ade1071/abs/_20220725_nib_fossil_auroralumina_3.jpg"
+        },
+        {
+          "id": "https://www.science.org/content/article/declaring-monkeypox-an-international-emergency-who-chief-rejects-expert-panels-advice",
+          "author": "Kai Kupferschmidt",
+          "description": "Narrow majority on Emergency Committee voted against ringing WHO’s loudest alarm bell",
+          "link": "https://www.science.org/content/article/declaring-monkeypox-an-international-emergency-who-chief-rejects-expert-panels-advice",
+          "publishedOn": "2022-07-23T10:45:00.000Z",
+          "wordCount": 2481,
+          "title": "Declaring monkeypox an international emergency, WHO chief rejects expert panel’s advice",
+          "imageUrl": "https://www.science.org/do/10.1126/science.ade0761/abs/_20220722_on_who_monkeypox.jpg"
+        },
+        {
+          "id": "https://www.science.org/content/article/dreaming-new-proteins-ai-churns-out-possible-medicines-and-vaccines",
+          "author": "Robert F. Service",
+          "description": "Instead of predicting the shapes of naturally occurring molecules, software designs original ones",
+          "link": "https://www.science.org/content/article/dreaming-new-proteins-ai-churns-out-possible-medicines-and-vaccines",
+          "publishedOn": "2022-07-22T12:30:00.000Z",
+          "wordCount": 2462,
+          "title": "Dreaming up new proteins, AI churns out possible medicines and vaccines",
+          "imageUrl": "https://www.science.org/do/10.1126/science.ade0765/abs/_20220721_on_ai_vaccines.jpg"
+        },
+        {
+          "id": "https://www.science.org/content/article/supercharged-biotech-rice-yields-40-more-grain",
+          "author": "Erik Stokstad",
+          "description": "Genetic tweak may boost photosynthesis and fertilizer absorption in wheat, other crops, too",
+          "link": "https://www.science.org/content/article/supercharged-biotech-rice-yields-40-more-grain",
+          "publishedOn": "2022-07-22T04:50:00.000Z",
+          "wordCount": null,
+          "title": "Supercharged biotech rice yields 40% more grain",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/radio-bursts-zombie-black-holes-excite-astronomers",
+          "author": "Zack Savitsky",
+          "description": "Delayed emissions from black holes that fed on stars months earlier could help explain the formation of powerful jets",
+          "link": "https://www.science.org/content/article/radio-bursts-zombie-black-holes-excite-astronomers",
+          "publishedOn": "2022-07-22T04:40:00.000Z",
+          "wordCount": null,
+          "title": "Radio bursts from ‘zombie’ black holes excite astronomers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/gold-mine-unexplored-biology-short-protein-sequences-dramatically-expand-human-genome",
+          "author": "Robert F. Service",
+          "description": "New consortium will vet whether 7000-plus RNAs make stable proteins with cellular functions",
+          "link": "https://www.science.org/content/article/gold-mine-unexplored-biology-short-protein-sequences-dramatically-expand-human-genome",
+          "publishedOn": "2022-07-21T11:30:00.000Z",
+          "wordCount": null,
+          "title": "‘Gold mine of unexplored biology’: Short protein sequences could dramatically expand human genome",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/most-distinctive-birds-are-ones-most-risk-extinction",
+          "author": "Elizabeth Pennisi",
+          "description": "Future biodiversity loss is more than just a numbers game, two studies predict",
+          "link": "https://www.science.org/content/article/most-distinctive-birds-are-ones-most-risk-extinction",
+          "publishedOn": "2022-07-21T11:00:00.000Z",
+          "wordCount": null,
+          "title": "The most distinctive birds are the ones most at risk of extinction",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/are-you-clumsy-or-just-mean-your-dog-may-know-difference",
+          "author": "David Grimm",
+          "description": "Study provides more evidence that our canine pals can read our intentions",
+          "link": "https://www.science.org/content/article/are-you-clumsy-or-just-mean-your-dog-may-know-difference",
+          "publishedOn": "2022-07-21T04:00:00.000Z",
+          "wordCount": null,
+          "title": "Are you clumsy—or just mean? Your dog may know the difference",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease",
+          "author": "Charles Piller",
+          "description": "A neuroscience sleuth challenges data showing one toxic form of amyloid protein is a cause of brain condition",
+          "link": "https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease",
+          "publishedOn": "2022-07-21T02:03:00.000Z",
+          "wordCount": null,
+          "title": "Potential fabrication in research images threatens key theory of Alzheimer’s disease",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/news-glance-declining-childhood-vaccinations-superbug-infections-brazilian-fossil",
+          "author": "Science News Staff",
+          "description": "The latest in science and policy",
+          "link": "https://www.science.org/content/article/news-glance-declining-childhood-vaccinations-superbug-infections-brazilian-fossil",
+          "publishedOn": "2022-07-21T02:00:00.000Z",
+          "wordCount": null,
+          "title": "News at a glance: Declining childhood vaccinations, rising ‘superbug’ infections, and a disputed Brazilian fossil",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/u-k-outlines-plan-b-research-funding-skirt-eu-impasse",
+          "author": "Cathleen O’Grady",
+          "description": "Domestic alternative to Horizon Europe program would focus on international collaboration",
+          "link": "https://www.science.org/content/article/u-k-outlines-plan-b-research-funding-skirt-eu-impasse",
+          "publishedOn": "2022-07-21T01:25:00.000Z",
+          "wordCount": null,
+          "title": "U.K. outlines ‘Plan B’ research funding to skirt EU impasse",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/u-s-innovation-bill-clears-major-senate-hurdle-research-provisions-intact",
+          "author": "Jeffrey Mervis",
+          "description": "Mandate to increase geographic diversity in grants fuels support for big hike in authorized spending",
+          "link": "https://www.science.org/content/article/u-s-innovation-bill-clears-major-senate-hurdle-research-provisions-intact",
+          "publishedOn": "2022-07-21T01:15:00.000Z",
+          "wordCount": 2835,
+          "title": "U.S. innovation bill clears major Senate hurdle with research provisions intact",
+          "imageUrl": "https://www.science.org/do/10.1126/science.ade0590/abs/_20220720_on_epscor.jpg"
+        },
+        {
+          "id": "https://www.science.org/content/article/paradox-cleaner-air-now-adding-global-warming",
+          "author": "Paul Voosen",
+          "description": "Satellites capture fall in pollution that helps cool the planet",
+          "link": "https://www.science.org/content/article/paradox-cleaner-air-now-adding-global-warming",
+          "publishedOn": "2022-07-20T12:40:00.000Z",
+          "wordCount": 431,
+          "title": "In a paradox, cleaner air is now adding to global warming",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/deadly-pest-reaches-oregon-sparking-fears-ash-trees",
+          "author": "Gabriel Popkin",
+          "description": "Emerald ash borer has already killed millions of trees",
+          "link": "https://www.science.org/content/article/deadly-pest-reaches-oregon-sparking-fears-ash-trees",
+          "publishedOn": "2022-07-20T11:45:00.000Z",
+          "wordCount": 431,
+          "title": "Deadly pest reaches Oregon, sparking fears for ash trees",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/our-ancestors-became-warm-blooded-later-we-thought",
+          "author": "Katherine Irving",
+          "description": "New study on ear canal bones sheds light on mammal mystery",
+          "link": "https://www.science.org/content/article/our-ancestors-became-warm-blooded-later-we-thought",
+          "publishedOn": "2022-07-20T11:25:00.000Z",
+          "wordCount": 431,
+          "title": "Our ancestors became warm-blooded later than we thought",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/reality-doesn-t-exist-until-you-measure-it-quantum-parlor-trick-confirms",
+          "author": "Adrian Cho",
+          "description": "Two players leverage quantum rules to achieve a seemingly telepathic connection",
+          "link": "https://www.science.org/content/article/reality-doesn-t-exist-until-you-measure-it-quantum-parlor-trick-confirms",
+          "publishedOn": "2022-07-20T05:50:00.000Z",
+          "wordCount": 431,
+          "title": "Reality doesn’t exist until you measure it, quantum parlor trick confirms",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.science.org/content/article/listen-wild-stingrays-sing-first-time",
+          "author": "Zack Savitsky",
+          "description": "Video shows creatures clicking at nearby swimmers",
+          "link": "https://www.science.org/content/article/listen-wild-stingrays-sing-first-time",
+          "publishedOn": "2022-07-20T05:30:00.000Z",
+          "wordCount": 431,
+          "title": "Listen to wild stingrays sing for the first time",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
+      "feedUrl": "https://www.smashingmagazine.com/feed/",
+      "siteUrl": "https://www.smashingmagazine.com/",
+      "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/07/article-section-elements-accessibility/",
+          "author": "hello@smashingmagazine.com (Olushuyi Olutimilehin)",
+          "description": "In this article, Olushuyi explores a mental model that helps you decide between the `` and `\n` elements when writing documents. You will explore how grouping content affects accessibility and how you can make it all count for users.",
+          "link": "https://smashingmagazine.com/2022/07/article-section-elements-accessibility/",
+          "publishedOn": "2022-07-25T14:30:00.000Z",
+          "wordCount": null,
+          "title": "&lt;article&gt; vs. &lt;section&gt;: How To Choose The Right One",
+          "enclosure": {
+            "url": "http://res.cloudinary.com/indysigner/image/upload/v1658760043/article-section-elements-accessibility_x3326s.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://res.cloudinary.com/indysigner/image/upload/v1658760043/article-section-elements-accessibility_x3326s.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2022/07/overcoming-imposter-syndrome-developing-guiding-principles/",
+          "author": "hello@smashingmagazine.com (Luis Ouriach)",
+          "description": "In this article, Luis Ouriach helps to develop your own guiding principles to become a better designer so that you can walk into the design critique meetings with more confidence and really deliver the best representation of your ideas.",
+          "link": "https://smashingmagazine.com/2022/07/overcoming-imposter-syndrome-developing-guiding-principles/",
+          "publishedOn": "2022-07-22T09:00:00.000Z",
+          "wordCount": null,
+          "title": "Overcoming Imposter Syndrome By Developing Your Own Guiding Principles",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c4432c3e-8b4e-46f7-b7c0-84ed31faa265/overcoming-imposter-syndrome-developing-guiding-principles.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c4432c3e-8b4e-46f7-b7c0-84ed31faa265/overcoming-imposter-syndrome-developing-guiding-principles.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2022/07/smashingconf-sf-2022-review/",
+          "author": "hello@smashingmagazine.com (Jarijn Nijkamp)",
+          "description": "Now that some time has passed since the team returned from SmashingConf San Francisco, we’ve had time to think about the event and wrap up some of the things we all learned.",
+          "link": "https://smashingmagazine.com/2022/07/smashingconf-sf-2022-review/",
+          "publishedOn": "2022-07-21T13:00:00.000Z",
+          "wordCount": 3420,
+          "title": "Looking Back At SmashingConf SF 2022",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ee20fcf1-d266-4c91-ad36-643075321d40/20-smashingconf-sf-2022.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ee20fcf1-d266-4c91-ad36-643075321d40/20-smashingconf-sf-2022.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2022/07/powerful-image-optimization-tools/",
+          "author": "hello@smashingmagazine.com (Louis Lazaris)",
+          "description": "Optimizing the size of images can have a bigger impact on performance than all other areas combined. In this article, Louis Lazaris covers different tools available for reducing the size of images.",
+          "link": "https://smashingmagazine.com/2022/07/powerful-image-optimization-tools/",
+          "publishedOn": "2022-07-20T10:00:00.000Z",
+          "wordCount": 4069,
+          "title": "Powerful Image Optimization Tools",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fcdc773d-5824-490f-9e90-3aa4d18153a0/powerful-image-optimization-tools.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fcdc773d-5824-490f-9e90-3aa4d18153a0/powerful-image-optimization-tools.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Julia Evans",
+      "feedUrl": "https://jvns.ca/atom.xml",
+      "siteUrl": "http://jvns.ca/atom.xml",
+      "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/07/20/pseudoterminals/",
+          "author": null,
+          "description": "I’ve been confused about what’s going on with terminals for a long time.\nBut this past week I was using xterm.js to display an\ninteractive terminal in a browser and I finally thought to ask a pretty basic\nquestion: when you press a key on your keyboard in a terminal (like Delete, or Escape, or a), which\nbytes get sent?\nAs usual we’ll answer that question by doing some experiments and seeing what happens :)\nremote terminals are very old technology\nFirst, I want to say that displaying a terminal in the browser with xterm.js\nmight seem like a New Thing, but it’s really not. In the 70s, computers were\nexpensive. So many employees at an institution would share a single computer,\nand each person could have their own “terminal” to that computer.\nFor example, here’s a photo of a VT100 terminal fro…",
+          "link": "https://jvns.ca/blog/2022/07/20/pseudoterminals/",
+          "publishedOn": "2022-07-20T20:57:15.000Z",
+          "wordCount": 2173,
+          "title": "What happens when you press a key in your terminal?",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "manateelazycat.github.io",
+      "feedUrl": "https://manateelazycat.github.io/feed.xml",
+      "siteUrl": "//manateelazycat.github.io/",
+      "articles": []
+    },
+    {
+      "title": "EmacsTalk",
+      "feedUrl": "https://emacstalk.github.io/podcast/index.xml",
+      "siteUrl": "https://emacstalk.github.io/podcast/",
+      "articles": []
+    },
+    {
+      "title": "Sacha Chua",
+      "feedUrl": "https://sachachua.com/blog/feed",
+      "siteUrl": "https://sachachua.com/blog/feed/",
+      "articles": [
+        {
+          "id": "https://sachachua.com/blog/2022/07/2022-07-25-emacs-news/",
+          "author": "Sacha Chua",
+          "description": "EmacsConf 2022 Call for Participation (Reddit)\nUpcoming events:\n\nEmacs Berlin (virtual, in English) https://emacs-berlin.org/ Wed Jul 27 0930 Vancouver / 1130 Chicago / 1230 Toronto / 1630 GMT / 1830 Berlin / 2200 Kolkata – Thu Jul 28 0030 Singapore\nM-x Research (contact them for password): TBA https://m-x-research.github.io/ Tue Aug 2 0800 Vancouver / 1000 Chicago / 1100 Toronto / 1500 GMT / 1700 Berlin / 2030 Kolkata / 2300 Singapore\nEmacs Paris (virtual, in French) https://www.emacs-doctor.com/emacs-paris-user-group/ Tue Aug 2 0830 Vancouver / 1030 Chicago / 1130 Toronto / 1530 GMT / 1730 Berlin / 2100 Kolkata / 2330 Singapore\nEmacsATX: Emacs Social https://www.meetup.com/emacsatx/events/287197567/ Wed Aug 3 1630 Vancouver / 1830 Chicago / 1930 Toronto / 2330 GMT – Thu Aug 4 0130 Berlin…",
+          "link": "https://sachachua.com/blog/2022/07/2022-07-25-emacs-news/",
+          "publishedOn": "2022-07-25T20:11:32.000Z",
+          "wordCount": null,
+          "title": "2022-07-25 Emacs news",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "(or emacs",
+      "feedUrl": "https://oremacs.com/atom.xml",
+      "siteUrl": "https://oremacs.com/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "阮一峰的网络日志",
+      "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
+      "siteUrl": "http://www.ruanyifeng.com/blog/",
+      "articles": [
+        {
+          "id": "http://www.ruanyifeng.com/blog/2022/07/weekly-issue-215.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源（GitHub: ruanyf/weekly），欢迎提交 issue，投稿或推荐科技内容。\n周刊讨论区的帖子《谁在招人？》，提供大量程序员就业信息，欢迎访问或发布工作/实习岗位。\n封面图\n\n6月30日，四川凉山的金阳河特大桥正式通车。这座桥长度不到800米，但是桥墩高达196米，是亚洲最高的桥墩。（via）\n本周话题：互联网最喜欢的行为模式\n巴菲特说，他考察候选人，就看三个\"i\"。\n\nintegrity（正直）\nintelligence（智力）\ninitiative（主动）\n\"正直\"（integrity）和\"智力\"（intelligence）比较容易想到，大多数人会忽视第三点\"主动\"（initiative）。可是，主动恰恰是互联网最喜欢的行为模式。\n\n现实世界往往有很多约束，你想做什么事，需要各种条件具备，才有办法去做。所以，很多时候不得不被动等待。\n但是，线上世界不是这样，限制条件比较少。只要技术可行，一般来说，就可以去做。如果你还在等待条件成熟，就会错失机会。 所以，想到就去做，在互联网上特别重要，这就叫主动。\n举例来说，找工作，大多数人想到的是下面两种方式。\n方式一：看到招聘广告，投递简历。\n方式二：认识某个内部人员，请他内推。\n这两种方式都有一个前提，就是你碰巧知道这家公司要招人了，然后再去应聘。\n但是互联网找工作，有另一种方式，完全可以主动出击。\n第一步：你看到了一个心仪的产品。\n第二步：你写下自己可以帮助改进这个产品的10个地方。\n第三步：你找到 CEO 的信箱或社交账号，把想法发给他，就说你可以帮到这个产品。\n这就是主动的行为方式。你不必等公司发布招聘岗位，如果想去那里工作，就找上门，展示自己的价值。在互联网上，没人禁止这么做，成本又这么低，那为什么不做呢？\n主动和被动，很多时候说到底，就是对待机会的心态不…",
+          "link": "http://www.ruanyifeng.com/blog/2022/07/weekly-issue-215.html",
+          "publishedOn": "2022-07-22T00:19:26.000Z",
+          "wordCount": 1125,
+          "title": "科技爱好者周刊（第 215 期）：互联网最喜欢的行为模式",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "The Cloudflare Blog",
+      "feedUrl": "https://blog.cloudflare.com/rss/",
+      "siteUrl": "https://blog.cloudflare.com/",
+      "articles": [
+        {
+          "id": "62dad7a01eca9d000b40f85a",
+          "author": "David Antunes",
+          "description": "Cloudflare Deployment in Guam - Delivering a Better Internet for Faraway Pacific Ocean Archipelagos Residents",
+          "link": "https://blog.cloudflare.com/cloudflare-deployment-in-guam/",
+          "publishedOn": "2022-07-25T13:00:00.000Z",
+          "wordCount": null,
+          "title": "Cloudflare deployment in Guam",
+          "imageUrl": null
+        },
+        {
+          "id": "62d572db68b2a8000acebb0d",
+          "author": "Matt Boyle",
+          "description": "We learnt a lot about Kafka on the way to 1 trillion messages, and built some interesting internal tools to ease adoption that will be explored in this blog post",
+          "link": "https://blog.cloudflare.com/using-apache-kafka-to-process-1-trillion-messages/",
+          "publishedOn": "2022-07-19T13:00:00.000Z",
+          "wordCount": null,
+          "title": "Using Apache Kafka to process 1 trillion inter-service messages",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Anthony Fu",
+      "feedUrl": "https://antfu.me/feed.xml",
+      "siteUrl": "https://antfu.me/",
+      "articles": []
+    },
+    {
+      "title": "面向信仰编程",
+      "feedUrl": "https://draveness.me/feed.xml",
+      "siteUrl": "https://draveness.me/",
+      "articles": []
+    },
+    {
+      "title": "web.dev",
+      "feedUrl": "https://web.dev/feed.xml",
+      "siteUrl": "https://web.dev/feed.xml",
+      "articles": [
+        {
+          "id": "https://web.dev/bbc-hsts/",
+          "author": null,
+          "description": "HTTPS adoption has been steadily increasing in recent years. Per the HTTP Archive's 2021 Web Almanac, around 91% of all requests for both desktop and mobile were served over HTTPS. HTTPS isn't just here to stay, it's a necessary prerequisite to use features such as Service Worker and modern protocols such as HTTP/2 and HTTP/3.\nRecently Neil Craig—a lead technical Architect at the BBC—tweeted that HTTP Strict Transport Security (HSTS) is being slowly rolled out for bbc.com. Let's find out what that means for the BBC, and what it could mean for you.\nThe problem #\nWeb servers often listen for requests on both ports 80 and 443. Port 80 is for insecure HTTP requests, whereas 443 is for secure HTTPS. This can create a problem, because when you enter an address into your address bar without the h…",
+          "link": "https://web.dev/bbc-hsts/",
+          "publishedOn": "2022-07-25T00:00:00.000Z",
+          "wordCount": null,
+          "title": "How the BBC is rolling out HSTS for better security and performance.",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "This Month in Org",
+      "feedUrl": "https://blog.tecosaur.com/tmio/rss.xml",
+      "siteUrl": "https://blog.tecosaur.com/tmio/",
+      "articles": []
+    },
+    {
+      "title": "随机波动StochasticVolatility",
+      "feedUrl": "https://www.stovol.club/rss",
+      "siteUrl": "https://www.stovol.club",
+      "articles": [
+        {
+          "id": "9e9f6705-024f-4263-ad01-776ad7996ae3",
+          "author": "随机波动",
+          "description": "你现在听到的是随机波动最新推出的mini series「亲爱的Love, Actually」的第三期节目，主题是“穿过委屈与害怕，我们成长为大人”，我们与该系列的联合制作人Serena邀请到了同为新手妈妈的电影人潘萌，一起聊聊孩子之间的冲突和矛盾，在不同的社会文化语境下如何表现以及如何应对。\n让潘萌开始思考这一问题的，是她不到两岁的儿子在游乐场的一次遭遇。他被一个五六岁的大孩子推下转盘，一切发生得猝不及防，潘萌一边惊讶于所谓的“游乐场政治”比预想中发生得更早，一边无措于现实与书本之间巨大的差异——妈妈苦心习得的育儿知识，到了现实中居然全成了纸上谈兵。\n从小小的游乐场到幼儿园、学校，再到社会，成长就意味着不断地遭遇竞争、冲突，甚至伤害。父母既想尽可能为孩子遮风挡雨、披荆斩棘，又不希望妨碍他作为一个独立的个体去经历高山低谷，体验人生百味。挫折教育和爱与呵护是矛盾的吗，父母又该怎样去化解其中的焦虑与无力？\n这次对谈的主要参与者是潘萌和Serena，之琪和建国认真旁听并且在后半部分忍不住发言来着。如果你在后半段突然听到熟悉的声音，请不要感到诧异。\n「亲爱的Love, Actually」系列节目试图透过育儿过程中的种种困难、喜悦与收获，打开对于家庭与社会、历史与未来的思考。该系列的每期节目将以一封写给女儿的信作为开篇。亲爱的，这是我们当下的生活和思考，是我写给未来的你们的一封声音之信。\n【本期对谈嘉宾】\n潘萌，电影人，新手妈妈，目前生活工作在洛杉矶\nSerena，「亲爱的Love, Actually」联合制作人，前VC投资人，新浪微博@Serenana喵，即刻@Serena喵\n[07:21]孩子的“游乐场政治”比预想中更早到来\n[12:21]要不要教育别人的孩子\n[21:16]我们小时候遇到的冲突和委屈\n[26:55]在飞机上或厕所里遇到“熊孩子”该怎么办\n[31:15]“熊孩子”的问题要靠公共设施的完善和父亲的参与来解决\n[34:00]男孩女孩、中国小孩外国小孩的社交与冲突有什么不同\n[41:27]我们曾经都是“书斋里的小孩”\n[45:34]集体生活如何塑造了孩子的道德观念\n[51:41]该不该让孩子尽早接触到真实的世界\n[57:38]家长能保护孩子的时间比想象中更短\n【本期节目主题插画】\n黄雷蕾，新浪微博@黄雷蕾Linali\n【本期节目中使用的音乐】\nLove Actually Theme, by李哲\nciao sweety no whistle, by dapun\n特别感谢马鲨鲨和推迪对本期节目音乐的支持\n 【关于随机波动】\n感谢大家收听，你可以在微信和微博搜索随机波动StochasticVolatility，关注我们，也可以关注官网www.stovol.club ，还可以在苹果播客、spotify、pocketcast等泛用性客户端收听我们的节目。如果你喜欢我们的节目，别忘了在苹果播客给我们五星好评，也可以通过公众号推送中的二维码给我们打赏。\n【关于「亲爱的 Love, Actually」】\n随机波动全新mini系列节目「亲爱的Love, Actually」将以季播形式更新，每季四集，主题将涉及全职主妇，育儿嫂，孩子与宠物、与游戏、与阅读的关系，在人工智能与虚拟现实中长大的小孩等等。该系列目前开放招商。如果你所在的品牌对本系列有好奇、感兴趣，或是希望以各种形式参与进来，欢迎与我们联系，我们的邮箱是surplusvalue@163.com。",
+          "link": "https://www.stovol.club/loveactually04",
+          "publishedOn": "2022-07-20T04:00:00.000Z",
+          "wordCount": null,
+          "title": "「亲爱的 Love, Actually」穿过委屈与害怕，我们成长为大人",
+          "itunes": {
+            "duration": "1:03:24"
+          },
+          "enclosure": {
+            "url": "https://aphid.fireside.fm/d/1437767933/a05075d5-4f3a-45ac-afff-580f795c5d77/9e9f6705-024f-4263-ad01-776ad7996ae3.mp3",
+            "length": "39257052",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "海马星球",
+      "feedUrl": "https://anchor.fm/s/47795d0/podcast/rss",
+      "siteUrl": "https://anchor.fm/seahorseplanet",
+      "articles": []
+    },
+    {
+      "title": "Steve说",
+      "feedUrl": "http://steveshuo.com/rss",
+      "siteUrl": "http://steveshuo.com",
+      "articles": [
+        {
+          "id": "72f7432a-707d-4504-9342-5d2f602c961e",
+          "author": "史秀雄Steve",
+          "description": "本期节目是我的单口，比较系统地讨论了一个大家内心深处时常思考的问题：人生的意义。讨论的话题包括：\n1:21 意义感的定义：驱动积极行为的长期情绪\n9:33 活得痛苦时，寻找意义感是为了止痛还是追问？\n22:33 人生意义无法抄作业，但是我知道它大概长什么样\n37:42 警惕对意义感的过度构建，只想不做会永远虚无\n49:30 长生不老的生活没有意义，意义的前提是约束和局限\n54:20 主动承担责任是很好的意义感来源\n63:20 人生如同音乐，持续演奏就是意义所在\n节目中提到的作品：\n《人生十二法则2》，乔丹·彼得森著\nAlan Watts演讲：https://www.youtube.com/watch?v=ivTYfOWXLmw\n詹姆斯·韦伯天文望远镜拍摄的船底座大星云照片：\nhttps://stsci-opo.org/STScI-01G7WCK1PJEM49E118GEG0Q729.png\n照片高清版来源：\nhttps://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ?news=true​\n“Steve说”被评为2019苹果最佳播客，是心理咨询师和心理学科普作者史秀雄（Steve Shi）的个人播客节目。这是一个通过深度交流拓展意识边界，探索个人成长之道，加深对自我和世界理解的谈话类节目。他的公众号是@史秀雄Steve，也欢迎访问节目官网http://steveshuo.com 或者到https://afdian.net/@steveshuo 赞助本节目",
+          "link": "http://steveshuo.com/293",
+          "publishedOn": "2022-07-17T13:30:00.000Z",
+          "wordCount": null,
+          "title": "Steve说292期 – 独白：人生意义长什么样？为什么那么难找？",
+          "itunes": {
+            "duration": "1:12:26"
+          },
+          "enclosure": {
+            "url": "https://aphid.fireside.fm/d/1437767933/b25803c6-0112-476c-9dbf-3e0f961a0e9d/72f7432a-707d-4504-9342-5d2f602c961e.mp3",
+            "length": "69551721",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "耳邊風",
+      "feedUrl": "https://open.firstory.me/rss/user/ckocit4tv7bon0899vfs0b3id",
+      "siteUrl": "https://open.firstory.me/user/mafang",
+      "articles": []
+    },
+    {
+      "title": "The Tim Ferriss Show",
+      "feedUrl": "https://rss.art19.com/tim-ferriss-show",
+      "siteUrl": "https://tim.blog/podcast",
+      "articles": []
+    },
+    {
+      "title": "My First Million",
+      "feedUrl": "https://feeds.megaphone.fm/HS2300184645",
+      "siteUrl": "https://www.mfmpod.com/",
+      "articles": []
+    },
+    {
+      "title": "FriendsA",
+      "feedUrl": "https://blog.duanfei.org/feed/atom.xml",
+      "siteUrl": "https://blog.duanfei.org",
+      "articles": []
+    },
+    {
+      "title": "日志 on 郝鸿涛：Hongtao Hao",
+      "feedUrl": "https://hongtaoh.com/cn/blog/index.xml",
+      "siteUrl": "https://hongtaoh.com/cn/blog/",
+      "articles": [
+        {
+          "id": "https://hongtaoh.com/cn/2022/07/24/altitude/",
+          "author": null,
+          "description": "在土木坛子老师的博客上看到了吴军先生写的书。以下是我读《格局》的笔记。吴军先生很多感悟我都非常认同。有一点不认同的是他说 30 岁之后没有天赋就不要学计算机了。\n前言 成功的人做事并不快，但他们知道自己的位置，了解自己的能力，有方向，然后就是一步一个脚印地努力。\n位置、方向、方法、步伐、节奏。\n要把握好节奏，如果一直都很累，迟早会趴下。\n1. 人生的格局 不要太多在意自己的“才”。成大事，要看到时代发展的趋势，这样的”认识“比才能重要得多。\n做事的主动性十分重要。不要等领导发话，而是你自己要想办法解决问题。如果只有领导告诉你你才做，那么你和别人有什么区别？\n要学会分享利益。\n勿以小恶忘大善。不要因为一个小的缺陷就否定全局。\n2. 命运的力量 人要人命。尽人事，听天命，做事反而多了一份淡然。\n柳传志：不要和政府作对，善待下面的人。\n止损、认命\n3. 生活的节奏 忙碌容易让人迷失方向。要静下来思考。这看似浪费时间，实际上是在节省时间。\n想起出发目的最简单的方法，就是在做事之前抬头看看纯净的天空，沉静下来听听内心的声音。\n淡泊名利，清心寡欲其实很难。\n从大自然，从生活本身寻找无穷的乐趣。\n要懂得休息。\n休息的本质是从外界获取信息和能量。\n这一点我非常同意。休息并不意味着躺在沙发上一边吃薯片一边看电影，这是被动的休息，偶尔一两次还行，让你一个月这样肯定疯掉了。真正的休息是离开自己熟悉的环境，在新环境中获取不一样的灵感。比如，我上周和朋友一起去芝加哥听了一场交响乐，我之前从来没去过，而且学生票含税才 15 刀。在剧场，我到了新环境，那里的能量和我平常在的家里很不一样。这个经历就让我很放松，有一种充电的感觉。\n不要以为自己独一无二。你这辈子要做的事，即使你不做，别人也能做，甚至做得比你还好。这么说并不是打击你，而是让你看清事实。你要知，没有什么比生活重要。你要先有一个好的生活，然后才能做事业。不要以为自己的事业那么重要而丢下了生活。\n4. 职场的心法 面试的时候，如果没听懂面试官的问题，不要回答。直到自己彻底懂了再开始回答。如果不会，可以问一下是否可以给一个提示。如果面试官问你对公司有什么改进意见，首先要说公司做的已经很好了，然后说自己知道接下来要说的公司肯定已经想过了，但还是说一下。不要显摆自己。\n面试的时候要展现自己的价值。\n一个公司没办法同时兼顾顾客、员工、股东，必须做取舍。同样，作为一名员工，你无法同时让上司、下属和同事、公司三者满意。\n交流的目的不在于传递出去多少信息，而在于对方接收到多少信息。\n如何识别小人？你要看看他对你的态度和对别人是不是一样。如何不被小人算计\n不贪。 小人之交甜如蜜。警惕对你过分好的人。 5. 智者的见识 一个帮助过你的人，比一个你帮助过的人，更愿意帮助你。–本杰明 富兰克林\n真正对我们好的人会让我们终生受益。如果遇到要格外珍惜。\n人最重要的是生活着，快乐着\n真正的勇气是做别人做不了也不敢做的事情。\n6. 心智的成长 女生需要一个懂自己的男人。\n成功才是成功之母。\n要做有影响力的事情。但是一开始不要给自己压力，做简单的事情也没什么。\n7. 悲观与乐观 悲观主义盛行的原因：1.",
+          "link": "https://hongtaoh.com/cn/2022/07/24/altitude/",
+          "publishedOn": "2022-07-25T02:36:57.000Z",
+          "wordCount": null,
+          "title": "读《格局》, 吴军著",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "青木的博客",
+      "feedUrl": "http://iyoubo.com:800/feed/",
+      "siteUrl": "http://iyoubo.com:800",
+      "articles": []
+    },
+    {
+      "title": "落园",
+      "feedUrl": "http://www.loyhome.com/feed/",
+      "siteUrl": "http://www.loyhome.com",
+      "articles": []
+    },
+    {
+      "title": "中文博客 on Liechi | 張列弛",
+      "feedUrl": "https://www.liechi.org/cn/index.xml",
+      "siteUrl": "https://www.liechi.org/cn/",
+      "articles": []
+    },
+    {
+      "title": "博客 on Miao Yu | 于淼",
+      "feedUrl": "https://yufree.cn/cn/index.xml",
+      "siteUrl": "https://yufree.cn/cn/",
+      "articles": [
+        {
+          "id": "https://yufree.cn/cn/2022/07/22/automl/",
+          "author": null,
+          "description": "自动化机器学习（AutoML）大概在四五年前非常火，现在基本熄火进入平稳期与实用期了，是时候回顾下了。\n首先，自动化机器学习同样是用来做机器学习的，机器学习适合做的领域自动化机器学习都可以做。这里自动化主要是把调参、变量选择、模型选择、模型集成等传统需要机器学习专家来做的事流程化自动化执行，可以算是程序员自掘职业坟墓的又一成果。\n现在很多学科都在谈机器学习，有些是当辅助用，有些是当魔法用，还有些单纯用来要饭忽悠人的。但你去看看高校培养计划会发现虽然很多学科前沿展望里都在鼓吹，培养上基本放羊，全靠学生自学。这样的后果就是同样都是自称做机器学习的，有的是调包流，跑个泰坦尼克幸存者就说懂机器学习，满嘴随机森林支持向量机，走个MNIST敢自称会深度学习。另外一些是y=f(x)流，精于把自己学科问题抽象成一个可训练的模型，然后直接找机器学习专家合作，根本不管模型细节；另一些则是解释流，只对线性模型跟决策树感兴趣，别的都不关心。\n毫无意外，自动化机器学习最适合的是第二类人，当然他们最好对基础模型本身原理有感知。但真到预测性问题上就无所谓了，表现最好的一般是多个不同模型集成的。从原理上说，集成学习就是尝试组合不同原理或假设的模型来尽量多的攫取数据中跟预测目标相关的信息。从这个角度上看，单纯依赖某一种模型对于结构复杂问题的信息利用效率都很难高到哪去；而现在流行的深度学习基本就是对原始数据进行各种各样的线性或非线性变换组合，旨在通过各种基础模型的变换组合尽量多的捕集数据中的信息；而更进一步说，类似AlphaFold2这种变形金刚结构的深度学习框架则在编码器阶段融入了学科知识，例如蛋白共源性或氨基酸结合的亲和度，这样在解决具体学科问题上同时包含了通用机器学习模型对信息的穷举与专业生物化学知识来辅助训练，达到了很出色的表现。当然，这种专业知识跟机器学习深度融合的模型就不能指望自动化机器学习了，得…",
+          "link": "https://yufree.cn/cn/2022/07/22/automl/",
+          "publishedOn": "2022-07-22T00:00:00.000Z",
+          "wordCount": 1593,
+          "title": "自动化机器学习",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "earfanfan | 袁凡",
+      "feedUrl": "https://yuanfan.vercel.app/index.xml",
+      "siteUrl": "https://yuanfan.vercel.app/",
+      "articles": [
+        {
+          "id": "https://yuanfan.vercel.app/posts/dt-wwc/",
+          "author": null,
+          "description": "一入表格深似海，从此节操是路人。啊呸，不是，最近银魂看多了阿鲁……",
+          "link": "https://yuanfan.vercel.app/posts/dt-wwc/",
+          "publishedOn": "2022-07-25T13:50:37.000Z",
+          "wordCount": 1974,
+          "title": "用 DT 包子复现 reactable 包子的案例之 Women's World Cup",
+          "imageUrl": null
+        },
+        {
+          "id": "https://yuanfan.vercel.app/posts/dt-fill-color/",
+          "author": null,
+          "description": "主要是从 DT 包子和 reactable 包子的官网翻了翻生成渐变颜色的案例，然后叨叨了一篇笔记。",
+          "link": "https://yuanfan.vercel.app/posts/dt-fill-color/",
+          "publishedOn": "2022-07-20T14:09:31.000Z",
+          "wordCount": 712,
+          "title": "使用 R 中 DT 包为表格填充渐变颜色的笔记",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "构建我的被动收入",
+      "feedUrl": "https://www.bmpi.dev/index.xml",
+      "siteUrl": "https://www.bmpi.dev/",
+      "articles": [
+        {
+          "id": "https://www.bmpi.dev/dev/software-engineering-at-google/culture/",
+          "author": null,
+          "description": "本文是《Software Engineering at Google》的读书笔记，同时会穿插分享我对软件工程的理解。本文主要介绍软件工程中人的因素，也就是文化部分。",
+          "link": "https://www.bmpi.dev/dev/software-engineering-at-google/culture/",
+          "publishedOn": "2022-07-20T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Google软件工程之文化篇",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "叶寻的博客",
+      "feedUrl": "https://cyrusyip.org/zh-cn/index.xml",
+      "siteUrl": "https://cyrusyip.org/zh-cn/",
+      "articles": []
+    },
+    {
+      "title": "木遥的窗子",
+      "feedUrl": "http://blog.farmostwood.net/feed",
+      "siteUrl": "http://blog.farmostwood.net",
+      "articles": []
+    },
+    {
+      "title": "DailyArt Magazine",
+      "feedUrl": "https://www.dailyartmagazine.com/feed/",
+      "siteUrl": "https://www.dailyartmagazine.com/",
+      "articles": [
+        {
+          "id": "http://dailyartmagazine.ga/its-too-hot-to-move-paintings-for-the-heatwave/",
+          "author": "Joanna Kaszubowska",
+          "description": "The post It’s Too Hot to Move – Paintings for the Heatwave appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/its-too-hot-to-move-paintings-for-the-heatwave/",
+          "publishedOn": "2022-07-25T03:00:16.000Z",
+          "wordCount": 3229,
+          "title": "It’s Too Hot to Move – Paintings for the Heatwave",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/Gustave-Courbet-The-Young-Ladies-on-the-Bank-of-the-Seine-1856-Musée-du-Petit-Palais-Paris1.jpg"
+        },
+        {
+          "id": "https://www.dailyartmagazine.com/?p=186262",
+          "author": "Emily Snow",
+          "description": "The post Masterpiece Story: Portrait of Adele Bloch-Bauer by Gustav Klimt appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/portrait-of-adele-bloch-bauer/",
+          "publishedOn": "2022-07-25T03:00:12.000Z",
+          "wordCount": null,
+          "title": "Masterpiece Story: Portrait of Adele Bloch-Bauer by Gustav Klimt",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/season-for-bacchus-and-wine/",
+          "author": "Magda Michalska",
+          "description": "The post Why Bacchus Is God of Wine? Art History Story appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/season-for-bacchus-and-wine/",
+          "publishedOn": "2022-07-25T03:00:11.000Z",
+          "wordCount": null,
+          "title": "Why Bacchus Is God of Wine? Art History Story",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/christoph-niemanns-illustration/",
+          "author": "Wojtek Rozdzenski",
+          "description": "The post Making Art Out of Anything: Christoph Niemann’s Illustrations appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/christoph-niemanns-illustration/",
+          "publishedOn": "2022-07-25T03:00:07.000Z",
+          "wordCount": null,
+          "title": "Making Art Out of Anything: Christoph Niemann’s Illustrations",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/enneagram-types-of-artists/",
+          "author": "Ledys Chemin",
+          "description": "The post The Enneagram Types in Art – Of Amazing Painters, Paintings and Diagrams appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/enneagram-types-of-artists/",
+          "publishedOn": "2022-07-25T03:00:00.000Z",
+          "wordCount": null,
+          "title": "The Enneagram Types in Art – Of Amazing Painters, Paintings and Diagrams",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/cheese-in-painting/",
+          "author": "Magda Michalska",
+          "description": "The post This Article Is Only About Cheese in Painting appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/cheese-in-painting/",
+          "publishedOn": "2022-07-25T03:00:00.000Z",
+          "wordCount": null,
+          "title": "This Article Is Only About Cheese in Painting",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/roman-floor-mosaics-stories/",
+          "author": "Anuradha Sroha",
+          "description": "The post Roman Floor Mosaics: Stories in Stone and Glass appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/roman-floor-mosaics-stories/",
+          "publishedOn": "2022-07-25T03:00:00.000Z",
+          "wordCount": null,
+          "title": "Roman Floor Mosaics: Stories in Stone and Glass",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/cabinets-of-curiosities/",
+          "author": "Caroline Galambosova",
+          "description": "The post What Is a Wunderkammer? Best Cabinets of Curiosities appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/cabinets-of-curiosities/",
+          "publishedOn": "2022-07-25T03:00:00.000Z",
+          "wordCount": null,
+          "title": "What Is a Wunderkammer? Best Cabinets of Curiosities",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/shoes-from-victoria-albert-collection/",
+          "author": "Joanna Kaszubowska",
+          "description": "The post 10 Awesome Pairs of Shoes from the Victoria & Albert Museum appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/shoes-from-victoria-albert-collection/",
+          "publishedOn": "2022-07-24T03:00:00.000Z",
+          "wordCount": null,
+          "title": "10 Awesome Pairs of Shoes from the Victoria & Albert Museum",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/men-in-heels/",
+          "author": "Lauren Kraut",
+          "description": "The post Heels Were Never Just for Women: Men in Heels appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/men-in-heels/",
+          "publishedOn": "2022-07-24T03:00:00.000Z",
+          "wordCount": null,
+          "title": "Heels Were Never Just for Women: Men in Heels",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.dailyartmagazine.com/?p=186361",
+          "author": "Candy Bedworth",
+          "description": "William Blake was a great artist, poet and engraver of the Romantic Age.  But he died penniless, scorned by his contemporaries and the art establishment. Take a look at one of his most famous works: The Great Red Dragon and the Woman Clothed in Sun.\nThe post William Blake’s Demonic Red Dragon appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/william-blake-red-dragon/",
+          "publishedOn": "2022-07-23T03:00:39.000Z",
+          "wordCount": null,
+          "title": "William Blake’s Demonic Red Dragon",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.dailyartmagazine.com/?p=185430",
+          "author": "Anna Ingram",
+          "description": "The post All You Need to Know About Mona Lisa appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/mona-lisa/",
+          "publishedOn": "2022-07-23T03:00:31.000Z",
+          "wordCount": null,
+          "title": "All You Need to Know About Mona Lisa",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/fantastic-realism-paintings-by-maria-anto/",
+          "author": "Pola Otterstein",
+          "description": "The post Immerse Yourself in the Magical World of Maria Anto appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/fantastic-realism-paintings-by-maria-anto/",
+          "publishedOn": "2022-07-23T03:00:12.000Z",
+          "wordCount": null,
+          "title": "Immerse Yourself in the Magical World of Maria Anto",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/pinturas-negras-goya/",
+          "author": "Magda Michalska",
+          "description": "The post The Mysterious Pinturas Negras Reveal Goya’s Darkest Secrets appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/pinturas-negras-goya/",
+          "publishedOn": "2022-07-23T03:00:00.000Z",
+          "wordCount": null,
+          "title": "The Mysterious Pinturas Negras Reveal Goya’s Darkest Secrets",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/hans-holbein-ambassadors/",
+          "author": "Joanna Kaszubowska",
+          "description": "The post Masterpiece Story: The Ambassadors by Hans Holbein the Younger appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/hans-holbein-ambassadors/",
+          "publishedOn": "2022-07-23T03:00:00.000Z",
+          "wordCount": null,
+          "title": "Masterpiece Story: The Ambassadors by Hans Holbein the Younger",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/philipp-otto-runge/",
+          "author": "Magda Michalska",
+          "description": "The post Philipp Otto Runge: The Seer of the Mysteries of God appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/philipp-otto-runge/",
+          "publishedOn": "2022-07-23T03:00:00.000Z",
+          "wordCount": null,
+          "title": "Philipp Otto Runge: The Seer of the Mysteries of God",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/mystery-durer-magic-square/",
+          "author": "Zuzanna Stańska",
+          "description": "The post The Mystery of Dürer’s Magic Square appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/mystery-durer-magic-square/",
+          "publishedOn": "2022-07-23T03:00:00.000Z",
+          "wordCount": null,
+          "title": "The Mystery of Dürer’s Magic Square",
+          "imageUrl": null
+        },
+        {
+          "id": "http://dailyartmagazine.ga/watch-edward-hopper-footage/",
+          "author": "Zuzanna Stańska",
+          "description": "The post Watch Edward Hopper in Rare Studio Footage appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/watch-edward-hopper-footage/",
+          "publishedOn": "2022-07-22T03:00:49.000Z",
+          "wordCount": 1756,
+          "title": "Watch Edward Hopper in Rare Studio Footage",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2017/07/7a8b4cf7775816942704e8dcb556388f.jpeg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/edward-hoppers-women/",
+          "author": "Tony Heathfield",
+          "description": "The post Summer Interior and Edward Hopper’s Women – Learning the Ropes of Romance appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/edward-hoppers-women/",
+          "publishedOn": "2022-07-22T03:00:16.000Z",
+          "wordCount": 2106,
+          "title": "Summer Interior and Edward Hopper’s Women – Learning the Ropes of Romance",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2019/02/Edward-hopper-summer-interior-e1657713105290.jpeg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/nighthawks-memes-renditions/",
+          "author": "Celia Leiva Otto",
+          "description": "The post Nighthawks as Memes – Edward Hopper’s Best Renditions appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/nighthawks-memes-renditions/",
+          "publishedOn": "2022-07-22T03:00:00.000Z",
+          "wordCount": 2249,
+          "title": "Nighthawks as Memes – Edward Hopper’s Best Renditions",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/Nighthawks_by_Edward_Hopper_1942-scaled.jpg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/theatres-edward-hoppers-paintings/",
+          "author": "Zuzanna Stańska",
+          "description": "The post Theater and Cinema in Edward Hopper’s Paintings appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/theatres-edward-hoppers-paintings/",
+          "publishedOn": "2022-07-22T03:00:00.000Z",
+          "wordCount": 2587,
+          "title": "Theater and Cinema in Edward Hopper’s Paintings",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/8t6QhCO.jpg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/sea-watchers-edward-hopper/",
+          "author": "Abreeza Thomas",
+          "description": "The post Masterpiece Story: Sea Watchers by Edward Hopper appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/sea-watchers-edward-hopper/",
+          "publishedOn": "2022-07-21T18:00:00.000Z",
+          "wordCount": 2097,
+          "title": "Masterpiece Story: Sea Watchers by Edward Hopper",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/edward_hopper_sea_watchers_1952-e1658131227780.jpg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/veit-stoss-altarpiece/",
+          "author": "Candy Bedworth",
+          "description": "The post Celebrity Sculptors, Medieval Fraud and Nazi Looting – An Outrageous Story of the Golden Veit Stoss Altarpiece appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/veit-stoss-altarpiece/",
+          "publishedOn": "2022-07-21T15:00:56.000Z",
+          "wordCount": 2737,
+          "title": "Celebrity Sculptors, Medieval Fraud and Nazi Looting – An Outrageous Story of the Golden Veit Stoss Altarpiece",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2018/08/Kraków_Oltarz_Wita_Stwosza_-_fotopolska.eu_227802.jpg"
+        },
+        {
+          "id": "https://www.dailyartmagazine.com/?p=186251",
+          "author": "Natalia Tiberio",
+          "description": "The post From Stockholm to Paris: The Newly Discovered Art of Julia Beck appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/julia-beck/",
+          "publishedOn": "2022-07-21T15:00:31.000Z",
+          "wordCount": 2147,
+          "title": "From Stockholm to Paris: The Newly Discovered Art of Julia Beck",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2022/07/Julia_Beck_Portrait_Woman-e1657807120796.jpeg"
+        },
+        {
+          "id": "https://www.dailyartmagazine.com/?p=183494",
+          "author": "Anna Ingram",
+          "description": "The post Becoming Elizabeth: Tapestries in Starz’s New Period Drama appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/becoming-elizabeth-tapestries/",
+          "publishedOn": "2022-07-21T15:00:08.000Z",
+          "wordCount": 2698,
+          "title": "Becoming Elizabeth: Tapestries in Starz’s New Period Drama",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2022/07/Becoming-Elizabeth.webp"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/gabriele-munter-breakfast-of-birds/",
+          "author": "Heidi Werber",
+          "description": "The post Masterpiece Story: Breakfast of Birds by Gabriele Münter appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/gabriele-munter-breakfast-of-birds/",
+          "publishedOn": "2022-07-21T03:00:38.000Z",
+          "wordCount": 1948,
+          "title": "Masterpiece Story: Breakfast of Birds by Gabriele Münter",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/MunterGabrieleBreakfastOfTheBirds-e1658128371545.jpg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/max-ernsts-collaged-memories/",
+          "author": "Magda Michalska",
+          "description": "The post Max Ernst’s Collaged Memories appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/max-ernsts-collaged-memories/",
+          "publishedOn": "2022-07-21T03:00:22.000Z",
+          "wordCount": 2102,
+          "title": "Max Ernst’s Collaged Memories",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/collage-provocation.004.jpg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/painting-week-albrecht-durer-self-portrait-28/",
+          "author": "Zuzanna Stańska",
+          "description": "The post Masterpiece Story: Self-Portrait at 28 by Albrecht Dürer appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/painting-week-albrecht-durer-self-portrait-28/",
+          "publishedOn": "2022-07-21T03:00:14.000Z",
+          "wordCount": 2013,
+          "title": "Masterpiece Story: Self-Portrait at 28 by Albrecht Dürer",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/Albrecht_Dürer_-_1500_self-portrait_High_resolution_and_detail.jpg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/caspar-david-friedrich-works/",
+          "author": "Zuzanna Stańska",
+          "description": "The post 10 Most Famous Works of Caspar David Friedrich appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/caspar-david-friedrich-works/",
+          "publishedOn": "2022-07-21T03:00:00.000Z",
+          "wordCount": 2710,
+          "title": "10 Most Famous Works of Caspar David Friedrich",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/08/1200px-Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpeg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/heads-and-hands-in-kathe-kollwitzs-art/",
+          "author": "Petra Dragasevic",
+          "description": "The post Mastering Details: Heads and Hands in Käthe Kollwitz’s Art appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/heads-and-hands-in-kathe-kollwitzs-art/",
+          "publishedOn": "2022-07-21T03:00:00.000Z",
+          "wordCount": 2820,
+          "title": "Mastering Details: Heads and Hands in Käthe Kollwitz’s Art",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/Self-portrait1924-scaled-e1658310874915.jpg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/full-moon-in-painting/",
+          "author": "Candy Bedworth",
+          "description": "The post Moondance – Full Moon in Painting appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/full-moon-in-painting/",
+          "publishedOn": "2022-07-20T03:00:14.000Z",
+          "wordCount": 2064,
+          "title": "Moondance – Full Moon in Painting",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/11/moonlight-e1657289510796.jpeg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/?p=131997",
+          "author": "Marta Wiktoria Bryll",
+          "description": "The post How Galileo Galilei Changed the Moon Forever appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/galileo-galilei-moon/",
+          "publishedOn": "2022-07-20T03:00:00.000Z",
+          "wordCount": 2903,
+          "title": "How Galileo Galilei Changed the Moon Forever",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2021/10/1920px-Adam_Elsheimer_-_Die_Flucht_nach_Ägypten_Alte_Pinakothek-scaled-e1648648697210.jpg"
+        },
+        {
+          "id": "http://dailyartmagazine.ga/autumn-moon-in-japanese-woodblock-prints/",
+          "author": "Magda Michalska",
+          "description": "The post Autumn Moon in Japanese Woodblock Prints appeared first on DailyArt Magazine.",
+          "link": "https://www.dailyartmagazine.com/autumn-moon-in-japanese-woodblock-prints/",
+          "publishedOn": "2022-07-20T03:00:00.000Z",
+          "wordCount": 2167,
+          "title": "Autumn Moon in Japanese Woodblock Prints",
+          "imageUrl": "https://www.dailyartmagazine.com/wp-content/uploads/2020/09/Hiroshige-Famous_Places_In_The_Eastern_Capital-Full_Moon_Over_Takanawa-01-05-21-2007-8598-x2000-e1658126620684.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "reuixiy",
+      "feedUrl": "https://io-oi.me/rss.xml",
+      "siteUrl": "https://io-oi.me/",
+      "articles": []
+    },
+    {
+      "title": "GeekPlux",
+      "feedUrl": "https://geekplux.com/feed.xml",
+      "siteUrl": "https://geekplux.com",
+      "articles": [
+        {
+          "id": "https://geekplux.com/newsletters/26",
+          "author": null,
+          "description": "天下之至拙，能胜天下之至巧",
+          "link": "https://geekplux.com/newsletters/26",
+          "publishedOn": "2022-07-25T22:00:00.000Z",
+          "wordCount": null,
+          "title": "尚拙 -#26",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Randy's Blog",
+      "feedUrl": "https://lutaonan.com/rss.xml",
+      "siteUrl": "https://lutaonan.com/rss.xml",
+      "articles": []
+    }
+  ],
+  "cliVersion": "1.15.1"
+}
