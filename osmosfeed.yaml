@@ -37,6 +37,8 @@ sources:
   - href: https://www.smashingmagazine.com/feed/
   - href: https://jvns.ca/atom.xml
   - href: https://manateelazycat.github.io/feed.xml
+  - href: https://www.kernel.org/feeds/kdist.xml
+  # Linux kernel changelog
   ## podcast
   - href: https://emacstalk.github.io/podcast/index.xml
   - href: https://sachachua.com/blog/feed
