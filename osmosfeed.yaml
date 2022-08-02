@@ -13,4 +13,4 @@ sources:
 
 siteTitle: "阅读与思考"
 timezone: Asia/Shanghai
-cacheMaxDays: 7
+cacheMaxDays: 60
