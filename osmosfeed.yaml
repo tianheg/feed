@@ -1,16 +1,8 @@
 cacheUrl: https://feed.tianheg.xyz/cache.json
 sources:
-  - href: https://blog.stackblitz.com/feed/feed.xml
-  # 强大的在线 IDE
-  - href: https://spidermonkey.dev/feed.xml
-  # Firefox 使用的 JavaScript 引擎
-  - href: https://caniuse.com/feed
-  # 最新 Web 特性支持情况
-  - href: https://www.w3.org/blog/news/feed/atom
-  # W3C 博客
   - href: https://hnrss.org/best
   - href: https://hnrss.org/bestcomments
 
-siteTitle: "阅读与思考"
+siteTitle: "读 HN news"
 timezone: Asia/Shanghai
-cacheMaxDays: 60
+cacheMaxDays: 30
