@@ -2,6 +2,7 @@ cacheUrl: https://gh.tianheg.xyz/feed/cache.json
 sources:
   - href: https://hnrss.org/best
   - href: https://hnrss.org/bestcomments
+  - href: https://commons.wikimedia.org/w/api.php?action=featuredfeed&feed=potd&feedformat=rss&language=en
 
 siteTitle: "读 HN news"
 timezone: Asia/Shanghai
