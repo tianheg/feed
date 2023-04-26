@@ -1,15 +1,10 @@
-name: Build GitHub Pages
+name: Build feed.opml and github pages
 
 on:
   push:
     branches:
       - main
   workflow_dispatch:
-  schedule:
-    # Adjust refresh schedule here. By default, it runs once per day.
-    # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
-    # Recommended tool: https://crontab.guru/
-    - cron: '0 22 * * *'
 
 jobs:
   build:
@@ -19,24 +14,44 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Cache pnpm modules
-        uses: actions/cache@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
         with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-
+          node-version: 'lts/*'
 
-      - uses: pnpm/action-setup@v2.2.2
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Build feed.opml
+        run: |
+          python formatter.py
+          python opml_generator.py
+
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
         with:
           version: latest
-          run_install: true
+          run_install: false
+      
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3.4.1
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
         with:
-          node-version: '16'
-          cache: 'pnpm'
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build the feed
         run: pnpm run build
@@ -48,3 +63,15 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           force_orphan: true
+
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Build feed.opml and github pages" -a || true
+
+      - name: Push changes
+        uses: tianheg/github-actions@push
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

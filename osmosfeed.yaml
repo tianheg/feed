@@ -1,4 +1,4 @@
-cacheUrl: https://gh.tianheg.xyz/feed/cache.json
+cacheUrl: https://tianheg.github.io/feed/cache.json
 sources:
   - href: https://hnrss.org/best
   - href: https://hnrss.org/bestcomments
