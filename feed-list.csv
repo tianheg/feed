@@ -1,4 +1,11 @@
 Introduction, Address, RSS feed, Tags
+HelloGitHub|月刊, https://github.com/521xueweihan/HelloGitHub, , 项目
+Zen Habits, https://zenhabits.net/, https://zenhabits.net/feed/, 生活; 冥想
+湾区日报, https://wanqu.co/, , 互联网; 科技
+Naval, https://nav.al/, https://nav.al/archive/feed/, 投资; 思考
+苏洋博客, https://soulteary.com/, https://soulteary.com/feed/, Programmer
+Julia Evans, https://jvns.ca/, https://jvns.ca/atom.xml, Programmer, Creator
+Emacs Talk, https://emacstalk.codeberg.page/, https://emacstalk.codeberg.page/podcast/index.xml, Emacs
 Wait But Why, https://waitbutwhy.com/, https://waitbutwhy.com/feed, Life; Stories
 yuanchuan, https://yuanchuan.dev/, https://yuanchuan.dev/feed.xml, Art; <css-doodle />
 LitterHouge, https://litterhougelangley.club/blog/, https://litterhougelangley.club/blog/feed/, Linux
@@ -7,27 +14,20 @@ Owen的博客, https://www.owenyoung.com/, https://www.owenyoung.com/atom.xml, �
 水八口的冥想盆, https://blog.shuiba.co/, https://blog.shuiba.co/feed, 生活
 DailyArt Magazine, https://www.dailyartmagazine.com/, https://www.dailyartmagazine.com/feed/, 艺术
 荷戟独彷徨, https://guanqr.com/, https://guanqr.com/rss.xml, 生活; 思想; 技术
-fCC news, https://www.freecodecamp.org/news/, https://www.freecodecamp.org/news/rss/, CSS; JS; Vue; andsoon
+fCC news, https://www.freecodecamp.org/news/, https://www.freecodecamp.org/news/rss/, CSS; JavaScript
 Hacker News Best, https://news.ycombinator.com/best, https://hnrss.org/best, 技术
 Anyway.FM, https://anyway.fm/, https://anyway.fm/rss.xml, 播客; 设计
-王建硕, http://home.wangjianshuo.com/cn/, http://home.wangjianshuo.com/cn/feed, 思想
 一休儿的哲学博客, https://yixiuer.me/, https://yixiuer.me/atom.xml, 哲学; 思想
 reuixiy, https://io-oi.me/, https://io-oi.me/atom.xml, 技术; 生活
 谢益辉的中文日志, https://yihui.org/cn/, https://yihui.org/cn/index.xml, 读书笔记; 思想
 阳志平的网志, https://www.yangzhiping.com/, https://www.yangzhiping.com/feed.xml, 认知科学
 Paul Graham, http://www.paulgraham.com/, http://www.aaronsw.com/2002/feeds/pgessays.rss, 《黑客与画家》作者
-苔原带, https://tundrazone.com/, https://tundrazone.com/feed/, 思考; 阅读
-Hector Martin, https://marcan.st/, , 逆向; 极客
-Daniel Stenberg, https://daniel.haxx.se/, https://daniel.haxx.se/blog/feed/, founder and lead developer of cURL and libcurl
 Living an awesome life, https://sachachua.com/blog/, https://sachachua.com/blog/feed, Emacs
-纯洁的微笑, http://www.ityouknow.com/, http://www.ityouknow.com/feed.xml, Java; SpringBoot
 An Amateur Programmer's Blogs, https://dirtysalt.github.io/html/blogs.html, , Orgmode
-陈斌（Emacs）, https://blog.binchen.org/, , Emacs
-100 Rabbits, https://100r.co/site/home.html, https://100r.co/links/rss.xml, Travel; 旅行
-Lobsters, https://lobste.rs/, , Like HN; but focus on computing
-Rick Steves’ Travel Blog, https://blog.ricksteves.com/, https://blog.ricksteves.com/?feed=rss2, Travel; 旅行
-CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/archives/feed/, CSS; JS
-Smashing Magazine, https://www.smashingmagazine.com/, https://www.smashingmagazine.com/feed/, CSS; JS; Vue; andsoon
+陈斌（Emacs）, https://blog.binchen.org/, https://blog.binchen.org/rss.xml, Emacs
+Lobsters, https://lobste.rs/, https://lobste.rs/rss, Like HN; but focus on computing
+CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/archives/feed/, CSS; JavaScript
+Smashing Magazine, https://www.smashingmagazine.com/, https://www.smashingmagazine.com/feed/, CSS; JavaScript; Vue; andsoon
 ProductHunt, https://www.producthunt.com/, https://www.producthunt.com/feed, bestnewproducts
 银色子弹, https://silverrainz.me/, https://silverrainz.me//blog/atom.xml, 向Ta学习; Sphinx笔记系统
 捕蛇者说, https://pythonhunter.org/episodes/, https://pythonhunter.org/episodes/feed.xml, 播客; Python
@@ -35,77 +35,37 @@ CoRecursive, https://corecursive.com/, https://corecursive.com/feed, 播客; 技
 Aeon, https://aeon.co/, https://aeon.co/feed.rss, 思想
 NextDraft, https://nextdraft.com/, https://nextdraft.com/feed/, 新闻
 Conge, https://conge.github.io/, https://conge.github.io/feed.xml, 生活
-Artin's Blog, https://lengthmin.me/, https://lengthmin.me/rss.xml, Python / React / Nodejs（我大概也会沿着这种技术路径）
-Coding Horror(Jeff Atwood), https://blog.codinghorror.com/, https://blog.codinghorror.com/rss/, Stack Overflow founder
 Joel on Software(Joel Spolsky), https://www.joelonsoftware.com/, https://www.joelonsoftware.com/feed/, 推荐
-Clean Coder Blog(Robert C. Martin), http://blog.cleancoder.com/, http://blog.cleancoder.com/atom.xml, 推荐
-Martin Fowler, https://martinfowler.com/, https://martinfowler.com/feed.atom, 《重构》作者
-Shu Ding, https://shud.in/, https://shud.in/feed.xml, 思考; 艺术
-Naval, https://nav.al/, https://nav.al/podcast/feed, 思考; 认知; 财富
-禅, https://zenhabits.net/, https://zenhabits.net/feed/, 思想; 生活方式
 Nautilus, https://nautil.us/, https://nautil.us/rss/all, 科技; 生物; 文化
-MatNoble, https://matnoble.me/, https://matnoble.me/atom.xml, 数学
-v2ex, https://www.v2ex.com/, https://www.v2ex.com/index.xml, 技术论坛
-GitHub Blog, https://github.blog/, https://github.blog/feed/, GitHub
-Cloudflare Blog, https://blog.cloudflare.com/, https://blog.cloudflare.com/rss/, Cloudflare
-Telegram Blog, https://telegram.org/blog, , Telegram
-Dr. Axel Rauschmayer, https://2ality.com, https://feeds.feedburner.com/2ality, JS
+v2ex, https://v2ex.com/, https://v2ex.com/index.xml, 技术论坛
+Dr. Axel Rauschmayer, https://2ality.com, https://feeds.feedburner.com/2ality, JavaScript
 卡瓦邦噶！, https://www.kawabangga.com/, https://www.kawabangga.com/feed, Python
 When Then Zen, https://when-then-zen.christine.website/, , meditation
-JerryZhang's Blog, http://www.zhangjiee.com/, , 技术; 思考
-justjavac(迷渡), https://justjavac.com/, https://justjavac.com/atom.xml, JS
-范明非, https://fanmingfei.com/, https://fanmingfei.com/rss.xml, CSS
-Guillermo Rauch's blog, https://rauchg.com/, , Vercel CEO
+JerryZhang's Blog, https://www.zhangjiee.com/, , 技术; 思考
 Anthony Fu, https://antfu.me/, https://antfu.me/feed.xml, Open Sourcer
-Knowledge Continuum, https://www.raghuveer.net/, https://www.raghuveer.net/feed.xml, 哲学
+Knowledge Continuum, https://raghu.cc/, https://raghu.cc/feed.xml, 哲学
 面向信仰编程, https://draveness.me/, https://draveness.me/feed.xml, 系统设计; 思考
 霍炬的网站, https://jhuo.ca/, https://jhuo.ca/index.xml, 互联网历史
 David Perell, https://perell.com/, https://perell.com/feed/, 写作
-Free Software Fundation, https://www.fsf.org/, https://static.fsf.org/fsforg/rss/blogs.xml, Open Source Organization
-DistroWatch.com, https://distrowatch.com/, https://distrowatch.com//news/dw.xml, Linux发行版新闻
-Felix's Blog, https://felixc.at/, https://felixc.at/feed/, Old-school Arch Linux Developer
 Scott H. Young, https://www.scotthyoung.com/, https://www.scotthyoung.com/blog/feed/, 学习如何学习
 @renyuneyun - Rui Zhao, https://me.ryey.icu/, https://blog.ryey.icu/feeds/atom.xml, Arch User
-Eric S. Raymond, http://www.catb.org/esr/, , long-time hacker
 透明创业实验, https://blog.t9t.io, https://blog.t9t.io/atom.xml, 创业; 编程; 开源
 阮一峰的网络日志, https://www.ruanyifeng.com/blog/, http://feeds.feedburner.com/ruanyifeng, 创业; 编程; 前端
 酷 壳 – CoolShell, https://coolshell.cn, http://coolshell.cn/feed, 编程
 张鑫旭-鑫空间-鑫生活, https://www.zhangxinxu.com/, https://www.zhangxinxu.com/wordpress/feed/, 编程; 前端
-蚊子前端博客, https://www.xiabingbao.com, https://www.xiabingbao.com/atom.xml, 编程; 前端
 DIYGod - 写代码是热爱，写到世界充满爱!, https://diygod.me, https://diygod.me/atom.xml, 编程; 开源
 云风的 BLOG, https://blog.codingnow.com, http://blog.codingnow.com/atom.xml, 编程
 全栈应用开发:精益实践, https://www.phodal.com, https://www.phodal.com/blog/feeds/rss/, 编程
-追梦人物的博客, https://www.zmrenwu.com, https://www.zmrenwu.com/all/rss/, 编程
-但行好事，莫问前程, https://windard.com, https://windard.com/feed.xml, 编程
-罗磊的独立博客, https://luolei.org, http://luolei.org/feed/, 编程; 旅行
-RidiQulous, https://ridiqulous.com, https://ridiqulous.com/feed, 图像处理; 乐高; 此人博客的红色很舒适
-代码家, https://daimajia.com, https://daimajia.com/feed, 编程; 投资
-zhonger 前端开发者，喜爱运维管理, https://blog.lui8.cn, https://blog.lui8.cn/feed.xml, 编程
 依云's Blog, https://blog.lilydjwg.me, https://blog.lilydjwg.me/posts.rss, 编程
 王登科-DK博客, https://greatdk.com, https://greatdk.com/feed, 编程; 创业（面包多）
-Hawstein's Blog, https://hawstein.com/, http://hawstein.com/feed.xml, 编程
-Skywind Inside, https://www.skywind.me/blog/, http://www.skywind.me/blog/feed, 编程
-某岛, http://www.shuizilong.com/house, http://www.shuizilong.com/house/feed/, 编程
 Cat in Chinese, https://chinese.catchen.me, http://chinese.catchen.me/feeds/posts/default, 编程
 Randy's Blog, https://lutaonan.com, https://lutaonan.com/rss.xml, 编程
-iTimothy, https://xiaozhou.net, https://xiaozhou.net/atom.xml, 编程
-The Will Will Web, https://blog.miniasp.com, https://feeds.feedburner.com/TheWillWillWeb, 编程
-解道jdon.com, https://www.jdon.com, https://www.jdon.com/jivejdon/rss, 编程
-小胡子哥的个人网站, https://www.barretlee.com, http://www.barretlee.com/rss2.xml, 编程
-林小沐, https://immmmm.com, http://feed.immmmm.com/, 编程
-张洪Heo, https://blog.zhheo.com/, https://blog.zhheo.com/rss.xml, 产品; 设计; 开发
-the5fire的技术博客, https://www.the5fire.com/, http://www.the5fire.com/rss, 编程; Python; 算法; 随笔; 读书
+林小沐, https://immmmm.com, https://immmmm.com/atom.xml, 编程; 生活
 余海峯 David 物理喵 phycat, https://hfdavidyu.com, https://hfdavidyu.com/feed/, 物理
-人人都是产品经理——iamsujie, http://iamsujie.com, http://iamsujie.com/feed/, 编程; 产品
-轉個彎日誌, https://blog.turn.tw/, http://blog.turn.tw/?feed=rss2, 编程
-余果的博客, https://yuguo.us, http://feeds.feedburner.com/yuguo, 编程; 产品
 O3noBLOG, https://blog.othree.net, https://feeds.feedburner.com/othree, 编程; 那篇讲猫咪的故事打动了我
-Vivaxy's blog, https://vivaxyblog.github.io, https://vivaxyblog.github.io/atom.xml, 编程
-isaced, https://www.isaced.com/, http://www.isaced.com/index.xml, 编程
 GeekPlux, https://geekplux.com, https://geekplux.com/feed.xml, 编程
 王子亭的博客, https://jysperm.me, https://jysperm.me/atom.xml, 编程
 Personal Excellence, https://personalexcellence.co/, https://personalexcellence.co/self-improvement/feed/, Self improvement
 Eric A. Meyer, https://meyerweb.com/, https://meyerweb.com/eric/thoughts/feed/, CSS
-Livid | Beautifully Advance, https://livid.v2ex.com/, https://livid.v2ex.com/feed.xml, V2EX 创始人
 构建我的被动收入, https://www.bmpi.dev/, https://www.bmpi.dev/index.xml, Hugo; 编程; 写作
 1 Byte, https://1byte.io/, https://1byte.io/rss.xml, LeanCloud 的联合创始人和 CEO

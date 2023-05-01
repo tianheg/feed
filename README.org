@@ -1,16 +1,5 @@
 * feed
 
-** Want to read on web
-
-- [[https://wanqu.co/][湾区日报]]
-- [[https://github.com/521xueweihan/HelloGitHub][HelloGitHub|月刊]]
-
-** TODO
-
-- [ ] Merge below into feed-list.csv/ above
-
----
-
 - [[https://mercurychong.blogspot.com/][知足常乐-水星投资理财的基本意念]]
 - [[https://www.ixiqin.com/][白宦成 - 独立开发者记录]]
 - [[https://www.phodal.com/][Phodal - 狼和凤凰 | Growth Engineer]]
