@@ -1,4 +1,10 @@
-with open('feed-list.csv', 'r') as f:
+import os
+
+cwd = os.getcwd()
+
+root_feed_csv = os.path.join(cwd, 'feed-list.csv')
+
+with open(root_feed_csv, 'r') as f:
     file_content = f.read()
 
 lines = file_content.split('\n')
@@ -22,5 +28,5 @@ for line in lines[1:]:
         parts[3] = '; '.join([tag for tag in tags if tag])
         content += ', '.join(parts) + '\n'
 
-with open('feed-list.csv', 'w') as f:
+with open(root_feed_csv, 'w') as f:
     f.write(content)

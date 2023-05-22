@@ -1,6 +1,13 @@
+import os
+
+cwd = os.getcwd()
+
+root_feed_csv = os.path.join(cwd, 'feed-list.csv')
+root_feed_opml = os.path.join(cwd, 'feed.opml')
+
 from xml.sax.saxutils import quoteattr
 
-with open('feed-list.csv', 'r') as f:
+with open(root_feed_csv, 'r') as f:
     file_content = f.read()
 
 lines = file_content.split('\n')
@@ -26,5 +33,5 @@ for line in lines[1:]:
 
 content += END
 
-with open('feed.opml', 'w') as f:
+with open(root_feed_opml, 'w') as f:
     f.write(content)
