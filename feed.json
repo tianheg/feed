@@ -1,5 +1,119 @@
 [
   {
+    "Introduction": "张鑫旭的个人主页 » 张鑫旭-鑫空间-鑫生活",
+    "Address": "https://www.zhangxinxu.com/",
+    "RSS feed": "https://www.zhangxinxu.com/wordpress/feed/",
+    "Tags": "Web"
+  },
+  {
+    "Introduction": "七月的栀子",
+    "Address": "https://qydzz.cn/",
+    "RSS feed": "https://qydzz.cn/feed/",
+    "Tags": "生活"
+  },
+  {
+    "Introduction": "Elizen",
+    "Address": "https://elizen.me/",
+    "RSS feed": "https://elizen.me/index.xml",
+    "Tags": "生活"
+  },
+  {
+    "Introduction": "狡猫三窝 – “美”不是一种外部标准，它是一种内在情感。那是爱。",
+    "Address": "https://slykiten.com/",
+    "RSS feed": "",
+    "Tags": "生活; 出国"
+  },
+  {
+    "Introduction": "刘未鹏 | Mind Hacks – 思维改变生活",
+    "Address": "http://mindhacks.cn/",
+    "RSS feed": "http://mindhacks.cn/feed/",
+    "Tags": "成长; 思考"
+  },
+  {
+    "Introduction": "青木的博客 – 青木和安妮的生活感悟和记录",
+    "Address": "http://iyoubo.com:800/",
+    "RSS feed": "http://iyoubo.com:800/feed/",
+    "Tags": "生活"
+  },
+  {
+    "Introduction": "猫鱼的小窝 – 2Cat.Net",
+    "Address": "https://2cat.net/",
+    "RSS feed": "https://2cat.net/feed/",
+    "Tags": "生活"
+  },
+  {
+    "Introduction": "致郁系",
+    "Address": "https://www.juroku.net/",
+    "RSS feed": "https://www.juroku.net/feed",
+    "Tags": "生活"
+  },
+  {
+    "Introduction": "追忆白",
+    "Address": "https://www.zhuiyibai.cn/blog/",
+    "RSS feed": "https://www.zhuiyibai.cn/blog/feed/",
+    "Tags": "生活"
+  },
+  {
+    "Introduction": "阿锋的小宇宙",
+    "Address": "https://feng.pub/",
+    "RSS feed": "https://feng.pub/feed",
+    "Tags": "阅读"
+  },
+  {
+    "Introduction": "林海草原 – 愿我经历的苦难你不要经历，愿我已有的幸福你触手可及",
+    "Address": "https://lhcy.org/",
+    "RSS feed": "https://lhcy.org/feed",
+    "Tags": "苦难"
+  },
+  {
+    "Introduction": "见字如面 - 抽离自我，冷眼旁观",
+    "Address": "https://hiwannz.com/",
+    "RSS feed": "https://hiwannz.com/feed",
+    "Tags": "产品"
+  },
+  {
+    "Introduction": "土木坛子 – 和光同尘，与时舒卷",
+    "Address": "https://tumutanzi.com/",
+    "RSS feed": "https://tumutanzi.com/feed",
+    "Tags": "生活"
+  },
+  {
+    "Introduction": "程序员的喵",
+    "Address": "https://catcoding.me/",
+    "RSS feed": "https://catcoding.me/atom.xml",
+    "Tags": "技术成长"
+  },
+  {
+    "Introduction": "Limboy",
+    "Address": "https://limboy.me/",
+    "RSS feed": "https://limboy.me/index.xml",
+    "Tags": "创造"
+  },
+  {
+    "Introduction": "重归混沌的BLOG",
+    "Address": "https://blog.gotocoding.com/",
+    "RSS feed": "https://blog.gotocoding.com/feed",
+    "Tags": "技术"
+  },
+  {
+    "Introduction": "知足常乐-水星投资理财的基本意念",
+    "Address": "https://mercurychong.blogspot.com/",
+    "RSS feed": "https://mercurychong.blogspot.com/feeds/posts/default",
+    "Tags": "生活思考"
+  },
+  {
+    "Introduction": "白宦成",
+    "Address": "https://www.ixiqin.com/",
+    "RSS feed": "https://www.ixiqin.com/feed/",
+    "Tags": "开源社"
+  },
+  {
+    "Introduction": "木遥",
+    "Address": "http://blog.farmostwood.net",
+    "RSS feed": "",
+    "Tags": "文章动人"
+  },
+  {
     "Introduction": "木槭 | immuqi",
     "Address": "https://muqix.github.io/",
     "RSS feed": "",
