@@ -1,4 +1,4 @@
-name: Build feed.opml and github pages
+name: Build feed files and gh-pages
 
 on:
   push:
@@ -29,10 +29,6 @@ jobs:
           python scripts/formatter.py
           python scripts/opml_generator.py
 
-      - name: Gen feed.json
-        run: |
-          node scripts/genjson.js
-
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         id: pnpm-install
@@ -56,6 +52,10 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
+
+      - name: Gen feed.json
+        run: |
+          node scripts/genjson.js
 
       - name: Build the feed
         run: pnpm run build
