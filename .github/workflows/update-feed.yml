@@ -26,8 +26,12 @@ jobs:
 
       - name: Build feed.opml
         run: |
-          python formatter.py
-          python opml_generator.py
+          python scripts/formatter.py
+          python scripts/opml_generator.py
+
+      - name: Gen feed.json
+        run: |
+          node scripts/genjson.js
 
       - uses: pnpm/action-setup@v2
         name: Install pnpm
@@ -68,7 +72,7 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "Build feed.opml and github pages" -a || true
+          git commit -m "Build feed.opml, feed.json and github pages" -a || true
 
       - name: Push changes
         uses: tianheg/github-actions@push
