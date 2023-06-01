@@ -1,5 +1,11 @@
 [
   {
+    "Introduction": "Firefox Nightly News",
+    "Address": "https://blog.nightly.mozilla.org/",
+    "RSS feed": "https://blog.nightly.mozilla.org/feed/",
+    "Tags": "Firefox nightly"
+  },
+  {
     "Introduction": "王小嗨的不老歌",
     "Address": "https://sogola.com/",
     "RSS feed": "https://sogola.com/index.xml",
