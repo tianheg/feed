@@ -1,5 +1,11 @@
 [
   {
+    "Introduction": "Trending | Bear Blog",
+    "Address": "https://bearblog.dev/discover/",
+    "RSS feed": "https://bearblog.dev/discover/feed/?type=rss",
+    "Tags": "Discover articles and blogs on Bear"
+  },
+  {
     "Introduction": "Read Something Wonderful",
     "Address": "https://readsomethingwonderful.com/",
     "RSS feed": "",
