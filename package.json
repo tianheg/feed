@@ -11,7 +11,7 @@
     "@osmoscraft/osmosfeed": "^1.15.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.62.1"
+    "sass": "^1.64.1"
   },
   "dependencies": {
     "csv-parser": "^3.0.0"

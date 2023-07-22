@@ -1,8 +1,11 @@
 cacheUrl: https://tianheg.github.io/feed/cache.json
 sources:
-  - href: https://hnrss.org/best
+  - href: https://gregueria.icu/index.xml
   - href: https://hnrss.org/bestcomments
+  - href: https://tianxianzi.me/atom.xml
+  - href: https://stephenleng.com/feed/
+  - href: https://css-irl.info/rss.xml
 
-siteTitle: "读 HN news"
+siteTitle: "Feed"
 timezone: Asia/Shanghai
 cacheMaxDays: 30
