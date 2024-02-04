@@ -4,7 +4,7 @@ const { props } = defineProps(['title', 'url', 'desc'])
 
 <template>
     <div class="website-card">
-        <a :href="url" target="_blank">
+        <a :href="url" target="_blank" rel="nofollow noreferrer">
             <h2>{{ title }}</h2>
             <p>{{ desc }}</p>
         </a>
