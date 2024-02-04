@@ -1,4 +1,4 @@
-name: Build feed.json
+name: Build feeds-json.json
 
 on:
   workflow_dispatch:
@@ -12,46 +12,22 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3
+      - uses: oven-sh/setup-bun@v1
         with:
-          node-version: 'lts/*'
+          bun-version: latest
 
-      - uses: pnpm/action-setup@v2
-        name: Install pnpm
-        id: pnpm-install
-        with:
-          version: latest
-          run_install: false
-      
-      - name: Get pnpm store directory
-        id: pnpm-cache
-        shell: bash
+      - name: Install deps && Gen file
         run: |
-          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
-
-      - uses: actions/cache@v3
-        name: Setup pnpm cache
-        with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Gen feed.json
-        run: |
-          node genjson.js
+          bun install
+          bun run genjson.js
 
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "Build feed.json" -a || true
+          git commit -m "Build feeds-json.json" -a || true
 
       - name: Push changes
         uses: tianheg/github-actions@push
