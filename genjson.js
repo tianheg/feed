@@ -14,7 +14,7 @@ fs.createReadStream('feeds-csv.csv')
     jsonData.push(updatedRow)
   })
   .on('end', () => {
-    fs.writeFile('feeds-json.json', JSON.stringify(jsonData, null, 2), (err) => {
+    fs.writeFile('./public/feeds-json.json', JSON.stringify(jsonData, null, 2), (err) => {
       if (err) throw err
       console.log('CSV to JSON conversion complete')
     })
