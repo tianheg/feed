@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div v-if="jsonData.length">
+  <div v-if="jsonData.length" class="all">
     <div v-for="item in jsonData" :key="item.Title">
       <WebsiteCard :title="item.Title" :url="item.Url" :desc="item.Desc" />
     </div>
@@ -29,3 +29,11 @@ onMounted(() => {
     <p>Loading...</p>
   </div>
 </template>
+
+<style>
+.all {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
+</style>

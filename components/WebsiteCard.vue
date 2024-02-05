@@ -13,9 +13,23 @@ const { props } = defineProps(['title', 'url', 'desc'])
 
 <style scoped>
 .website-card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+  height: 500px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: Arial, sans-serif;
+
+  a {
+    text-underline-offset: .4rem;
+    text-decoration: underline dashed;
+    color: #333;
+  }
+  a:hover {
+    text-decoration: none;
+    color: hsl(220, 90%, 56%);
+  }
 }
 </style>
