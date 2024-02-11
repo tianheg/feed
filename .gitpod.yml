@@ -6,4 +6,4 @@
 
 tasks:
   - init: npm install -g bun && bun install
-    command: bun run dev
+    command: npm install -g bun && bun run dev
