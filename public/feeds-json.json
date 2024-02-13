@@ -1,5 +1,11 @@
 [
   {
+    "Title": "公共数据开放平台",
+    "Url": "https://cn.govopendata.com/",
+    "RSS": "",
+    "Desc": "新闻联播、人民日报、参考消息、裁判文书"
+  },
+  {
     "Title": "Vincent Tang – Web developer & writer",
     "Url": "https://www.vincentntang.com/",
     "RSS": "https://www.vincentntang.com/rss.xml",
@@ -40,6 +46,12 @@
     "Url": "https://bearblog.dev/discover/",
     "RSS": "https://bearblog.dev/discover/feed/?type=rss",
     "Desc": "Discover articles and blogs on Bear"
+  },
+  {
+    "Title": "Read Something Interesting",
+    "Url": "https://www.readsomethinginteresting.com/",
+    "RSS": "",
+    "Desc": "随机展示文章"
   },
   {
     "Title": "Read Something Wonderful",
@@ -442,12 +454,6 @@
     "Url": "https://www.freecodecamp.org/news/",
     "RSS": "https://www.freecodecamp.org/news/rss/",
     "Desc": "CSS; JavaScript"
-  },
-  {
-    "Title": "Hacker News Highlights",
-    "Url": "https://news.ycombinator.com/highlights",
-    "RSS": "",
-    "Desc": "技术"
   },
   {
     "Title": "Hacker News Best",
