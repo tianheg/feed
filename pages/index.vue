@@ -1,8 +1,6 @@
 <script setup>
 import WebsiteCard from '~/components/WebsiteCard.vue'
 
-//import { ref, onMounted } from 'vue';
-
 const jsonData = ref([]);
 
 const fetchData = async () => {
