@@ -1,5 +1,11 @@
 [
   {
+    "Title": "copilot Archives - The GitHub Blog",
+    "Url": "https://github.blog/changelog/label/copilot/",
+    "RSS": "https://github.blog/changelog/label/copilot/feed/",
+    "Desc": "GitHub blog上和Copilot相关的内容"
+  },
+  {
     "Title": "Memos from Howard Marks",
     "Url": "https://www.oaktreecapital.com/insights/memos",
     "RSS": "",
