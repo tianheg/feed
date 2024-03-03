@@ -469,8 +469,8 @@
   },
   {
     "Title": "水八口的冥想盆",
-    "Url": "https://blog.shuiba.co/",
-    "RSS": "https://blog.shuiba.co/feed",
+    "Url": "https://shuiba.co/",
+    "RSS": "https://shuiba.co/feed",
     "Desc": "生活"
   },
   {
@@ -529,7 +529,7 @@
   },
   {
     "Title": "Paul Graham",
-    "Url": "http://www.paulgraham.com/",
+    "Url": "https://www.paulgraham.com/",
     "RSS": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
     "Desc": "《黑客与画家》作者"
   },
@@ -607,8 +607,8 @@
   },
   {
     "Title": "Conge",
-    "Url": "https://conge.github.io/",
-    "RSS": "https://conge.github.io/feed.xml",
+    "Url": "https://conge.livingwithfcs.org/",
+    "RSS": "https://conge.livingwithfcs.org/feed.xml",
     "Desc": "生活"
   },
   {
@@ -721,8 +721,8 @@
   },
   {
     "Title": "DIYGod - 写代码是热爱，写到世界充满爱!",
-    "Url": "https://diygod.me",
-    "RSS": "https://diygod.me/atom.xml",
+    "Url": "https://diygod.cc",
+    "RSS": "https://diygod.cc/feed",
     "Desc": "编程; 开源"
   },
   {
