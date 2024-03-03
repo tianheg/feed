@@ -77,7 +77,7 @@ yuanchuan, https://yuanchuan.dev/, https://yuanchuan.dev/feed.xml, Art; <css-doo
 LitterHouge, https://litterhougelangley.club/blog/, https://litterhougelangley.club/blog/feed/, Linux
 硅谷王川, https://chuan.us/, , 投资; 科技
 Owen的博客, https://www.owenyoung.com/, https://www.owenyoung.com/atom.xml, 沉浸式双语网页翻译扩展 Immersive translate 作者
-水八口的冥想盆, https://blog.shuiba.co/, https://blog.shuiba.co/feed, 生活
+水八口的冥想盆, https://shuiba.co/, https://shuiba.co/feed, 生活
 DailyArt Magazine, https://www.dailyartmagazine.com/, https://www.dailyartmagazine.com/feed/, 艺术
 荷戟独彷徨, https://guanqr.com/, https://guanqr.com/rss.xml, 生活; 思想; 技术
 fCC news, https://www.freecodecamp.org/news/, https://www.freecodecamp.org/news/rss/, CSS; JavaScript
@@ -87,7 +87,7 @@ Anyway.FM, https://anyway.fm/, https://anyway.fm/rss.xml, 播客; 设计
 reuixiy, https://io-oi.me/, https://io-oi.me/atom.xml, 技术; 生活
 谢益辉的中文日志, https://yihui.org/cn/, https://yihui.org/cn/index.xml, 读书笔记; 思想
 阳志平的网志, https://www.yangzhiping.com/, https://www.yangzhiping.com/feed.xml, 认知科学
-Paul Graham, http://www.paulgraham.com/, http://www.aaronsw.com/2002/feeds/pgessays.rss, 《黑客与画家》作者
+Paul Graham, https://www.paulgraham.com/, http://www.aaronsw.com/2002/feeds/pgessays.rss, 《黑客与画家》作者
 Living an awesome life, https://sachachua.com/blog/, https://sachachua.com/blog/feed, Emacs
 An Amateur Programmer's Blogs, https://dirtysalt.github.io/html/blogs.html, , Orgmode
 陈斌（Emacs）, https://blog.binchen.org/, https://blog.binchen.org/rss.xml, Emacs
@@ -100,7 +100,7 @@ ProductHunt, https://www.producthunt.com/, https://www.producthunt.com/feed, bes
 CoRecursive, https://corecursive.com/, https://corecursive.com/feed, 播客; 技术
 Aeon, https://aeon.co/, https://aeon.co/feed.rss, 思想
 NextDraft, https://nextdraft.com/, https://nextdraft.com/feed/, 新闻
-Conge, https://conge.github.io/, https://conge.github.io/feed.xml, 生活
+Conge, https://conge.livingwithfcs.org/, https://conge.livingwithfcs.org/feed.xml, 生活
 Joel on Software(Joel Spolsky), https://www.joelonsoftware.com/, https://www.joelonsoftware.com/feed/, 推荐
 Nautilus, https://nautil.us/, https://nautil.us/rss/all, 科技; 生物; 文化
 v2ex, https://v2ex.com/, https://v2ex.com/index.xml, 技术论坛
@@ -119,7 +119,7 @@ Scott H. Young, https://www.scotthyoung.com/, https://www.scotthyoung.com/blog/f
 阮一峰的网络日志, https://www.ruanyifeng.com/blog/, http://feeds.feedburner.com/ruanyifeng, 创业; 编程; 前端
 酷 壳 – CoolShell, https://coolshell.cn, http://coolshell.cn/feed, 编程
 张鑫旭-鑫空间-鑫生活, https://www.zhangxinxu.com/, https://www.zhangxinxu.com/wordpress/feed/, 编程; 前端
-DIYGod - 写代码是热爱，写到世界充满爱!, https://diygod.me, https://diygod.me/atom.xml, 编程; 开源
+DIYGod - 写代码是热爱，写到世界充满爱!, https://diygod.cc, https://diygod.cc/feed, 编程; 开源
 云风的 BLOG, https://blog.codingnow.com, http://blog.codingnow.com/atom.xml, 编程
 全栈应用开发:精益实践, https://www.phodal.com, https://www.phodal.com/blog/feeds/rss/, 编程
 依云's Blog, https://blog.lilydjwg.me, https://blog.lilydjwg.me/posts.rss, 编程
