@@ -12,8 +12,8 @@
     "csv-parser": "^3.0.0"
   },
   "devDependencies": {
-    "nuxt": "^3.10.0",
-    "vue": "^3.4.15",
-    "vue-router": "^4.2.5"
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   }
 }
