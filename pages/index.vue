@@ -43,6 +43,7 @@ onMounted(fetchData);
 <style>
 :root {
   font-size: 16px;
+  background-color: aliceblue;
 }
 
 .website-card-container {
