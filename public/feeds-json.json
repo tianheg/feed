@@ -1,5 +1,11 @@
 [
   {
+    "Title": "科技爱好者周刊（Vitepress version）",
+    "Url": "https://ruanyf-weekly.plantree.me/",
+    "RSS": "",
+    "Desc": "不错的使用vitepress的方法"
+  },
+  {
     "Title": "copilot Archives - The GitHub Blog",
     "Url": "https://github.blog/changelog/label/copilot/",
     "RSS": "https://github.blog/changelog/label/copilot/feed/",
