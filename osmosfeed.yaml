@@ -1,10 +1,7 @@
-cacheUrl: https://tianheg.github.io/feed/cache.json
+cacheUrl: https://feed.tianheg.org/cache.json
 sources:
-  - href: https://gregueria.icu/index.xml
-  - href: https://hnrss.org/bestcomments
-  - href: https://tianxianzi.me/atom.xml
-  - href: https://stephenleng.com/feed/
-  - href: https://css-irl.info/rss.xml
+  - href: https://changelog.com/podcast/feed
+  - href: https://liuyandong.com/feed/podcast/忽软忽硬/
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
