@@ -1,77 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title>{{siteTitle}}</title>
-  <meta charset="UTF-8" />
-  <meta name="robots" content="noindex, nofollow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="alternate" type="application/rss+xml" title="{{siteTitle}}" href="{{feedHref}}" />
-  <link href="reset.css" rel="stylesheet" />
-  <link href="style.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/linkifyjs/dist/linkify.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/linkify-element/dist/linkify-element.min.js"></script>
-  <!-- %before-head-end.html% -->
-</head>
+  <head>
+    <title>{{siteTitle}}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="alternate" type="application/rss+xml" title="{{siteTitle}}" href="{{feedHref}}" />
+    <link href="index.css" rel="stylesheet" />
+    <!-- %before-head-end.html% -->
+  </head>
 
-<body>
-  <header>
-    <button class="toggle"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        aria-hidden="true" role="img" class="iconify iconify--ph" width="32" height="32"
-        preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
-        <path fill="currentColor"
-          d="M222.4 150.9a6.1 6.1 0 0 0-5.7-4.3h-.1l-1.7.3A86 86 0 0 1 109.1 41.1a6.8 6.8 0 0 0 .2-1.4a5.8 5.8 0 0 0-3.7-5.9a6.1 6.1 0 0 0-4-.2a98 98 0 1 0 120.8 120.7a6.5 6.5 0 0 0 0-3.4ZM128 214A86 86 0 0 1 95.2 48.5a98.1 98.1 0 0 0 112.3 112.3A86.1 86.1 0 0 1 128 214Z">
-        </path>
-      </svg>
-    </button>
-    <button class="toggle-details"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 8zm7-8a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 4.293V.5A.5.5 0 0 1 8 0zm-.5 11.707l-1.146 1.147a.5.5 0 0 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 11.707V15.5a.5.5 0 0 1-1 0v-3.793z"></path></svg>
-    </button>
-  </header>
+  <body>
+    <!-- %after-body-begin.html% -->
+    {{#each dates}}
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date={{isoOffsetPublishDate}} datetime="{{isoUtcPublishTime}}">{{isoOffsetPublishDate}}</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date={{isoOffsetPublishDate}} datetime="{{isoUtcPublishTime}}"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+          {{#each sources}}
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >{{title}}</button>
+                  <a class="source-heading__link" href="{{siteUrl}}">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                  {{#each articles}}
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="{{id}}"
+                        open
+                      >
+                        <summary class="article-expander__title">{{title}}</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="{{link}}">
+                          <div class="article-summary-box-inner media-object">
+                            {{#if imageUrl}}
+                              <img src="{{imageUrl}}" loading="lazy" class="media-object__media article-image" />
+                            {{/if}}
+                            <span class="media-object__text">
+                              <span>{{description}}</span>
+                              {{#if readingTimeInMin}}
+                                &ensp;<span class="article-reading-time">(&hairsp;{{readingTimeInMin}}
+                                  min&hairsp;)</span>
+                              {{/if}}
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                  {{/each}}
+                </section>
+              </section>
+            </li>
+          {{/each}}
+        </ul>
+      </section>
+    {{/each}}
 
-  <!-- %after-body-begin.html% -->
-  {{#each sources}}
-  <section class="site-content">
-    <details class="site-expander" open>
-      <summary>
-        <div class="flex-container">
-          <h2 class="site-heading">{{title}}</h2><a class="site-heading-url" href="{{siteUrl}}" target="_blank" rel="noreferrer">(&hairsp;siteUrl&hairsp;)</a>
-        </div>
-      </summary>
-
-      <ul class="sources card">
-        {{#each dates}}
-        <li class="source">
-          <section>
-
-            <h3 class="source-name"><time datatime="{{isoPublishDate}}">{{isoPublishDate}}</time></h3>
-            <section class="articles-per-source">
-
-              {{#each articles}}
-              <article>
-                <details class="article-expander">
-                  <summary class="article-expander__title">{{title}}</summary>
-                  <div class="article-summary-box-inner">
-                    <a href={{link}} target="_blank" rel="noreferrer">link</a>
-                    <span class="summary-description">{{description}}</span>&nbsp;&nbsp;
-                    <span>(&hairsp;{{readingTimeInMin}} min&hairsp;)</span>
-                  </div>
-                </details>
-              </article>
-              {{/each}}
-            </section>
-        </li>
-        {{/each}}
-      </ul>
-    </details>
-  </section>
-  {{/each}}
-
-  <footer>
-    <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
-  </footer>
-  <script src="script.js"></script>
-  <!-- %before-body-end.html% -->
-</body>
+    <footer>
+      {{#if githubRunUrl}}
+      <a class="footer-link" href="{{githubRunUrl}}">
+        <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
+      </a>
+      {{else}}
+      <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
+      {{/if}}
+      <a class="footer-link" href="{{projectUrl}}">osmosfeed {{cliVersion}}</a>
+    </footer>
+    <script src="index.js"></script>
+    <!-- %before-body-end.html% -->
+  </body>
 
 </html>

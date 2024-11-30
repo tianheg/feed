@@ -3,14 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "osmosfeed",
-    "style": "gulp css",
-    "watch": "gulp watch"
+    "build": "osmosfeed"
   },
   "devDependencies": {
-    "@osmoscraft/osmosfeed": "^1.15.1",
-    "gulp": "^5.0.0",
-    "gulp-sass": "^6.0.0",
-    "sass": "^1.77.2"
+    "@osmoscraft/osmosfeed": "^1.15.1"
   }
 }
