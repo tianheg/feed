@@ -1,3 +1,5 @@
+cacheUrl: https://feed.tianheg.org/cache.json
+
 sources:
   - href: https://changelog.com/podcast/feed
   - href: https://liuyandong.com/feed/podcast/忽软忽硬/
