@@ -37,7 +37,7 @@
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >{{title}}</button>
-                  <a class="source-heading__link" href="{{siteUrl}}">Open</a>
+                  <a class="source-heading__link" href="{{siteUrl}}" target="_blank">Open</a>
                 </h3>
                 <section class="articles-per-source">
                   {{#each articles}}
@@ -49,7 +49,7 @@
                         open
                       >
                         <summary class="article-expander__title">{{title}}</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="{{link}}">
+                        <a class="article-summary-link article-summary-box-outer" href="{{link}}" target="_blank">
                           <div class="article-summary-box-inner media-object">
                             {{#if imageUrl}}
                               <img src="{{imageUrl}}" loading="lazy" class="media-object__media article-image" />
