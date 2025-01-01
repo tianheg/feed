@@ -18,6 +18,8 @@ sources:
   - href: https://mengru.space/data/full-rss.xml
   - href: https://tianxianzi.me/atom.xml
   - href: https://nautil.us/rss
+  - href: https://yufan.me/feed
+
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
