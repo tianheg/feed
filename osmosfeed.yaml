@@ -18,6 +18,7 @@ sources:
   - href: https://mengru.space/data/full-rss.xml
   - href: https://tianxianzi.me/atom.xml
   - href: https://yufan.me/feed
+  - href: https://hnrss.org/best?q=emacs
 
 
 siteTitle: "Feed"
