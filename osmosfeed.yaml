@@ -1,19 +1,12 @@
 cacheUrl: https://feed.tianheg.org/cache.json
 
 sources:
-  - href: https://changelog.com/podcast/feed
-  - href: https://liuyandong.com/feed/podcast/忽软忽硬/
   - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCiooWjODnYOq1unQWWjwK9Q # Megan Otnes
-  - href: https://css-tricks.com/feed/
   - href: https://mvread.blog/feed
   - href: https://1q43.blog/feed
   - href: https://world.hey.com/dhh/feed.atom
   - href: https://sive.rs/en.atom
-  - href: https://changelog.com/podcast/feed
-  - href: https://3blue1brown.substack.com/feed
   - href: https://wanqian.blog/feed/
-  - href: https://xlrocket.blog/feed/
-  - href: http://feeds.feedburner.com/collabfund
   - href: https://bearblog.dev/discover/feed/?type=rss
   - href: https://mengru.space/data/full-rss.xml
   - href: https://tianxianzi.me/atom.xml
@@ -23,4 +16,4 @@ sources:
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
-cacheMaxDays: 30
+cacheMaxDays: 21
