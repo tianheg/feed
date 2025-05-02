@@ -2,17 +2,12 @@ cacheUrl: https://feed.tianheg.org/cache.json
 
 sources:
   - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCiooWjODnYOq1unQWWjwK9Q # Megan Otnes
-  - href: https://mvread.blog/feed
-  - href: https://1q43.blog/feed
-  - href: https://world.hey.com/dhh/feed.atom
-  - href: https://sive.rs/en.atom
   - href: https://wanqian.blog/feed/
   - href: https://bearblog.dev/discover/feed/?type=rss
   - href: https://mengru.space/data/full-rss.xml
-  - href: https://tianxianzi.me/atom.xml
   - href: https://yufan.me/feed
-  - href: https://hnrss.org/newest
-
+  - href: https://changelog.com/podcast/feed
+  - href: https://3blue1brown.substack.com/feed
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
