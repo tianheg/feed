@@ -1,4 +1,4 @@
-cacheUrl: https://feed.tianheg.org/cache.json
+cacheUrl: https://feed-tianheg.pages.dev/cache.json
 
 sources:
   - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCiooWjODnYOq1unQWWjwK9Q # Megan Otnes
