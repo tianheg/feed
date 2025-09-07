@@ -1,13 +1,11 @@
 cacheUrl: https://feed-tianheg.pages.dev/cache.json
 
 sources:
-  - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCiooWjODnYOq1unQWWjwK9Q # Megan Otnes
   - href: https://wanqian.blog/feed/
+  - href: https://www.tianxianzi.me/index.xml
   - href: https://bearblog.dev/discover/feed/?type=rss
   - href: https://mengru.space/data/full-rss.xml
   - href: https://yufan.me/feed
-  - href: https://changelog.com/podcast/feed
-  - href: https://3blue1brown.substack.com/feed
   - href: https://sachachua.com/blog/feed
 
 siteTitle: "Feed"
