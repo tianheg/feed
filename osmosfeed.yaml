@@ -1,13 +1,25 @@
 cacheUrl: https://feed-tianheg.pages.dev/cache.json
 
 sources:
+  # personal blog
   - href: https://wanqian.blog/feed/
   - href: https://www.tianxianzi.me/index.xml
   - href: https://bearblog.dev/discover/feed/?type=rss
   - href: https://mengru.space/data/full-rss.xml
   - href: https://yufan.me/feed
-  - href: https://sachachua.com/blog/feed
   - href: https://immmmm.com/atom.xml
+  - href: https://liujiacai.net/index.xml
+  - href: https://manateelazycat.github.io/feed.xml
+  # emacs
+  - href: https://emacs.liujiacai.net/index.xml
+  - href: https://planet.emacslife.com/atom.xml
+  - href: https://sachachua.com/blog/category/emacs/feed/
+  - href: https://emacs-china.org/top.rss
+  # linux
+  - href: https://archlinux.org/feeds/news/
+  - href: https://wiki.archlinux.org/index.php?title=Special:RecentChanges&feed=rss
+  - href: https://www.kernel.org/feeds/kdist.xml
+  - href: https://planet.kernel.org/rss20.xml
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
