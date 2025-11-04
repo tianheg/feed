@@ -15,6 +15,10 @@
 
   <body>
     <!-- %after-body-begin.html% -->
+    <header>
+      <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
+      <a class="header-link" href="{{projectUrl}}">osmosfeed {{cliVersion}}</a>
+    </header>
     {{#each dates}}
       <section class="daily-content js-toggle-accordions-scope">
         <h2 class="daily-heading">
@@ -72,17 +76,6 @@
         </ul>
       </section>
     {{/each}}
-
-    <footer>
-      {{#if githubRunUrl}}
-      <a class="footer-link" href="{{githubRunUrl}}">
-        <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
-      </a>
-      {{else}}
-      <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
-      {{/if}}
-      <a class="footer-link" href="{{projectUrl}}">osmosfeed {{cliVersion}}</a>
-    </footer>
     <script src="index.js"></script>
     <!-- %before-body-end.html% -->
   </body>

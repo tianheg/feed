@@ -69,8 +69,9 @@
   --daily-heading-color: var(--base03);
   --daily-heading-hover-color: var(--base04);
 
-  --footer-color: var(--base03);
-  --footer-link-hover-color: var(--base04);
+  --header-color: var(--base03);
+  --header-link-color: var(--base03);
+  --header-link-hover-color: var(--base04);
 
   --source-link-color: var(--base04);
   --source-link-hover-color: var(--base07);
@@ -244,21 +245,21 @@ body {
   font-size: var(--font-size-m);
 }
 
-footer {
-  color: var(--footer-color);
+header {
+  color: var(--header-color);
   font-size: var(--font-size-s);
   display: flex;
   padding: 0 16px;
   justify-content: space-between;
 }
 
-.footer-link {
-  color: var(--footer-link-text);
+.header-link {
+  color: var(--header-link-color);
   text-decoration: none;
 }
 
-.footer-link:hover {
-  color: var(--footer-link-hover-color);
+.header-link:hover {
+  color: var(--header-link-hover-color);
   text-decoration: underline;
 }
 
