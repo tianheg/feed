@@ -138,163 +138,69 @@ function renderWeekday() {
  * ====== SAVED ARTICLES (Cloudflare KV) ======
  **/
 
-// Get or create user ID from localStorage (fallback if cookie not set)
-function getUserId() {
-  let userId = localStorage.getItem("userId");
-  if (!userId) {
-    userId = `user_${Date.now()}_${Math.random().toString(36).substring(2, 15)}`;
-    localStorage.setItem("userId", userId);
-  }
-  return userId;
-}
-
 // API endpoint base URL
 function getApiUrl() {
-  // Use relative URL for same domain, or set absolute URL if needed
-  return "https://feed-tianheg.pages.dev/api/saved-articles";
+  // Use relative URL for same domain
+  return "/api/saved-articles";
 }
 
 // Get all saved articles from KV
 async function getSavedArticlesFromStorage() {
-  try {
-    const userId = getUserId();
-    const response = await fetch(`${getApiUrl()}?userId=${encodeURIComponent(userId)}`);
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    const data = await response.json();
-    
-    // Update userId if server returned a new one (from cookie)
-    if (data.userId && data.userId !== userId) {
-      localStorage.setItem("userId", data.userId);
-    }
-    
-    return Array.isArray(data.articles) ? data.articles : [];
-  } catch (error) {
-    console.error("Error fetching saved articles:", error);
-    // Fallback to localStorage if API fails
-    return getSavedArticlesFromLocalStorage();
+  const response = await fetch(getApiUrl());
+  
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
   }
-}
-
-// Fallback to localStorage if API is unavailable
-function getSavedArticlesFromLocalStorage() {
-  const savedString = localStorage.getItem("savedArticles");
-  try {
-    const parsed = JSON.parse(savedString);
-    if (!Array.isArray(parsed)) return [];
-    return parsed;
-  } catch {
-    return [];
-  }
+  
+  const data = await response.json();
+  return Array.isArray(data.articles) ? data.articles : [];
 }
 
 // Check if article is saved
 async function isArticleSaved(articleId) {
-  try {
-    const savedArticles = await getSavedArticlesFromStorage();
-    return savedArticles.some((article) => article.id === articleId);
-  } catch (error) {
-    console.error("Error checking if article is saved:", error);
-    const savedArticles = getSavedArticlesFromLocalStorage();
-    return savedArticles.some((article) => article.id === articleId);
-  }
+  const savedArticles = await getSavedArticlesFromStorage();
+  return savedArticles.some((article) => article.id === articleId);
 }
 
-// Save article to KV
+// Save article to KV directly
 async function saveArticle(articleData) {
-  try {
-    const userId = getUserId();
-    const response = await fetch(getApiUrl(), {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        userId,
-        article: articleData,
-      }),
-    });
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    const data = await response.json();
-    
-    // Update userId if server returned a new one (from cookie)
-    if (data.userId && data.userId !== userId) {
-      localStorage.setItem("userId", data.userId);
-    }
-    
-    updateSavedArticlesUI();
-    updateSaveButtonState(articleData.id, true);
-    
-    // Also save to localStorage as backup
-    const savedArticles = getSavedArticlesFromLocalStorage();
-    if (!savedArticles.some(a => a.id === articleData.id)) {
-      savedArticles.push({
-        ...articleData,
-        savedAt: new Date().toISOString(),
-      });
-      localStorage.setItem("savedArticles", JSON.stringify(savedArticles));
-    }
-  } catch (error) {
-    console.error("Error saving article:", error);
-    // Fallback to localStorage
-    const savedArticles = getSavedArticlesFromLocalStorage();
-    if (!savedArticles.some(a => a.id === articleData.id)) {
-      savedArticles.push({
-        ...articleData,
-        savedAt: new Date().toISOString(),
-      });
-      localStorage.setItem("savedArticles", JSON.stringify(savedArticles));
-      updateSavedArticlesUI();
-      updateSaveButtonState(articleData.id, true);
-    }
+  const response = await fetch(getApiUrl(), {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      article: articleData,
+    }),
+  });
+  
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
   }
+  
+  const data = await response.json();
+  
+  updateSavedArticlesUI();
+  updateSaveButtonState(articleData.id, true);
 }
 
 // Remove article from KV
 async function removeSavedArticle(articleId) {
-  try {
-    const userId = getUserId();
-    const response = await fetch(
-      `${getApiUrl()}?userId=${encodeURIComponent(userId)}&articleId=${encodeURIComponent(articleId)}`,
-      {
-        method: "DELETE",
-      }
-    );
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+  const response = await fetch(
+    `${getApiUrl()}?articleId=${encodeURIComponent(articleId)}`,
+    {
+      method: "DELETE",
     }
-    
-    const data = await response.json();
-    
-    // Update userId if server returned a new one (from cookie)
-    if (data.userId && data.userId !== userId) {
-      localStorage.setItem("userId", data.userId);
-    }
-    
-    updateSavedArticlesUI();
-    updateSaveButtonState(articleId, false);
-    
-    // Also remove from localStorage
-    const savedArticles = getSavedArticlesFromLocalStorage();
-    const filtered = savedArticles.filter((article) => article.id !== articleId);
-    localStorage.setItem("savedArticles", JSON.stringify(filtered));
-  } catch (error) {
-    console.error("Error removing article:", error);
-    // Fallback to localStorage
-    const savedArticles = getSavedArticlesFromLocalStorage();
-    const filtered = savedArticles.filter((article) => article.id !== articleId);
-    localStorage.setItem("savedArticles", JSON.stringify(filtered));
-    updateSavedArticlesUI();
-    updateSaveButtonState(articleId, false);
+  );
+  
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
   }
+  
+  const data = await response.json();
+  
+  updateSavedArticlesUI();
+  updateSaveButtonState(articleId, false);
 }
 
 function updateSaveButtonState(articleId, isSaved) {
@@ -314,7 +220,7 @@ async function initializeSavedArticles() {
     const savedArticles = await getSavedArticlesFromStorage();
     updateSavedCount(savedArticles.length);
     
-    // Update button states - check each article asynchronously
+    // Update button states for all saved articles
     for (const article of savedArticles) {
       updateSaveButtonState(article.id, true);
     }
@@ -322,51 +228,12 @@ async function initializeSavedArticles() {
     await renderSavedArticles();
   } catch (error) {
     console.error("Error initializing saved articles:", error);
-    // Fallback to localStorage
-    const savedArticles = getSavedArticlesFromLocalStorage();
-    updateSavedCount(savedArticles.length);
-    savedArticles.forEach((article) => {
-      updateSaveButtonState(article.id, true);
-    });
-    // Fallback render doesn't need await since it's synchronous
+    updateSavedCount(0);
     const listElement = document.getElementById("saved-articles-list");
     const emptyElement = document.getElementById("saved-articles-empty");
     if (listElement && emptyElement) {
-      if (savedArticles.length === 0) {
-        listElement.innerHTML = "";
-        emptyElement.style.display = "block";
-      } else {
-        emptyElement.style.display = "none";
-        listElement.innerHTML = savedArticles
-          .map((article) => {
-            const savedDate = new Date(article.savedAt).toLocaleDateString();
-            return `
-              <article class="saved-article-item">
-                <div class="saved-article-header">
-                  <h3 class="saved-article-title">
-                    <a href="${escapeHtml(article.link)}" target="_blank" class="saved-article-link">
-                      ${escapeHtml(article.title)}
-                    </a>
-                  </h3>
-                  <button
-                    class="remove-saved-button"
-                    data-action="remove-saved-article"
-                    data-article-id="${escapeHtml(article.id)}"
-                    title="Remove from saved articles"
-                  >
-                    Remove
-                  </button>
-                </div>
-                <div class="saved-article-meta">
-                  <span class="saved-article-source">${escapeHtml(article.source || "Unknown")}</span>
-                  <span class="saved-article-date">Saved on ${savedDate}</span>
-                </div>
-                ${article.description ? `<p class="saved-article-description">${escapeHtml(article.description)}</p>` : ""}
-              </article>
-            `;
-          })
-          .join("");
-      }
+      listElement.innerHTML = "";
+      emptyElement.style.display = "block";
     }
   }
 }
@@ -379,95 +246,48 @@ function updateSavedCount(count) {
 }
 
 async function renderSavedArticles() {
-  try {
-    const savedArticles = await getSavedArticlesFromStorage();
-    const listElement = document.getElementById("saved-articles-list");
-    const emptyElement = document.getElementById("saved-articles-empty");
+  const savedArticles = await getSavedArticlesFromStorage();
+  const listElement = document.getElementById("saved-articles-list");
+  const emptyElement = document.getElementById("saved-articles-empty");
 
-    if (!listElement || !emptyElement) return;
+  if (!listElement || !emptyElement) return;
 
-    if (savedArticles.length === 0) {
-      listElement.innerHTML = "";
-      emptyElement.style.display = "block";
-      return;
-    }
-
-    emptyElement.style.display = "none";
-    listElement.innerHTML = savedArticles
-      .map((article) => {
-        const savedDate = new Date(article.savedAt).toLocaleDateString();
-        return `
-          <article class="saved-article-item">
-            <div class="saved-article-header">
-              <h3 class="saved-article-title">
-                <a href="${escapeHtml(article.link)}" target="_blank" class="saved-article-link">
-                  ${escapeHtml(article.title)}
-                </a>
-              </h3>
-              <button
-                class="remove-saved-button"
-                data-action="remove-saved-article"
-                data-article-id="${escapeHtml(article.id)}"
-                title="Remove from saved articles"
-              >
-                Remove
-              </button>
-            </div>
-            <div class="saved-article-meta">
-              <span class="saved-article-source">${escapeHtml(article.source || "Unknown")}</span>
-              <span class="saved-article-date">Saved on ${savedDate}</span>
-            </div>
-            ${article.description ? `<p class="saved-article-description">${escapeHtml(article.description)}</p>` : ""}
-          </article>
-        `;
-      })
-      .join("");
-  } catch (error) {
-    console.error("Error rendering saved articles:", error);
-    // Fallback to localStorage
-    const savedArticles = getSavedArticlesFromLocalStorage();
-    const listElement = document.getElementById("saved-articles-list");
-    const emptyElement = document.getElementById("saved-articles-empty");
-
-    if (!listElement || !emptyElement) return;
-
-    if (savedArticles.length === 0) {
-      listElement.innerHTML = "";
-      emptyElement.style.display = "block";
-      return;
-    }
-
-    emptyElement.style.display = "none";
-    listElement.innerHTML = savedArticles
-      .map((article) => {
-        const savedDate = new Date(article.savedAt).toLocaleDateString();
-        return `
-          <article class="saved-article-item">
-            <div class="saved-article-header">
-              <h3 class="saved-article-title">
-                <a href="${escapeHtml(article.link)}" target="_blank" class="saved-article-link">
-                  ${escapeHtml(article.title)}
-                </a>
-              </h3>
-              <button
-                class="remove-saved-button"
-                data-action="remove-saved-article"
-                data-article-id="${escapeHtml(article.id)}"
-                title="Remove from saved articles"
-              >
-                Remove
-              </button>
-            </div>
-            <div class="saved-article-meta">
-              <span class="saved-article-source">${escapeHtml(article.source || "Unknown")}</span>
-              <span class="saved-article-date">Saved on ${savedDate}</span>
-            </div>
-            ${article.description ? `<p class="saved-article-description">${escapeHtml(article.description)}</p>` : ""}
-          </article>
-        `;
-      })
-      .join("");
+  if (savedArticles.length === 0) {
+    listElement.innerHTML = "";
+    emptyElement.style.display = "block";
+    return;
   }
+
+  emptyElement.style.display = "none";
+  listElement.innerHTML = savedArticles
+    .map((article) => {
+      const savedDate = new Date(article.savedAt).toLocaleDateString();
+      return `
+        <article class="saved-article-item">
+          <div class="saved-article-header">
+            <h3 class="saved-article-title">
+              <a href="${escapeHtml(article.link)}" target="_blank" class="saved-article-link">
+                ${escapeHtml(article.title)}
+              </a>
+            </h3>
+            <button
+              class="remove-saved-button"
+              data-action="remove-saved-article"
+              data-article-id="${escapeHtml(article.id)}"
+              title="Remove from saved articles"
+            >
+              Remove
+            </button>
+          </div>
+          <div class="saved-article-meta">
+            <span class="saved-article-source">${escapeHtml(article.source || "Unknown")}</span>
+            <span class="saved-article-date">Saved on ${savedDate}</span>
+          </div>
+          ${article.description ? `<p class="saved-article-description">${escapeHtml(article.description)}</p>` : ""}
+        </article>
+      `;
+    })
+    .join("");
 }
 
 function escapeHtml(text) {
@@ -537,15 +357,7 @@ function handleRemoveSavedArticle(event) {
 }
 
 async function updateSavedArticlesUI() {
-  try {
-    const savedArticles = await getSavedArticlesFromStorage();
-    updateSavedCount(savedArticles.length);
-    await renderSavedArticles();
-  } catch (error) {
-    console.error("Error updating saved articles UI:", error);
-    // Fallback to localStorage
-    const savedArticles = getSavedArticlesFromLocalStorage();
-    updateSavedCount(savedArticles.length);
-    renderSavedArticles();
-  }
+  const savedArticles = await getSavedArticlesFromStorage();
+  updateSavedCount(savedArticles.length);
+  await renderSavedArticles();
 }

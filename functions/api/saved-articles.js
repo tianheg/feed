@@ -1,14 +1,15 @@
 /**
  * Cloudflare Pages Function for managing saved articles in KV
+ * Single user - no user identification needed
  * 
- * GET /api/saved-articles?userId=<userId>
- *   - Returns all saved articles for the user
+ * GET /api/saved-articles
+ *   - Returns all saved articles
  * 
  * POST /api/saved-articles
- *   - Body: { userId: string, article: object }
- *   - Saves an article for the user
+ *   - Body: { article: object }
+ *   - Saves an article
  * 
- * DELETE /api/saved-articles?userId=<userId>&articleId=<articleId>
+ * DELETE /api/saved-articles?articleId=<articleId>
  *   - Removes an article from saved list
  */
 
@@ -17,9 +18,6 @@ export async function onRequest(context) {
   const url = new URL(request.url);
   const method = request.method;
   const KV = env.SAVED_ARTICLES_KV;
-
-  // Get or create user ID from cookie or query parameter
-  let userId = getUserId(request);
 
   // Handle CORS preflight
   if (method === 'OPTIONS') {
@@ -43,14 +41,14 @@ export async function onRequest(context) {
   try {
     switch (method) {
       case 'GET':
-        return handleGet(userId, KV, corsHeaders);
+        return handleGet(KV, corsHeaders);
       
       case 'POST':
-        return handlePost(request, userId, KV, corsHeaders);
+        return handlePost(request, KV, corsHeaders);
       
       case 'DELETE':
         const articleId = url.searchParams.get('articleId');
-        return handleDelete(userId, articleId, KV, corsHeaders);
+        return handleDelete(articleId, KV, corsHeaders);
       
       default:
         return new Response(JSON.stringify({ error: 'Method not allowed' }), {
@@ -68,63 +66,30 @@ export async function onRequest(context) {
 }
 
 /**
- * Get user ID from cookie or generate one
+ * Get all saved articles
  */
-function getUserId(request) {
-  const url = new URL(request.url);
-  let userId = url.searchParams.get('userId');
-  
-  if (!userId) {
-    // Try to get from cookie
-    const cookieHeader = request.headers.get('Cookie');
-    if (cookieHeader) {
-      const cookies = Object.fromEntries(
-        cookieHeader.split(';').map(c => c.trim().split('='))
-      );
-      userId = cookies['userId'];
-    }
-  }
-  
-  // Generate a new user ID if none exists
-  if (!userId) {
-    userId = generateUserId();
-  }
-  
-  return userId;
-}
-
-/**
- * Generate a unique user ID
- */
-function generateUserId() {
-  return `user_${Date.now()}_${Math.random().toString(36).substring(2, 15)}`;
-}
-
-/**
- * Get all saved articles for a user
- */
-async function handleGet(userId, KV, corsHeaders) {
-  const key = `saved_articles:${userId}`;
+async function handleGet(KV, corsHeaders) {
+  const key = 'saved_articles';
   const data = await KV.get(key);
   
   if (!data) {
-    return new Response(JSON.stringify({ articles: [], userId }), {
+    return new Response(JSON.stringify({ articles: [] }), {
       status: 200,
       headers: corsHeaders,
     });
   }
   
   const articles = JSON.parse(data);
-  return new Response(JSON.stringify({ articles, userId }), {
+  return new Response(JSON.stringify({ articles }), {
     status: 200,
     headers: corsHeaders,
   });
 }
 
 /**
- * Save an article for a user
+ * Save an article
  */
-async function handlePost(request, userId, KV, corsHeaders) {
+async function handlePost(request, KV, corsHeaders) {
   const body = await request.json();
   const { article } = body;
   
@@ -135,7 +100,7 @@ async function handlePost(request, userId, KV, corsHeaders) {
     });
   }
   
-  const key = `saved_articles:${userId}`;
+  const key = 'saved_articles';
   const existingData = await KV.get(key);
   let articles = existingData ? JSON.parse(existingData) : [];
   
@@ -161,21 +126,17 @@ async function handlePost(request, userId, KV, corsHeaders) {
   
   return new Response(JSON.stringify({ 
     success: true, 
-    articles,
-    userId 
+    articles
   }), {
     status: 200,
-    headers: {
-      ...corsHeaders,
-      'Set-Cookie': `userId=${userId}; Path=/; Max-Age=31536000; SameSite=Lax`,
-    },
+    headers: corsHeaders,
   });
 }
 
 /**
  * Delete an article from saved list
  */
-async function handleDelete(userId, articleId, KV, corsHeaders) {
+async function handleDelete(articleId, KV, corsHeaders) {
   if (!articleId) {
     return new Response(JSON.stringify({ error: 'Article ID is required' }), {
       status: 400,
@@ -183,11 +144,11 @@ async function handleDelete(userId, articleId, KV, corsHeaders) {
     });
   }
   
-  const key = `saved_articles:${userId}`;
+  const key = 'saved_articles';
   const existingData = await KV.get(key);
   
   if (!existingData) {
-    return new Response(JSON.stringify({ articles: [], userId }), {
+    return new Response(JSON.stringify({ articles: [] }), {
       status: 200,
       headers: corsHeaders,
     });
@@ -201,8 +162,7 @@ async function handleDelete(userId, articleId, KV, corsHeaders) {
   
   return new Response(JSON.stringify({ 
     success: true, 
-    articles,
-    userId 
+    articles
   }), {
     status: 200,
     headers: corsHeaders,
