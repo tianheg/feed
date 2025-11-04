@@ -1,0 +1,13 @@
+name = "feed"
+compatibility_date = "2024-01-01"
+
+# KV Namespace for storing saved articles
+# You need to create this namespace in Cloudflare Dashboard first:
+# 1. Go to Workers & Pages > KV
+# 2. Create a namespace called "SAVED_ARTICLES_KV"
+# 3. The namespace ID will be automatically linked when you deploy
+
+[[kv_namespaces]]
+binding = "SAVED_ARTICLES_KV"
+id = "14c89d1bc493479e92d41ea141b9362f"  # Replace with your actual KV namespace ID
+preview_id = "14c89d1bc493479e92d41ea141b9362f"  # Replace with your actual KV namespace ID for preview

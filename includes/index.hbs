@@ -18,7 +18,17 @@
     <header>
       <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
       <a class="header-link" href="{{projectUrl}}">osmosfeed {{cliVersion}}</a>
+      <button class="saved-articles-toggle" data-action="toggle-saved-articles" title="View saved articles">
+        Saved Articles (<span id="saved-count">0</span>)
+      </button>
     </header>
+    <section id="saved-articles-section" class="saved-articles-section card" style="display: none;">
+      <h2 class="saved-articles-heading">Saved Articles</h2>
+      <div id="saved-articles-list" class="saved-articles-list"></div>
+      <div id="saved-articles-empty" class="saved-articles-empty" style="display: none;">
+        <p>No saved articles yet. Click the save button on any article to save it for later.</p>
+      </div>
+    </section>
     {{#each dates}}
       <section class="daily-content js-toggle-accordions-scope">
         <h2 class="daily-heading">
@@ -45,13 +55,30 @@
                 </h3>
                 <section class="articles-per-source">
                   {{#each articles}}
-                    <article>
+                    <article class="article-item" data-article-id="{{id}}">
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
                         data-accordion-key="{{id}}"
                       >
-                        <summary class="article-expander__title">{{title}}</summary>
+                        <summary class="article-expander__title">
+                          <span class="article-title-text">{{title}}</span>
+                          <button
+                            class="save-button"
+                            data-action="save-article"
+                            data-article-id="{{id}}"
+                            data-article-title="{{title}}"
+                            data-article-link="{{link}}"
+                            data-article-description="{{description}}"
+                            data-article-image="{{imageUrl}}"
+                            data-article-source="{{../title}}"
+                            data-article-date="{{../isoOffsetPublishDate}}"
+                            title="Save for later"
+                            type="button"
+                          >
+                            <span class="save-button-text">Save</span>
+                          </button>
+                        </summary>
                         <a class="article-summary-link article-summary-box-outer" href="{{link}}" target="_blank">
                           <div class="article-summary-box-inner media-object">
                             {{#if imageUrl}}
