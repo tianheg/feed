@@ -19,6 +19,8 @@ sources:
   - href: https://archlinux.org/feeds/news/
   - href: https://www.kernel.org/feeds/kdist.xml
   - href: https://planet.kernel.org/rss20.xml
+  # health
+  - href: https://www.artofmanliness.com/feed/
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
