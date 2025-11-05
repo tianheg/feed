@@ -20,7 +20,7 @@ sources:
   - href: https://www.kernel.org/feeds/kdist.xml
   - href: https://planet.kernel.org/rss20.xml
   # health
-  - href: https://www.artofmanliness.com/feed/
+  - href: https://www.artofmanliness.com/archives/feed/
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
