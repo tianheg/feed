@@ -38,8 +38,8 @@
    */
   --body-color: var(--base04);
   --body-bg: var(--base00);
-  --body-padding: 32px 24px;
-  --body-stack-gap: 32px;
+  --body-padding: 20px 16px;
+  --body-stack-gap: 20px;
 
   --accordion-content-hover-rail-color: var(--base04);
   --accordion-content-rail-color: var(--base03);
@@ -53,7 +53,7 @@
   --article-image-radius: 6px;
   --article-image-shadow: none;
   --article-reading-time-color: var(--base04);
-  --article-stack-gap: 16px;
+  --article-stack-gap: 12px;
   --article-summary-color: var(--base05);
   --article-summary-hover-color: var(--base07);
   --article-title-color: var(--base0E);
@@ -61,10 +61,10 @@
 
   --card-bg: var(--base01);
   --card-border-color: var(--base03);
-  --card-padding: 16px;
+  --card-padding: 12px;
   --card-radius: 8px;
   --card-shadow: none;
-  --card-stack-gap: 24px;
+  --card-stack-gap: 16px;
 
   --daily-heading-color: var(--base03);
   --daily-heading-hover-color: var(--base04);
@@ -107,7 +107,7 @@ body {
 
 /** COMPONENTS */
 .article-expander {
-  padding: 4px 0;
+  padding: 2px 0;
 }
 
 .article-expander__title {
@@ -119,16 +119,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
   cursor: pointer;
 }
 
 .article-title-text {
   flex: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .article-expander[open] .article-expander__title {
@@ -141,9 +137,9 @@ body {
   color: var(--accordion-marker-color);
   display: inline-flex;
   justify-content: center;
-  width: 16px;
+  width: 12px;
   font-weight: 700;
-  margin-right: 6px;
+  margin-right: 4px;
   font-family: monospace;
 }
 
@@ -190,11 +186,11 @@ body {
 
 .article-summary-box-outer {
   display: block;
-  padding: 6px var(--accordion-rail-indent) var(--article-stack-gap) var(--accordion-rail-indent);
+  padding: 4px var(--accordion-rail-indent) var(--article-stack-gap) var(--accordion-rail-indent);
 }
 
 .article-summary-box-inner {
-  padding-left: 14px;
+  padding-left: 10px;
   border-left: 1px solid var(--accordion-content-rail-color);
   font-size: var(--font-size-s);
   overflow-wrap: anywhere;
@@ -227,7 +223,7 @@ body {
   display: grid;
   font-size: var(--font-size-L);
   font-weight: 700;
-  margin: 0 0 4px 0;
+  margin: 0 0 2px 0;
 }
 
 .daily-heading-toggle {
@@ -235,7 +231,7 @@ body {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px;
   border: none;
   background: none;
   padding: 0 var(--card-padding);
@@ -257,11 +253,11 @@ header {
   color: var(--header-color);
   font-size: var(--font-size-s);
   display: flex;
-  padding: 0 16px;
+  padding: 0 12px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px;
 }
 
 .header-link {
@@ -294,7 +290,7 @@ header {
 
 .media-object {
   display: grid;
-  gap: 16px;
+  gap: 12px;
 }
 
 .media-object__media {
@@ -330,10 +326,10 @@ header {
 
 .source-heading {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   flex-wrap: wrap;
   font-size: var(--font-size-s);
-  margin: 0 0 8px 0;
+  margin: 0 0 4px 0;
   padding-right: var(--accordion-rail-indent);
 }
 
@@ -409,36 +405,45 @@ header {
 }
 
 .saved-articles-heading {
-  font-size: var(--font-size-m);
-  color: var(--article-title-color);
+  font-size: var(--font-size-L);
+  font-weight: 700;
+  color: var(--daily-heading-color);
   margin: 0 0 var(--card-padding) 0;
-  padding: 0 var(--card-padding);
+  padding: var(--card-padding) var(--card-padding) 0 var(--card-padding);
+  text-transform: uppercase;
+  background: var(--card-bg);
 }
 
 .saved-articles-list {
   display: grid;
-  gap: var(--card-padding);
+  gap: 1px;
   padding: 0 var(--card-padding) var(--card-padding) var(--card-padding);
 }
 
 .saved-article-item {
   padding: var(--card-padding);
-  border: 1px solid var(--card-border-color);
-  border-radius: var(--card-radius);
   background: var(--card-bg);
+  border-left: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.saved-article-item:hover {
+  background: var(--base01);
+  border-left-color: var(--source-name-color);
 }
 
 .saved-article-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 16px;
-  margin-bottom: 8px;
+  gap: 8px;
+  margin-bottom: 6px;
 }
 
 .saved-article-title {
   margin: 0;
   flex: 1;
+  min-width: 0;
 }
 
 .saved-article-link {
@@ -446,6 +451,10 @@ header {
   text-decoration: none;
   font-size: var(--font-size-m);
   font-weight: 600;
+  line-height: var(--line-height-heading);
+  display: block;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .saved-article-link:hover {
@@ -456,34 +465,44 @@ header {
 .remove-saved-button {
   font: inherit;
   font-size: var(--font-size-s);
-  color: var(--base08);
+  color: var(--base04);
   background: none;
-  border: 1px solid var(--base08);
+  border: none;
   border-radius: 4px;
-  padding: 2px 8px;
+  padding: 4px 6px;
   cursor: pointer;
   transition: all 0.2s ease;
   flex-shrink: 0;
   white-space: nowrap;
+  opacity: 0.7;
 }
 
 .remove-saved-button:hover {
-  background: var(--base08);
-  color: var(--base00);
+  color: var(--base08);
+  background: var(--base00);
+  opacity: 1;
 }
 
 .saved-article-meta {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   font-size: var(--font-size-s);
   color: var(--base04);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .saved-article-source {
   font-weight: 500;
   color: var(--source-name-color);
+}
+
+.saved-article-source::after {
+  content: "•";
+  margin-left: 8px;
+  color: var(--base03);
+  font-weight: 400;
 }
 
 .saved-article-date {
@@ -495,15 +514,19 @@ header {
   font-size: var(--font-size-s);
   color: var(--article-summary-color);
   line-height: var(--line-height-body);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .saved-articles-empty {
-  padding: var(--card-padding);
+  padding: calc(var(--card-padding) * 2) var(--card-padding);
   text-align: center;
   color: var(--base04);
   font-size: var(--font-size-s);
+  background: var(--card-bg);
 }
 
 .saved-articles-empty p {
   margin: 0;
+  line-height: var(--line-height-body);
 }
