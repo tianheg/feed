@@ -21,6 +21,8 @@ sources:
   - href: https://planet.kernel.org/rss20.xml
   # health
   - href: https://www.artofmanliness.com/archives/feed/
+  # css
+  - href: https://www.reddit.com/r/css.rss
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
