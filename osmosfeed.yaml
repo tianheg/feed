@@ -27,4 +27,4 @@ sources:
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
-cacheMaxDays: 21
+cacheMaxDays: 36
