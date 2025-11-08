@@ -23,6 +23,7 @@ sources:
   - href: https://www.artofmanliness.com/archives/feed/
   # css
   - href: https://www.reddit.com/r/css.rss
+  - href: https://tailwindweekly.com/feed/
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
