@@ -208,3 +208,13 @@ sources:
 siteTitle: "Feed"
 timezone: Asia/Shanghai
 cacheMaxDays: 21
+
+# Network tuning (fork extension)
+# concurrency: max parallel feed downloads (default 8). 111 sources × full
+# article enrich was tripping rate limiters; keep modest.
+concurrency: 8
+# timeoutMs: initial timeout per download attempt (default 10000). Direct
+# connections to some sources take 3-12s, so give them headroom.
+timeoutMs: 15000
+# userAgent: override the axios/0.27.2 UA which some sites reject.
+userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"

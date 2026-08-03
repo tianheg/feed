@@ -6,6 +6,6 @@
     "build": "osmosfeed"
   },
   "devDependencies": {
-    "@osmoscraft/osmosfeed": "^1.15.1"
+    "@osmoscraft/osmosfeed": "file:../osmosfeed/packages/cli"
   }
 }
