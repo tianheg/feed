@@ -144,6 +144,25 @@ function getApiUrl() {
   return "/api/saved-articles";
 }
 
+// Auth token: read from ?token=xxx URL param on first visit, persist in localStorage
+function getAuthToken() {
+  const params = new URLSearchParams(window.location.search);
+  const token = params.get("token");
+  if (token) {
+    localStorage.setItem("saved_articles_token", token);
+    // Clean token from URL so it doesn't linger in history
+    params.delete("token");
+    const newUrl = window.location.pathname + (params.toString() ? "?" + params.toString() : "");
+    window.history.replaceState({}, "", newUrl);
+  }
+  return localStorage.getItem("saved_articles_token") || "";
+}
+
+function authHeaders() {
+  const token = getAuthToken();
+  return token ? { "Authorization": `Bearer ${token}` } : {};
+}
+
 // Get all saved articles from KV
 async function getSavedArticlesFromStorage() {
   const response = await fetch(getApiUrl());
@@ -168,11 +187,17 @@ async function saveArticle(articleData) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      ...authHeaders(),
     },
     body: JSON.stringify({
       article: articleData,
     }),
   });
+  
+  if (response.status === 401) {
+    alert("未授权：请在 URL 后加 ?token=你的token 再保存");
+    return;
+  }
   
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
@@ -190,8 +215,16 @@ async function removeSavedArticle(articleId) {
     `${getApiUrl()}?articleId=${encodeURIComponent(articleId)}`,
     {
       method: "DELETE",
+      headers: {
+        ...authHeaders(),
+      },
     }
   );
+  
+  if (response.status === 401) {
+    alert("未授权：请在 URL 后加 ?token=你的token 再操作");
+    return;
+  }
   
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);

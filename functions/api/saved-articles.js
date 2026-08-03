@@ -3,14 +3,17 @@
  * Single user - no user identification needed
  * 
  * GET /api/saved-articles
- *   - Returns all saved articles
+ *   - Returns all saved articles (public, read-only)
  * 
  * POST /api/saved-articles
  *   - Body: { article: object }
- *   - Saves an article
+ *   - Saves an article (requires auth)
  * 
  * DELETE /api/saved-articles?articleId=<articleId>
- *   - Removes an article from saved list
+ *   - Removes an article from saved list (requires auth)
+ * 
+ * Auth: write operations require `Authorization: Bearer <token>` where
+ * token matches the SAVED_ARTICLES_TOKEN environment variable.
  */
 
 export async function onRequest(context) {
@@ -26,7 +29,7 @@ export async function onRequest(context) {
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type',
+        'Access-Control-Allow-Headers': 'Content-Type, Authorization',
       },
     });
   }
@@ -34,9 +37,22 @@ export async function onRequest(context) {
   const corsHeaders = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
     'Content-Type': 'application/json',
   };
+
+  // Auth check for write operations
+  if (method === 'POST' || method === 'DELETE') {
+    const expected = env.SAVED_ARTICLES_TOKEN;
+    const authHeader = request.headers.get('Authorization') || '';
+    const provided = authHeader.startsWith('Bearer ') ? authHeader.slice(7) : '';
+    if (!expected || provided !== expected) {
+      return new Response(JSON.stringify({ error: 'Unauthorized' }), {
+        status: 401,
+        headers: corsHeaders,
+      });
+    }
+  }
 
   try {
     switch (method) {
