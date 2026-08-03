@@ -79,6 +79,35 @@
   --source-name-hover-color: var(--base07);
 }
 
+/**
+ * Dark theme — Solarized Dark
+ * Applied via data-theme="dark" on <html> (set by inline script,
+ * follows prefers-color-scheme, override with the theme toggle).
+ */
+:root[data-theme="dark"] {
+  --base00: #002b36;
+  --base01: #073642;
+  --base02: #586e75;
+  --base03: #657b83;
+  --base04: #839496;
+  --base05: #93a1a1;
+  --base06: #eee8d5;
+  --base07: #fdf6e3;
+  --base08: #dc322f;
+  --base09: #cb4b16;
+  --base0A: #b58900;
+  --base0B: #859900;
+  --base0C: #2aa198;
+  --base0D: #268bd2;
+  --base0E: #6c71c4;
+  --base0F: #d33682;
+}
+
+/* Dim article images slightly in dark mode so bright thumbnails don't glare */
+:root[data-theme="dark"] .article-image {
+  filter: brightness(0.85);
+}
+
 /** RESETS */
 
 * {
@@ -316,7 +345,8 @@ header {
   border-color: var(--header-link-hover-color);
 }
 
-.saved-articles-toggle {
+.saved-articles-toggle,
+.theme-toggle {
   font: inherit;
   font-size: var(--font-size-s);
   color: var(--header-link-color);
@@ -328,7 +358,8 @@ header {
   transition: all 0.2s ease;
 }
 
-.saved-articles-toggle:hover {
+.saved-articles-toggle:hover,
+.theme-toggle:hover {
   color: var(--header-link-hover-color);
   border-color: var(--header-link-hover-color);
   background: var(--card-bg);

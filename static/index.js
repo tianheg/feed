@@ -1,9 +1,70 @@
+/**
+ * ====== THEME ======
+ */
+
+const THEME_KEY = "theme";
+const THEME_QUERY = "(prefers-color-scheme: dark)";
+
+function getStoredTheme() {
+  try {
+    return localStorage.getItem(THEME_KEY);
+  } catch {
+    return null;
+  }
+}
+
+function setStoredTheme(value) {
+  try {
+    localStorage.setItem(THEME_KEY, value);
+  } catch {
+    /* private mode — ignore */
+  }
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  const button = document.querySelector("[data-action='toggle-theme']");
+  if (button) {
+    button.textContent = theme === "dark" ? "Light" : "Dark";
+    button.setAttribute("title", theme === "dark" ? "Switch to light theme" : "Switch to dark theme");
+  }
+}
+
+function resolveInitialTheme() {
+  const stored = getStoredTheme();
+  if (stored === "dark" || stored === "light") return stored;
+  return window.matchMedia?.(THEME_QUERY)?.matches ? "dark" : "light";
+}
+
+/**
+ * Set up the theme toggle. The inline <head> script already applied
+ * the initial data-theme attribute (before CSS loads, avoids FOUC);
+ * here we sync the button label and keep the system preference in sync
+ * when the user hasn't made an explicit choice.
+ */
+function initTheme() {
+  const stored = getStoredTheme();
+  applyTheme(resolveInitialTheme());
+  if (!stored && window.matchMedia) {
+    window.matchMedia(THEME_QUERY).addEventListener("change", (event) => {
+      if (!getStoredTheme()) applyTheme(event.matches ? "dark" : "light");
+    });
+  }
+}
+
+function handleToggleTheme() {
+  const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  setStoredTheme(next);
+  applyTheme(next);
+}
+
 closeAccordionByIds(getClosedAccordionIdsFromStorage());
 handleAllClickEvents();
 renderBuildTimestamp();
 renderWeekday();
 initGroupFilter();
 initArticleSearch();
+initTheme();
 initializeSavedArticles();
 
 /**
@@ -84,6 +145,9 @@ function handleAllClickEvents() {
           break;
         case "export-saved-articles":
           handleExportSavedArticles(event);
+          break;
+        case "toggle-theme":
+          handleToggleTheme(event);
           break;
       }
     }

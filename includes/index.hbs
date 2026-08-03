@@ -10,6 +10,18 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="alternate" type="application/rss+xml" title="{{siteTitle}}" href="{{feedHref}}" />
     <link href="index.css" rel="stylesheet" />
+    <script>
+      (function () {
+        var saved = null;
+        try {
+          saved = localStorage.getItem("theme");
+        } catch (e) {}
+        var dark =
+          saved === "dark" ||
+          (!saved && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+      })();
+    </script>
   </head>
 
   <body>
@@ -27,6 +39,7 @@
       <button class="saved-articles-toggle" data-action="toggle-saved-articles" title="View saved articles">
         Saved Articles (<span id="saved-count">0</span>)
       </button>
+      <button class="theme-toggle" data-action="toggle-theme" title="Toggle light/dark theme">Dark</button>
     </header>
     <section id="saved-articles-section" class="saved-articles-section card" style="display: none;">
       <h2 class="saved-articles-heading">Saved Articles</h2>
