@@ -82,6 +82,9 @@ function handleAllClickEvents() {
         case "filter-group":
           handleGroupFilter(event);
           break;
+        case "export-saved-articles":
+          handleExportSavedArticles(event);
+          break;
       }
     }
   });
@@ -106,6 +109,33 @@ function handleToggleAccordions(event) {
 function handleToggleNativeAccordion() {
   // wait until event settled
   setTimeout(() => storeClosedAccordionIds(getClosedAccordionIdsFromPage()), 0);
+}
+
+/**
+ * Download all saved articles as a JSON file.
+ */
+async function handleExportSavedArticles(event) {
+  event.preventDefault();
+  event.stopPropagation();
+  try {
+    const savedArticles = await getSavedArticlesFromStorage();
+    if (!savedArticles.length) {
+      alert("没有已保存的文章");
+      return;
+    }
+    const blob = new Blob([JSON.stringify(savedArticles, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `saved-articles-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  } catch (error) {
+    console.error("Error exporting saved articles:", error);
+    alert("导出失败：" + error.message);
+  }
 }
 
 /**

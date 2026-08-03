@@ -576,3 +576,23 @@ header {
   margin: 0;
   line-height: var(--line-height-body);
 }
+
+.saved-articles-toolbar {
+  padding: var(--card-padding) var(--card-padding) 0;
+}
+
+.saved-articles-export {
+  font: inherit;
+  font-size: var(--font-size-s);
+  color: var(--header-link-color);
+  background: none;
+  border: 1px solid var(--card-border-color);
+  border-radius: var(--card-radius);
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.saved-articles-export:hover {
+  color: var(--header-link-hover-color);
+  border-color: var(--header-link-hover-color);
+}
