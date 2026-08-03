@@ -218,3 +218,7 @@ concurrency: 8
 timeoutMs: 15000
 # userAgent: override the axios/0.27.2 UA which some sites reject.
 userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+# cachePriority: "local" seeds from public/cache.json (freshest when building on
+# the same machine that last deployed); "remote" fetches cacheUrl first (upstream
+# behaviour, for CI). Local avoids re-fetching all sources when remote cache is stale.
+cachePriority: local

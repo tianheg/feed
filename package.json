@@ -6,6 +6,6 @@
     "build": "osmosfeed"
   },
   "devDependencies": {
-    "@tianheg/osmosfeed": "^1.15.3"
+    "@tianheg/osmosfeed": "^1.15.4"
   }
 }
