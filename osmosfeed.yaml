@@ -1,7 +1,6 @@
 cacheUrl: https://feed-tianheg.pages.dev/cache.json
 
 sources:
-  # personal blog
   - href: https://wanqian.blog/feed/
   - href: https://www.tianxianzi.me/index.xml
   - href: https://bearblog.dev/discover/feed/?type=rss
@@ -10,22 +9,201 @@ sources:
   - href: https://immmmm.com/atom.xml
   - href: https://liujiacai.net/index.xml
   - href: https://manateelazycat.github.io/feed.xml
-  # emacs
   - href: https://emacs.liujiacai.net/index.xml
   - href: https://planet.emacslife.com/atom.xml
   - href: https://sachachua.com/blog/category/emacs/feed/
   - href: https://emacs-china.org/top.rss
-  # linux
   - href: https://archlinux.org/feeds/news/
   - href: https://www.kernel.org/feeds/kdist.xml
   - href: https://planet.kernel.org/rss20.xml
-  # health
   - href: https://www.artofmanliness.com/archives/feed/
-  # css
   - href: https://www.reddit.com/r/css.rss
   - href: https://tailwindweekly.com/feed/
-  # kicad
   - href: https://www.kicad.org/blog/index.xml
+  # whyes 的博客
+  - href: https://whyes.org/feed
+  # 最小可读 - 基本无害，可能有用
+  - href: https://mvread.blog/feed
+  # 虹线 - 评论尸的自留地
+  - href: https://1q43.blog/feed
+  # Idle Words - brevity is for the weak
+  - href: https://idlewords.com/index.xml
+  # DHH
+  - href: https://world.hey.com/dhh/feed.atom
+  # Derek Sivers
+  - href: https://sive.rs/feed
+  # Changelog podcast
+  - href: https://changelog.com/podcast/feed
+  # Shtetl-Optimized
+  - href: https://scottaaronson.blog/?feed=rss2
+  # Scott H. Young
+  - href: https://www.scotthyoung.com/blog/feed
+  # 栋哥的赛博空间 – 成一家之言，毕竟有言胜于无
+  - href: https://liuyandong.com/feed
+  # Lex Fridman
+  - href: https://lexfridman.com/feed
+  # 万千笔记
+  - href: https://wanqian.blog/feed
+  # Adventures in Linux and KDE
+  - href: https://pointieststick.com/feed
+  # mtlynch.io
+  - href: https://mtlynch.io/feed
+  # Our World in Data
+  - href: https://ourworldindata.org/feed
+  # Little Ways The World Works · Collab Fund
+  - href: http://feeds.feedburner.com/collabfund
+  # Trending \vert Bear Blog
+  - href: https://bearblog.dev/discover/feed
+  # 再會，謝謝所有的鱼 — Thanks for all the fish
+  - href: https://gregueria.icu/index.xml
+  # Firefox Nightly News
+  - href: https://blog.nightly.mozilla.org/feed
+  # 狡猫三窝 – "美"不是一种外部标准，它是一种内在情感。那是爱。
+  - href: https://slykiten.com/feed
+  # 林海草原 – 愿我经历的苦难你不要经历，愿我已有的幸福你触手可及
+  - href: https://lhcy.org/feed
+  # Limboy
+  - href: https://limboy.me/index.xml
+  # 重归混沌的BLOG
+  - href: https://blog.gotocoding.com/feed
+  # 木遥
+  - href: http://blog.farmostwood.net/feed
+  # Bartosz Ciechanowski
+  - href: https://ciechanow.ski/atom.xml
+  # 中国数字时代
+  - href: https://chinadigitaltimes.net/chinese/feed
+  # Planet KDE
+  - href: https://planet.kde.org/atom.xml
+  # MDN blog
+  - href: https://developer.mozilla.org/en-US/blog/rss.xml
+  # Lea Verou
+  - href: https://lea.verou.me/feed
+  # 尺宅杂记
+  - href: http://www.qncd.com/?feed=rss2
+  # Una Kravets
+  - href: https://una.im/rss.xml
+  # Lynn Fisher
+  - href: https://lynnandtonic.com/feed.xml
+  # Zen Habits
+  - href: https://zenhabits.net/index.xml
+  # Naval
+  - href: https://nav.al/feed
+  # 苏洋博客
+  - href: https://soulteary.com/feed
+  # Wait But Why
+  - href: https://waitbutwhy.com/feed
+  # yuanchuan
+  - href: https://yuanchuan.dev/feed.xml
+  # Owen的博客
+  - href: https://www.owenyoung.com/feed
+  # 水八口的冥想盆
+  - href: https://shuiba.co/feed
+  # DailyArt Magazine
+  - href: https://www.dailyartmagazine.com/feed
+  # 谢益辉的中文日志
+  - href: https://yihui.org/cn/index.xml
+  # Paul Graham
+  - href: http://www.aaronsw.com/2002/feeds/pgessays.rss
+  # Living an awesome life
+  - href: https://sachachua.com/blog/feed
+  # 陈斌（Emacs）
+  - href: https://redguardtoo.github.io/rss
+  # 银色子弹
+  - href: https://silverrainz.me/blog/atom.xml
+  # Conge
+  - href: https://conge.livingwithfcs.org/feed
+  # Nautilus
+  - href: https://nautil.us/feed
+  # 卡瓦邦噶！
+  - href: https://www.kawabangga.com/feed
+  # Anthony Fu
+  - href: https://antfu.me/rss
+  # Knowledge Continuum
+  - href: https://raghu.cc/feed.xml
+  # David Perell
+  - href: https://perell.com/feed
+  # 阮一峰的网络日志
+  - href: https://www.ruanyifeng.com/blog/atom.xml
+  # 酷 壳 – CoolShell
+  - href: https://coolshell.cn/feed
+  # 云风的 BLOG
+  - href: https://blog.codingnow.com/atom.xml
+  # 全栈应用开发:精益实践
+  - href: https://www.phodal.com/blog/feeds/rss/
+  # 王登科-DK博客
+  - href: https://greatdk.com/feed
+  # Randy's Blog
+  - href: https://lutaonan.com/rss.xml
+  # GeekPlux
+  - href: https://geekplux.com/atom.xml
+  # 1 Byte
+  - href: https://1byte.io/feed.xml
+  # Gwern Branwen
+  - href: https://gwern.net/feed
+  # ZMonster's Blog
+  - href: https://www.zmonster.me/atom.xml
+  # 杰哥的{运维，编程，调板子}小笔记
+  - href: https://jia.je/feed
+  # Lofi'Log 低保真日志
+  - href: https://lofilog.com/index.xml
+  # 极客死亡计划
+  - href: https://www.geedea.pro/index.xml
+  # 电路哲学
+  - href: https://circuitstories.blogspot.com/atom.xml
+  # 宝玉的分享
+  - href: https://baoyu.io/feed.xml
+  # Google AI Blog
+  - href: https://blog.google/innovation-and-ai/technology/ai/rss/
+  # TechCrunch AI
+  - href: https://techcrunch.com/category/artificial-intelligence/feed/
+  # ArXiv AI 论文
+  - href: http://export.arxiv.org/rss/cs.AI
+  # Hacker News Best
+  - href: https://hnrss.org/best
+  # Protesilaos
+  - href: https://protesilaos.com/codelog.xml
+  # Sacha's Emacs News
+  - href: https://sachachua.com/blog/category/emacs-news/feed
+  # Irreal
+  - href: https://irreal.org/blog/?feed=rss2
+  # Emacs China
+  - href: https://emacs-china.org/latest.rss
+  # r/emacs
+  - href: https://www.reddit.com/r/emacs/.rss
+  # Hackaday
+  - href: https://hackaday.com/blog/feed/
+  # EDN (Electronic Design News)
+  - href: https://www.edn.com/feed/
+  # CNX Software (嵌入式系统)
+  - href: https://www.cnx-software.com/feed/
+  # Arduino Blog
+  - href: https://blog.arduino.cc/feed/
+  # r/musictheory
+  - href: https://www.reddit.com/r/musictheory/.rss
+  # r/piano
+  - href: https://www.reddit.com/r/piano/.rss
+  # Music Matters Blog
+  - href: https://musicmattersblog.com/feed/
+  # Color In My Piano
+  - href: https://colorinmypiano.com/feed/
+  # noa ks (meanwhiling)
+  - href: https://meanwhiling.com/index.xml
+  # 七号中微子
+  - href: https://neutrino7.top/atom.xml
+  # 科学空间 (苏剑林)
+  - href: https://kexue.fm/feed
+  # StudyFinds
+  - href: https://studyfinds.com/feed/
+  # Forgejo Releases
+  - href: https://forgejo.org/releases/rss.xml
+  # Jing Yun (音乐欣赏)
+  - href: https://www.youtube.com/feeds/videos.xml?channel_id=UChtEWSJhMJP347-jFpqzqEQ
+  # Ponpon 陳芃瑄 (音乐欣赏)
+  - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCXeuyoBvlK5y0Wq173rfzow
+  # RoniitMusic (音乐欣赏)
+  - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCmWoUy9rwfPe40N00bHiwaw
+  # Megan Otnes
+  - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCiooWjODnYOq1unQWWjwK9Q
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
