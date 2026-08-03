@@ -3,6 +3,7 @@ handleAllClickEvents();
 renderBuildTimestamp();
 renderWeekday();
 initGroupFilter();
+initArticleSearch();
 initializeSavedArticles();
 
 /**
@@ -155,6 +156,45 @@ function handleGroupFilter(event) {
     if (!li) return;
     // show when filter is "All" or matches the element's group
     li.style.display = !group || group === elGroup ? "" : "none";
+  });
+  applyArticleSearch();
+}
+
+/**
+ * Wire up the title search input. Filters articles by substring match,
+ * then hides source sections / days that end up empty.
+ */
+function initArticleSearch() {
+  const input = document.getElementById("article-search");
+  if (!input) return;
+  input.addEventListener("input", () => applyArticleSearch());
+}
+
+function applyArticleSearch() {
+  const input = document.getElementById("article-search");
+  const query = input ? input.value.trim().toLowerCase() : "";
+  const activeGroup = document.querySelector(".group-filter__btn--active")?.getAttribute("data-group") ?? "";
+
+  document.querySelectorAll(".article-item").forEach((article) => {
+    const titleEl = article.querySelector(".article-title-text");
+    const title = titleEl ? titleEl.textContent.toLowerCase() : "";
+    article.style.display = !query || title.includes(query) ? "" : "none";
+  });
+
+  // Show/hide source sections: visible only when its group matches the active
+  // group filter (if any) AND it has at least one article matching the search.
+  document.querySelectorAll("li.card__section").forEach((li) => {
+    const groupEl = li.querySelector("[data-group]");
+    const elGroup = groupEl ? groupEl.getAttribute("data-group") : "";
+    const groupMatches = !activeGroup || elGroup === activeGroup;
+    const hasVisible = [...li.querySelectorAll(".article-item")].some((a) => a.style.display !== "none");
+    li.style.display = groupMatches && hasVisible ? "" : "none";
+  });
+
+  // Hide empty daily sections
+  document.querySelectorAll("section.daily-content").forEach((day) => {
+    const hasVisible = [...day.querySelectorAll("li.card__section")].some((li) => li.style.display !== "none");
+    day.style.display = hasVisible ? "" : "none";
   });
 }
 

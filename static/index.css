@@ -300,6 +300,22 @@ header {
   border-color: var(--header-color);
 }
 
+.article-search {
+  font: inherit;
+  font-size: var(--font-size-s);
+  color: var(--header-link-color);
+  background: none;
+  border: 1px solid var(--card-border-color);
+  border-radius: 999px;
+  padding: 3px 12px;
+  min-width: 140px;
+}
+
+.article-search:focus {
+  outline: none;
+  border-color: var(--header-link-hover-color);
+}
+
 .saved-articles-toggle {
   font: inherit;
   font-size: var(--font-size-s);

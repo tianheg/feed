@@ -19,6 +19,13 @@
       <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
       <a class="header-link" href="{{projectUrl}}">osmosfeed {{cliVersion}}</a>
       <nav class="group-filter" id="group-filter" aria-label="Filter by group"></nav>
+      <input
+        type="search"
+        id="article-search"
+        class="article-search"
+        placeholder="Search titles…"
+        aria-label="Search article titles"
+      />
       <button class="saved-articles-toggle" data-action="toggle-saved-articles" title="View saved articles">
         Saved Articles (<span id="saved-count">0</span>)
       </button>
