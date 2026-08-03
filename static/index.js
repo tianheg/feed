@@ -2,6 +2,7 @@ closeAccordionByIds(getClosedAccordionIdsFromStorage());
 handleAllClickEvents();
 renderBuildTimestamp();
 renderWeekday();
+initGroupFilter();
 initializeSavedArticles();
 
 /**
@@ -77,6 +78,9 @@ function handleAllClickEvents() {
         case "toggle-saved-articles":
           handleToggleSavedArticles(event);
           break;
+        case "filter-group":
+          handleGroupFilter(event);
+          break;
       }
     }
   });
@@ -101,6 +105,57 @@ function handleToggleAccordions(event) {
 function handleToggleNativeAccordion() {
   // wait until event settled
   setTimeout(() => storeClosedAccordionIds(getClosedAccordionIdsFromPage()), 0);
+}
+
+/**
+ * Collect group labels from rendered sources and build filter buttons.
+ */
+function initGroupFilter() {
+  const nav = document.getElementById("group-filter");
+  if (!nav) return;
+  const groups = new Set();
+  document.querySelectorAll("[data-group]").forEach((el) => {
+    const g = el.getAttribute("data-group");
+    if (g) groups.add(g);
+  });
+  if (groups.size <= 1) return; // no meaningful grouping
+
+  const all = document.createElement("button");
+  all.className = "group-filter__btn group-filter__btn--active";
+  all.dataset.action = "filter-group";
+  all.dataset.group = "";
+  all.textContent = "All";
+  nav.appendChild(all);
+
+  [...groups].sort().forEach((g) => {
+    const btn = document.createElement("button");
+    btn.className = "group-filter__btn";
+    btn.dataset.action = "filter-group";
+    btn.dataset.group = g;
+    btn.textContent = g;
+    nav.appendChild(btn);
+  });
+}
+
+/**
+ * @param {Event} event
+ */
+function handleGroupFilter(event) {
+  const btn = event.target.closest("[data-group]");
+  if (!btn) return;
+  const group = btn.getAttribute("data-group");
+
+  document.querySelectorAll(".group-filter__btn").forEach((b) => {
+    b.classList.toggle("group-filter__btn--active", b === btn);
+  });
+
+  document.querySelectorAll("[data-group]").forEach((el) => {
+    const elGroup = el.getAttribute("data-group");
+    const li = el.closest("li.card__section");
+    if (!li) return;
+    // show when filter is "All" or matches the element's group
+    li.style.display = !group || group === elGroup ? "" : "none";
+  });
 }
 
 /**

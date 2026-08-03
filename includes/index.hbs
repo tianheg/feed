@@ -18,6 +18,7 @@
     <header>
       <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
       <a class="header-link" href="{{projectUrl}}">osmosfeed {{cliVersion}}</a>
+      <nav class="group-filter" id="group-filter" aria-label="Filter by group"></nav>
       <button class="saved-articles-toggle" data-action="toggle-saved-articles" title="View saved articles">
         Saved Articles (<span id="saved-count">0</span>)
       </button>
@@ -49,6 +50,7 @@
                   <button
                     class="source-heading__name"
                     data-action="toggle-accordions"
+                    data-group="{{group}}"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >{{title}}</button>
                   <a class="source-heading__link" href="{{siteUrl}}" target="_blank">Open</a>

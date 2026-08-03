@@ -270,6 +270,36 @@ header {
   text-decoration: underline;
 }
 
+.group-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  order: 3;
+  width: 100%;
+}
+
+.group-filter__btn {
+  font: inherit;
+  font-size: var(--font-size-s);
+  color: var(--header-link-color);
+  background: none;
+  border: 1px solid var(--card-border-color);
+  border-radius: 999px;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.group-filter__btn:hover {
+  color: var(--header-link-hover-color);
+  border-color: var(--header-link-hover-color);
+}
+
+.group-filter__btn--active {
+  color: var(--card-bg);
+  background: var(--header-color);
+  border-color: var(--header-color);
+}
+
 .saved-articles-toggle {
   font: inherit;
   font-size: var(--font-size-s);
