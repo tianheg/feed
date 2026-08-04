@@ -72,9 +72,6 @@ sources:
   # Lex Fridman
   - href: https://lexfridman.com/feed
     group: personal
-  # 万千笔记
-  - href: https://wanqian.blog/feed
-    group: personal
   # Adventures in Linux and KDE
   - href: https://pointieststick.com/feed
     group: personal
@@ -86,9 +83,6 @@ sources:
     group: personal
   # Little Ways The World Works · Collab Fund
   - href: http://feeds.feedburner.com/collabfund
-    group: personal
-  # Trending \vert Bear Blog
-  - href: https://bearblog.dev/discover/feed
     group: personal
   # 再會，謝謝所有的鱼 — Thanks for all the fish
   - href: https://gregueria.icu/index.xml

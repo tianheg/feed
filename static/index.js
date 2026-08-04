@@ -5,6 +5,10 @@
 const THEME_KEY = "theme";
 const THEME_QUERY = "(prefers-color-scheme: dark)";
 
+// Saved-articles in-memory cache (declared at top: init runs before the
+// saved-articles section is defined, and `let` has a temporal dead zone).
+let savedArticlesCache = null;
+
 function getStoredTheme() {
   try {
     return localStorage.getItem(THEME_KEY);
@@ -353,21 +357,24 @@ function authHeaders() {
 }
 
 // Get all saved articles from KV
+// Cached in memory: the list only changes through this page's own save/remove
+// actions, so re-fetching on every render is wasted requests (saving one
+// article used to fire 4 GETs). Mutations invalidate the cache.
 async function getSavedArticlesFromStorage() {
+  if (savedArticlesCache) return savedArticlesCache;
   const response = await fetch(getApiUrl());
-  
+
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }
-  
+
   const data = await response.json();
-  return Array.isArray(data.articles) ? data.articles : [];
+  savedArticlesCache = Array.isArray(data.articles) ? data.articles : [];
+  return savedArticlesCache;
 }
 
-// Check if article is saved
-async function isArticleSaved(articleId) {
-  const savedArticles = await getSavedArticlesFromStorage();
-  return savedArticles.some((article) => article.id === articleId);
+function invalidateSavedArticlesCache() {
+  savedArticlesCache = null;
 }
 
 // Save article to KV directly
@@ -394,6 +401,7 @@ async function saveArticle(articleData) {
   
   const data = await response.json();
   
+  invalidateSavedArticlesCache();
   updateSavedArticlesUI();
   updateSaveButtonState(articleData.id, true);
 }
@@ -421,6 +429,7 @@ async function removeSavedArticle(articleId) {
   
   const data = await response.json();
   
+  invalidateSavedArticlesCache();
   updateSavedArticlesUI();
   updateSaveButtonState(articleId, false);
 }
@@ -533,7 +542,8 @@ async function handleSaveArticle(event) {
   button.disabled = true;
 
   try {
-    const saved = await isArticleSaved(articleId);
+    const savedArticles = await getSavedArticlesFromStorage();
+    const saved = savedArticles.some((a) => a.id === articleId);
     
     if (saved) {
       await removeSavedArticle(articleId);
