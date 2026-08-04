@@ -70,6 +70,7 @@ initGroupFilter();
 initArticleSearch();
 initTheme();
 initializeSavedArticles();
+initBackToTop();
 
 /**
  * ====== UTILS ======
@@ -153,9 +154,54 @@ function handleAllClickEvents() {
         case "toggle-theme":
           handleToggleTheme(event);
           break;
+        case "back-to-top":
+          handleBackToTop(event);
+          break;
       }
     }
   });
+}
+
+/**
+ * ====== BACK TO TOP ======
+ */
+
+const BACK_TO_TOP_THRESHOLD = 600;
+
+/**
+ * Show the floating back-to-top button once the user scrolls past
+ * a threshold. Scroll listener is passive + rAF-throttled.
+ */
+function initBackToTop() {
+  const button = document.querySelector("[data-action='back-to-top']");
+  if (!button) return;
+  let ticking = false;
+
+  const update = () => {
+    button.classList.toggle("is-visible", window.scrollY > BACK_TO_TOP_THRESHOLD);
+    ticking = false;
+  };
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(update);
+      }
+    },
+    { passive: true }
+  );
+
+  update();
+}
+
+/**
+ * @param {Event} event
+ */
+function handleBackToTop(event) {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 /**
