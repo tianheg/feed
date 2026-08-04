@@ -5,6 +5,9 @@
 const THEME_KEY = "theme";
 const THEME_QUERY = "(prefers-color-scheme: dark)";
 
+// Show the back-to-top button once the page is scrolled past this many px.
+const BACK_TO_TOP_THRESHOLD = 600;
+
 // Saved-articles in-memory cache (declared at top: init runs before the
 // saved-articles section is defined, and `let` has a temporal dead zone).
 let savedArticlesCache = null;
@@ -165,8 +168,6 @@ function handleAllClickEvents() {
 /**
  * ====== BACK TO TOP ======
  */
-
-const BACK_TO_TOP_THRESHOLD = 600;
 
 /**
  * Show the floating back-to-top button once the user scrolls past
