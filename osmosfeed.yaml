@@ -108,18 +108,15 @@ sources:
   # Bartosz Ciechanowski
   - href: https://ciechanow.ski/atom.xml
     group: personal
-  # 中国数字时代
-  - href: https://chinadigitaltimes.net/chinese/feed
-    group: personal
   # Planet KDE
   - href: https://planet.kde.org/atom.xml
-    group: personal
+    group: KDE
   # MDN blog
   - href: https://developer.mozilla.org/en-US/blog/rss.xml
-    group: personal
+    group: Web
   # Lea Verou
   - href: https://lea.verou.me/feed
-    group: personal
+    group: CSS
   # 尺宅杂记
   - href: http://www.qncd.com/?feed=rss2
     group: personal
@@ -152,7 +149,7 @@ sources:
     group: personal
   # DailyArt Magazine
   - href: https://www.dailyartmagazine.com/feed
-    group: personal
+    group: art
   # 谢益辉的中文日志
   - href: https://yihui.org/cn/index.xml
     group: personal
@@ -188,7 +185,7 @@ sources:
     group: personal
   # 阮一峰的网络日志
   - href: https://www.ruanyifeng.com/blog/atom.xml
-    group: personal
+    group: tech
   # 酷 壳 – CoolShell
   - href: https://coolshell.cn/feed
     group: personal
@@ -227,7 +224,7 @@ sources:
     group: personal
   # 电路哲学
   - href: https://circuitstories.blogspot.com/atom.xml
-    group: personal
+    group: hardware
   # 宝玉的分享
   - href: https://baoyu.io/feed.xml
     group: personal
@@ -245,9 +242,6 @@ sources:
     group: ai
   # Protesilaos
   - href: https://protesilaos.com/codelog.xml
-    group: emacs
-  # Sacha's Emacs News
-  - href: https://sachachua.com/blog/category/emacs-news/feed
     group: emacs
   # Irreal
   - href: https://irreal.org/blog/?feed=rss2
