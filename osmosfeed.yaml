@@ -70,9 +70,7 @@ sources:
   # 七号中微子
   - href: https://neutrino7.top/atom.xml
     group: 个人博客
-  # 科学空间 (苏剑林)
-  - href: https://kexue.fm/feed
-    group: 个人博客
+
   # DailyArt Magazine
   - href: https://www.dailyartmagazine.com/feed
     group: 个人博客
