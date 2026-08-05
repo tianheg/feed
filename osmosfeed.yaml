@@ -1,308 +1,326 @@
 cacheUrl: https://feed-tianheg.pages.dev/cache.json
 
 sources:
+  # ===== 个人博客 =====
   - href: https://wanqian.blog/feed/
-    group: personal
+    group: 个人博客
   - href: https://www.tianxianzi.me/index.xml
-    group: personal
+    group: 个人博客
   - href: https://bearblog.dev/discover/feed/?type=rss
-    group: personal
+    group: 个人博客
   - href: https://mengru.space/data/full-rss.xml
-    group: personal
+    group: 个人博客
   - href: https://yufan.me/feed
-    group: personal
+    group: 个人博客
   - href: https://immmmm.com/atom.xml
-    group: personal
+    group: 个人博客
   - href: https://liujiacai.net/index.xml
-    group: personal
-  - href: https://manateelazycat.github.io/feed.xml
-    group: personal
-  - href: https://emacs.liujiacai.net/index.xml
-    group: emacs
-  - href: https://planet.emacslife.com/atom.xml
-    group: emacs
-  - href: https://sachachua.com/blog/category/emacs/feed/
-    group: emacs
-  - href: https://emacs-china.org/top.rss
-    group: emacs
-  - href: https://archlinux.org/feeds/news/
-    group: linux
-  - href: https://www.kernel.org/feeds/kdist.xml
-    group: linux
-  - href: https://planet.kernel.org/rss20.xml
-    group: linux
-  - href: https://www.artofmanliness.com/archives/feed/
-    group: health
-  - href: https://www.reddit.com/r/css.rss
-    group: css
-  - href: https://tailwindweekly.com/feed/
-    group: css
-  - href: https://www.kicad.org/blog/index.xml
-    group: hardware
+    group: 个人博客
   # whyes 的博客
   - href: https://whyes.org/feed
-    group: personal
+    group: 个人博客
   # 最小可读 - 基本无害，可能有用
   - href: https://mvread.blog/feed
-    group: personal
+    group: 个人博客
   # 虹线 - 评论尸的自留地
   - href: https://1q43.blog/feed
-    group: personal
-  # Idle Words - brevity is for the weak
-  - href: https://idlewords.com/index.xml
-    group: personal
-  # DHH
-  - href: https://world.hey.com/dhh/feed.atom
-    group: personal
-  # Derek Sivers
-  - href: https://sive.rs/feed
-    group: personal
-  # Changelog podcast
-  - href: https://changelog.com/podcast/feed
-    group: personal
-  # Shtetl-Optimized
-  - href: https://scottaaronson.blog/?feed=rss2
-    group: personal
-  # Scott H. Young
-  - href: https://www.scotthyoung.com/blog/feed
-    group: personal
+    group: 个人博客
   # 栋哥的赛博空间 – 成一家之言，毕竟有言胜于无
   - href: https://liuyandong.com/feed
-    group: personal
-  # Lex Fridman
-  - href: https://lexfridman.com/feed
-    group: personal
-  # Adventures in Linux and KDE
-  - href: https://pointieststick.com/feed
-    group: personal
-  # mtlynch.io
-  - href: https://mtlynch.io/feed
-    group: personal
-  # Our World in Data
-  - href: https://ourworldindata.org/feed
-    group: personal
-  # Little Ways The World Works · Collab Fund
-  - href: http://feeds.feedburner.com/collabfund
-    group: personal
+    group: 个人博客
   # 再會，謝謝所有的鱼 — Thanks for all the fish
   - href: https://gregueria.icu/index.xml
-    group: personal
-  # Firefox Nightly News
-  - href: https://blog.nightly.mozilla.org/feed
-    group: personal
+    group: 个人博客
   # 狡猫三窝 – "美"不是一种外部标准，它是一种内在情感。那是爱。
   - href: https://slykiten.com/feed
-    group: personal
+    group: 个人博客
   # 林海草原 – 愿我经历的苦难你不要经历，愿我已有的幸福你触手可及
   - href: https://lhcy.org/feed
-    group: personal
+    group: 个人博客
   # Limboy
   - href: https://limboy.me/index.xml
-    group: personal
+    group: 个人博客
   # 重归混沌的BLOG
   - href: https://blog.gotocoding.com/feed
-    group: personal
+    group: 个人博客
   # 木遥
   - href: http://blog.farmostwood.net/feed
-    group: personal
+    group: 个人博客
+  # 尺宅杂记
+  - href: http://www.qncd.com/?feed=rss2
+    group: 个人博客
+  # 水八口的冥想盆
+  - href: https://shuiba.co/feed
+    group: 个人博客
+  # 谢益辉的中文日志
+  - href: https://yihui.org/cn/index.xml
+    group: 个人博客
+  # 银色子弹
+  - href: https://silverrainz.me/blog/atom.xml
+    group: 个人博客
+  # Conge
+  - href: https://conge.livingwithfcs.org/feed
+    group: 个人博客
+  # 卡瓦邦噶！
+  - href: https://www.kawabangga.com/feed
+    group: 个人博客
+  # noa ks (meanwhiling)
+  - href: https://meanwhiling.com/index.xml
+    group: 个人博客
+  # 七号中微子
+  - href: https://neutrino7.top/atom.xml
+    group: 个人博客
+  # 科学空间 (苏剑林)
+  - href: https://kexue.fm/feed
+    group: 个人博客
+  # DailyArt Magazine
+  - href: https://www.dailyartmagazine.com/feed
+    group: 个人博客
+
+  # ===== 随笔 =====
+  # Idle Words - brevity is for the weak
+  - href: https://idlewords.com/index.xml
+    group: 随笔
+  # DHH
+  - href: https://world.hey.com/dhh/feed.atom
+    group: 随笔
+  # Derek Sivers
+  - href: https://sive.rs/feed
+    group: 随笔
+  # Shtetl-Optimized
+  - href: https://scottaaronson.blog/?feed=rss2
+    group: 随笔
+  # Scott H. Young
+  - href: https://www.scotthyoung.com/blog/feed
+    group: 随笔
+  # Little Ways The World Works · Collab Fund
+  - href: http://feeds.feedburner.com/collabfund
+    group: 随笔
+  # Zen Habits
+  - href: https://zenhabits.net/index.xml
+    group: 随笔
+  # Naval
+  - href: https://nav.al/feed
+    group: 随笔
+  # Wait But Why
+  - href: https://waitbutwhy.com/feed
+    group: 随笔
+  # Paul Graham
+  - href: http://www.aaronsw.com/2002/feeds/pgessays.rss
+    group: 随笔
+  # David Perell
+  - href: https://perell.com/feed
+    group: 随笔
+  # Nautilus
+  - href: https://nautil.us/feed
+    group: 随笔
+  # Our World in Data
+  - href: https://ourworldindata.org/feed
+    group: 随笔
+
+  # ===== 技术 =====
+  # Changelog podcast
+  - href: https://changelog.com/podcast/feed
+    group: 技术
+  # mtlynch.io
+  - href: https://mtlynch.io/feed
+    group: 技术
+  # 苏洋博客
+  - href: https://soulteary.com/feed
+    group: 技术
+  # Owen的博客
+  - href: https://www.owenyoung.com/feed
+    group: 技术
+  # Knowledge Continuum
+  - href: https://raghu.cc/feed.xml
+    group: 技术
+  # 阮一峰的网络日志
+  - href: https://www.ruanyifeng.com/blog/atom.xml
+    group: 技术
+  # 酷 壳 – CoolShell
+  - href: https://coolshell.cn/feed
+    group: 技术
+  # 云风的 BLOG
+  - href: https://blog.codingnow.com/atom.xml
+    group: 技术
+  # 全栈应用开发:精益实践
+  - href: https://www.phodal.com/blog/feeds/rss/
+    group: 技术
+  # 王登科-DK博客
+  - href: https://greatdk.com/feed
+    group: 技术
+  # Randy's Blog
+  - href: https://lutaonan.com/rss.xml
+    group: 技术
+  # GeekPlux
+  - href: https://geekplux.com/atom.xml
+    group: 技术
+  # 1 Byte
+  - href: https://1byte.io/feed.xml
+    group: 技术
+  # ZMonster's Blog
+  - href: https://www.zmonster.me/atom.xml
+    group: 技术
+  # 杰哥的{运维，编程，调板子}小笔记
+  - href: https://jia.je/feed
+    group: 技术
+  # Lofi'Log 低保真日志
+  - href: https://lofilog.com/index.xml
+    group: 技术
+  # 极客死亡计划
+  - href: https://www.geedea.pro/index.xml
+    group: 技术
+  # Hacker News Best
+  - href: https://hnrss.org/best
+    group: 技术
   # Bartosz Ciechanowski
   - href: https://ciechanow.ski/atom.xml
-    group: personal
+    group: 技术
+  # Forgejo Releases
+  - href: https://forgejo.org/releases/rss.xml
+    group: 技术
+
+  # ===== Emacs =====
+  # manateelazycat
+  - href: https://manateelazycat.github.io/feed.xml
+    group: Emacs
+  - href: https://emacs.liujiacai.net/index.xml
+    group: Emacs
+  - href: https://planet.emacslife.com/atom.xml
+    group: Emacs
+  # Living an awesome life (Sacha Chua)
+  - href: https://sachachua.com/blog/feed
+    group: Emacs
+  # 陈斌（Emacs）
+  - href: https://redguardtoo.github.io/rss
+    group: Emacs
+  # Protesilaos
+  - href: https://protesilaos.com/codelog.xml
+    group: Emacs
+  # Irreal
+  - href: https://irreal.org/blog/?feed=rss2
+    group: Emacs
+  # Emacs China
+  - href: https://emacs-china.org/latest.rss
+    group: Emacs
+  # r/emacs
+  - href: https://www.reddit.com/r/emacs/.rss
+    group: Emacs
+
+  # ===== Linux =====
+  - href: https://archlinux.org/feeds/news/
+    group: Linux
+  - href: https://www.kernel.org/feeds/kdist.xml
+    group: Linux
+  - href: https://planet.kernel.org/rss20.xml
+    group: Linux
   # Planet KDE
   - href: https://planet.kde.org/atom.xml
-    group: KDE
+    group: Linux
+  # Adventures in Linux and KDE
+  - href: https://pointieststick.com/feed
+    group: Linux
+
+  # ===== AI =====
+  # Lex Fridman
+  - href: https://lexfridman.com/feed
+    group: AI
+  # Gwern Branwen
+  - href: https://gwern.net/feed
+    group: AI
+  # 宝玉的分享
+  - href: https://baoyu.io/feed.xml
+    group: AI
+  # Google AI Blog
+  - href: https://blog.google/innovation-and-ai/technology/ai/rss/
+    group: AI
+  # TechCrunch AI
+  - href: https://techcrunch.com/category/artificial-intelligence/feed/
+    group: AI
+  # ArXiv AI 论文
+  - href: http://export.arxiv.org/rss/cs.AI
+    group: AI
+
+  # ===== 硬件 =====
+  - href: https://www.kicad.org/blog/index.xml
+    group: 硬件
+  # 电路哲学
+  - href: https://circuitstories.blogspot.com/atom.xml
+    group: 硬件
+  # Hackaday
+  - href: https://hackaday.com/blog/feed/
+    group: 硬件
+  # EDN (Electronic Design News)
+  - href: https://www.edn.com/feed/
+    group: 硬件
+  # CNX Software (嵌入式系统)
+  - href: https://www.cnx-software.com/feed/
+    group: 硬件
+  # Arduino Blog
+  - href: https://blog.arduino.cc/feed/
+    group: 硬件
+
+  # ===== 前端 =====
+  - href: https://www.reddit.com/r/css.rss
+    group: 前端
+  - href: https://tailwindweekly.com/feed/
+    group: 前端
+  # Lea Verou
+  - href: https://lea.verou.me/feed
+    group: 前端
+  # Una Kravets
+  - href: https://una.im/rss.xml
+    group: 前端
+  # Lynn Fisher
+  - href: https://lynnandtonic.com/feed.xml
+    group: 前端
+  # yuanchuan
+  - href: https://yuanchuan.dev/feed.xml
+    group: 前端
+  # Anthony Fu
+  - href: https://antfu.me/rss
+    group: 前端
+
+  # ===== Web =====
   # MDN blog
   - href: https://developer.mozilla.org/en-US/blog/rss.xml
     group: Web
-  # Lea Verou
-  - href: https://lea.verou.me/feed
-    group: CSS
-  # 尺宅杂记
-  - href: http://www.qncd.com/?feed=rss2
-    group: personal
-  # Una Kravets
-  - href: https://una.im/rss.xml
-    group: personal
-  # Lynn Fisher
-  - href: https://lynnandtonic.com/feed.xml
-    group: personal
-  # Zen Habits
-  - href: https://zenhabits.net/index.xml
-    group: personal
-  # Naval
-  - href: https://nav.al/feed
-    group: personal
-  # 苏洋博客
-  - href: https://soulteary.com/feed
-    group: personal
-  # Wait But Why
-  - href: https://waitbutwhy.com/feed
-    group: personal
-  # yuanchuan
-  - href: https://yuanchuan.dev/feed.xml
-    group: personal
-  # Owen的博客
-  - href: https://www.owenyoung.com/feed
-    group: personal
-  # 水八口的冥想盆
-  - href: https://shuiba.co/feed
-    group: personal
-  # DailyArt Magazine
-  - href: https://www.dailyartmagazine.com/feed
-    group: art
-  # 谢益辉的中文日志
-  - href: https://yihui.org/cn/index.xml
-    group: personal
-  # Paul Graham
-  - href: http://www.aaronsw.com/2002/feeds/pgessays.rss
-    group: personal
-  # Living an awesome life
-  - href: https://sachachua.com/blog/feed
-    group: emacs
-  # 陈斌（Emacs）
-  - href: https://redguardtoo.github.io/rss
-    group: personal
-  # 银色子弹
-  - href: https://silverrainz.me/blog/atom.xml
-    group: personal
-  # Conge
-  - href: https://conge.livingwithfcs.org/feed
-    group: personal
-  # Nautilus
-  - href: https://nautil.us/feed
-    group: personal
-  # 卡瓦邦噶！
-  - href: https://www.kawabangga.com/feed
-    group: personal
-  # Anthony Fu
-  - href: https://antfu.me/rss
-    group: personal
-  # Knowledge Continuum
-  - href: https://raghu.cc/feed.xml
-    group: personal
-  # David Perell
-  - href: https://perell.com/feed
-    group: personal
-  # 阮一峰的网络日志
-  - href: https://www.ruanyifeng.com/blog/atom.xml
-    group: tech
-  # 酷 壳 – CoolShell
-  - href: https://coolshell.cn/feed
-    group: personal
-  # 云风的 BLOG
-  - href: https://blog.codingnow.com/atom.xml
-    group: personal
-  # 全栈应用开发:精益实践
-  - href: https://www.phodal.com/blog/feeds/rss/
-    group: personal
-  # 王登科-DK博客
-  - href: https://greatdk.com/feed
-    group: personal
-  # Randy's Blog
-  - href: https://lutaonan.com/rss.xml
-    group: personal
-  # GeekPlux
-  - href: https://geekplux.com/atom.xml
-    group: personal
-  # 1 Byte
-  - href: https://1byte.io/feed.xml
-    group: personal
-  # Gwern Branwen
-  - href: https://gwern.net/feed
-    group: personal
-  # ZMonster's Blog
-  - href: https://www.zmonster.me/atom.xml
-    group: personal
-  # 杰哥的{运维，编程，调板子}小笔记
-  - href: https://jia.je/feed
-    group: personal
-  # Lofi'Log 低保真日志
-  - href: https://lofilog.com/index.xml
-    group: personal
-  # 极客死亡计划
-  - href: https://www.geedea.pro/index.xml
-    group: personal
-  # 电路哲学
-  - href: https://circuitstories.blogspot.com/atom.xml
-    group: hardware
-  # 宝玉的分享
-  - href: https://baoyu.io/feed.xml
-    group: personal
-  # Google AI Blog
-  - href: https://blog.google/innovation-and-ai/technology/ai/rss/
-    group: ai
-  # TechCrunch AI
-  - href: https://techcrunch.com/category/artificial-intelligence/feed/
-    group: ai
-  # ArXiv AI 论文
-  - href: http://export.arxiv.org/rss/cs.AI
-    group: ai
-  # Hacker News Best
-  - href: https://hnrss.org/best
-    group: ai
-  # Protesilaos
-  - href: https://protesilaos.com/codelog.xml
-    group: emacs
-  # Irreal
-  - href: https://irreal.org/blog/?feed=rss2
-    group: emacs
-  # Emacs China
-  - href: https://emacs-china.org/latest.rss
-    group: emacs
-  # r/emacs
-  - href: https://www.reddit.com/r/emacs/.rss
-    group: emacs
-  # Hackaday
-  - href: https://hackaday.com/blog/feed/
-    group: hardware
-  # EDN (Electronic Design News)
-  - href: https://www.edn.com/feed/
-    group: hardware
-  # CNX Software (嵌入式系统)
-  - href: https://www.cnx-software.com/feed/
-    group: hardware
-  # Arduino Blog
-  - href: https://blog.arduino.cc/feed/
-    group: hardware
+  # Firefox Nightly News
+  - href: https://blog.nightly.mozilla.org/feed
+    group: Web
+
+  # ===== 音乐 =====
   # r/musictheory
   - href: https://www.reddit.com/r/musictheory/.rss
-    group: music
+    group: 音乐
   # r/piano
   - href: https://www.reddit.com/r/piano/.rss
-    group: music
+    group: 音乐
   # Music Matters Blog
   - href: https://musicmattersblog.com/feed/
-    group: music
+    group: 音乐
   # Color In My Piano
   - href: https://colorinmypiano.com/feed/
-    group: music
-  # noa ks (meanwhiling)
-  - href: https://meanwhiling.com/index.xml
-    group: personal
-  # 七号中微子
-  - href: https://neutrino7.top/atom.xml
-    group: personal
-  # 科学空间 (苏剑林)
-  - href: https://kexue.fm/feed
-    group: personal
-  # StudyFinds
-  - href: https://studyfinds.com/feed/
-    group: health
-  # Forgejo Releases
-  - href: https://forgejo.org/releases/rss.xml
-    group: personal
+    group: 音乐
   # Jing Yun (音乐欣赏)
   - href: https://www.youtube.com/feeds/videos.xml?channel_id=UChtEWSJhMJP347-jFpqzqEQ
-    group: music
+    group: 音乐
   # Ponpon 陳芃瑄 (音乐欣赏)
   - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCXeuyoBvlK5y0Wq173rfzow
-    group: music
+    group: 音乐
   # RoniitMusic (音乐欣赏)
   - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCmWoUy9rwfPe40N00bHiwaw
-    group: music
+    group: 音乐
   # Megan Otnes
   - href: https://www.youtube.com/feeds/videos.xml?channel_id=UCiooWjODnYOq1unQWWjwK9Q
-    group: music
+    group: 音乐
+
+  # ===== 健康 =====
+  - href: https://www.artofmanliness.com/archives/feed/
+    group: 健康
+  # StudyFinds
+  - href: https://studyfinds.com/feed/
+    group: 健康
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
