@@ -189,6 +189,9 @@ sources:
   # Living an awesome life (Sacha Chua)
   - href: https://sachachua.com/blog/feed
     group: Emacs
+  # Emacs News (Sacha Chua)
+  - href: https://sachachua.com/blog/category/emacs-news/feed/
+    group: Emacs
   # 陈斌（Emacs）
   - href: https://redguardtoo.github.io/rss
     group: Emacs
@@ -319,6 +322,17 @@ sources:
   # StudyFinds
   - href: https://studyfinds.com/feed/
     group: 健康
+
+  # ===== Bridge 源（feed-bridge worker 动态生成 Atom）=====
+  # GitHub Trending（每日榜）
+  - href: https://feed-bridge.20002.workers.dev/github-trending.atom
+    group: AI
+  # Hacker News AI 热帖
+  - href: https://feed-bridge.20002.workers.dev/hn-ai.atom
+    group: AI
+  # AI HOT 精选
+  - href: https://feed-bridge.20002.workers.dev/aihot.atom
+    group: AI
 
 siteTitle: "Feed"
 timezone: Asia/Shanghai
