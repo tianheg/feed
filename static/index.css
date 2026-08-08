@@ -132,6 +132,8 @@ body {
   gap: var(--body-stack-gap);
   padding: var(--body-padding);
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  overflow-x: hidden;
 }
 
 /** COMPONENTS */
@@ -154,6 +156,9 @@ body {
 
 .article-title-text {
   flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .article-expander[open] .article-expander__title {
@@ -246,6 +251,7 @@ body {
   display: grid;
   padding: var(--card-padding);
   background: var(--card-bg);
+  min-width: 0;
 }
 
 .daily-heading {
@@ -368,6 +374,11 @@ header {
 .media-object {
   display: grid;
   gap: 12px;
+  min-width: 0;
+}
+
+.media-object__text {
+  min-width: 0;
 }
 
 .media-object__media {
@@ -398,6 +409,7 @@ header {
   margin: 0;
   padding: 0;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1px;
 }
 
@@ -421,6 +433,9 @@ header {
   cursor: pointer;
   color: var(--source-name-color);
   flex-grow: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .source-heading__name:hover {
@@ -431,6 +446,8 @@ header {
   color: var(--source-link-color);
   font-weight: 400;
   text-decoration: none;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .source-heading__link:hover {
