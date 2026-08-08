@@ -212,9 +212,6 @@ sources:
     group: Linux
   - href: https://planet.kernel.org/rss20.xml
     group: Linux
-  # Planet KDE
-  - href: https://planet.kde.org/atom.xml
-    group: Linux
   # Adventures in Linux and KDE
   - href: https://pointieststick.com/feed
     group: Linux
