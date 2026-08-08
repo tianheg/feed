@@ -70,6 +70,7 @@ handleAllClickEvents();
 renderBuildTimestamp();
 renderWeekday();
 initGroupFilter();
+applyGroupFromUrl();
 initArticleSearch();
 initTheme();
 initializeSavedArticles();
@@ -290,19 +291,49 @@ function handleGroupFilter(event) {
   const btn = event.target.closest("[data-group]");
   if (!btn) return;
   const group = btn.getAttribute("data-group");
+  // 跳转到对应的分组页面（URL 带 ?group= 参数），而不是原地过滤
+  if (!group) {
+    // All: 只清 query，保留当前路径
+    if (window.location.search) window.location.search = "";
+    return;
+  }
+  const url = `?group=${encodeURIComponent(group)}`;
+  if (window.location.search === url) return;
+  window.location.href = url;
+}
 
+/**
+ * 从 URL 的 ?group= 参数恢复分组视图（支持分享链接/前进后退）。
+ * 无参数时保持 All 全量视图。
+ */
+function applyGroupFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const group = params.get("group") ?? "";
+  if (!group) return;
+
+  // 激活对应按钮
   document.querySelectorAll(".group-filter__btn").forEach((b) => {
-    b.classList.toggle("group-filter__btn--active", b === btn);
+    b.classList.toggle("group-filter__btn--active", b.getAttribute("data-group") === group);
   });
 
+  // 过滤 source 区块，只显示目标分组
   document.querySelectorAll("[data-group]").forEach((el) => {
     const elGroup = el.getAttribute("data-group");
     const li = el.closest("li.card__section");
     if (!li) return;
-    // show when filter is "All" or matches the element's group
-    li.style.display = !group || group === elGroup ? "" : "none";
+    li.style.display = group === elGroup ? "" : "none";
   });
-  applyArticleSearch();
+
+  // 隐藏空日期区块
+  document.querySelectorAll("section.daily-content").forEach((day) => {
+    const hasVisible = [...day.querySelectorAll("li.card__section")].some(
+      (li) => li.style.display !== "none"
+    );
+    day.style.display = hasVisible ? "" : "none";
+  });
+
+  // 页面顶部
+  window.scrollTo(0, 0);
 }
 
 /**
