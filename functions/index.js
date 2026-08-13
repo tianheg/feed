@@ -9,8 +9,9 @@ export async function onRequest(context) {
   const group = url.searchParams.get("group");
 
   // 只处理根路径 + 带 group 参数；/groups/* 页面自带内容，无需再跳
+  // 注意：目标不带 .html——CF Pages pretty URLs 会把 .html 请求 308 到无后缀路径，少一跳
   if (group && (url.pathname === "/" || url.pathname === "/index.html")) {
-    const target = `/groups/${encodeURIComponent(group)}.html`;
+    const target = `/groups/${encodeURIComponent(group)}`;
     return Response.redirect(new URL(target, url.origin), 301);
   }
 

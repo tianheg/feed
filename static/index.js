@@ -305,7 +305,8 @@ function handleGroupFilter(event) {
     return;
   }
   if (inGroupPage) {
-    window.location.href = `/groups/${encodeURIComponent(group)}.html`;
+    // 无后缀：CF Pages pretty URLs 会 308 掉 .html 请求，直接用规范路径
+    window.location.href = `/groups/${encodeURIComponent(group)}`;
     return;
   }
   const url = `?group=${encodeURIComponent(group)}`;
