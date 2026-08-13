@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "osmosfeed"
+    "build": "osmosfeed && node scripts/split-groups.js"
   },
   "devDependencies": {
-    "@tianheg/osmosfeed": "^1.17.0"
+    "@tianheg/osmosfeed": "^1.18.0"
   }
 }

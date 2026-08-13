@@ -260,6 +260,8 @@ async function handleExportSavedArticles(event) {
 function initGroupFilter() {
   const nav = document.getElementById("group-filter");
   if (!nav) return;
+  // 静态拆分的分组页（split-groups.js 注入）已带完整按钮，跳过动态生成
+  if (nav.querySelector(".group-filter__btn")) return;
   const groups = new Set();
   document.querySelectorAll("[data-group]").forEach((el) => {
     const g = el.getAttribute("data-group");
@@ -291,10 +293,19 @@ function handleGroupFilter(event) {
   const btn = event.target.closest("[data-group]");
   if (!btn) return;
   const group = btn.getAttribute("data-group");
-  // 跳转到对应的分组页面（URL 带 ?group= 参数），而不是原地过滤
+  // 分组页（/groups/X.html）内导航用绝对路径；首页用 ?group= query（Pages Function 301 到分组页）
+  const inGroupPage = window.location.pathname.startsWith("/groups/");
   if (!group) {
-    // All: 只清 query，保留当前路径
-    if (window.location.search) window.location.search = "";
+    // All: 分组页回首页；首页只清 query 保留路径
+    if (inGroupPage) {
+      window.location.href = "/";
+    } else if (window.location.search) {
+      window.location.search = "";
+    }
+    return;
+  }
+  if (inGroupPage) {
+    window.location.href = `/groups/${encodeURIComponent(group)}.html`;
     return;
   }
   const url = `?group=${encodeURIComponent(group)}`;

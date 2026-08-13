@@ -232,9 +232,10 @@ sources:
   # TechCrunch AI
   - href: https://techcrunch.com/category/artificial-intelligence/feed/
     group: AI
-  # ArXiv AI 论文
+  # ArXiv AI 论文（日更 200+ 篇，渲染上限 50 篇防页面爆炸；cache/atom 仍全量）
   - href: http://export.arxiv.org/rss/cs.AI
     group: AI
+    maxArticles: 50
 
   # ===== 硬件 =====
   - href: https://www.kicad.org/blog/index.xml
@@ -344,4 +345,7 @@ userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 # cachePriority: "local" seeds from public/cache.json (freshest when building on
 # the same machine that last deployed); "remote" fetches cacheUrl first (upstream
 # behaviour, for CI). Local avoids re-fetching all sources when remote cache is stale.
+# descriptionMaxChars: truncate rendered article descriptions (chars, after
+# html-to-text). Only affects the HTML page — cache.json/feed.atom keep full text.
+descriptionMaxChars: 300
 cachePriority: local

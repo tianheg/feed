@@ -1,0 +1,7 @@
+# 静态资源缓存策略（Cloudflare Pages，放项目根，构建后自动应用）
+# HTML 每天随构建变化，保持默认 max-age=0, must-revalidate（不强改）
+# CSS/JS 不带内容 hash，给短缓存折中：减少重复传输，改版 1 小时内生效
+/index.css
+  Cache-Control: public, max-age=3600
+/index.js
+  Cache-Control: public, max-age=3600
