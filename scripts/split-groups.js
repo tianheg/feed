@@ -49,6 +49,25 @@ const groups = [...new Set(
 )].sort();
 console.log(`[split-groups] 检测到 ${groups.length} 个分组: ${groups.join(", ")}`);
 
+/** 把页面里的相对资源引用改成根绝对路径（分组页在 /groups/ 下，相对路径会解析到 /groups/ 下 404）。
+ *  只改 head 的 link[href] 和全文档 script[src]；文章内链接都是完整 URL，守卫条件已排除。 */
+function absolutizeAssets(page) {
+  page("link[href]").each((_, el) => {
+    const $el = page(el);
+    const href = $el.attr("href");
+    if (href && !href.startsWith("http") && !href.startsWith("/") && !href.startsWith("#")) {
+      $el.attr("href", "/" + href);
+    }
+  });
+  page("script[src]").each((_, el) => {
+    const $el = page(el);
+    const src = $el.attr("src");
+    if (src && !src.startsWith("http") && !src.startsWith("/")) {
+      $el.attr("src", "/" + src);
+    }
+  });
+}
+
 /** 生成完整导航按钮 HTML（All + 全部分组，当前组高亮） */
 function renderNav(currentGroup) {
   const btns = [];
@@ -107,6 +126,7 @@ let groupTotal = 0;
 for (const g of groups) {
   const $page = cheerio.load(html);
   removeOtherGroups($page, g);
+  absolutizeAssets($page); // /groups/ 子目录下必须用根绝对路径引用 CSS/JS/favicon
   // 注入完整导航
   $page("#group-filter").html(renderNav(g));
   // 分组页 title 带上组名
