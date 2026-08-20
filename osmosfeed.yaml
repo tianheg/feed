@@ -6,6 +6,9 @@ sources:
     group: 个人博客
   - href: https://www.tianxianzi.me/index.xml
     group: 个人博客
+  # 尺宅杂记（尺宅叟，读书记/生活&读书）
+  - href: http://www.qncd.com/?feed=rss2
+    group: 个人博客
 
   # ===== 音乐 =====
   # r/musictheory
